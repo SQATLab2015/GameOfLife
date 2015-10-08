@@ -1,3 +1,13 @@
 FileOpenedAction 1444295823937 Grid.java 68 0 0 0
 EditAction 1444295848041 SudokuVerifier.java 4647 8 38 0
 EditAction 1444295848164 TestSudokuVerifier.java 3861 12 43 12
+FileOpenedAction 1444295859588 SudokuVerifier.java 4647 8 38 0
+FileOpenedAction 1444296094645 TestCell.java 200 1 1 0
+RefactoringAction 1444296103647 TestCell.java RENAME test()=>void test FIELD
+RefactoringAction 1444296104656 TestCell.java RENAME test=>void testLi FIELD
+RefactoringAction 1444296106665 TestCell.java RENAME testLi=>void testLiveCell FIELD
+RefactoringAction 1444296109174 TestCell.java RENAME testLiveCell=>void testLiveCellWithNo FIELD
+RefactoringAction 1444296111182 TestCell.java RENAME testLiveCellWithNo=>void testLiveCellWithNoNeighbo FIELD
+RefactoringAction 1444296114193 TestCell.java RENAME testLiveCellWithNoNeighbo=>void testLiveCellWithNoNeighborDies() METHOD
+RefactoringAction 1444296163306 TestCell.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+EditAction 1444296172067 TestCell.java 334 1 3 1
