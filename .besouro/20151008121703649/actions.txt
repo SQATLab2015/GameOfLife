@@ -279,3 +279,4 @@ RefactoringAction 1444300192834 TestGrid.java RENAME testGetStatusOfCell=>void t
 RefactoringAction 1444300208022 TestGrid.java ADD import org.junit.Before IMPORT
 RefactoringAction 1444300224890 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
 EditAction 1444300238559 TestGrid.java 519 3 4 1
+EditAction 1444300242726 TestGrid.java 498 3 3 1
