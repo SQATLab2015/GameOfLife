@@ -6,5 +6,13 @@ public class Grid {
 	
 	public int[][]array = new int [gridSize][gridSize];
 
+	
+	
+	
+	public int getArray(){
+		int a= array.length;
+		return a;
+	}
+
 }
 

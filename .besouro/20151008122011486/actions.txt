@@ -27,3 +27,6 @@ RefactoringAction 1444297724789 TestGrid.java ADD import org.unioulu.tol.sqatlab
 RefactoringAction 1444297728989 TestGrid.java REMOVE import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
 RefactoringAction 1444297835897 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
 EditAction 1444297845996 TestGrid.java 360 1 1 1
+CompilationAction 1444297846244 TestGrid.java
+RefactoringAction 1444297850076 TestGrid.java REMOVE import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+EditAction 1444297881286 Grid.java 225 1 2 0
