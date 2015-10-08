@@ -41,3 +41,5 @@ EditAction 1444296480236 Cell.java 386 4 4 0
 CompilationAction 1444296480573 TestCell.java
 RefactoringAction 1444296485004 Cell.java RENAME setName(String)=>void setStatus(String) METHOD
 EditAction 1444296485410 Cell.java 388 4 4 0
+CompilationAction 1444296485653 TestCell.java
+EditAction 1444296531969 Cell.java 390 4 4 0

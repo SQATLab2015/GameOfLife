@@ -4,8 +4,8 @@ public class Cell {
 
 	public String status;
 	
-	public Cell(String string) {
-		this.status = string;
+	public Cell(String status) {
+		this.setStatus(status);
 	}
 	
 	public String getStatus() {
