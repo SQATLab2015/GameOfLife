@@ -16,3 +16,10 @@ CompilationAction 1444296172305 TestCell.java
 CompilationAction 1444296172306 TestCell.java
 RefactoringAction 1444296179694 Cell.java ADD String status FIELD
 EditAction 1444296180163 Cell.java 92 0 0 0
+CompilationAction 1444296180379 TestCell.java
+CompilationAction 1444296180379 TestCell.java
+CompilationAction 1444296180380 TestCell.java
+RefactoringAction 1444296222203 Cell.java ADD Cell(String) METHOD
+RefactoringAction 1444296232404 Cell.java REMOVE Cell(String) METHOD
+RefactoringAction 1444296235411 Cell.java ADD Cell(String) METHOD
+EditAction 1444296247989 Cell.java 150 1 1 0
