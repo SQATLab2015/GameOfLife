@@ -194,3 +194,16 @@ CompilationAction 1444299979428 TestCell.java
 CompilationAction 1444299979428 TestCell.java
 EditAction 1444299982157 TestCell.java 955 6 11 5
 EditAction 1444299985585 Grid.java 134 1 0 0
+UnitTestCaseAction 1444299985877 TestCell.java OK
+UnitTestSessionAction 1444299985877 TestCell OK
+RefactoringAction 1444300029307 Cell.java ADD int col FIELD
+RefactoringAction 1444300035337 Cell.java ADD int row FIELD
+RefactoringAction 1444300084871 Cell.java ADD Cell() METHOD
+RefactoringAction 1444300091889 Cell.java RENAME Cell()=>Cell(int, int) METHOD
+RefactoringAction 1444300097403 Cell.java RENAME Cell(int, int)=>Cell(int, int, int) METHOD
+RefactoringAction 1444300100414 Cell.java RENAME Cell(int, int, int)=>Cell(int, int, int, boolean) METHOD
+RefactoringAction 1444300189588 Cell.java ADD int getCol() METHOD
+RefactoringAction 1444300189589 Cell.java ADD void setCol(int) METHOD
+RefactoringAction 1444300189589 Cell.java ADD int getRow() METHOD
+RefactoringAction 1444300189590 Cell.java ADD void setRow(int) METHOD
+EditAction 1444300652014 Cell.java 831 9 8 0
