@@ -81,3 +81,7 @@ CompilationAction 1444299463167 TestCell.java
 UnitTestCaseAction 1444299463999 TestGrid.java OK
 UnitTestSessionAction 1444299464000 TestGrid OK
 EditAction 1444299477484 TestGrid.java 654 2 1 1
+UnitTestCaseAction 1444299477775 TestGrid.java FAIL
+UnitTestSessionAction 1444299477775 TestGrid FAIL
+RefactoringAction 1444299792444 TestGrid.java ADD Object getMarks() METHOD
+EditAction 1444299826265 TestGrid.java 617 3 3 2
