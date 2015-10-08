@@ -116,3 +116,9 @@ EditAction 1444295785662 TestGrid.java 654 3 9 3
 CompilationAction 1444295785922 TestGrid.java
 RefactoringAction 1444295788735 Grid.java ADD int checkCell(int, int) METHOD
 EditAction 1444295796852 Grid.java 281 4 4 0
+UnitTestCaseAction 1444295801307 TestGrid.java OK
+UnitTestSessionAction 1444295801308 TestGrid OK
+RefactoringAction 1444295817616 Grid.java ADD int CELL FIELD
+RefactoringAction 1444295818626 Grid.java RENAME CELL=>int CELL_ FIELD
+RefactoringAction 1444295826638 Grid.java RENAME CELL_=>int NEIGHBOR_S FIELD
+EditAction 1444295830334 Grid.java 342 4 4 0

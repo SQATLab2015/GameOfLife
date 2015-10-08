@@ -2,6 +2,8 @@ package org.unioulu.tol.sqatlab.gameoflife;
 
 public class Grid {
 
+	public static final int NEIGHBOR_STATE_LESS_THAN_TWO = 0;
+	
 	private int size;
 	
 	public Grid() {
