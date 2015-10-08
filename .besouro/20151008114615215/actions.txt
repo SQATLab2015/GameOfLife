@@ -190,3 +190,6 @@ RefactoringAction 1444299972112 TestCell.java REMOVE TestCellIsAlive() METHOD
 RefactoringAction 1444299978612 Cell.java REMOVE cellIsAlive() METHOD
 RefactoringAction 1444299978614 Cell.java REMOVE cellIsDead() METHOD
 EditAction 1444299979304 Cell.java 529 4 4 0
+CompilationAction 1444299979428 TestCell.java
+CompilationAction 1444299979428 TestCell.java
+EditAction 1444299982157 TestCell.java 955 6 11 5

@@ -18,18 +18,6 @@ public class TestCell {
 	
 	
 	@Test
-	public void TestCellIsDead() {
-		testCell.cellIsDead();
-		assertEquals(false, testCell.cellIsDead());	
-	}
-	
-	@Test
-	public void TestCellIsAlive() {
-		testCell.cellIsAlive();
-		assertEquals(true, testCell.cellIsAlive());			
-	}
-	
-	@Test
 	public void TestCellWithNoNeighboursDies() {
 		testCell.update(0);
 		assertEquals(false, testCell.isStatus());	
