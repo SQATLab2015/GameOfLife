@@ -96,3 +96,12 @@ EditAction 1444298344114 TestCell.java 647 1 5 0
 UnitTestCaseAction 1444298344401 TestCell.java OK
 UnitTestSessionAction 1444298344401 TestCell OK
 EditAction 1444298358887 TestCell.java 647 1 5 0
+UnitTestCaseAction 1444298359184 TestCell.java OK
+UnitTestSessionAction 1444298359185 TestCell OK
+UnitTestCaseAction 1444298431102 TestCell.java OK
+UnitTestSessionAction 1444298431103 TestCell OK
+UnitTestCaseAction 1444298434645 TestCell.java OK
+UnitTestSessionAction 1444298434646 TestCell OK
+UnitTestCaseAction 1444298436398 TestCell.java OK
+UnitTestSessionAction 1444298436398 TestCell OK
+EditAction 1444298447539 TestCell.java 687 1 5 0
