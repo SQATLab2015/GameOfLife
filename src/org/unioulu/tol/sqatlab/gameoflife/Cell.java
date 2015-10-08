@@ -7,7 +7,7 @@ public class Cell {
 	
 	public Cell(String state) 
 	{
-		this.setState(state);
+		this.setState("Alive");
 	}
 	
 	public String getState() 

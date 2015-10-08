@@ -34,7 +34,7 @@ public class TestGrid {
 	{
 		grid.createGrid(5);
 		
-		grid.allCells[i][i].getState();
+		grid.allCells.get(i)[i].getState();
 	}
 
 }
