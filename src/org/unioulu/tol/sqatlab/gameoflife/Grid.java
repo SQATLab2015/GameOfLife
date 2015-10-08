@@ -11,7 +11,7 @@ public class Grid {
 	
 	
 	
-	public List<Cell> cellArray = null;
+	public Cell[] cellArray = new Cell[columnAmount];
 	public List<Cell[]> allCells = null;
 	
 	

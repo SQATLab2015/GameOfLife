@@ -171,3 +171,11 @@ RefactoringAction 1444298912891 Grid.java RENAME cell=>List<Cell> cellArray FIEL
 RefactoringAction 1444298934424 Grid.java REMOVE allCells FIELD
 RefactoringAction 1444298938935 Grid.java ADD List<Cell FIELD
 EditAction 1444298939858 Grid.java 403 1 2 0
+CompilationAction 1444298940117 Grid.java
+RefactoringAction 1444298951465 Grid.java REMOVE cellArray FIELD
+RefactoringAction 1444298953476 Grid.java ADD Cell FIELD
+RefactoringAction 1444298976550 Grid.java RENAME createGrid(int)=>int createGrid(int, int) METHOD
+CompilationAction 1444298977297 Grid.java
+CompilationAction 1444298977509 TestGrid.java
+RefactoringAction 1444298999091 Grid.java RENAME createGrid(int, int)=>int createGrid(int) METHOD
+EditAction 1444299002264 Grid.java 417 1 2 0
