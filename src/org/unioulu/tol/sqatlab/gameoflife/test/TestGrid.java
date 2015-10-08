@@ -35,6 +35,8 @@ public class TestGrid {
 	
 	@Test
 	public void testCheckNeighborsExceptThreeAlive() {
+		Grid grid = new Grid();
 		
+		int aliveNeighbors = grid.checkCellNeighbors(1, 1);
 	}
 }
