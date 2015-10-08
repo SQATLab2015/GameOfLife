@@ -8,7 +8,7 @@ import org.junit.Test;
 public class TestGrid {
 
 	@Test
-	public void testGrid() {
+	public void testFakeGrid() {
 
 
 		// Fake 3x3 grid

@@ -22,3 +22,4 @@
 1444299605218 regression 2 187 false
 1444299646357 refactoring 1A 1 false
 1444299662491 regression 1 2 true
+1444299945744 refactoring 3 234 false
