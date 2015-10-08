@@ -31,7 +31,7 @@ public class Grid {
 	}
 	
 	public int getHeight() {
-		return gridArray.width;
+		return gridArray[0].length;
 	}
 	
 	public Cell getCell (int x, int y) {

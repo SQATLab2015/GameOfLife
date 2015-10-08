@@ -411,3 +411,6 @@ EditAction 1444300728299 TestGrid.java 1077 5 12 2
 RefactoringAction 1444300752292 Grid.java ADD int getWidth() METHOD
 RefactoringAction 1444300766337 Grid.java ADD int getHeight() METHOD
 EditAction 1444300771724 Grid.java 782 7 9 0
+CompilationAction 1444300776228 Grid.java
+CompilationAction 1444300787386 Grid.java
+EditAction 1444300807904 GameOfLife.java 551 3 3 0

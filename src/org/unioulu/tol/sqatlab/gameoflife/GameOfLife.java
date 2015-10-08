@@ -12,6 +12,8 @@ public class GameOfLife {
 			
 			
 			gameGrid = new Grid(50,50);
+			int w = gameGrid.getWidth();
+			int h = gameGrid.getHeight();
 			
 			running = false;
 		}
