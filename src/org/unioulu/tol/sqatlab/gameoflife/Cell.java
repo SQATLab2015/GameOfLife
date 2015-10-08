@@ -13,7 +13,6 @@ public class Cell {
 	}
 
 	public int getState() {
-		
 		return state;
 	}
 
