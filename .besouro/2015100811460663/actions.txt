@@ -1,0 +1,93 @@
+FileOpenedAction 1444293966864 GameOfLife.java 74 0 0 0
+UnitTestCaseAction 1444293975496 TestGrid.java FAIL
+UnitTestSessionAction 1444293975506 TestGrid FAIL
+FileOpenedAction 1444295659586 Cell.java 68 0 0 0
+FileOpenedAction 1444295661104 Grid.java 68 0 0 0
+FileOpenedAction 1444295662831 TestCell.java 200 1 1 0
+FileOpenedAction 1444295664010 TestGrid.java 199 1 1 0
+RefactoringAction 1444296002419 TestCell.java RENAME test()=>void testLiveCell() METHOD
+RefactoringAction 1444296005490 TestCell.java RENAME testLiveCell()=>void testLiveCellWith() METHOD
+RefactoringAction 1444296009583 TestCell.java RENAME testLiveCellWith()=>void testLiveCellWithNoNeig() METHOD
+RefactoringAction 1444296012707 TestCell.java RENAME testLiveCellWithNoNeig()=>void testLiveCellWithNoNeighborDies() METHOD
+EditAction 1444297390153 TestCell.java 288 1 0 0
+EditAction 1444297390536 TestGrid.java 201 1 0 0
+CompilationAction 1444297391088 TestCell.java
+CompilationAction 1444297391088 TestCell.java
+CompilationAction 1444297391089 TestCell.java
+CompilationAction 1444297391090 TestCell.java
+CompilationAction 1444297416421 TestCell.java
+CompilationAction 1444297416424 TestCell.java
+CompilationAction 1444297416629 TestCell.java
+CompilationAction 1444298440123 TestCell.java
+UnitTestCaseAction 1444298443607 TestCell.java OK
+UnitTestSessionAction 1444298443616 TestCell OK
+RefactoringAction 1444299029333 Cell.java ADD int isAlive FIELD
+RefactoringAction 1444299187221 Cell.java REMOVE isAlive FIELD
+RefactoringAction 1444299197311 Cell.java ADD String name FIELD
+RefactoringAction 1444299252271 Cell.java RENAME name=>String state FIELD
+RefactoringAction 1444299272334 Cell.java ADD String getName() METHOD
+RefactoringAction 1444299277395 Cell.java RENAME getName()=>String getState() METHOD
+EditAction 1444299289128 TestCell.java 470 1 5 1
+EditAction 1444299291980 Cell.java 136 1 1 0
+CompilationAction 1444299292188 TestCell.java
+CompilationAction 1444299292382 Cell.java
+CompilationAction 1444299292383 Cell.java
+CompilationAction 1444299292384 TestCell.java
+CompilationAction 1444299331799 TestCell.java
+EditAction 1444299375338 TestCell.java 471 1 3 1
+CompilationAction 1444299375633 TestCell.java
+RefactoringAction 1444299405396 Cell.java REMOVE getState() METHOD
+RefactoringAction 1444299407423 Cell.java ADD String getState() METHOD
+CompilationAction 1444299423869 Cell.java
+CompilationAction 1444299423870 Cell.java
+CompilationAction 1444299424094 TestCell.java
+RefactoringAction 1444299487704 Cell.java ADD void Stock(String, int) METHOD
+RefactoringAction 1444299493227 Cell.java RENAME Stock(String, int)=>Cell(String, int) METHOD
+RefactoringAction 1444299501868 Cell.java RENAME Cell(String, int)=>Cell(String) METHOD
+EditAction 1444299517005 TestCell.java 473 1 2 1
+CompilationAction 1444299517307 TestCell.java
+EditAction 1444299517328 Cell.java 204 2 2 0
+CompilationAction 1444299517903 TestCell.java
+CompilationAction 1444299586769 TestCell.java
+CompilationAction 1444299586951 TestCell.java
+CompilationAction 1444299597518 TestCell.java
+CompilationAction 1444299597686 TestCell.java
+EditAction 1444299692027 TestCell.java 292 1 2 1
+CompilationAction 1444299692423 TestCell.java
+RefactoringAction 1444300150106 TestCell.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+CompilationAction 1444300155475 TestCell.java
+UnitTestCaseAction 1444300166687 TestCell.java FAIL
+UnitTestSessionAction 1444300166688 TestCell FAIL
+EditAction 1444300295263 TestCell.java 341 1 2 1
+UnitTestCaseAction 1444300296442 TestCell.java OK
+UnitTestSessionAction 1444300296443 TestCell OK
+EditAction 1444300314281 TestCell.java 340 1 2 1
+UnitTestCaseAction 1444300315437 TestCell.java FAIL
+UnitTestSessionAction 1444300315438 TestCell FAIL
+RefactoringAction 1444300335450 Cell.java ADD void update(int) METHOD
+EditAction 1444300353556 TestCell.java 338 1 3 1
+EditAction 1444300353823 Cell.java 277 3 2 0
+RefactoringAction 1444300383923 Cell.java REMOVE update(int) METHOD
+EditAction 1444300390825 TestCell.java 340 1 2 1
+UnitTestCaseAction 1444300392734 TestCell.java FAIL
+UnitTestSessionAction 1444300392735 TestCell FAIL
+EditAction 1444300402333 TestCell.java 341 1 2 1
+UnitTestCaseAction 1444300403553 TestCell.java OK
+UnitTestSessionAction 1444300403554 TestCell OK
+EditAction 1444300411513 TestCell.java 340 1 2 1
+RefactoringAction 1444300423232 Cell.java ADD void update(int) METHOD
+RefactoringAction 1444300536978 Cell.java ADD void setQuantity(int) METHOD
+RefactoringAction 1444300542026 Cell.java RENAME setQuantity(int)=>void setState(int) METHOD
+RefactoringAction 1444300545056 Cell.java RENAME setState(int)=>void setState(s) METHOD
+RefactoringAction 1444300547085 Cell.java RENAME setState(s)=>void setState(String) METHOD
+RefactoringAction 1444300566746 Cell.java REMOVE setState(String) METHOD
+RefactoringAction 1444300589671 Cell.java ADD void setState(String) METHOD
+EditAction 1444300640081 TestCell.java 338 1 3 1
+UnitTestCaseAction 1444300646148 TestCell.java OK
+UnitTestSessionAction 1444300646149 TestCell OK
+EditAction 1444300656645 TestCell.java 338 1 3 1
+UnitTestCaseAction 1444300658726 TestCell.java FAIL
+UnitTestSessionAction 1444300658727 TestCell FAIL
+EditAction 1444300664990 TestCell.java 338 1 3 1
+UnitTestCaseAction 1444300667341 TestCell.java OK
+UnitTestSessionAction 1444300667342 TestCell OK
