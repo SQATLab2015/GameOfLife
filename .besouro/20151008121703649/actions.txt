@@ -115,3 +115,12 @@ EditAction 1444297918905 Grid.java 269 1 1 0
 RefactoringAction 1444298034857 Grid.java REMOVE cells FIELD
 RefactoringAction 1444298040869 Grid.java ADD List<List> cells FIELD
 EditAction 1444298045448 Grid.java 298 1 1 0
+CompilationAction 1444298045696 Grid.java
+RefactoringAction 1444298094421 Grid.java ADD List<List<Cell>> cells/2 FIELD
+RefactoringAction 1444298098933 Grid.java RENAME cells/2=>List<List<Cell>> allCells FIELD
+CompilationAction 1444298099713 Grid.java
+CompilationAction 1444298099868 Grid.java
+CompilationAction 1444298099869 Grid.java
+CompilationAction 1444298193391 Grid.java
+CompilationAction 1444298193391 Grid.java
+EditAction 1444298219078 Grid.java 355 1 2 0

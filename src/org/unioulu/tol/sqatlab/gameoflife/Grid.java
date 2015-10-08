@@ -8,15 +8,18 @@ public class Grid {
 	public int rowAmount;
 	public int columnAmount;
 	
-	public List<List<Cell>> cells = null;
+	public List<Cell> cells = null;
+	public List<List<Cell>> allCells = null;
 	
 	
 	public void createGrid()
 	{
 		for(int i = 0; i<rowAmount; i++) 
 		{
-			cells.add(new List<Cell>());
+			allCells.add(cells);
 		}
+		
+		return allCells.size();
 	}
 	
 }
