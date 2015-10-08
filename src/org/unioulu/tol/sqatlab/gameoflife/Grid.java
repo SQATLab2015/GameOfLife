@@ -13,9 +13,9 @@ public class Grid {
 	
 	public void createGrid()
 	{
-		for(int i = 0; i<rowAmount; i++)
+		for(int i = 0; i<rowAmount; i++) 
 		{
-			
+			cells.add(new List<Cell>());
 		}
 	}
 	
