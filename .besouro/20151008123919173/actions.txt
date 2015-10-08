@@ -52,3 +52,19 @@ RefactoringAction 1444300269758 Cell.java ADD String getState() METHOD
 RefactoringAction 1444300269758 Cell.java ADD void setState(String) METHOD
 EditAction 1444300380159 Grid.java 403 1 1 0
 EditAction 1444300380237 Cell.java 713 5 10 0
+CompilationAction 1444300380424 Grid.java
+CompilationAction 1444300380424 TestCell.java
+CompilationAction 1444300380424 TestCell.java
+CompilationAction 1444300380424 TestCell.java
+CompilationAction 1444300380424 TestCell.java
+CompilationAction 1444300380424 TestCell.java
+CompilationAction 1444300380424 TestCell.java
+RefactoringAction 1444300435102 Grid.java ADD import org.univoulu.tol.sqatlab.sudoku.SudokuVerifier IMPORT
+RefactoringAction 1444300850849 Grid.java ADD void neighbours FIELD
+RefactoringAction 1444300853423 Grid.java RENAME neighbours=>void neighbourssetti FIELD
+RefactoringAction 1444300854967 Grid.java RENAME neighbourssetti=>void neighbourssetting FIELD
+RefactoringAction 1444300859600 Grid.java RENAME neighbourssetting=>void neighboursetting FIELD
+RefactoringAction 1444300869897 Grid.java RENAME neighboursetting=><initializer /1> null
+RefactoringAction 1444300870926 Grid.java RENAME neighboursetting(int)=>void neighboursetting(int, int) METHOD
+CompilationAction 1444301174128 Grid.java
+EditAction 1444301178715 Cell.java 713 5 10 0

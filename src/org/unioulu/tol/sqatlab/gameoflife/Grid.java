@@ -12,8 +12,37 @@ public class Grid {
     	        for(int j = 0; j < grid.length; j++) {
     	        	zelle.cell (i,j);
     	        }
-    	     
-     }
+    	    }
        
-       
+
+public void neighboursetting (int x, int y){
+	int temp = 0;
+	if (grid[x-1][y-1].getState() == "*") {
+			temp ++;
+	}
+	if (grid[x][y-1].getState() == "*") {
+		temp ++;
 }
+	if (grid[x+1][y-1].getState() == "*") {
+		temp ++;
+}
+	if (grid[x-1][y].getState() == "*") {
+		temp ++;
+}
+	if (grid[x+1][y].getState() == "*") {
+		temp ++;
+}
+	if (grid[x-1][y+1].getState() == "*") {
+		temp ++;
+}
+	if (grid[x][y+1].getState() == "*") {
+		temp ++;
+}   if (grid[x+1][y+1].getState() == "*") {
+	    temp ++;
+}
+    grid [x][y].setNeighbour(temp);
+
+}
+
+}
+
