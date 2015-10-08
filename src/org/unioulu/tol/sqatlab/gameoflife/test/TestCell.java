@@ -13,7 +13,7 @@ public class TestCell {
 	//	assertEquals.("Dead", cell.getState());
 		String life = "----------------------------------------------------------------------------------------------------";
 		
-		System.out.print("life");
+		System.out.print(life);
 
 	}
 
