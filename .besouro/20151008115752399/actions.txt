@@ -172,3 +172,15 @@ RefactoringAction 1444299815453 TestCell.java REMOVE import java.util.Arrays IMP
 RefactoringAction 1444299819782 TestGrid.java ADD import java.util.Arrays/2 IMPORT
 RefactoringAction 1444299822794 TestGrid.java REMOVE import java.util.Arrays/2 IMPORT
 EditAction 1444299823552 TestGrid.java 754 0 0 0
+CompilationAction 1444299823768 TestGrid.java
+CompilationAction 1444299823769 TestGrid.java
+RefactoringAction 1444299886485 TestCell.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1444299895996 TestCell.java REMOVE testLiveCellWithNoNeighborDies() METHOD
+RefactoringAction 1444299899852 TestGrid.java ADD import java.util.Arrays IMPORT
+CompilationAction 1444299902020 TestGrid.java
+RefactoringAction 1444299911417 TestGrid.java RENAME testLiveCellWithNoNeighborDies()=>void test() METHOD
+RefactoringAction 1444299912431 TestGrid.java RENAME test()=>void testGrid() METHOD
+RefactoringAction 1444299924009 TestCell.java REMOVE import java.util.Arrays IMPORT
+RefactoringAction 1444299928520 TestCell.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1444299940047 TestCell.java REMOVE import java.util.Arrays IMPORT
+EditAction 1444299940672 TestCell.java 293 1 0 0
