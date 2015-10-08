@@ -292,3 +292,14 @@ EditAction 1444298894593 Grid.java 697 5 9 0
 UnitTestCaseAction 1444298900298 TestGrid.java FAIL
 UnitTestSessionAction 1444298900299 TestGrid FAIL
 EditAction 1444299001622 Grid.java 701 5 9 0
+UnitTestCaseAction 1444299006985 TestGrid.java FAIL
+UnitTestSessionAction 1444299006986 TestGrid FAIL
+UnitTestCaseAction 1444299060454 TestGrid.java FAIL
+UnitTestSessionAction 1444299060455 TestGrid FAIL
+RefactoringAction 1444299066920 Grid.java REMOVE getCellStatus(int, int) METHOD
+RefactoringAction 1444299066921 Grid.java REMOVE getCell(int, int) METHOD
+RefactoringAction 1444299066922 Grid.java REMOVE getSize() METHOD
+RefactoringAction 1444299068936 Grid.java ADD String getSize() METHOD
+RefactoringAction 1444299068937 Grid.java ADD Cell getCell(int, int) METHOD
+RefactoringAction 1444299068938 Grid.java ADD String getCellStatus(int, int) METHOD
+EditAction 1444299071132 Grid.java 705 5 8 0
