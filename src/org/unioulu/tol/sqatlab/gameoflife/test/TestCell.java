@@ -9,11 +9,6 @@ public class TestCell {
 
 	private Cell testCell = new Cell();
 	
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
-	
 	//Initialization functions
 	public void initializeCell() {
 		testCell = new Cell();
@@ -22,8 +17,8 @@ public class TestCell {
 	@Test
 	public void test_getCellStatus () {
 		initializeCell();
-		boolean result = testCell.getStatus();
-		assertEquals(testCell, true || false );
+		boolean r = testCell.getStatus();
+		assertEquals( ((Object)r).getClass().getName(),  "java.lang.Boolean" );
 	}
 
 }

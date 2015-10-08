@@ -8,3 +8,11 @@ EditAction 1444294150286 Cell.java 154 0 0 0
 CompilationAction 1444294154978 TestCell.java
 RefactoringAction 1444294169232 Cell.java ADD boolean getStatus() METHOD
 EditAction 1444294179643 Cell.java 206 1 1 0
+FileOpenedAction 1444294214049 TestSudokuVerifier.java 2318 9 16 11
+FileOpenedAction 1444294237425 TestSudokuVerifier.java 2318 9 16 11
+CompilationAction 1444294248325 TestCell.java
+CompilationAction 1444294294381 TestCell.java
+UnitTestCaseAction 1444294299243 TestCell.java FAIL
+UnitTestSessionAction 1444294299245 TestCell FAIL
+RefactoringAction 1444294306960 TestCell.java REMOVE test() METHOD
+EditAction 1444294310544 TestCell.java 515 2 4 1
