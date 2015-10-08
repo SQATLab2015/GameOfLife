@@ -14,11 +14,10 @@ public class TestGrid {
 		
 		grid = new Grid();
 		
-		//int actual = grid.createGrid(5, 5);
+		int actual = grid.createGrid(5, 5);
 	
-		grid.createGrid(1, 1);
-		
-		assertEquals(5, 5);
+
+		assertEquals(5, actual);
 		
 		
 	}
