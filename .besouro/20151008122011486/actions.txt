@@ -85,3 +85,14 @@ UnitTestCaseAction 1444299477775 TestGrid.java FAIL
 UnitTestSessionAction 1444299477775 TestGrid FAIL
 RefactoringAction 1444299792444 TestGrid.java ADD Object getMarks() METHOD
 EditAction 1444299826265 TestGrid.java 617 3 3 2
+UnitTestCaseAction 1444299828851 TestGrid.java OK
+UnitTestSessionAction 1444299828852 TestGrid OK
+RefactoringAction 1444299900439 Grid.java RENAME getArray()=>static int getArrayLenght() METHOD
+RefactoringAction 1444299995960 Grid.java ADD static int getArrayLenght()/2 METHOD
+RefactoringAction 1444300003971 Grid.java RENAME getArrayLenght()/2=>static int getArray() METHOD
+RefactoringAction 1444300062601 Grid.java RENAME getArray()=>static int getArrayAsList() METHOD
+RefactoringAction 1444300213804 TestGrid.java ADD boolean Object FIELD
+RefactoringAction 1444300216318 TestGrid.java REMOVE Object FIELD
+CompilationAction 1444300272714 TestGrid.java
+CompilationAction 1444300272714 TestGrid.java
+EditAction 1444300273661 Grid.java 380 2 4 0

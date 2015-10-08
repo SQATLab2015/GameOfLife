@@ -11,7 +11,7 @@ public class TestGrid {
 	public void testIsGridSameAmountColumsAndRows() {
 		//getRows x GetColumns == getRows x GetRows
 		//compares 8 to set gridSize in Grid.java
-		 assertEquals(8,Grid.getArray());
+		 assertEquals(8,Grid.getArrayLenght());
 		
 		
 	}
@@ -20,15 +20,16 @@ public class TestGrid {
 	public void testDoesArrayOnlyIncludeAliveorDeadMarks(){
 	//does array only include * and - 
 		
-	  
-		
 		assertEquals(true,getMarks());
 		
 		
 	}
 
 	private Object getMarks() {
-		// TODO Auto-generated method stub
+		//Array to string list
+		//check if only * and - then return true
+	Grid.getArrayAsList().matches("*-");
+		
 		return true;
 	}
 

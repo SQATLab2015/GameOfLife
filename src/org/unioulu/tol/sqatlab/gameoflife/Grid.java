@@ -9,9 +9,14 @@ public class Grid {
 	
 	
 	
-public static int getArray(){ 
+public static int getArrayLenght(){ 
 	// gets the row count of the array
 	 int a =	array.length;
+	 return a;
+	}
+
+public static String getArrayAsList(){ 
+ 	String a=array.toString();
 	 return a;
 	}
 
