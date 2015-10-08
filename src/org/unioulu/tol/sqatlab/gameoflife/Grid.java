@@ -10,7 +10,8 @@ public class Grid {
 	public int columnAmount;
 	
 	public Cell[] cellArray;
-	public List<Cell[]> allCells = null;
+	public ArrayList allCells = new ArrayList();
+	//public List<Cell[]> allCells = null;
 	
 	
 //	public Grid(int rowAmount, int columnAmount) 
