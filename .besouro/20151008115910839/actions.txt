@@ -5,3 +5,7 @@ RefactoringAction 1444294779544 TestCell.java RENAME test()=>void testGetCellSta
 RefactoringAction 1444294801425 TestCell.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
 EditAction 1444294807631 TestCell.java 255 1 1 0
 EditAction 1444294817688 TestCell.java 277 1 2 0
+CompilationAction 1444294817954 TestCell.java
+CompilationAction 1444294830264 TestCell.java
+CompilationAction 1444294830437 TestCell.java
+EditAction 1444294848132 TestCell.java 318 1 3 1

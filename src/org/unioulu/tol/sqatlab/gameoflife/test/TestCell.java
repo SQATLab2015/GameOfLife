@@ -11,7 +11,9 @@ public class TestCell {
 	public void testGetCellState() {
 		Cell cell = new Cell();
 		
-		cell.getState();
+		int state = cell.getState();
+		
+		assertEquals(1, state);
 	}
 
 }
