@@ -184,3 +184,4 @@ RefactoringAction 1444297200185 TestGrid.java ADD void testCheckNeighbors FIELD
 RefactoringAction 1444297205202 TestGrid.java RENAME testCheckNeighbors=>void testCheckNeighborsExcept FIELD
 EditAction 1444297212317 TestGrid.java 760 4 9 3
 EditAction 1444297226469 TestGrid.java 840 4 11 3
+EditAction 1444297237325 TestGrid.java 893 4 12 4
