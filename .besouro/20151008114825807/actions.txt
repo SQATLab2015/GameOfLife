@@ -66,3 +66,18 @@ UnitTestSessionAction 1444295254363 TestCell OK
 EditAction 1444295288248 TestCell.java 1365 5 16 3
 RefactoringAction 1444295313916 TestGrid.java REMOVE test() METHOD
 EditAction 1444295322028 TestGrid.java 154 0 0 0
+CompilationAction 1444295325784 TestGrid.java
+CompilationAction 1444295325785 TestGrid.java
+RefactoringAction 1444295335440 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+RefactoringAction 1444295340957 TestGrid.java RENAME initializeCell()=>void initializeGrid() METHOD
+RefactoringAction 1444295366498 TestGrid.java ADD Grid testGrid FIELD
+RefactoringAction 1444295371760 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+CompilationAction 1444295380262 TestGrid.java
+CompilationAction 1444295380263 TestGrid.java
+CompilationAction 1444295380380 TestGrid.java
+RefactoringAction 1444295395037 TestGrid.java ADD void test_getCellStatus() METHOD
+RefactoringAction 1444295404045 TestGrid.java RENAME test_getCellStatus()=>void test_create() METHOD
+RefactoringAction 1444295405552 TestGrid.java RENAME test_create()=>void test_createA() METHOD
+RefactoringAction 1444295408059 TestGrid.java RENAME test_createA()=>void test_createA10() METHOD
+RefactoringAction 1444295412067 TestGrid.java RENAME test_createA10()=>void test_createA10By10Grid() METHOD
+EditAction 1444295425773 TestGrid.java 437 2 1 0
