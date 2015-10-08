@@ -1,0 +1,70 @@
+FileOpenedAction 1444297159625 Cell.java 68 1 3 0
+EditAction 1444297185630 TestCell.java 399 1 0 0
+EditAction 1444297185771 Cell.java 236 1 3 0
+CompilationAction 1444297187050 TestCell.java
+CompilationAction 1444297187050 TestCell.java
+CompilationAction 1444297187050 TestCell.java
+CompilationAction 1444297187050 TestCell.java
+CompilationAction 1444297187050 TestCell.java
+CompilationAction 1444297187050 TestCell.java
+CompilationAction 1444297187050 TestCell.java
+CompilationAction 1444297187050 TestCell.java
+RefactoringAction 1444297304003 Cell.java RENAME Cell(int, int)=>Cell(int, int, int) METHOD
+RefactoringAction 1444298116397 Cell.java RENAME collum=>int x FIELD
+RefactoringAction 1444298120516 Cell.java RENAME row=>int y FIELD
+RefactoringAction 1444298126210 Cell.java RENAME Cell(int, int, int)=>Cell() METHOD
+RefactoringAction 1444298127239 Cell.java RENAME Cell()=>Cell(int, int, int) METHOD
+RefactoringAction 1444298133417 Cell.java RENAME Cell(int, int, int)=>Cell(int) METHOD
+RefactoringAction 1444298134961 Cell.java RENAME Cell(int)=>Cell(int, int, int) METHOD
+RefactoringAction 1444298142683 Cell.java RENAME Cell(int, int, int)=>Cell(int, int) METHOD
+RefactoringAction 1444298529938 Cell.java ADD import java.util.Random IMPORT
+RefactoringAction 1444299031841 Grid.java ADD int FIELD
+RefactoringAction 1444299193839 Grid.java REMOVE grid FIELD
+RefactoringAction 1444299261793 Grid.java ADD int FIELD
+RefactoringAction 1444299263852 Grid.java REMOVE grid FIELD
+RefactoringAction 1444299265911 Grid.java ADD int FIELD
+RefactoringAction 1444299427216 Grid.java ADD void start FIELD
+RefactoringAction 1444299428245 Grid.java RENAME start=>void start() METHOD
+RefactoringAction 1444299581297 Cell.java ADD String state FIELD
+EditAction 1444299642106 TestGrid.java 172 1 1 0
+EditAction 1444299642184 Grid.java 296 1 1 0
+CompilationAction 1444299642387 TestCell.java
+CompilationAction 1444299642403 TestCell.java
+CompilationAction 1444299642403 TestCell.java
+CompilationAction 1444299642403 TestCell.java
+CompilationAction 1444299642403 TestCell.java
+CompilationAction 1444299642403 TestCell.java
+CompilationAction 1444299642403 TestCell.java
+CompilationAction 1444299642403 TestCell.java
+RefactoringAction 1444299781586 Grid.java ADD import org.univoulu.tol.sqatlab.sudoku.SudokuVerifier IMPORT
+RefactoringAction 1444299800634 Grid.java RENAME sudoku=>Cell su FIELD
+RefactoringAction 1444299801663 Grid.java RENAME su=>Cell s FIELD
+RefactoringAction 1444299803208 Grid.java REMOVE s FIELD
+RefactoringAction 1444299804237 Grid.java ADD Cell cell FIELD
+RefactoringAction 1444299836810 Cell.java RENAME Cell(int, int)=>void ell(int, int) METHOD
+RefactoringAction 1444299837840 Cell.java RENAME ell(int, int)=>void cell(int, int) METHOD
+RefactoringAction 1444299893953 Grid.java ADD import org.tol.sqatlab.sudoku.SudokuVerifier IMPORT
+RefactoringAction 1444299897557 Grid.java RENAME import org.tol.sqatlab.sudoku.SudokuVerifier=>import org.univoulu.tol.sqatlab.sudoku.SudokuVerifier IMPORT
+RefactoringAction 1444300155472 Grid.java RENAME cell=>Cell zelle FIELD
+RefactoringAction 1444300269758 Cell.java ADD int getNeighbour() METHOD
+RefactoringAction 1444300269758 Cell.java ADD void setNeighbour(int) METHOD
+RefactoringAction 1444300269758 Cell.java ADD String getState() METHOD
+RefactoringAction 1444300269758 Cell.java ADD void setState(String) METHOD
+EditAction 1444300380159 Grid.java 403 1 1 0
+EditAction 1444300380237 Cell.java 713 5 10 0
+CompilationAction 1444300380424 Grid.java
+CompilationAction 1444300380424 TestCell.java
+CompilationAction 1444300380424 TestCell.java
+CompilationAction 1444300380424 TestCell.java
+CompilationAction 1444300380424 TestCell.java
+CompilationAction 1444300380424 TestCell.java
+CompilationAction 1444300380424 TestCell.java
+RefactoringAction 1444300435102 Grid.java ADD import org.univoulu.tol.sqatlab.sudoku.SudokuVerifier IMPORT
+RefactoringAction 1444300850849 Grid.java ADD void neighbours FIELD
+RefactoringAction 1444300853423 Grid.java RENAME neighbours=>void neighbourssetti FIELD
+RefactoringAction 1444300854967 Grid.java RENAME neighbourssetti=>void neighbourssetting FIELD
+RefactoringAction 1444300859600 Grid.java RENAME neighbourssetting=>void neighboursetting FIELD
+RefactoringAction 1444300869897 Grid.java RENAME neighboursetting=><initializer /1> null
+RefactoringAction 1444300870926 Grid.java RENAME neighboursetting(int)=>void neighboursetting(int, int) METHOD
+CompilationAction 1444301174128 Grid.java
+EditAction 1444301178715 Cell.java 713 5 10 0
