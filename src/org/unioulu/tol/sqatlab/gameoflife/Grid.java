@@ -58,6 +58,10 @@ public class Grid {
 			//CELL AT TOP EDGE OF GRID
 		}
 		
+		if(y == size-1) {
+			
+		}
+		
 		return 0;
 	}
 
