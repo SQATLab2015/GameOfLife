@@ -6,7 +6,7 @@ import org.junit.Test;
 public class TestGrid {
 
 	@Test
-	public void test() {
+	public void testGetGritSizeShouldBe10by10() {
 		fail("Not yet implemented");
 	}
 

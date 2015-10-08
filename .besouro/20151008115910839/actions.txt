@@ -55,3 +55,9 @@ EditAction 1444295108581 TestCell.java 556 2 7 2
 RefactoringAction 1444295113320 TestCell.java RENAME testSetCellStateToDead()=>void testSetCellStateToAliveFrom() METHOD
 EditAction 1444295115161 TestCell.java 573 2 7 2
 EditAction 1444295123277 TestCell.java 575 2 7 2
+UnitTestCaseAction 1444295126277 TestCell.java OK
+UnitTestSessionAction 1444295126278 TestCell OK
+RefactoringAction 1444295170783 TestGrid.java RENAME test()=>void testGetGritSize() METHOD
+RefactoringAction 1444295174294 TestGrid.java RENAME testGetGritSize()=>void testGetGritSizeShouldBe() METHOD
+RefactoringAction 1444295176802 TestGrid.java RENAME testGetGritSizeShouldBe()=>void testGetGritSizeShouldBe50by50() METHOD
+EditAction 1444295179156 TestGrid.java 224 1 1 0
