@@ -13,10 +13,10 @@ public class TestCell {
 	//	cell.update();
 	//	assertEquals.("Dead", cell.getState());
 
-		// Fake 5x5 grid
-		String[] gridRow1 = new String[] {"-", "-", "-", "-", "-"};
-		String[] gridRow2 = new String[] {"-", "-", "-", "-", "-"};
-		String[] gridRow3 = new String[] {"-", "-", "-", "-", "-"};
+		// Fake 3x3 grid
+		String[] gridRow1 = new String[] {"-", "-", "-"};
+		String[] gridRow2 = new String[] {"-", "-", "-"};
+		String[] gridRow3 = new String[] {"-", "-", "-"};
 		String row1ForPrint = Arrays.toString(gridRow1);
 		row1ForPrint = row1ForPrint.replace(",", "");
 		String row2ForPrint = Arrays.toString(gridRow2);
