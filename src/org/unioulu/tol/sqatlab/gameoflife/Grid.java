@@ -41,9 +41,7 @@ public class Grid {
 	public int checkCellNeighbors(int x, int y) {
 
 		int id = y * size + x;
-		
-		int column = 
-		
+			
 		//CHECK GRID BORDERS
 		
 		if(x == 0) {
@@ -59,7 +57,7 @@ public class Grid {
 		}
 		
 		if(y == size-1) {
-			
+			//CELL AT BOTTOM EDGE OF GRID
 		}
 		
 		return 0;
