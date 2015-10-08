@@ -51,7 +51,7 @@ public class Grid {
 			//NE neighbor
 			id = (y-1) * size + (x-1);
 			
-			grid.get(id);
+			grid.get(id).getState();
 		}
 		
 		if(x == size-1) {
