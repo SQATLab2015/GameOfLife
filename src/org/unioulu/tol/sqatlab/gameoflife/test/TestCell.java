@@ -12,7 +12,7 @@ public class TestCell {
 
 	@Before
 	public void setup() {
-		testCell = new Cell(0);	
+		testCell = new Cell();	
 		
 	}
 	
@@ -37,7 +37,7 @@ public class TestCell {
 	@Test
 	public void TestCellWithNoNeighboursDies() {
 		testCell.update(0);
-		assertEquals(false, testCell.cellIsDead());
+		assertEquals(false, testCell.getStatus);
 		
 	}
 	

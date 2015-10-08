@@ -123,3 +123,10 @@ RefactoringAction 1444297839479 Cell.java RENAME Cell(int)=>void updae(int) METH
 RefactoringAction 1444297840992 Cell.java RENAME updae(int)=>void update(int) METHOD
 EditAction 1444297864858 TestGrid.java 415 3 2 0
 EditAction 1444297864923 Cell.java 593 6 8 0
+CompilationAction 1444297865033 TestCell.java
+UnitTestCaseAction 1444297868469 TestCell.java FAIL
+UnitTestSessionAction 1444297868470 TestCell FAIL
+CompilationAction 1444297884999 TestCell.java
+UnitTestCaseAction 1444297887036 TestCell.java FAIL
+UnitTestSessionAction 1444297887036 TestCell FAIL
+EditAction 1444297911751 TestCell.java 728 5 8 3
