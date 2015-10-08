@@ -32,7 +32,7 @@ public class TestGrid {
 	@Test
 	public void testGetStatusOfCell()
 	{
-		grid.createGrid(5);
+		grid.createGrid(10);
 		
 		String actual;
 		//actual = grid.allCells.get(0)[0].getState();
