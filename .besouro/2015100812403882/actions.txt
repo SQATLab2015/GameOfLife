@@ -6,3 +6,25 @@ CompilationAction 1444297263285 TestCell.java
 CompilationAction 1444297263285 TestCell.java
 CompilationAction 1444297263285 TestCell.java
 CompilationAction 1444297263285 TestCell.java
+RefactoringAction 1444297514842 Cell.java ADD void update() METHOD
+RefactoringAction 1444297544363 Cell.java RENAME Cell(int, int)=>void cell(int, int) METHOD
+RefactoringAction 1444297549873 Cell.java RENAME cell(int, int)=>Cell(int, int) METHOD
+RefactoringAction 1444297641892 Cell.java ADD int getNeighbors() METHOD
+RefactoringAction 1444297650908 Cell.java RENAME getNeighbors()=>int getNeighbours() METHOD
+RefactoringAction 1444297661423 Cell.java RENAME neighbor=>int neighbour FIELD
+RefactoringAction 1444297749945 Cell.java REMOVE update() METHOD
+RefactoringAction 1444297752844 Grid.java ADD void update() METHOD
+RefactoringAction 1444298186590 Cell.java RENAME collum=>int x FIELD
+RefactoringAction 1444298187598 Cell.java RENAME row=>int y FIELD
+RefactoringAction 1444298234672 Cell.java ADD String state FIELD
+RefactoringAction 1444298450978 Cell.java ADD import java.util.Random IMPORT
+RefactoringAction 1444298992326 Grid.java ADD Cell FIELD
+RefactoringAction 1444299004848 Grid.java RENAME cell=>Array FIELD
+RefactoringAction 1444299005853 Grid.java RENAME cel=>Array FIELD
+RefactoringAction 1444299067428 Grid.java REMOVE cell FIELD
+RefactoringAction 1444299068934 Grid.java ADD int FIELD
+RefactoringAction 1444299097455 Grid.java ADD void start FIELD
+RefactoringAction 1444299104462 Grid.java RENAME start=>void start() METHOD
+RefactoringAction 1444299270017 Grid.java REMOVE grid FIELD
+RefactoringAction 1444299317246 Grid.java ADD int FIELD
+EditAction 1444299667104 Cell.java 454 2 7 0

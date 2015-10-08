@@ -1,13 +1,29 @@
 package org.unioulu.tol.sqatlab.gameoflife;
 
-public class Cell {
-	public int collum;
-	public int row;
-	public int neighbor;
+import java.util.Random;
 
-	public Cell(int collum, int row) {
-		this.collum = collum;
-		this.row = row;
-		neighbor = 0;
+public class Cell {
+	public int x;
+	public int y;
+	public int neighbour;
+	public String state;
+
+	public Cell(int x, int y) {
+		this.x = x;
+		this.y = y;
+		neighbour = 0;
+		Random rand = new Random();
+		int randstate = rand.nextInt(1);
+		if (randstate == 0) {
+			state = "-";
+		}
+		else if (randstate == 1) {
+			state = "*";
+		}
+		
+	}
+	
+	public int getNeighbours() {
+		return 0;
 	}
 }
