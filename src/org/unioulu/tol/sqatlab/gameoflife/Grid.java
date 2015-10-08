@@ -14,11 +14,15 @@ public class Grid {
 	public Grid() {
 		this.size = 10;
 		
+		int totalCell = 10 * 10;
+		
 		life[][] = 
 	}
 	
 	public Grid(int size) {
 		this.size = size;
+		
+		int totalCells = size * size;
 	}
 
 	public int getSize() {
