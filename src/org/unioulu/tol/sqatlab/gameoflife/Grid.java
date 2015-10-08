@@ -22,7 +22,7 @@ public class Grid {
 	}
 	
 	
-	public int createGrid(int rowAmount)
+	public int createGrid()
 	{
 		for(int i = 0; i<rowAmount; i++) 
 		{
