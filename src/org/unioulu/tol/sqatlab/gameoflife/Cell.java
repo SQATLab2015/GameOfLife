@@ -5,6 +5,8 @@ public class Cell {
 	//Initially start with dead status
 	private boolean isAlive = false;
 	
-	
+	public boolean getStatus () {
+		return isAlive;
+	}
 
 }

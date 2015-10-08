@@ -5,3 +5,6 @@ CompilationAction 1444294120826 TestCell.java
 CompilationAction 1444294120948 TestCell.java
 RefactoringAction 1444294135705 Cell.java ADD boolean isAlive FIELD
 EditAction 1444294150286 Cell.java 154 0 0 0
+CompilationAction 1444294154978 TestCell.java
+RefactoringAction 1444294169232 Cell.java ADD boolean getStatus() METHOD
+EditAction 1444294179643 Cell.java 206 1 1 0
