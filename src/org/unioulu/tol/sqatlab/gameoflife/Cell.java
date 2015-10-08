@@ -31,11 +31,11 @@ public class Cell {
 		this.neighbours = neighbours;
 		
 	}
-	
-	public boolean getStatus (boolean status) {
+
+	public boolean isStatus() {
 		return status;
-		
 	}
+
 	
 	}
 		

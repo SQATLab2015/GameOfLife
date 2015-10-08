@@ -135,3 +135,7 @@ CompilationAction 1444297956655 TestCell.java
 RefactoringAction 1444298501619 Cell.java ADD boolean isStatus() METHOD
 RefactoringAction 1444298512632 Cell.java REMOVE getStatus(boolean) METHOD
 EditAction 1444298525650 TestCell.java 729 5 8 3
+CompilationAction 1444298525905 TestCell.java
+RefactoringAction 1444298546906 Cell.java ADD Object isStatus()/2 METHOD
+RefactoringAction 1444298559365 Cell.java REMOVE isStatus()/2 METHOD
+EditAction 1444298642459 Cell.java 574 6 8 0
