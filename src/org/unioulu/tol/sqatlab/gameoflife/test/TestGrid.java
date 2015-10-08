@@ -9,11 +9,6 @@ public class TestGrid {
 	
 	private Grid testGrid;
 	
-	@Before
-	public void setup() {
-		testGrid = new Grid(0);
-		
-	}
 
 	@Test
 	public void test() {
@@ -23,7 +18,6 @@ public class TestGrid {
 	@Test
 	public void TestGridIsCreated() {
 		testGrid = new Grid(20);
-		return testGrid;
 		
 	}
 

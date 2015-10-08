@@ -182,3 +182,11 @@ UnitTestSessionAction 1444299473927 TestCell OK
 RefactoringAction 1444299571299 Grid.java RENAME grid=>int FIELD
 RefactoringAction 1444299573805 Grid.java RENAME Cell=>Cell FIELD
 EditAction 1444299773019 TestGrid.java 457 3 4 0
+CompilationAction 1444299773296 TestGrid.java
+RefactoringAction 1444299809886 TestGrid.java REMOVE setup() METHOD
+CompilationAction 1444299938455 TestGrid.java
+RefactoringAction 1444299972112 TestCell.java REMOVE TestCellIsDead() METHOD
+RefactoringAction 1444299972112 TestCell.java REMOVE TestCellIsAlive() METHOD
+RefactoringAction 1444299978612 Cell.java REMOVE cellIsAlive() METHOD
+RefactoringAction 1444299978614 Cell.java REMOVE cellIsDead() METHOD
+EditAction 1444299979304 Cell.java 529 4 4 0
