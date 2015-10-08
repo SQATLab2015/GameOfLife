@@ -9,7 +9,7 @@ public class Grid {
 	
 	private int size;
 	
-	private int life[][];
+	private int life[];
 	
 	public Grid() {
 		this.size = 10;
@@ -23,6 +23,10 @@ public class Grid {
 		this.size = size;
 		
 		int totalCells = size * size;
+		
+		for(int i = 0; i < totalCells; i++) {
+			
+		}
 	}
 
 	public int getSize() {
