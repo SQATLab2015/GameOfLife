@@ -8,11 +8,11 @@ public class TestCell {
 
 	@Test
 	public void testLiveCellWithNoNeighborDies() {
-		//Cell cell = new Cell("Alive");
-		//cell.update(0);
-		//assertEquals("Dead", cell.getState());
-		
 		Cell cell = new Cell("Alive");
+		cell.update(0);
+		assertEquals("Dead", cell.getState());
+		
+		/*Cell cell = new Cell("Alive");
 		String state = "";
 		Boolean hasNeighbors = false;
 		
@@ -20,7 +20,8 @@ public class TestCell {
 			state = "Dead";
 		}
 		
-		assertEquals("Dead", state);
+		assertEquals("Dead", state);*/
+		
 	}
 
 }

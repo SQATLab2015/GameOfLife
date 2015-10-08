@@ -29,3 +29,9 @@ RefactoringAction 1444299272334 Cell.java ADD String getName() METHOD
 RefactoringAction 1444299277395 Cell.java RENAME getName()=>String getState() METHOD
 EditAction 1444299289128 TestCell.java 470 1 5 1
 EditAction 1444299291980 Cell.java 136 1 1 0
+CompilationAction 1444299292188 TestCell.java
+CompilationAction 1444299292382 Cell.java
+CompilationAction 1444299292383 Cell.java
+CompilationAction 1444299292384 TestCell.java
+CompilationAction 1444299331799 TestCell.java
+EditAction 1444299375338 TestCell.java 471 1 3 1
