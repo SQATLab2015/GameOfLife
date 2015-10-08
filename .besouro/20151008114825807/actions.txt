@@ -107,3 +107,12 @@ RefactoringAction 1444295878176 Grid.java ADD static Grid() METHOD
 RefactoringAction 1444295890181 Grid.java ADD ArrayList<> gridArray FIELD
 RefactoringAction 1444295990227 Grid.java RENAME Grid()=>Grid(int, int) METHOD
 EditAction 1444295990257 Grid.java 228 1 0 0
+CompilationAction 1444295994125 TestGrid.java
+CompilationAction 1444295994169 TestGrid.java
+RefactoringAction 1444296003240 Grid.java REMOVE gridArray FIELD
+RefactoringAction 1444296088298 Grid.java ADD ArrayList FIELD
+CompilationAction 1444296250326 TestGrid.java
+CompilationAction 1444296250327 TestGrid.java
+RefactoringAction 1444296291618 Grid.java ADD int Integer FIELD
+RefactoringAction 1444296295128 Grid.java REMOVE Integer FIELD
+EditAction 1444296297424 Grid.java 366 1 3 0
