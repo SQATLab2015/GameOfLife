@@ -1,0 +1,7 @@
+FileOpenedAction 1444294105969 TestCell.java 545 3 5 1
+RefactoringAction 1444294109697 TestCell.java RENAME test_isCellAlive()=>void test_get() METHOD
+RefactoringAction 1444294111706 TestCell.java RENAME test_get()=>void test_getCellStatus() METHOD
+CompilationAction 1444294120826 TestCell.java
+CompilationAction 1444294120948 TestCell.java
+RefactoringAction 1444294135705 Cell.java ADD boolean isAlive FIELD
+EditAction 1444294150286 Cell.java 154 0 0 0

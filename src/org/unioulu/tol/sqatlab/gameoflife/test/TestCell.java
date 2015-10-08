@@ -20,10 +20,10 @@ public class TestCell {
 	}
 	
 	@Test
-	public void test_isCellAlive () {
+	public void test_getCellStatus () {
 		initializeCell();
-		boolean result = testCell.isAlive();
-		assertEquals(testCell, true );
+		boolean result = testCell.getStatus();
+		assertEquals(testCell, true || false );
 	}
 
 }
