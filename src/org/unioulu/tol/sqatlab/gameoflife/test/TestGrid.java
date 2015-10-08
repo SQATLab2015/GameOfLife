@@ -30,7 +30,7 @@ public class TestGrid {
 		
 		int aliveNeighbors = grid.checkCell(0,0);
 		
-		assertEquals(0, aliveNeighbors);
+		assertEquals(Grid.NEIGHBOR_STATE_LESS_THAN_TWO, aliveNeighbors);
 	}
 	
 }
