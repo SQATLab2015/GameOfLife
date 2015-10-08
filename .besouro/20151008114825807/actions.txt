@@ -408,3 +408,6 @@ EditAction 1444300618347 GameOfLife.java 1011 4 8 0
 RefactoringAction 1444300664860 GameOfLife.java REMOVE askPositiveInteger(String) METHOD
 EditAction 1444300675740 GameOfLife.java 484 3 3 0
 EditAction 1444300728299 TestGrid.java 1077 5 12 2
+RefactoringAction 1444300752292 Grid.java ADD int getWidth() METHOD
+RefactoringAction 1444300766337 Grid.java ADD int getHeight() METHOD
+EditAction 1444300771724 Grid.java 782 7 9 0

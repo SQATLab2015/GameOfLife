@@ -26,6 +26,14 @@ public class Grid {
 		return str;
 	}
 	
+	public int getWidth() {
+		return gridArray.length;
+	}
+	
+	public int getHeight() {
+		return gridArray.width;
+	}
+	
 	public Cell getCell (int x, int y) {
 		return gridArray[x][y];
 	}
