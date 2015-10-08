@@ -10,13 +10,14 @@ public class TestGrid {
 	private Grid testGrid = new Grid();
 	
 	//Initialization function
-	public void initializeGrid() {
-		testGrid = new Grid(10,10);
+	public void initializeGrid ( int w, int h ) {
+		testGrid = new Grid(w,h);
 	}
 	
 	@Test
 	public void test_createA10By10Grid () {
-		
+		initializeGrid ( 10, 10 );
+		initializeGrid ( 10, 10 );
 	}
 	
 }

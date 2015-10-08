@@ -86,3 +86,9 @@ EditAction 1444295523334 Cell.java 441 4 4 0
 UnitTestCaseAction 1444295530536 TestCell.java OK
 UnitTestSessionAction 1444295530537 TestCell OK
 EditAction 1444295562499 TestGrid.java 442 2 1 0
+CompilationAction 1444295566853 TestGrid.java
+RefactoringAction 1444295579132 TestGrid.java RENAME initializeGrid()=>void initializeGrid(int) METHOD
+RefactoringAction 1444295580643 TestGrid.java RENAME initializeGrid(int)=>void initializeGrid(int, int) METHOD
+CompilationAction 1444295596157 TestGrid.java
+CompilationAction 1444295596274 TestGrid.java
+EditAction 1444295617779 TestGrid.java 511 2 3 0
