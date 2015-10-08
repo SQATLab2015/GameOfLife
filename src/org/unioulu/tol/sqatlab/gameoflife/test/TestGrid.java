@@ -27,6 +27,8 @@ public class TestGrid {
 	@Test
 	public void testCheckNeighborsExpectLessThanTwoAlive() {
 		Grid grid = new Grid();
+		
+		int aliveNeighbors = grid.checkCell();
 	}
 	
 }

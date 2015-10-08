@@ -108,3 +108,4 @@ RefactoringAction 1444295724266 TestGrid.java RENAME testCheckNeighbors=>void te
 RefactoringAction 1444295726779 TestGrid.java RENAME testCheckNeighborsExpect=>void testCheckNeighborsExpectLessThan FIELD
 RefactoringAction 1444295731294 TestGrid.java RENAME testCheckNeighborsExpectLessThan=>void testCheckNeighborsExpectLessThanTwoAlive() METHOD
 EditAction 1444295737721 TestGrid.java 569 3 7 2
+EditAction 1444295759159 TestGrid.java 613 3 8 2
