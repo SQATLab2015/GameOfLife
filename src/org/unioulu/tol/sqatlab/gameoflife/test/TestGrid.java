@@ -34,7 +34,9 @@ public class TestGrid {
 	{
 		grid.createGrid(5);
 		
-		grid.allCells.get(0)[0].getState();
+		String actual = grid.allCells.get(0)[0].getState();
+		
+		assertEquals("Alive", actual);
 	}
 
 }
