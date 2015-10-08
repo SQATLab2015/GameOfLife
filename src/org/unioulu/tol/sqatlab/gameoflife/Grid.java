@@ -44,9 +44,7 @@ public class Grid {
 	}
 
 	public Cell getCell(int x, int y) {
-		int index = y * size + x;
-		
-		grid.get(y * size + x);
+		return grid.get(y * size + x);
 		
 		return null;
 	}
