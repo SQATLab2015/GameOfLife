@@ -40,13 +40,14 @@ public class Grid {
 
 	public int checkCellNeighbors(int x, int y) {
 
+		//CHECK GRID BORDERS
+		int id = y * size + x;
+		
 		return 0;
 	}
 
 	public Cell getCell(int x, int y) {
 		return grid.get(y * size + x);
-		
-		return null;
 	}
 	
 }
