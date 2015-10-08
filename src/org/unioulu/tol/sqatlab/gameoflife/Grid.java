@@ -48,7 +48,7 @@ public class Grid {
 		
 		//CHECK TOP NEIGHBORS
 		if(x > 0 && y > 0) {
-			//CELL AT LEFT EDGE OF GRID
+			//NE neighbor
 		}
 		
 		if(x == size-1) {
