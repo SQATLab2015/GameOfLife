@@ -9,18 +9,18 @@ public class Grid {
 	}
 	
 	public Grid(int width, int height) {
-		gridArray = new Cell[width][height];
+		Cell[][] temp = new Cell[width][height];
 		int i = 0;
 		int b = 0;
 		
 		while ( i < width) {
 			while ( b < height ) {
-				gridArray[i][b] = new Cell();
+				temp[i][b] = new Cell();
 				b++;
 			}
 			i++;
 		}
-		
+		gridArray = temp;
 	}
 	
 	public String getSize () {
