@@ -116,3 +116,9 @@ RefactoringAction 1444297604765 Cell.java RENAME setNeighbours(int, int)=>void s
 EditAction 1444297765850 Cell.java 586 6 8 0
 CompilationAction 1444297766420 TestCell.java
 EditAction 1444297772031 TestCell.java 732 5 8 3
+CompilationAction 1444297772566 TestCell.java
+RefactoringAction 1444297777195 Cell.java ADD void update(int) METHOD
+RefactoringAction 1444297780455 Cell.java REMOVE update(int) METHOD
+RefactoringAction 1444297839479 Cell.java RENAME Cell(int)=>void updae(int) METHOD
+RefactoringAction 1444297840992 Cell.java RENAME updae(int)=>void update(int) METHOD
+EditAction 1444297864858 TestGrid.java 415 3 2 0
