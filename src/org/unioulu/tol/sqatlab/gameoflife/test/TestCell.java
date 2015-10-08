@@ -22,6 +22,7 @@ public class TestCell {
 	@Test
 	public void test_isCellAlive () {
 		initializeCell();
+		boolean result = testCell.isAlive();
 	}
 
 }

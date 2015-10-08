@@ -6,3 +6,4 @@ RefactoringAction 1444292765074 TestCell.java RENAME initialize()=>void initiali
 RefactoringAction 1444292789152 TestCell.java ADD Cell testCell FIELD
 RefactoringAction 1444292801622 TestCell.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
 EditAction 1444292831199 TestCell.java 471 3 3 0
+EditAction 1444292896339 TestCell.java 511 3 4 0
