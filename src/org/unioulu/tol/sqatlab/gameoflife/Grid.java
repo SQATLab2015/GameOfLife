@@ -20,6 +20,7 @@ public class Grid {
 			}
 			i++;
 		}
+		
 		gridArray = temp;
 	}
 	
