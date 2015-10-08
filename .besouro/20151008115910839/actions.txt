@@ -1,0 +1,255 @@
+FileOpenedAction 1444294751501 TestCell.java 200 1 1 0
+UnitTestCaseAction 1444294761362 TestCell.java FAIL
+UnitTestSessionAction 1444294761368 TestCell FAIL
+RefactoringAction 1444294779544 TestCell.java RENAME test()=>void testGetCellState() METHOD
+RefactoringAction 1444294801425 TestCell.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+EditAction 1444294807631 TestCell.java 255 1 1 0
+EditAction 1444294817688 TestCell.java 277 1 2 0
+CompilationAction 1444294817954 TestCell.java
+CompilationAction 1444294830264 TestCell.java
+CompilationAction 1444294830437 TestCell.java
+EditAction 1444294848132 TestCell.java 318 1 3 1
+CompilationAction 1444294848367 TestCell.java
+RefactoringAction 1444294854420 Cell.java ADD int getState() METHOD
+EditAction 1444294861969 Cell.java 112 1 1 0
+UnitTestCaseAction 1444294868421 TestCell.java OK
+UnitTestSessionAction 1444294868422 TestCell OK
+EditAction 1444294897443 Cell.java 203 1 1 0
+CompilationAction 1444294897667 Cell.java
+EditAction 1444294899997 Cell.java 207 1 1 0
+RefactoringAction 1444294914833 TestCell.java ADD void test FIELD
+RefactoringAction 1444294918848 TestCell.java RENAME test=>void testSetCellStateToDead FIELD
+RefactoringAction 1444294921865 TestCell.java RENAME testSetCellStateToDead=>void testSetCellStateToDead() METHOD
+EditAction 1444294932100 TestCell.java 396 2 4 1
+CompilationAction 1444294932365 TestCell.java
+EditAction 1444294934379 TestCell.java 396 2 4 1
+EditAction 1444294949592 TestCell.java 438 2 5 1
+CompilationAction 1444294949843 TestCell.java
+EditAction 1444294960002 TestCell.java 472 2 6 1
+CompilationAction 1444294960248 TestCell.java
+CompilationAction 1444294970775 TestCell.java
+CompilationAction 1444294970939 TestCell.java
+CompilationAction 1444294976645 TestCell.java
+CompilationAction 1444294976811 TestCell.java
+EditAction 1444294989482 TestCell.java 558 2 7 2
+CompilationAction 1444294989746 TestCell.java
+RefactoringAction 1444294993154 Cell.java ADD void setState(int) METHOD
+EditAction 1444294997082 Cell.java 286 2 1 0
+CompilationAction 1444295007087 Cell.java
+RefactoringAction 1444295013475 Cell.java ADD int state FIELD
+CompilationAction 1444295014087 Cell.java
+EditAction 1444295030771 Cell.java 294 2 2 0
+RefactoringAction 1444295039025 Cell.java ADD Cell(int) METHOD
+EditAction 1444295043518 Cell.java 353 3 4 0
+CompilationAction 1444295043772 TestCell.java
+RefactoringAction 1444295053555 Cell.java RENAME Cell(int)=>Cell() METHOD
+EditAction 1444295056488 Cell.java 355 3 4 0
+EditAction 1444295059849 Cell.java 354 3 4 0
+UnitTestCaseAction 1444295068963 TestCell.java FAIL
+UnitTestSessionAction 1444295068963 TestCell FAIL
+EditAction 1444295086211 Cell.java 358 3 4 0
+UnitTestCaseAction 1444295089908 TestCell.java FAIL
+UnitTestSessionAction 1444295089908 TestCell FAIL
+EditAction 1444295104460 TestCell.java 557 2 7 2
+EditAction 1444295108581 TestCell.java 556 2 7 2
+RefactoringAction 1444295113320 TestCell.java RENAME testSetCellStateToDead()=>void testSetCellStateToAliveFrom() METHOD
+EditAction 1444295115161 TestCell.java 573 2 7 2
+EditAction 1444295123277 TestCell.java 575 2 7 2
+UnitTestCaseAction 1444295126277 TestCell.java OK
+UnitTestSessionAction 1444295126278 TestCell OK
+RefactoringAction 1444295170783 TestGrid.java RENAME test()=>void testGetGritSize() METHOD
+RefactoringAction 1444295174294 TestGrid.java RENAME testGetGritSize()=>void testGetGritSizeShouldBe() METHOD
+RefactoringAction 1444295176802 TestGrid.java RENAME testGetGritSizeShouldBe()=>void testGetGritSizeShouldBe50by50() METHOD
+EditAction 1444295179156 TestGrid.java 224 1 1 0
+EditAction 1444295185632 TestGrid.java 219 1 1 0
+CompilationAction 1444295185856 TestGrid.java
+EditAction 1444295228890 TestGrid.java 251 1 2 0
+CompilationAction 1444295229161 TestGrid.java
+EditAction 1444295238735 TestGrid.java 280 1 3 1
+CompilationAction 1444295238960 TestGrid.java
+RefactoringAction 1444295242617 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+RefactoringAction 1444295246734 Grid.java ADD int getSize() METHOD
+EditAction 1444295254171 Grid.java 112 1 1 0
+CompilationAction 1444295254423 TestGrid.java
+EditAction 1444295262267 TestGrid.java 328 1 3 1
+UnitTestCaseAction 1444295266412 TestCell.java OK
+UnitTestSessionAction 1444295266413 TestCell OK
+UnitTestCaseAction 1444295276740 TestGrid.java OK
+UnitTestSessionAction 1444295276747 TestGrid OK
+RefactoringAction 1444295325977 TestGrid.java ADD void testCreateGrid FIELD
+RefactoringAction 1444295328492 TestGrid.java RENAME testCreateGrid=>void testCreateGridAtSize FIELD
+RefactoringAction 1444295329506 TestGrid.java RENAME testCreateGridAtSize=>void testCreateGridAtSize20 FIELD
+RefactoringAction 1444295332518 TestGrid.java RENAME testCreateGridAtSize20=>void testCreateGridAtSize20by FIELD
+EditAction 1444295335915 TestGrid.java 387 2 3 1
+EditAction 1444295342149 TestGrid.java 412 2 4 1
+CompilationAction 1444295342411 TestGrid.java
+EditAction 1444295359018 TestGrid.java 473 2 6 2
+CompilationAction 1444295359274 TestGrid.java
+EditAction 1444295376821 Grid.java 127 1 1 0
+CompilationAction 1444295377063 Grid.java
+EditAction 1444295380216 Grid.java 137 2 1 0
+EditAction 1444295384050 Grid.java 152 2 2 0
+CompilationAction 1444295384317 Grid.java
+RefactoringAction 1444295388392 Grid.java ADD Grid(int) METHOD
+EditAction 1444295394393 Grid.java 223 3 2 0
+CompilationAction 1444295394644 Grid.java
+CompilationAction 1444295404769 Grid.java
+CompilationAction 1444295408916 Grid.java
+UnitTestCaseAction 1444295416797 TestGrid.java FAIL
+UnitTestSessionAction 1444295416798 TestGrid FAIL
+EditAction 1444295424822 Grid.java 224 3 3 0
+UnitTestCaseAction 1444295430127 TestGrid.java OK
+UnitTestSessionAction 1444295430128 TestGrid OK
+EditAction 1444295504679 Cell.java 355 3 4 0
+RefactoringAction 1444295566710 TestGrid.java ADD void testGetCell FIELD
+RefactoringAction 1444295706234 TestGrid.java RENAME testGetCell=>void testCheckNeigh FIELD
+RefactoringAction 1444295708749 TestGrid.java RENAME testCheckNeigh=>void testCheckNeighbors FIELD
+RefactoringAction 1444295724266 TestGrid.java RENAME testCheckNeighbors=>void testCheckNeighborsExpect FIELD
+RefactoringAction 1444295726779 TestGrid.java RENAME testCheckNeighborsExpect=>void testCheckNeighborsExpectLessThan FIELD
+RefactoringAction 1444295731294 TestGrid.java RENAME testCheckNeighborsExpectLessThan=>void testCheckNeighborsExpectLessThanTwoAlive() METHOD
+EditAction 1444295737721 TestGrid.java 569 3 7 2
+EditAction 1444295759159 TestGrid.java 613 3 8 2
+CompilationAction 1444295759413 TestGrid.java
+EditAction 1444295782777 TestGrid.java 651 3 9 3
+CompilationAction 1444295782987 TestGrid.java
+EditAction 1444295785662 TestGrid.java 654 3 9 3
+CompilationAction 1444295785922 TestGrid.java
+RefactoringAction 1444295788735 Grid.java ADD int checkCell(int, int) METHOD
+EditAction 1444295796852 Grid.java 281 4 4 0
+UnitTestCaseAction 1444295801307 TestGrid.java OK
+UnitTestSessionAction 1444295801308 TestGrid OK
+RefactoringAction 1444295817616 Grid.java ADD int CELL FIELD
+RefactoringAction 1444295818626 Grid.java RENAME CELL=>int CELL_ FIELD
+RefactoringAction 1444295826638 Grid.java RENAME CELL_=>int NEIGHBOR_S FIELD
+EditAction 1444295830334 Grid.java 342 4 4 0
+RefactoringAction 1444295836651 Grid.java ADD int NEIGHBOR_STATE_ FIELD
+RefactoringAction 1444295850661 Grid.java RENAME NEIGHBOR_STATE_=>int NEIGHBOR_STATE_TWO FIELD
+EditAction 1444295854459 Grid.java 400 4 4 0
+RefactoringAction 1444295860170 Grid.java ADD int NEIGHBOR_STATE_ FIELD
+RefactoringAction 1444295869695 Grid.java RENAME NEIGHBOR_STATE_=>int NEIGHBOR_STATE_MORE_THAN FIELD
+EditAction 1444295872492 Grid.java 461 4 4 0
+CompilationAction 1444295872755 Grid.java
+RefactoringAction 1444295879218 Grid.java ADD int NEIGHBOR_SATTE_THREE FIELD
+CompilationAction 1444295880430 Grid.java
+CompilationAction 1444295880967 Grid.java
+CompilationAction 1444295883457 Grid.java
+CompilationAction 1444295883624 Grid.java
+EditAction 1444295887011 Grid.java 503 4 4 0
+EditAction 1444295913468 TestGrid.java 686 3 9 3
+RefactoringAction 1444295922283 Grid.java RENAME NEIGHBOR_SATTE_THREE=>int NEIGHBOR_STTE_THREE FIELD
+EditAction 1444295922691 Grid.java 503 4 4 0
+EditAction 1444296018275 Grid.java 512 4 4 0
+CompilationAction 1444296018405 TestGrid.java
+CompilationAction 1444296022928 TestGrid.java
+EditAction 1444296669644 Grid.java 536 4 4 0
+CompilationAction 1444296669901 Grid.java
+EditAction 1444296671433 Grid.java 537 4 4 0
+CompilationAction 1444296671961 Grid.java
+EditAction 1444296672102 Grid.java 537 4 4 0
+EditAction 1444296730377 Grid.java 554 4 3 0
+CompilationAction 1444296730635 Grid.java
+CompilationAction 1444296730636 Grid.java
+CompilationAction 1444296730636 Grid.java
+CompilationAction 1444297059651 Grid.java
+CompilationAction 1444297059651 Grid.java
+CompilationAction 1444297059652 Grid.java
+CompilationAction 1444297060000 Grid.java
+CompilationAction 1444297060000 Grid.java
+CompilationAction 1444297060000 Grid.java
+EditAction 1444297074927 Grid.java 619 4 4 0
+CompilationAction 1444297075183 Grid.java
+CompilationAction 1444297075183 Grid.java
+CompilationAction 1444297075183 Grid.java
+CompilationAction 1444297081436 Grid.java
+CompilationAction 1444297081437 Grid.java
+CompilationAction 1444297081438 Grid.java
+CompilationAction 1444297081614 Grid.java
+CompilationAction 1444297081614 Grid.java
+CompilationAction 1444297081614 Grid.java
+EditAction 1444297095008 Grid.java 668 4 5 0
+CompilationAction 1444297095267 Grid.java
+CompilationAction 1444297095268 Grid.java
+CompilationAction 1444297095268 Grid.java
+RefactoringAction 1444297133741 Grid.java REMOVE life FIELD
+RefactoringAction 1444297141271 Grid.java ADD import java.util.Vector IMPORT
+CompilationAction 1444297143284 Grid.java
+CompilationAction 1444297143284 Grid.java
+CompilationAction 1444297144666 Grid.java
+CompilationAction 1444297144666 Grid.java
+EditAction 1444297155408 Grid.java 685 4 7 0
+EditAction 1444297168754 Grid.java 720 5 7 0
+EditAction 1444297181311 Grid.java 755 5 8 0
+EditAction 1444297182882 Grid.java 757 5 8 0
+RefactoringAction 1444297200185 TestGrid.java ADD void testCheckNeighbors FIELD
+RefactoringAction 1444297205202 TestGrid.java RENAME testCheckNeighbors=>void testCheckNeighborsExcept FIELD
+EditAction 1444297212317 TestGrid.java 760 4 9 3
+EditAction 1444297226469 TestGrid.java 840 4 11 3
+EditAction 1444297237325 TestGrid.java 893 4 12 4
+CompilationAction 1444297237575 TestGrid.java
+CompilationAction 1444297239585 TestGrid.java
+UnitTestCaseAction 1444297242751 TestGrid.java FAIL
+UnitTestSessionAction 1444297242752 TestGrid FAIL
+EditAction 1444297295319 Grid.java 736 5 6 0
+CompilationAction 1444297295579 Grid.java
+EditAction 1444297299011 Grid.java 737 5 8 0
+RefactoringAction 1444297504175 Grid.java ADD int getCell() METHOD
+EditAction 1444297509593 Grid.java 781 6 8 0
+CompilationAction 1444297509786 Grid.java
+CompilationAction 1444297516206 Grid.java
+CompilationAction 1444297516383 Grid.java
+EditAction 1444297520739 Grid.java 797 6 9 0
+CompilationAction 1444297520990 Grid.java
+CompilationAction 1444297585695 Grid.java
+EditAction 1444297602350 Grid.java 841 6 11 0
+EditAction 1444297603548 Grid.java 840 6 11 0
+CompilationAction 1444297603822 Grid.java
+CompilationAction 1444297606549 Grid.java
+CompilationAction 1444297606722 Grid.java
+EditAction 1444297610237 Grid.java 854 6 11 0
+EditAction 1444297619251 Grid.java 830 6 10 0
+CompilationAction 1444297619470 Grid.java
+CompilationAction 1444297623395 Grid.java
+EditAction 1444297757902 Grid.java 863 6 10 0
+EditAction 1444297797588 Grid.java 889 6 11 0
+CompilationAction 1444297797845 Grid.java
+EditAction 1444297800072 Grid.java 894 6 11 0
+EditAction 1444297809778 Grid.java 921 6 11 0
+EditAction 1444297820294 Grid.java 947 6 8 0
+CompilationAction 1444297820566 Grid.java
+CompilationAction 1444297974131 Grid.java
+CompilationAction 1444297974304 Grid.java
+CompilationAction 1444297974304 Grid.java
+EditAction 1444297978909 Grid.java 967 6 8 0
+CompilationAction 1444297979166 Grid.java
+EditAction 1444297980677 Grid.java 969 6 8 0
+CompilationAction 1444297981247 Grid.java
+EditAction 1444297987531 Grid.java 997 6 8 0
+CompilationAction 1444297987783 Grid.java
+EditAction 1444297999810 Grid.java 1023 6 8 0
+CompilationAction 1444298000063 Grid.java
+EditAction 1444298006402 Grid.java 1049 6 8 0
+CompilationAction 1444298006665 Grid.java
+EditAction 1444298014878 Grid.java 1080 6 8 0
+CompilationAction 1444298015136 Grid.java
+EditAction 1444298032302 Grid.java 1091 6 14 0
+EditAction 1444298097186 Grid.java 1115 6 14 0
+EditAction 1444298120179 Grid.java 1145 6 15 0
+EditAction 1444298124161 Grid.java 1145 6 15 0
+EditAction 1444298135900 Grid.java 1144 6 15 0
+EditAction 1444298158997 Grid.java 1156 6 15 0
+EditAction 1444298174951 Grid.java 1142 6 15 0
+EditAction 1444298217041 Grid.java 1164 6 8 0
+CompilationAction 1444298217309 Grid.java
+CompilationAction 1444298217309 Grid.java
+EditAction 1444298218085 Grid.java 1164 6 15 0
+EditAction 1444298228385 Grid.java 1172 6 15 0
+EditAction 1444298236201 Grid.java 1193 6 15 0
+EditAction 1444298245780 Grid.java 1204 6 15 0
+EditAction 1444298267659 Grid.java 1244 6 15 0
+EditAction 1444298276444 Grid.java 1265 6 15 0
+EditAction 1444298341332 Grid.java 1276 6 15 0
+EditAction 1444298365901 Grid.java 1306 6 15 0
+EditAction 1444298387199 Grid.java 1395 6 15 0
+EditAction 1444298401572 Grid.java 1427 6 15 0
+EditAction 1444298459843 Grid.java 1456 6 15 0
+EditAction 1444298485729 Grid.java 1547 6 15 0
