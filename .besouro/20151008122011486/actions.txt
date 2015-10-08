@@ -1,0 +1,22 @@
+FileOpenedAction 1444296011755 Cell.java 68 0 0 0
+FileOpenedAction 1444296030153 TestCell.java 200 1 1 0
+RefactoringAction 1444296058177 TestCell.java RENAME test()=>void testLiveCellWithNO() METHOD
+RefactoringAction 1444296059695 TestCell.java RENAME testLiveCellWithNO()=>void testLiveCellWithNoNei() METHOD
+RefactoringAction 1444296060710 TestCell.java RENAME testLiveCellWithNoNei()=>void testLiveCellWithNoNeigbh() METHOD
+RefactoringAction 1444296061725 TestCell.java RENAME testLiveCellWithNoNeigbh()=>void testLiveCellWithNoNei() METHOD
+RefactoringAction 1444296063239 TestCell.java RENAME testLiveCellWithNoNei()=>void testLiveCellWithNoNeighbours() METHOD
+RefactoringAction 1444296066255 TestCell.java RENAME testLiveCellWithNoNeighbours()=>void testLiveCellWithNoNeighbo() METHOD
+RefactoringAction 1444296067269 TestCell.java RENAME testLiveCellWithNoNeighbo()=>void testLiveCellWithNoNeighbor() METHOD
+RefactoringAction 1444296068782 TestCell.java RENAME testLiveCellWithNoNeighbor()=>void testLiveCellWithNoNeighborDies() METHOD
+FileOpenedAction 1444296264689 Grid.java 68 0 0 0
+FileOpenedAction 1444296275697 TestGrid.java 199 1 1 0
+RefactoringAction 1444296288699 TestGrid.java RENAME test()=>void testIsGrid() METHOD
+RefactoringAction 1444296298211 TestGrid.java RENAME testIsGrid()=>void testIsGridSameAmountColumsAndRows() METHOD
+RefactoringAction 1444296710412 Grid.java ADD int FIELD
+RefactoringAction 1444296712920 Grid.java RENAME grid=>int FIELD
+RefactoringAction 1444296718932 Grid.java REMOVE array FIELD
+RefactoringAction 1444296719938 Grid.java ADD int FIELD
+RefactoringAction 1444296976097 Grid.java ADD int gridSize FIELD
+RefactoringAction 1444296987128 Grid.java REMOVE array FIELD
+RefactoringAction 1444297139798 Grid.java ADD int FIELD
+EditAction 1444297469680 Grid.java 156 0 0 0
