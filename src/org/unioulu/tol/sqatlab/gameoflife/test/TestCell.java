@@ -8,7 +8,7 @@ import org.unioulu.tol.sqatlab.gameoflife.Cell;
 public class TestCell {
 
 	@Test
-	public void testGetCellStateStateShouldBeAlive() {
+	public void testGetCellStateStateShouldBeDead() {
 		Cell cell = new Cell();
 		
 		int state = cell.getState();
