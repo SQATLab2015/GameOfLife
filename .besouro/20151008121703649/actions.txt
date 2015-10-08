@@ -257,3 +257,8 @@ RefactoringAction 1444299870772 GameOfLife.java ADD Grid grid FIELD
 RefactoringAction 1444299919310 GameOfLife.java RENAME grid=>Grid grid() METHOD
 RefactoringAction 1444299922317 GameOfLife.java RENAME grid()=>Grid grid FIELD
 EditAction 1444299923386 GameOfLife.java 96 0 0 0
+RefactoringAction 1444299940385 Grid.java REMOVE import java.util.List IMPORT
+RefactoringAction 1444299941896 Grid.java REMOVE rowAmount FIELD
+RefactoringAction 1444299941897 Grid.java REMOVE columnAmount FIELD
+RefactoringAction 1444299999345 GameOfLife.java ADD static void main(String METHOD
+EditAction 1444300021833 GameOfLife.java 166 1 1 0
