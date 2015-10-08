@@ -72,3 +72,12 @@ RefactoringAction 1444295246734 Grid.java ADD int getSize() METHOD
 EditAction 1444295254171 Grid.java 112 1 1 0
 CompilationAction 1444295254423 TestGrid.java
 EditAction 1444295262267 TestGrid.java 328 1 3 1
+UnitTestCaseAction 1444295266412 TestCell.java OK
+UnitTestSessionAction 1444295266413 TestCell OK
+UnitTestCaseAction 1444295276740 TestGrid.java OK
+UnitTestSessionAction 1444295276747 TestGrid OK
+RefactoringAction 1444295325977 TestGrid.java ADD void testCreateGrid FIELD
+RefactoringAction 1444295328492 TestGrid.java RENAME testCreateGrid=>void testCreateGridAtSize FIELD
+RefactoringAction 1444295329506 TestGrid.java RENAME testCreateGridAtSize=>void testCreateGridAtSize20 FIELD
+RefactoringAction 1444295332518 TestGrid.java RENAME testCreateGridAtSize20=>void testCreateGridAtSize20by FIELD
+EditAction 1444295335915 TestGrid.java 387 2 3 1

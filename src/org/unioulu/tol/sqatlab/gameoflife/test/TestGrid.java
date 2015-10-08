@@ -14,5 +14,10 @@ public class TestGrid {
 		
 		assertEquals(10, size);
 	}
+	
+	@Test
+	public void testCreateGridAtSize20by20() {
+		
+	}
 
 }
