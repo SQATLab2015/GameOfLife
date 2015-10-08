@@ -17,7 +17,7 @@ public class TestCell {
 	}
 	
 	@Test
-	public void testSetCellStateToDead() {
+	public void testSetCellStateToAliveFromInitialState() {
 		Cell cell = new Cell();
 		
 		cell.setState(Cell.CELL_STATE_DEAD);
