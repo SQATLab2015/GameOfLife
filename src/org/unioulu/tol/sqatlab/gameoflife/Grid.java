@@ -29,7 +29,7 @@ public class Grid {
 		int totalCells = size * size;
 
 		for(int i = 0; i < totalCells; i++) {
-			grid.add(new Cell())
+			grid.add(new Cell());
 		}
 	}
 
