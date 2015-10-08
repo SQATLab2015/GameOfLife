@@ -11,6 +11,8 @@ public class TestCell {
 		Cell cell = new Cell("Alive");
 		cell.update();
 		assertEquals.("Dead", cell.getState());
+		System.out.print("life");
+
 	}
 
 }

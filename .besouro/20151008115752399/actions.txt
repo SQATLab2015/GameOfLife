@@ -25,3 +25,25 @@ EditAction 1444296798419 Grid.java 80 0 0 0
 EditAction 1444297041105 Grid.java 185 0 0 0
 RefactoringAction 1444297086138 Grid.java ADD void println() METHOD
 EditAction 1444297090918 Grid.java 200 1 0 0
+CompilationAction 1444297091156 Grid.java
+CompilationAction 1444297091157 Grid.java
+CompilationAction 1444297091157 Grid.java
+CompilationAction 1444297091158 Grid.java
+RefactoringAction 1444297111179 Grid.java REMOVE println() METHOD
+CompilationAction 1444297114024 Grid.java
+CompilationAction 1444297114024 Grid.java
+CompilationAction 1444297114025 Grid.java
+CompilationAction 1444297114180 Grid.java
+CompilationAction 1444297114181 Grid.java
+CompilationAction 1444297179824 Grid.java
+CompilationAction 1444297179825 Grid.java
+CompilationAction 1444297179986 Grid.java
+CompilationAction 1444297179987 Grid.java
+RefactoringAction 1444297224767 Grid.java ADD void println() METHOD
+RefactoringAction 1444297227276 Grid.java RENAME println()=>void print() METHOD
+RefactoringAction 1444297228784 Grid.java REMOVE print() METHOD
+CompilationAction 1444297324754 Grid.java
+CompilationAction 1444297324754 Grid.java
+CompilationAction 1444297324915 Grid.java
+CompilationAction 1444297324916 Grid.java
+EditAction 1444297405253 TestCell.java 316 1 0 0
