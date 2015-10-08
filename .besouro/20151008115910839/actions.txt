@@ -70,3 +70,5 @@ CompilationAction 1444295238960 TestGrid.java
 RefactoringAction 1444295242617 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
 RefactoringAction 1444295246734 Grid.java ADD int getSize() METHOD
 EditAction 1444295254171 Grid.java 112 1 1 0
+CompilationAction 1444295254423 TestGrid.java
+EditAction 1444295262267 TestGrid.java 328 1 3 1
