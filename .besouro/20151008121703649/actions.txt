@@ -294,3 +294,8 @@ EditAction 1444300517361 TestGrid.java 558 3 5 1
 UnitTestCaseAction 1444300520647 TestGrid.java OK
 UnitTestSessionAction 1444300520647 TestGrid.testCreateGrid OK
 EditAction 1444300576944 TestGrid.java 610 3 6 2
+UnitTestCaseAction 1444300581618 TestGrid.java FAIL
+UnitTestSessionAction 1444300581619 TestGrid FAIL
+RefactoringAction 1444300663658 TestCell.java ADD void getStatusOfCell() METHOD
+RefactoringAction 1444300680918 TestCell.java RENAME getStatusOfCell()=>void getStateOfCell() METHOD
+EditAction 1444300702679 TestCell.java 645 4 7 3

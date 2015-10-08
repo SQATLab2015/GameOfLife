@@ -15,6 +15,14 @@ public class TestCell {
 	{
 		cell = new Cell("Alive");
 	}
+	
+	@Test
+	public void getStateOfCell()
+	{
+		String actual = cell.getState();
+		
+		assertEquals("Alive", actual);
+	}
 
 	@Test
 	public void testLiveCellWithNoNeighborDies()
