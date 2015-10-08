@@ -35,6 +35,7 @@ public class TestGrid {
 		grid.createGrid(10);
 		
 		String actual;
+		System.out.println("Ayy");
 		//actual = grid.allCells.get(0)[0].getState();
 		
 		//actual = grid.allCells.get(0)[0].getState();
