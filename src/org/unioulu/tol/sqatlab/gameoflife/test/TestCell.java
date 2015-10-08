@@ -20,11 +20,11 @@ public class TestCell {
 	public void testSetCellStateToAliveFromInitialState() {
 		Cell cell = new Cell();
 		
-		cell.setState(Cell.CELL_STATE_DEAD);
+		cell.setState(Cell.CELL_STATE_ALIVE);
 		
 		int state = cell.getState();
 		
-		assertEquals(Cell.CELL_STATE_DEAD, state);
+		assertEquals(Cell.CELL_STATE_ALIVE, state);
 	}
 
 }

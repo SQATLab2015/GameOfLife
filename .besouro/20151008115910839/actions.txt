@@ -54,3 +54,4 @@ EditAction 1444295104460 TestCell.java 557 2 7 2
 EditAction 1444295108581 TestCell.java 556 2 7 2
 RefactoringAction 1444295113320 TestCell.java RENAME testSetCellStateToDead()=>void testSetCellStateToAliveFrom() METHOD
 EditAction 1444295115161 TestCell.java 573 2 7 2
+EditAction 1444295123277 TestCell.java 575 2 7 2
