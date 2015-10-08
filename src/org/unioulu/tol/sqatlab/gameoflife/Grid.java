@@ -49,7 +49,7 @@ public class Grid {
 		//CHECK TOP NEIGHBORS
 		if(x > 0 && y > 0) {
 			//NE neighbor
-			id = y * size + x 
+			id = y * size + x;
 		}
 		
 		if(x == size-1) {
