@@ -1,0 +1,8 @@
+FileOpenedAction 1444292711120 TestCell.java 214 1 1 0
+RefactoringAction 1444292726004 TestCell.java ADD void test_isCellAlive FIELD
+RefactoringAction 1444292728532 TestCell.java RENAME test_isCellAlive=>void test_isCellAlive() METHOD
+RefactoringAction 1444292748358 TestCell.java ADD void initialize() METHOD
+RefactoringAction 1444292765074 TestCell.java RENAME initialize()=>void initializeCell() METHOD
+RefactoringAction 1444292789152 TestCell.java ADD Cell testCell FIELD
+RefactoringAction 1444292801622 TestCell.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+EditAction 1444292831199 TestCell.java 471 3 3 0
