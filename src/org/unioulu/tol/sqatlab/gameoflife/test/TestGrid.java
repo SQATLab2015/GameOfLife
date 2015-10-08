@@ -36,7 +36,13 @@ public class TestGrid {
 	
 	@Test
 	public void test_getCellStatusFromGrid () {
-		
+		initializeGrid   ( 50, 50 );
+		String str = testGrid.getCellStatus ( 20, 10 );
+		if (str == "*" || str == "-") {
+			assert(true);
+		} else {
+			fail("Life of a cell was not * or -.")
+		}
 	}
 	
 }

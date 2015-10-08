@@ -252,3 +252,7 @@ RefactoringAction 1444297991889 Grid.java ADD String getCell FIELD
 RefactoringAction 1444297991890 Grid.java ADD void Status(int, int) METHOD
 RefactoringAction 1444298001919 Grid.java RENAME getCell=>String getCellStatus FIELD
 EditAction 1444298015025 Grid.java 688 5 8 0
+CompilationAction 1444298018437 Grid.java
+CompilationAction 1444298018437 Grid.java
+CompilationAction 1444298022099 Grid.java
+EditAction 1444298152308 TestGrid.java 1076 5 9 2

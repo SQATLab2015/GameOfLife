@@ -32,7 +32,7 @@ public class Grid {
 		return gridArray[x][y];
 	}
 	
-	public String getCellStatus Status ( int x, int y ) {
+	public String getCellStatus ( int x, int y ) {
 		return getCell(x,y).getStatus();
 	}
 	
