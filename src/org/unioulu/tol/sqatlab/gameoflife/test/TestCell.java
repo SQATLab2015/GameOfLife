@@ -15,7 +15,7 @@ public class TestCell {
 
 		String[] life = new String[] {"-", "-", "-", "-", "-", "-", "-", "-", "-"};
 		int rowLenght = 3;
-		String str = Arrays.toString(life);
+		String str = Arrays.toString(life[0, 3]);
 		str = str.replace(",", "");
 		
 		System.out.println(str);
