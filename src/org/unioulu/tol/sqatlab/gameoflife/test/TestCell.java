@@ -39,8 +39,11 @@ public class TestCell {
 	}
 	
 	@Test
+	//Test to make sure that the cell can get both dead and alive
+	//status when it is created
 	public void test_randomCellStatusInitialization () {
-		boolean dead, alive = false;
+		boolean dead  = false; 
+		boolean alive = false;
 		while ( dead == false && alive == false ) {
 			initializeCell();
 			if (testCell.getStatus()) {

@@ -52,3 +52,8 @@ RefactoringAction 1444294633201 TestCell.java RENAME test_randomInitil=>void tes
 RefactoringAction 1444294635214 TestCell.java RENAME test_randomCellStatus=>void test_randomCellStatusInitia FIELD
 RefactoringAction 1444294639725 TestCell.java RENAME test_randomCellStatusInitia=>void test_randomCellStatusInitialization() METHOD
 EditAction 1444295033600 TestCell.java 1171 5 15 3
+CompilationAction 1444295037302 TestCell.java
+CompilationAction 1444295049401 TestCell.java
+CompilationAction 1444295049622 TestCell.java
+CompilationAction 1444295067703 TestCell.java
+EditAction 1444295097049 TestCell.java 1286 5 16 3
