@@ -1,0 +1,12 @@
+FileOpenedAction 1444293966864 GameOfLife.java 74 0 0 0
+UnitTestCaseAction 1444293975496 TestGrid.java FAIL
+UnitTestSessionAction 1444293975506 TestGrid FAIL
+FileOpenedAction 1444295659586 Cell.java 68 0 0 0
+FileOpenedAction 1444295661104 Grid.java 68 0 0 0
+FileOpenedAction 1444295662831 TestCell.java 200 1 1 0
+FileOpenedAction 1444295664010 TestGrid.java 199 1 1 0
+RefactoringAction 1444296002419 TestCell.java RENAME test()=>void testLiveCell() METHOD
+RefactoringAction 1444296005490 TestCell.java RENAME testLiveCell()=>void testLiveCellWith() METHOD
+RefactoringAction 1444296009583 TestCell.java RENAME testLiveCellWith()=>void testLiveCellWithNoNeig() METHOD
+RefactoringAction 1444296012707 TestCell.java RENAME testLiveCellWithNoNeig()=>void testLiveCellWithNoNeighborDies() METHOD
+EditAction 1444297390153 TestCell.java 288 1 0 0

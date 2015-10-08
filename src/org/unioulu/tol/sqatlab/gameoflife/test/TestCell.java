@@ -7,8 +7,10 @@ import org.junit.Test;
 public class TestCell {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testLiveCellWithNoNeighborDies() {
+		Cell cell = new Cell("Alive");
+		cell.update(0);
+		assertEquals.("Dead", cell.getState());
 	}
 
 }
