@@ -9,6 +9,8 @@ public class Grid {
 	
 	private int size;
 	
+	private int life[][]
+	
 	public Grid() {
 		this.size = 10;
 	}

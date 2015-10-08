@@ -28,7 +28,7 @@ public class TestGrid {
 	public void testCheckNeighborsExpectLessThanTwoAlive() {
 		Grid grid = new Grid();
 		
-		int aliveNeighbors = grid.checkCell(0,0);
+		int aliveNeighbors = grid.checkCellNeighbors(0,0);
 		
 		assertEquals(Grid.NEIGHBOR_STATE_LESS_THAN_TWO, aliveNeighbors);
 	}
