@@ -10,4 +10,9 @@ public class Cell {
 		return 1;
 	}
 
+	public void setState(int state) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

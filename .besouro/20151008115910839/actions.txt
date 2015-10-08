@@ -32,3 +32,6 @@ CompilationAction 1444294970939 TestCell.java
 CompilationAction 1444294976645 TestCell.java
 CompilationAction 1444294976811 TestCell.java
 EditAction 1444294989482 TestCell.java 558 2 7 2
+CompilationAction 1444294989746 TestCell.java
+RefactoringAction 1444294993154 Cell.java ADD void setState(int) METHOD
+EditAction 1444294997082 Cell.java 286 2 1 0
