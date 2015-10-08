@@ -55,7 +55,7 @@ public class Grid {
 		}
 		
 		if(y == 0) {
-			
+			//CELL AT TOP EDGE OF GRID
 		}
 		
 		return 0;
