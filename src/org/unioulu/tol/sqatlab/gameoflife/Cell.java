@@ -4,6 +4,7 @@ public class Cell {
 
 	public String status;
 	
+	
 	public Cell(String status) 
 	{
 		this.setStatus(status);
