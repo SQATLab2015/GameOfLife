@@ -1,0 +1,34 @@
+FileOpenedAction 1444293975520 Grid.java 68 0 0 0
+RefactoringAction 1444294005597 Grid.java ADD int size FIELD
+RefactoringAction 1444294016146 Grid.java ADD Cell FIELD
+RefactoringAction 1444294098531 Grid.java ADD int Grid FIELD
+RefactoringAction 1444294102057 Grid.java RENAME Grid=>int Grid() METHOD
+RefactoringAction 1444294104076 Grid.java RENAME Grid()=>int Grid FIELD
+RefactoringAction 1444294106587 Grid.java REMOVE Grid FIELD
+RefactoringAction 1444294145116 Grid.java ADD Grid() METHOD
+RefactoringAction 1444294151656 Grid.java RENAME Grid()=>Grid(int) METHOD
+FileOpenedAction 1444294208411 TestCell.java 200 1 1 0
+FileOpenedAction 1444294210377 TestGrid.java 199 1 1 0
+RefactoringAction 1444294245001 TestCell.java ADD void Test FIELD
+RefactoringAction 1444294246518 TestCell.java RENAME Test=>void TestCell FIELD
+RefactoringAction 1444294249034 TestCell.java RENAME TestCell=>void TestCellIsDead FIELD
+RefactoringAction 1444294254049 TestCell.java RENAME TestCellIsDead=>void TestCellIsDead() METHOD
+RefactoringAction 1444294359476 TestCell.java ADD void TestCell FIELD
+RefactoringAction 1444294361993 TestCell.java RENAME TestCell=>void TestCellIsAlive FIELD
+RefactoringAction 1444294366006 TestCell.java RENAME TestCellIsAlive=>void TestCellIsAlive() METHOD
+RefactoringAction 1444294418627 TestCell.java ADD import org.junit.Before IMPORT
+RefactoringAction 1444294427832 TestCell.java ADD void setup() METHOD
+RefactoringAction 1444294500969 Cell.java ADD boolean status FIELD
+RefactoringAction 1444294525184 Cell.java ADD void cellIsdead() METHOD
+RefactoringAction 1444294583796 Cell.java RENAME cellIsdead()=>void cellIsDead() METHOD
+RefactoringAction 1444294598842 Cell.java ADD void Cell FIELD
+RefactoringAction 1444294602354 Cell.java RENAME Cell=>void cell FIELD
+RefactoringAction 1444294604866 Cell.java RENAME cell=>void cellIsAlive FIELD
+RefactoringAction 1444294606380 Cell.java RENAME cellIsAlive=>void cellIsAlive() METHOD
+RefactoringAction 1444294895422 TestCell.java RENAME import packag=>import org.unioulu.tol.sqatlab.gameoflife IMPORT
+RefactoringAction 1444294922451 TestCell.java RENAME import org.junit.Assert.fail=>import org.junit.Assert.* IMPORT
+RefactoringAction 1444295042046 TestCell.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+RefactoringAction 1444295048222 TestCell.java RENAME import org.unioulu.tol.sqatlab.gameoflife=>import org.unioulu.tol.sqatlab.gameoflife.* IMPORT
+RefactoringAction 1444295051738 TestCell.java REMOVE import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+RefactoringAction 1444295123533 TestCell.java ADD Cell testCell FIELD
+EditAction 1444295201242 TestCell.java 559 4 5 1
