@@ -6,6 +6,10 @@ public class Grid {
 
 	private static ArrayList<Integer>[][] gridArray = new ArrayList[0][0];
 	
+	public Grid() {
+		// ...
+	}
+	
 	public Grid(int width, int height) {
 		int i = 0;
 		int b = 0;
@@ -21,8 +25,8 @@ public class Grid {
 	}
 	
 	public String getSize () {
-		
-		
+		String str = gridArray.size() + "x" + gridArray[0].size()
+		return 
 	}
 	
 	

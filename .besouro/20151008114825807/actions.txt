@@ -158,3 +158,11 @@ CompilationAction 1444296897604 TestGrid.java
 CompilationAction 1444296897606 TestGrid.java
 RefactoringAction 1444296923535 Grid.java ADD string getSize() METHOD
 EditAction 1444296929098 Grid.java 419 2 3 0
+CompilationAction 1444296935051 Grid.java
+CompilationAction 1444296935052 TestGrid.java
+RefactoringAction 1444296950574 Grid.java ADD Grid() METHOD
+CompilationAction 1444296953812 Grid.java
+CompilationAction 1444296954056 Grid.java
+CompilationAction 1444296967137 Grid.java
+CompilationAction 1444296967349 Grid.java
+EditAction 1444297057716 Grid.java 518 3 3 0
