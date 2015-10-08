@@ -336,3 +336,6 @@ UnitTestCaseAction 1444299474674 TestGrid.java FAIL
 UnitTestSessionAction 1444299474675 TestGrid FAIL
 RefactoringAction 1444299491615 Grid.java ADD import java.util.Arrays IMPORT
 EditAction 1444299503340 Grid.java 676 5 8 0
+UnitTestCaseAction 1444299509635 TestGrid.java OK
+UnitTestSessionAction 1444299509637 TestGrid OK
+EditAction 1444299603289 GameOfLife.java 261 1 1 0

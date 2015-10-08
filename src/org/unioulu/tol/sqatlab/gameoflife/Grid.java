@@ -13,7 +13,6 @@ public class Grid {
 	public Grid(int width, int height) {
 		gridArray = new Cell[width][height];
 		int i = 0;
-		int b = 0;
 		
 		while ( i < width) {
 			Arrays.fill(gridArray[i], new Cell());
@@ -33,7 +32,6 @@ public class Grid {
 	
 	public String getCellStatus ( int x, int y ) {
 		return getCell(x,y).getStatus();
-
 	}
 	
 }
