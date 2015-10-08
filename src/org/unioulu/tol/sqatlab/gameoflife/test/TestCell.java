@@ -14,6 +14,7 @@ public class TestCell {
 	//	assertEquals.("Dead", cell.getState());
 
 		String[] life = new String[] {"-", "-", "-", "-", "-", "-", "-", "-", "-"};
+		int rowLenght = 3;
 		String str = Arrays.toString(life);
 		str = str.replace(",", "");
 		
