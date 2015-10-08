@@ -13,7 +13,7 @@ public class Cell {
 		}
 	}
 	
-	public boolean getStatus () {
+	public String getStatus () {
 		return Life;
 	}
 	

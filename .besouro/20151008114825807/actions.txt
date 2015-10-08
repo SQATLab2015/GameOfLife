@@ -231,3 +231,15 @@ RefactoringAction 1444297660485 Cell.java REMOVE isAlive FIELD
 RefactoringAction 1444297662991 Cell.java ADD String life FIELD
 RefactoringAction 1444297666496 Cell.java RENAME life=>String Life FIELD
 EditAction 1444297704989 Cell.java 414 4 4 0
+CompilationAction 1444297708458 Cell.java
+CompilationAction 1444297716666 Cell.java
+CompilationAction 1444297716930 TestCell.java
+CompilationAction 1444297775901 TestCell.java
+UnitTestCaseAction 1444297777017 TestCell.java OK
+UnitTestSessionAction 1444297777018 TestCell OK
+RefactoringAction 1444297837867 TestGrid.java ADD void test_get FIELD
+RefactoringAction 1444297840377 TestGrid.java RENAME test_get=>void test_getCellStatus FIELD
+RefactoringAction 1444297841885 TestGrid.java RENAME test_getCellStatus=>void test_getCellStatu FIELD
+RefactoringAction 1444297844394 TestGrid.java RENAME test_getCellStatu=>void test_getCellStatusFromGrid FIELD
+RefactoringAction 1444297846902 TestGrid.java RENAME test_getCellStatusFromGrid=>void test_getCellStatusFromGrid() METHOD
+EditAction 1444297848208 TestGrid.java 884 5 9 2

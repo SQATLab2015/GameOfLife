@@ -34,4 +34,9 @@ public class TestGrid {
 		testGrid.getCell(10,10);
 	}
 	
+	@Test
+	public void test_getCellStatusFromGrid () {
+		
+	}
+	
 }

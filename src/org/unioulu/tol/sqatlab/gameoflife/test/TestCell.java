@@ -17,16 +17,16 @@ public class TestCell {
 	@Test
 	public void test_getCellStatus () {
 		initializeCell();
-		boolean r = testCell.getStatus();
-		assertEquals( ((Object)r).getClass().getName(),  "java.lang.Boolean" );
+		String r = testCell.getStatus();
+		assertEquals( ((Object)r).getClass().getName(),  "java.lang.String" );
 	}
 	
 	@Test
 	public void test_setToAliveAndReturnStatus() {
 		initializeCell();
 		testCell.setToAlive();
-		boolean r = testCell.getStatus();
-		assertEquals ( r, true );
+		String r = testCell.getStatus();
+		assertEquals ( r, "*" );
 	}
 	
 	@Test
@@ -34,8 +34,8 @@ public class TestCell {
 		initializeCell();
 		testCell.setToAlive();
 		testCell.setToDead();
-		boolean r = testCell.getStatus();
-		assertEquals ( r, false );
+		String r = testCell.getStatus();
+		assertEquals ( r, "-" );
 	}
 	
 	@Test
@@ -47,7 +47,7 @@ public class TestCell {
 		boolean alive = false;
 		while ( dead == false && alive == false ) {
 			initializeCell();
-			if (testCell.getStatus()) {
+			if (testCell.getStatus() == "*") {
 				alive = true;
 			} else {
 				dead = true;
