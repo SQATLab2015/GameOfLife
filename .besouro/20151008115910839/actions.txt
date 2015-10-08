@@ -9,3 +9,6 @@ CompilationAction 1444294817954 TestCell.java
 CompilationAction 1444294830264 TestCell.java
 CompilationAction 1444294830437 TestCell.java
 EditAction 1444294848132 TestCell.java 318 1 3 1
+CompilationAction 1444294848367 TestCell.java
+RefactoringAction 1444294854420 Cell.java ADD int getState() METHOD
+EditAction 1444294861969 Cell.java 112 1 1 0
