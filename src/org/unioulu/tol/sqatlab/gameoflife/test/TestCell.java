@@ -21,7 +21,7 @@ public class TestCell {
 	{
 		String actual = cell.getState();
 		
-		assertEquals("Dead", actual);
+		assertEquals("Alive", actual);
 	}
 
 	@Test
