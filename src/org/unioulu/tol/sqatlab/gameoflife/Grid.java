@@ -2,17 +2,19 @@ package org.unioulu.tol.sqatlab.gameoflife;
 
 public class Grid {
 
+	private int size;
+	
 	public Grid() {
 		this.size = 10;
 	}
 	
 	public Grid(int size) {
-		// TODO Auto-generated constructor stub
+		this.size = size;
 	}
 
 	public int getSize() {
 		
-		return 10;
+		return size;
 	}
 
 }

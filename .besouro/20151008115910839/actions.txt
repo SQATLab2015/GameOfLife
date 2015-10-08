@@ -92,3 +92,9 @@ EditAction 1444295384050 Grid.java 152 2 2 0
 CompilationAction 1444295384317 Grid.java
 RefactoringAction 1444295388392 Grid.java ADD Grid(int) METHOD
 EditAction 1444295394393 Grid.java 223 3 2 0
+CompilationAction 1444295394644 Grid.java
+CompilationAction 1444295404769 Grid.java
+CompilationAction 1444295408916 Grid.java
+UnitTestCaseAction 1444295416797 TestGrid.java FAIL
+UnitTestSessionAction 1444295416798 TestGrid FAIL
+EditAction 1444295424822 Grid.java 224 3 3 0
