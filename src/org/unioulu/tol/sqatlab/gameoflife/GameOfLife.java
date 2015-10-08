@@ -7,7 +7,7 @@ public class GameOfLife {
 	public static void main(String [] args)
 	{
 		grid = new Grid();
-		grid.createGrid(5, 5);
+		grid.createGrid(5);
 	}
 	
 }
