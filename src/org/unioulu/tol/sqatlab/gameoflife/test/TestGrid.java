@@ -39,6 +39,6 @@ public class TestGrid {
 		
 		int aliveNeighbors = grid.checkCellNeighbors(1, 1);
 		
-		assertEquals(Grid.NEIGHBOR_STATE_THREE, alive);
+		assertEquals(Grid.NEIGHBOR_STATE_THREE, aliveNeighbors);
 	}
 }

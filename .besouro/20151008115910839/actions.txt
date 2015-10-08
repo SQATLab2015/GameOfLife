@@ -185,3 +185,8 @@ RefactoringAction 1444297205202 TestGrid.java RENAME testCheckNeighbors=>void te
 EditAction 1444297212317 TestGrid.java 760 4 9 3
 EditAction 1444297226469 TestGrid.java 840 4 11 3
 EditAction 1444297237325 TestGrid.java 893 4 12 4
+CompilationAction 1444297237575 TestGrid.java
+CompilationAction 1444297239585 TestGrid.java
+UnitTestCaseAction 1444297242751 TestGrid.java FAIL
+UnitTestSessionAction 1444297242752 TestGrid FAIL
+EditAction 1444297295319 Grid.java 736 5 6 0
