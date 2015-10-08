@@ -30,7 +30,7 @@ public class Grid {
 	}
 	
 	private void initGrid(int size) {
-		int totalCells = size * 10;
+		int totalCells = size * size;
 	}
 
 	public int getSize() {
