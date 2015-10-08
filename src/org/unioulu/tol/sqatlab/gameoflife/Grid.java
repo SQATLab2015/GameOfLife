@@ -12,7 +12,7 @@ public class Grid {
 	public List<List<Cell>> allCells = null;
 	
 	
-	public void createGrid()
+	public int createGrid()
 	{
 		for(int i = 0; i<rowAmount; i++) 
 		{
