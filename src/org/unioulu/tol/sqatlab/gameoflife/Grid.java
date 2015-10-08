@@ -29,8 +29,8 @@ public class Grid {
 		}
 	}
 	
-	private void initGrid() {
-		
+	private void initGrid(int size) {
+		int totalCells = size * 10;
 	}
 
 	public int getSize() {
