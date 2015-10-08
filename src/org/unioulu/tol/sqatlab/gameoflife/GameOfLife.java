@@ -10,33 +10,13 @@ public class GameOfLife {
 	public static void main(String [] args) {
 		while (running) {
 			
-			int w,h;
-			w=askPositiveInteger("grid width");
-			h=askPositiveInteger("grid height");
 			
-			gameGrid = new Grid(w,h);
+			gameGrid = new Grid(50,50);
 			
 			running = false;
 		}
 	}
 	
-	public static int askPositiveInteger (String message) {
-		int num = -1;
-		Scanner scan = new Scanner(System.in);
-		do {
-			println("Please enter " + message + " (positive integer).");
-			print("> ");
-			
-			if (scan.hasNextInt()) {
-				num = scan.nextInt();
-			} else {
-				println("Your input was not a positive integer. Try again.");
-				scan.nextLine();
-			}
-		} while (num <= 0);
-		scan.close();
-		return num;
-	}
 	
 	public static void println(String str) {
 		System.out.println(str);
