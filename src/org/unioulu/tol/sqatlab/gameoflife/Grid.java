@@ -14,6 +14,7 @@ public class Grid {
 	public Cell[] cellArray = new Cell[columnAmount];
 	public List<Cell[]> allCells = null;
 	
+	
 	public Grid(int rowAmount, int columnAmount) 
 	{
 		this.rowAmount = rowAmount;

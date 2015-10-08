@@ -196,3 +196,5 @@ RefactoringAction 1444299148981 Grid.java RENAME C(String)=>Grid(String) METHOD
 RefactoringAction 1444299152495 Grid.java RENAME Grid(String)=>Grid(int) METHOD
 RefactoringAction 1444299161509 Grid.java RENAME Grid(int)=>Grid(int, int) METHOD
 EditAction 1444299191210 Grid.java 568 2 4 0
+CompilationAction 1444299191469 TestGrid.java
+EditAction 1444299192418 Grid.java 570 2 4 0
