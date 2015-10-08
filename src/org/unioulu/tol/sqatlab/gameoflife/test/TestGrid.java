@@ -28,6 +28,7 @@ public class TestGrid {
 	private Object getMarks() {
 		//Array to string list
 		//check if only * and - then return true
+		Grid.setCharacters();
 	if (Grid.getArrayAsList().matches("*-")){
 		return true;
 	} else return false;
