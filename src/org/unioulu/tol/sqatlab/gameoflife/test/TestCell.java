@@ -3,6 +3,9 @@ package org.unioulu.tol.sqatlab.gameoflife.test;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import java.util.Set;
+import java.util.Arrays;
+import java.util.HashSet;
 
 public class TestCell {
 
@@ -13,8 +16,8 @@ public class TestCell {
 	//	assertEquals.("Dead", cell.getState());
 		String life = "----------------------------------------------------------------------------------------------------";
 		String realLife[] = {"-", "*"};
-		System.out.print(realLife);
-
+		Set lifeSet = new HashSet(Arrays.asList(realLife));
+		System.out.print(lifeSet);
 	}
 
 }
