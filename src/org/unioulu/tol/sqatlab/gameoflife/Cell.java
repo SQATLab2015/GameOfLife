@@ -6,8 +6,12 @@ public class Cell {
 	public int neighbours;
 		
 	public void update(int neighbours) {
-		if (neighbours == 0) {
+		if (neighbours < 2) {
 			setStatus(false);
+		}
+		else if (neighbours == 2 || neighbours == 3) {
+			setStatus(true);
+			
 		}
 			
 		
