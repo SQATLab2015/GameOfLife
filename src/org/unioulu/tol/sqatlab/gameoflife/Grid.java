@@ -42,7 +42,7 @@ public class Grid {
 
 		//CHECK GRID BORDERS
 		int id = y * size + x;
-		if(id % size) {
+		if(id % size == 0) {
 			
 		}
 		
