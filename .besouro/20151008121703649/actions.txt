@@ -38,3 +38,6 @@ RefactoringAction 1444296401641 Cell.java ADD String getName() METHOD
 RefactoringAction 1444296401643 Cell.java ADD void setName(String) METHOD
 RefactoringAction 1444296419721 Cell.java RENAME getName()=>String getStatus() METHOD
 EditAction 1444296480236 Cell.java 386 4 4 0
+CompilationAction 1444296480573 TestCell.java
+RefactoringAction 1444296485004 Cell.java RENAME setName(String)=>void setStatus(String) METHOD
+EditAction 1444296485410 Cell.java 388 4 4 0

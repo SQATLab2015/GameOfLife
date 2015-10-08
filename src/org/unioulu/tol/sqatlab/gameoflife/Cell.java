@@ -12,7 +12,7 @@ public class Cell {
 		return status;
 	}
 	
-	public void setName(String status) {
+	public void setStatus(String status) {
 		this.status = status;
 	}
 	
