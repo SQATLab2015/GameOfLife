@@ -11,3 +11,20 @@ RefactoringAction 1444296009583 TestCell.java RENAME testLiveCellWith()=>void te
 RefactoringAction 1444296012707 TestCell.java RENAME testLiveCellWithNoNeig()=>void testLiveCellWithNoNeighborDies() METHOD
 EditAction 1444297390153 TestCell.java 288 1 0 0
 EditAction 1444297390536 TestGrid.java 201 1 0 0
+CompilationAction 1444297391088 TestCell.java
+CompilationAction 1444297391088 TestCell.java
+CompilationAction 1444297391089 TestCell.java
+CompilationAction 1444297391090 TestCell.java
+CompilationAction 1444297416421 TestCell.java
+CompilationAction 1444297416424 TestCell.java
+CompilationAction 1444297416629 TestCell.java
+CompilationAction 1444298440123 TestCell.java
+UnitTestCaseAction 1444298443607 TestCell.java OK
+UnitTestSessionAction 1444298443616 TestCell OK
+RefactoringAction 1444299029333 Cell.java ADD int isAlive FIELD
+RefactoringAction 1444299187221 Cell.java REMOVE isAlive FIELD
+RefactoringAction 1444299197311 Cell.java ADD String name FIELD
+RefactoringAction 1444299252271 Cell.java RENAME name=>String state FIELD
+RefactoringAction 1444299272334 Cell.java ADD String getName() METHOD
+RefactoringAction 1444299277395 Cell.java RENAME getName()=>String getState() METHOD
+EditAction 1444299289128 TestCell.java 470 1 5 1
