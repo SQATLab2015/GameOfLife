@@ -51,3 +51,4 @@ RefactoringAction 1444300269758 Cell.java ADD void setNeighbour(int) METHOD
 RefactoringAction 1444300269758 Cell.java ADD String getState() METHOD
 RefactoringAction 1444300269758 Cell.java ADD void setState(String) METHOD
 EditAction 1444300380159 Grid.java 403 1 1 0
+EditAction 1444300380237 Cell.java 713 5 10 0
