@@ -6,11 +6,18 @@ import org.junit.Test;
 import org.unioulu.tol.sqatlab.gameoflife.Cell;
 
 public class TestCell {
+	
+	public Cell cell;
+	
+	@Before
+	public void init()
+	{
+		Cell cell = new Cell("Alive");
+	}
 
 	@Test
 	public void testLiveCellWithNoNeighborDies()
 	{
-		Cell cell = new Cell("Alive");
 		cell.update(0);
 		assertEquals("Dead", cell.getState());
 	}
@@ -18,7 +25,6 @@ public class TestCell {
 	@Test
 	public void testLiveCellWithTwoNeighborLives()
 	{
-		Cell cell = new Cell("Alive");
 		cell.update(2);
 		assertEquals("Alive", cell.getState());
 	}
