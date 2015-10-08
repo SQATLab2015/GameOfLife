@@ -256,3 +256,8 @@ CompilationAction 1444298018437 Grid.java
 CompilationAction 1444298018437 Grid.java
 CompilationAction 1444298022099 Grid.java
 EditAction 1444298152308 TestGrid.java 1076 5 9 2
+CompilationAction 1444298155704 TestGrid.java
+RefactoringAction 1444298292906 GameOfLife.java ADD Boolean running FIELD
+RefactoringAction 1444298319924 GameOfLife.java ADD void main FIELD
+RefactoringAction 1444298321928 GameOfLife.java RENAME main=>void main() METHOD
+EditAction 1444298334053 GameOfLife.java 201 1 1 0
