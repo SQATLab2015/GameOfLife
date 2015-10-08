@@ -18,6 +18,10 @@ public class TestGrid {
 	@Test
 	public void testCreateGridAtSize20by20() {
 		Grid grid = new Grid(20);
+		
+		int size = grid.getSize();
+		
+		assertEquals(20, size);
 	}
 
 }
