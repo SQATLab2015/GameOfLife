@@ -29,6 +29,7 @@ public class TestGrid {
 		//Array to string list
 		//check if only * and - then return true
 		Grid.setCharacters();
+		System.out.println(Grid.getArrayAsList());
 	if (Grid.getArrayAsList().matches("x")){
 		return true;
 	} else return false;
