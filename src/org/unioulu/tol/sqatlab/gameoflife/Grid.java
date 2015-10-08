@@ -13,13 +13,13 @@ public class Grid {
 		int i = 0;
 		int b = 0;
 		
-		/*while ( i < width) {
+		while ( i < width) {
 			while ( b < height ) {
 				temp[i][b] = new Cell();
 				b++;
 			}
 			i++;
-		}*/
+		}
 		
 		gridArray = temp;
 	}
