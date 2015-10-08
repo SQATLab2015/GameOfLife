@@ -167,3 +167,13 @@ CompilationAction 1444297081614 Grid.java
 CompilationAction 1444297081614 Grid.java
 CompilationAction 1444297081614 Grid.java
 EditAction 1444297095008 Grid.java 668 4 5 0
+CompilationAction 1444297095267 Grid.java
+CompilationAction 1444297095268 Grid.java
+CompilationAction 1444297095268 Grid.java
+RefactoringAction 1444297133741 Grid.java REMOVE life FIELD
+RefactoringAction 1444297141271 Grid.java ADD import java.util.Vector IMPORT
+CompilationAction 1444297143284 Grid.java
+CompilationAction 1444297143284 Grid.java
+CompilationAction 1444297144666 Grid.java
+CompilationAction 1444297144666 Grid.java
+EditAction 1444297155408 Grid.java 685 4 7 0

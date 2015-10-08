@@ -1,5 +1,7 @@
 package org.unioulu.tol.sqatlab.gameoflife;
 
+import java.util.Vector;
+
 public class Grid {
 
 	public static final int NEIGHBOR_STATE_LESS_THAN_TWO = 0;
@@ -9,14 +11,12 @@ public class Grid {
 	
 	private int size;
 	
-	private int life[];
+	private Vector<Cell> grid;
 	
 	public Grid() {
 		this.size = 10;
 		
-		int totalCell = 10 * 10;
-		
-		life[][] = 
+		int totalCells = 10 * 10;
 	}
 	
 	public Grid(int size) {
