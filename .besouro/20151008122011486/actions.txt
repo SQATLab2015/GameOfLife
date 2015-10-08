@@ -96,3 +96,6 @@ RefactoringAction 1444300216318 TestGrid.java REMOVE Object FIELD
 CompilationAction 1444300272714 TestGrid.java
 CompilationAction 1444300272714 TestGrid.java
 EditAction 1444300273661 Grid.java 380 2 4 0
+UnitTestCaseAction 1444300273992 TestGrid.java FAIL
+UnitTestSessionAction 1444300273992 TestGrid FAIL
+EditAction 1444300320661 TestGrid.java 718 3 3 2
