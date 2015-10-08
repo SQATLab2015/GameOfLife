@@ -52,7 +52,11 @@ public class TestCell {
 		assertEquals(true, testCell.isStatus());
 	}
 	
-
+	@Test
+	public void TestCellWithThreeNeighboursLives() {
+		testCell.update(3);
+		assertEquals(true, testCell.isStatus());	
+	}
 	
 
 
