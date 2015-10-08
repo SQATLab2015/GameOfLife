@@ -28,4 +28,10 @@ public class TestGrid {
 		assertEquals(size, "50x43");
 	}
 	
+	@Test
+	public void test_getCell () {
+		initializeGrid ( 50, 50 );
+		testGrid.GetCell(10,10);
+	}
+	
 }

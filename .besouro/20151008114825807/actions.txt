@@ -193,3 +193,8 @@ RefactoringAction 1444297199464 TestGrid.java RENAME test_createA10By10Grid()/2=
 RefactoringAction 1444297200975 TestGrid.java RENAME test_createA50By10Grid()=>void test_createA50ByGrid() METHOD
 EditAction 1444297201937 TestGrid.java 706 3 7 2
 EditAction 1444297213578 TestGrid.java 706 3 7 2
+UnitTestCaseAction 1444297221559 TestGrid.java OK
+UnitTestSessionAction 1444297221561 TestGrid OK
+RefactoringAction 1444297266077 TestGrid.java ADD void test_ FIELD
+RefactoringAction 1444297273587 TestGrid.java RENAME test_=>void test_getCell() METHOD
+EditAction 1444297300237 TestGrid.java 811 4 9 2
