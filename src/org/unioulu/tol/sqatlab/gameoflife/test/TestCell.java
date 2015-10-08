@@ -12,16 +12,6 @@ public class TestCell {
 		//cell.update(0);
 		assertEquals("Dead", cell.getState());
 		
-		/*Cell cell = new Cell("Alive");
-		String state = "";
-		Boolean hasNeighbors = false;
-		
-		if(hasNeighbors = false){
-			state = "Dead";
-		}
-		
-		assertEquals("Dead", state);*/
-		
 	}
 
 }
