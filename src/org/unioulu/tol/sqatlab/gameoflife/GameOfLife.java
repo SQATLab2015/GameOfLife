@@ -7,7 +7,7 @@ public class GameOfLife {
 	private static Boolean running = true;
 	private static Grid gameGrid;
 	
-	public void main () {
+	public static void main () {
 		while (running) {
 			
 			int w,h;
@@ -20,7 +20,7 @@ public class GameOfLife {
 		}
 	}
 	
-	public int askPositiveInteger (String message) {
+	public static int askPositiveInteger (String message) {
 		int num = -1;
 		Scanner scan = new Scanner(System.in);
 		do {
@@ -36,11 +36,11 @@ public class GameOfLife {
 		return num;
 	}
 	
-	public void println(String str) {
+	public static void println(String str) {
 		System.out.println(str);
 	}
 	
-	public void print(String str) {
+	public static void print(String str) {
 		System.out.print(str);
 	}
 
