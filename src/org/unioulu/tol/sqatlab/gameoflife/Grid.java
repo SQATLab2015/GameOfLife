@@ -15,8 +15,6 @@ public class Grid {
 
 		Arrays.fill(gridArray,new Cell());
 		
-		
-		gridArray = temp;
 	}
 	
 	public String getSize () {
