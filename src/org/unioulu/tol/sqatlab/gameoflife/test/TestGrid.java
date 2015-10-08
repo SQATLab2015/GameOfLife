@@ -10,6 +10,8 @@ public class TestGrid {
 		Grid grid = new Grid();
 		
 		int size = grid.getSize();
+		
+		assertEquals(10, size);
 	}
 
 }
