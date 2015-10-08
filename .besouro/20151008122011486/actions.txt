@@ -1,0 +1,137 @@
+FileOpenedAction 1444296011755 Cell.java 68 0 0 0
+FileOpenedAction 1444296030153 TestCell.java 200 1 1 0
+RefactoringAction 1444296058177 TestCell.java RENAME test()=>void testLiveCellWithNO() METHOD
+RefactoringAction 1444296059695 TestCell.java RENAME testLiveCellWithNO()=>void testLiveCellWithNoNei() METHOD
+RefactoringAction 1444296060710 TestCell.java RENAME testLiveCellWithNoNei()=>void testLiveCellWithNoNeigbh() METHOD
+RefactoringAction 1444296061725 TestCell.java RENAME testLiveCellWithNoNeigbh()=>void testLiveCellWithNoNei() METHOD
+RefactoringAction 1444296063239 TestCell.java RENAME testLiveCellWithNoNei()=>void testLiveCellWithNoNeighbours() METHOD
+RefactoringAction 1444296066255 TestCell.java RENAME testLiveCellWithNoNeighbours()=>void testLiveCellWithNoNeighbo() METHOD
+RefactoringAction 1444296067269 TestCell.java RENAME testLiveCellWithNoNeighbo()=>void testLiveCellWithNoNeighbor() METHOD
+RefactoringAction 1444296068782 TestCell.java RENAME testLiveCellWithNoNeighbor()=>void testLiveCellWithNoNeighborDies() METHOD
+FileOpenedAction 1444296264689 Grid.java 68 0 0 0
+FileOpenedAction 1444296275697 TestGrid.java 199 1 1 0
+RefactoringAction 1444296288699 TestGrid.java RENAME test()=>void testIsGrid() METHOD
+RefactoringAction 1444296298211 TestGrid.java RENAME testIsGrid()=>void testIsGridSameAmountColumsAndRows() METHOD
+RefactoringAction 1444296710412 Grid.java ADD int FIELD
+RefactoringAction 1444296712920 Grid.java RENAME grid=>int FIELD
+RefactoringAction 1444296718932 Grid.java REMOVE array FIELD
+RefactoringAction 1444296719938 Grid.java ADD int FIELD
+RefactoringAction 1444296976097 Grid.java ADD int gridSize FIELD
+RefactoringAction 1444296987128 Grid.java REMOVE array FIELD
+RefactoringAction 1444297139798 Grid.java ADD int FIELD
+EditAction 1444297469680 Grid.java 156 0 0 0
+RefactoringAction 1444297564276 Grid.java ADD void get FIELD
+RefactoringAction 1444297572498 Grid.java REMOVE get FIELD
+RefactoringAction 1444297607071 Grid.java RENAME getArray=>int getArray() METHOD
+RefactoringAction 1444297724789 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+RefactoringAction 1444297728989 TestGrid.java REMOVE import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+RefactoringAction 1444297835897 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+EditAction 1444297845996 TestGrid.java 360 1 1 1
+CompilationAction 1444297846244 TestGrid.java
+RefactoringAction 1444297850076 TestGrid.java REMOVE import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+EditAction 1444297881286 Grid.java 225 1 2 0
+CompilationAction 1444297881564 TestGrid.java
+RefactoringAction 1444298039327 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+RefactoringAction 1444298075538 TestGrid.java ADD import grid.java IMPORT
+RefactoringAction 1444298080052 TestGrid.java RENAME import grid.java=>import Grid.java IMPORT
+RefactoringAction 1444298089076 TestGrid.java REMOVE import Grid.java IMPORT
+EditAction 1444298132063 TestGrid.java 365 1 1 1
+CompilationAction 1444298132269 TestGrid.java
+CompilationAction 1444298318452 TestGrid.java
+CompilationAction 1444298318613 TestGrid.java
+EditAction 1444298326622 TestCell.java 318 1 0 0
+EditAction 1444298326702 Grid.java 246 1 2 0
+CompilationAction 1444298326845 TestCell.java
+CompilationAction 1444298326845 TestCell.java
+CompilationAction 1444298326845 TestCell.java
+CompilationAction 1444298326846 TestCell.java
+CompilationAction 1444298326846 TestCell.java
+CompilationAction 1444298326846 TestCell.java
+UnitTestCaseAction 1444298329560 TestGrid.java OK
+UnitTestSessionAction 1444298329562 TestGrid OK
+EditAction 1444298373172 TestGrid.java 362 1 1 1
+UnitTestCaseAction 1444298376919 TestGrid.java FAIL
+UnitTestSessionAction 1444298376919 TestGrid FAIL
+EditAction 1444298384228 TestGrid.java 362 1 1 1
+UnitTestCaseAction 1444298384516 TestGrid.java OK
+UnitTestSessionAction 1444298384517 TestGrid OK
+RefactoringAction 1444298783395 Cell.java ADD string CellStatus FIELD
+RefactoringAction 1444299313782 TestGrid.java ADD void testDoesArra FIELD
+RefactoringAction 1444299317296 TestGrid.java RENAME testDoesArra=>void testDoesArrayOnlyInclude FIELD
+RefactoringAction 1444299324861 TestGrid.java ADD void Marks() METHOD
+EditAction 1444299373837 TestGrid.java 446 2 1 1
+CompilationAction 1444299374321 TestGrid.java
+CompilationAction 1444299374321 TestGrid.java
+CompilationAction 1444299374322 TestGrid.java
+CompilationAction 1444299374322 TestGrid.java
+CompilationAction 1444299374322 TestGrid.java
+RefactoringAction 1444299386453 TestGrid.java RENAME testDoesArrayOnlyIncludeorMarks()=>void testDoesArrayOnlyIncludeAliveorMarks() METHOD
+RefactoringAction 1444299387966 TestGrid.java RENAME testDoesArrayOnlyIncludeAliveorMarks()=>void testDoesArrayOnlyIncludeAliveorDeadMarks() METHOD
+CompilationAction 1444299462935 TestGrid.java
+CompilationAction 1444299462936 TestGrid.java
+CompilationAction 1444299462936 TestGrid.java
+EditAction 1444299462946 Cell.java 108 0 0 0
+EditAction 1444299463066 Grid.java 289 1 2 0
+CompilationAction 1444299463166 TestCell.java
+CompilationAction 1444299463166 TestCell.java
+CompilationAction 1444299463166 TestCell.java
+CompilationAction 1444299463166 TestCell.java
+CompilationAction 1444299463167 TestCell.java
+CompilationAction 1444299463167 TestCell.java
+UnitTestCaseAction 1444299463999 TestGrid.java OK
+UnitTestSessionAction 1444299464000 TestGrid OK
+EditAction 1444299477484 TestGrid.java 654 2 1 1
+UnitTestCaseAction 1444299477775 TestGrid.java FAIL
+UnitTestSessionAction 1444299477775 TestGrid FAIL
+RefactoringAction 1444299792444 TestGrid.java ADD Object getMarks() METHOD
+EditAction 1444299826265 TestGrid.java 617 3 3 2
+UnitTestCaseAction 1444299828851 TestGrid.java OK
+UnitTestSessionAction 1444299828852 TestGrid OK
+RefactoringAction 1444299900439 Grid.java RENAME getArray()=>static int getArrayLenght() METHOD
+RefactoringAction 1444299995960 Grid.java ADD static int getArrayLenght()/2 METHOD
+RefactoringAction 1444300003971 Grid.java RENAME getArrayLenght()/2=>static int getArray() METHOD
+RefactoringAction 1444300062601 Grid.java RENAME getArray()=>static int getArrayAsList() METHOD
+RefactoringAction 1444300213804 TestGrid.java ADD boolean Object FIELD
+RefactoringAction 1444300216318 TestGrid.java REMOVE Object FIELD
+CompilationAction 1444300272714 TestGrid.java
+CompilationAction 1444300272714 TestGrid.java
+EditAction 1444300273661 Grid.java 380 2 4 0
+UnitTestCaseAction 1444300273992 TestGrid.java FAIL
+UnitTestSessionAction 1444300273992 TestGrid FAIL
+EditAction 1444300320661 TestGrid.java 718 3 3 2
+UnitTestCaseAction 1444300321783 TestGrid.java FAIL
+UnitTestSessionAction 1444300321784 TestGrid FAIL
+RefactoringAction 1444300383431 Grid.java ADD String setCharacters FIELD
+RefactoringAction 1444300384442 Grid.java RENAME setCharacters=>static String setCharacters() METHOD
+EditAction 1444300988824 Grid.java 534 3 5 0
+EditAction 1444300991514 TestGrid.java 715 3 3 2
+UnitTestCaseAction 1444300991910 TestGrid.java FAIL
+UnitTestSessionAction 1444300991910 TestGrid FAIL
+EditAction 1444301034441 TestGrid.java 739 3 4 2
+UnitTestCaseAction 1444301034723 TestGrid.java FAIL
+UnitTestSessionAction 1444301034723 TestGrid FAIL
+EditAction 1444301117183 TestGrid.java 738 3 4 2
+UnitTestCaseAction 1444301140465 TestGrid.java FAIL
+UnitTestSessionAction 1444301140465 TestGrid FAIL
+EditAction 1444301156919 TestGrid.java 739 3 4 2
+UnitTestCaseAction 1444301158557 TestGrid.java OK
+UnitTestSessionAction 1444301158557 TestGrid OK
+EditAction 1444301166182 TestGrid.java 738 3 4 2
+UnitTestCaseAction 1444301167760 TestGrid.java FAIL
+UnitTestSessionAction 1444301167761 TestGrid FAIL
+EditAction 1444301230590 Grid.java 570 3 5 0
+CompilationAction 1444301230783 Grid.java
+EditAction 1444301237567 Grid.java 570 3 5 0
+UnitTestCaseAction 1444301237887 TestGrid.java FAIL
+UnitTestSessionAction 1444301237888 TestGrid FAIL
+EditAction 1444301343540 TestGrid.java 738 3 4 2
+EditAction 1444301343607 Grid.java 570 3 5 0
+UnitTestCaseAction 1444301343902 TestGrid.java FAIL
+UnitTestSessionAction 1444301343902 TestGrid FAIL
+EditAction 1444301428581 TestGrid.java 783 3 5 2
+UnitTestCaseAction 1444301428866 TestGrid.java FAIL
+UnitTestSessionAction 1444301428867 TestGrid FAIL
+EditAction 1444301462712 TestGrid.java 785 3 4 2
+UnitTestCaseAction 1444301463054 TestGrid.java FAIL
+UnitTestSessionAction 1444301463055 TestGrid FAIL
+EditAction 1444301501973 TestGrid.java 783 3 5 2
