@@ -33,7 +33,8 @@ public class Grid {
 	}
 	
 	public String getCellStatus ( int x, int y ) {
-		return getCell(x,y).getStatus();
+		//return getCell(x,y).getStatus();
+		return getCell(1,1).getStatus();
 	}
 	
 }
