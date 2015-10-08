@@ -5,14 +5,17 @@ public class Cell {
 	public static final int CELL_STATE_DEAD = 0;
 	public static final int CELL_STATE_ALIVE = 1;
 	
+	private int state;
+	
+	
+	
 	public int getState() {
 		
 		return 1;
 	}
 
 	public void setState(int state) {
-		// TODO Auto-generated method stub
-		
+		this.state = state;
 	}
 
 }

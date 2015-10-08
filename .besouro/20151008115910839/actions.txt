@@ -35,3 +35,7 @@ EditAction 1444294989482 TestCell.java 558 2 7 2
 CompilationAction 1444294989746 TestCell.java
 RefactoringAction 1444294993154 Cell.java ADD void setState(int) METHOD
 EditAction 1444294997082 Cell.java 286 2 1 0
+CompilationAction 1444295007087 Cell.java
+RefactoringAction 1444295013475 Cell.java ADD int state FIELD
+CompilationAction 1444295014087 Cell.java
+EditAction 1444295030771 Cell.java 294 2 2 0
