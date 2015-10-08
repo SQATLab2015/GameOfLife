@@ -7,7 +7,7 @@ public class GameOfLife {
 	private static Boolean running = true;
 	private static Grid gameGrid;
 	
-	public static void main(String [] args)
+	public static void main(String [] args) {
 		while (running) {
 			
 			int w,h;
