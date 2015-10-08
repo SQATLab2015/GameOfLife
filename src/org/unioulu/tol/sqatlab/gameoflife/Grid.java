@@ -13,13 +13,13 @@ public class Grid {
 	public List<Cell[]> allCells = null;
 	
 	
-	public Grid(int rowAmount, int columnAmount) 
-	{
-		this.rowAmount = rowAmount;
-		this.columnAmount = columnAmount;
-		cellArray = new Cell[columnAmount];
-
-	}
+//	public Grid(int rowAmount, int columnAmount) 
+//	{
+//		this.rowAmount = rowAmount;
+//		this.columnAmount = columnAmount;
+//		cellArray = new Cell[columnAmount];
+//
+//	}
 	
 	
 	public int createGrid(int rowAmount, int columnAmount)
