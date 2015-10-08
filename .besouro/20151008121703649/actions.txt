@@ -100,3 +100,8 @@ EditAction 1444297625481 GameOfLife.java 75 0 0 0
 RefactoringAction 1444297719805 Grid.java RENAME xValue=>int rowAmount FIELD
 RefactoringAction 1444297725810 Grid.java RENAME yValue=>int column FIELD
 EditAction 1444297727052 Grid.java 120 0 0 0
+RefactoringAction 1444297748833 Grid.java ADD void createGrid() METHOD
+FileOpenedAction 1444297825161 GildedRose.java 2811 3 14 0
+RefactoringAction 1444297835486 Grid.java ADD import java.util.List IMPORT
+RefactoringAction 1444297851527 Grid.java RENAME items=>List<Cell> cells FIELD
+EditAction 1444297852378 Grid.java 293 1 1 0
