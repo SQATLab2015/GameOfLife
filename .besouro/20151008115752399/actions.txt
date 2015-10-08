@@ -112,3 +112,12 @@ UnitTestSessionAction 1444298478020 TestCell OK
 UnitTestCaseAction 1444298486409 TestCell.java OK
 UnitTestSessionAction 1444298486409 TestCell OK
 EditAction 1444298511571 TestCell.java 657 1 0 0
+CompilationAction 1444298511818 TestCell.java
+CompilationAction 1444298511818 TestCell.java
+CompilationAction 1444298522407 TestCell.java
+UnitTestCaseAction 1444298523608 TestCell.java OK
+UnitTestSessionAction 1444298523608 TestCell OK
+RefactoringAction 1444298544367 TestCell.java REMOVE import java.util.HashSet IMPORT
+RefactoringAction 1444298547879 TestCell.java REMOVE import java.util.Arrays IMPORT
+RefactoringAction 1444298547880 TestCell.java REMOVE import java.util.Set IMPORT
+EditAction 1444298665508 TestCell.java 477 1 3 0
