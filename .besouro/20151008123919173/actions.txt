@@ -27,3 +27,4 @@ RefactoringAction 1444299427216 Grid.java ADD void start FIELD
 RefactoringAction 1444299428245 Grid.java RENAME start=>void start() METHOD
 RefactoringAction 1444299581297 Cell.java ADD String state FIELD
 EditAction 1444299642106 TestGrid.java 172 1 1 0
+EditAction 1444299642184 Grid.java 296 1 1 0
