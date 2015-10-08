@@ -53,3 +53,9 @@ CompilationAction 1444299586951 TestCell.java
 CompilationAction 1444299597518 TestCell.java
 CompilationAction 1444299597686 TestCell.java
 EditAction 1444299692027 TestCell.java 292 1 2 1
+CompilationAction 1444299692423 TestCell.java
+RefactoringAction 1444300150106 TestCell.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+CompilationAction 1444300155475 TestCell.java
+UnitTestCaseAction 1444300166687 TestCell.java FAIL
+UnitTestSessionAction 1444300166688 TestCell FAIL
+EditAction 1444300295263 TestCell.java 341 1 2 1
