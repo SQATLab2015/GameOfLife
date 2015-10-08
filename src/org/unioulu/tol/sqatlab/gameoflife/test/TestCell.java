@@ -9,15 +9,18 @@ public class TestCell {
 
 	@Test
 	public void testLiveCellWithNoNeighborDies() {
-		//Cell cell = new Cell("Alive");
+	//	Cell cell = new Cell("Alive");
 	//	cell.update();
 	//	assertEquals.("Dead", cell.getState());
-		String realLife[] = {"-", "-", "-", "-", "-", "-", "-", "-", "-", "-"};
-		String[] life = new String[] {"-", "-", "-", "-", "-", "-", "-", "-", "-", "-"};
+
+		String[] life = new String[] {"-", "-", "-", "/n", "-", "-", "-", "-", "-"};
 		String str = Arrays.toString(life);
 		str = str.replace(",", "");
-		System.out.println(Arrays.toString(life));
+		
 		System.out.println(str);
+		
+		
+		
 	}
 
 }
