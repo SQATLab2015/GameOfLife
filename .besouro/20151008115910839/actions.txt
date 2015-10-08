@@ -194,3 +194,7 @@ CompilationAction 1444297295579 Grid.java
 EditAction 1444297299011 Grid.java 737 5 8 0
 RefactoringAction 1444297504175 Grid.java ADD int getCell() METHOD
 EditAction 1444297509593 Grid.java 781 6 8 0
+CompilationAction 1444297509786 Grid.java
+CompilationAction 1444297516206 Grid.java
+CompilationAction 1444297516383 Grid.java
+EditAction 1444297520739 Grid.java 797 6 9 0
