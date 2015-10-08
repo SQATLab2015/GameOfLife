@@ -37,16 +37,22 @@ public class TestCell {
 	@Test
 	public void TestCellWithNoNeighboursDies() {
 		testCell.update(0);
-		assertEquals(false, testCell.isStatus());
-		
+		assertEquals(false, testCell.isStatus());	
+	}
+	
+	@Test
+	public void TestCellWithLessThanTwoNeighboursDies() {
+		testCell.update(1);
+		assertEquals(false, testCell.isStatus());	
 	}
 	
 	@Test 
 	public void TestCellWithTwoNeighboursLives() {
 		testCell.update(2);
 		assertEquals(true, testCell.isStatus());
-		
 	}
+	
+
 	
 
 
