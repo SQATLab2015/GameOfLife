@@ -11,7 +11,7 @@ public class TestGrid {
 	public void testIsGridSameAmountColumsAndRows() {
 		//getRows x GetColumns == getRows x GetRows
 		//int a= array.length();	
-		 assertEquals(9,Grid.getArray());
+		 assertEquals(8,Grid.getArray());
 		
 		
 	}

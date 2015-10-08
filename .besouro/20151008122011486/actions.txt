@@ -50,3 +50,6 @@ CompilationAction 1444298326846 TestCell.java
 UnitTestCaseAction 1444298329560 TestGrid.java OK
 UnitTestSessionAction 1444298329562 TestGrid OK
 EditAction 1444298373172 TestGrid.java 362 1 1 1
+UnitTestCaseAction 1444298376919 TestGrid.java FAIL
+UnitTestSessionAction 1444298376919 TestGrid FAIL
+EditAction 1444298384228 TestGrid.java 362 1 1 1
