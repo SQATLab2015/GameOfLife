@@ -22,7 +22,7 @@ public class Grid {
 //	}
 	
 	
-	public int createGrid(int rowAmount, int columnAmount)
+	public void createGrid(int rowAmount, int columnAmount)
 	{
 		for(int i = 0; i<rowAmount; i++) 
 		{
@@ -31,7 +31,7 @@ public class Grid {
 			allCells.add(cellArray);
 		}
 		
-		return allCells.size();
+		System.out.println(allCells.size());
 	}
 	
 }

@@ -12,9 +12,9 @@ public class TestGrid {
 	public void testCreateGrid() 
 	{
 		
-		grid = new Grid(5, 5);
+		grid = new Grid();
 		
-		int actual = grid.createGrid();
+		int actual = grid.createGrid(5, 5);
 	
 		assertEquals(5, actual);
 		

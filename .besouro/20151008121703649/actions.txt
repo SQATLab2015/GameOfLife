@@ -218,3 +218,10 @@ EditAction 1444299520924 Grid.java 637 2 5 0
 CompilationAction 1444299521182 TestGrid.java
 RefactoringAction 1444299526744 Grid.java REMOVE Grid(int, int) METHOD
 EditAction 1444299528804 Grid.java 651 1 2 0
+CompilationAction 1444299529060 TestGrid.java
+CompilationAction 1444299529061 TestGrid.java
+CompilationAction 1444299538980 TestGrid.java
+CompilationAction 1444299538981 TestGrid.java
+UnitTestCaseAction 1444299540550 TestGrid.java FAIL
+UnitTestSessionAction 1444299540551 TestGrid FAIL
+EditAction 1444299598662 Grid.java 665 1 2 0
