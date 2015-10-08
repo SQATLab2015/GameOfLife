@@ -28,6 +28,10 @@ public class Grid {
 			
 		}
 	}
+	
+	private void initGrid() {
+		
+	}
 
 	public int getSize() {
 		
