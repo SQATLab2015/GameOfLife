@@ -14,7 +14,7 @@ public class GameOfLife {
 			w=askPositiveInteger("grid width");
 			h=askPositiveInteger("grid height");
 			
-			
+			gameGrid = new Grid(w,h);
 			
 			running = false;
 		}
@@ -32,7 +32,7 @@ public class GameOfLife {
 				println("Your input was not a positive integer. Try again.");
 			}
 		} while (num <= 0);
-		
+		scan.close();
 		return num;
 	}
 	
