@@ -8,6 +8,8 @@ public class TestGrid {
 	@Test
 	public void testGetGritSizeShouldBe10by10() {
 		Grid grid = new Grid();
+		
+		int size = grid.getSize();
 	}
 
 }
