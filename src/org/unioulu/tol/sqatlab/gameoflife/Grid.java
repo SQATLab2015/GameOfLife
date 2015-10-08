@@ -2,7 +2,7 @@ package org.unioulu.tol.sqatlab.gameoflife;
 
 public class Grid {
 
-	private static int[][] gridArray = new int[0][0];
+	private static Cell[][] gridArray = new Cell[0][0];
 	
 	public Grid() {
 		// ...
@@ -28,7 +28,7 @@ public class Grid {
 		return str;
 	}
 	
-	public int getCell (int x, int y) {
+	public Cell getCell (int x, int y) {
 		return gridArray[x][y];
 	}
 	

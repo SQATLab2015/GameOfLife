@@ -243,3 +243,4 @@ RefactoringAction 1444297841885 TestGrid.java RENAME test_getCellStatus=>void te
 RefactoringAction 1444297844394 TestGrid.java RENAME test_getCellStatu=>void test_getCellStatusFromGrid FIELD
 RefactoringAction 1444297846902 TestGrid.java RENAME test_getCellStatusFromGrid=>void test_getCellStatusFromGrid() METHOD
 EditAction 1444297848208 TestGrid.java 884 5 9 2
+EditAction 1444297947325 Grid.java 579 4 7 0
