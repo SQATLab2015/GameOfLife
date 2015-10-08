@@ -52,7 +52,7 @@ public class Grid {
 			id = (y-1) * size + (x-1);
 			
 			if(grid.get(id).getState() == Cell.CELL_STATE_ALIVE) {
-				
+				aliveNeighborCount++;
 			}
 		}
 		
