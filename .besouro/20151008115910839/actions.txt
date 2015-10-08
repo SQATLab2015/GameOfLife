@@ -26,3 +26,9 @@ EditAction 1444294934379 TestCell.java 396 2 4 1
 EditAction 1444294949592 TestCell.java 438 2 5 1
 CompilationAction 1444294949843 TestCell.java
 EditAction 1444294960002 TestCell.java 472 2 6 1
+CompilationAction 1444294960248 TestCell.java
+CompilationAction 1444294970775 TestCell.java
+CompilationAction 1444294970939 TestCell.java
+CompilationAction 1444294976645 TestCell.java
+CompilationAction 1444294976811 TestCell.java
+EditAction 1444294989482 TestCell.java 558 2 7 2

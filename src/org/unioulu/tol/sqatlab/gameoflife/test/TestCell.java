@@ -8,12 +8,12 @@ import org.unioulu.tol.sqatlab.gameoflife.Cell;
 public class TestCell {
 
 	@Test
-	public void testGetCellState() {
+	public void testGetCellStateStateShouldBeAlive() {
 		Cell cell = new Cell();
 		
 		int state = cell.getState();
 		
-		assertEquals(1, state);
+		assertEquals(Cell.CELL_STATE_ALIVE, state);
 	}
 	
 	@Test
@@ -23,6 +23,8 @@ public class TestCell {
 		cell.setState(Cell.CELL_STATE_DEAD);
 		
 		int state = cell.getState();
+		
+		assertEquals(Cell.CELL_STATE_DEAD, state);
 	}
 
 }
