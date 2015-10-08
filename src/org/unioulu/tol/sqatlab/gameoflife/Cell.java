@@ -8,5 +8,9 @@ public class Cell {
 	public boolean getStatus () {
 		return isAlive;
 	}
+	
+	public void setToAlive () {
+		isAlive = true;
+	}
 
 }

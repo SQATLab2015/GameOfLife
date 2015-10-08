@@ -26,3 +26,8 @@ RefactoringAction 1444294347046 TestCell.java RENAME test_setT=>void test_setToA
 RefactoringAction 1444294349061 TestCell.java RENAME test_setToAliveAndReturn=>void test_setToAliveAndReturnStatus FIELD
 RefactoringAction 1444294351572 TestCell.java RENAME test_setToAliveAndReturnStatus=>void test_setToAliveAndReturnStatus() METHOD
 EditAction 1444294412414 TestCell.java 692 3 8 2
+CompilationAction 1444294416006 TestCell.java
+UnitTestCaseAction 1444294420330 TestCell.java FAIL
+UnitTestSessionAction 1444294420331 TestCell FAIL
+RefactoringAction 1444294438602 Cell.java ADD void setToAlive() METHOD
+EditAction 1444294443332 Cell.java 262 2 2 0
