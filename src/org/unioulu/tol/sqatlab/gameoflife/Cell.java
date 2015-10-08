@@ -24,7 +24,7 @@ public class Cell {
 	
 	public void update(int aliveSurroundingCells)
 	{
-		if(aliveSurroundingCells==0)
+		if(aliveSurroundingCells<2)
 		{
 			state = "Dead";
 		}

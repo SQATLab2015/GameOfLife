@@ -67,3 +67,4 @@ RefactoringAction 1444297139065 TestCell.java RENAME testLiveCellWithTwoNeighb=>
 RefactoringAction 1444297141077 TestCell.java RENAME testLiveCellWithTwoNeighbour=>void testLiveCellWithTwoNeighbor FIELD
 RefactoringAction 1444297146093 TestCell.java RENAME testLiveCellWithTwoNeighbor=>void testLiveCellWithTwoNeighborLives() METHOD
 EditAction 1444297185623 TestCell.java 491 2 6 2
+EditAction 1444297319491 Cell.java 386 4 4 0
