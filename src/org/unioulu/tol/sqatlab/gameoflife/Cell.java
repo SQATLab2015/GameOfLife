@@ -14,7 +14,7 @@ public class Cell {
 
 	public int getState() {
 		
-		return 1;
+		return state;
 	}
 
 	public void setState(int state) {
