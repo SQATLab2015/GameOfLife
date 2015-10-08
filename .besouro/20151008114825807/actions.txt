@@ -44,3 +44,4 @@ EditAction 1444294552883 Cell.java 318 3 3 0
 UnitTestCaseAction 1444294561627 TestCell.java OK
 UnitTestSessionAction 1444294561630 TestCell OK
 EditAction 1444294577013 TestCell.java 908 4 13 3
+EditAction 1444294596357 TestCell.java 907 4 13 3

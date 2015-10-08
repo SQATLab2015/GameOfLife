@@ -9,7 +9,7 @@ public class TestCell {
 
 	private Cell testCell = new Cell();
 	
-	//Initialization functions
+	//Initialization function
 	public void initializeCell() {
 		testCell = new Cell();
 	}
