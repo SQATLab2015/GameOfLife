@@ -105,3 +105,10 @@ FileOpenedAction 1444297825161 GildedRose.java 2811 3 14 0
 RefactoringAction 1444297835486 Grid.java ADD import java.util.List IMPORT
 RefactoringAction 1444297851527 Grid.java RENAME items=>List<Cell> cells FIELD
 EditAction 1444297852378 Grid.java 293 1 1 0
+CompilationAction 1444297852584 Grid.java
+RefactoringAction 1444297873554 Grid.java REMOVE import fi.oulu.tol.sqat.Item IMPORT
+RefactoringAction 1444297904582 Grid.java REMOVE cells FIELD
+RefactoringAction 1444297906592 Grid.java ADD Cell cells FIELD
+RefactoringAction 1444297907603 Grid.java REMOVE cells FIELD
+RefactoringAction 1444297910112 Grid.java ADD List<ListCell> cells FIELD
+EditAction 1444297918905 Grid.java 269 1 1 0
