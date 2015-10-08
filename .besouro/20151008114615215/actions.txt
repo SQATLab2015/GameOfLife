@@ -177,3 +177,8 @@ UnitTestCaseAction 1444299454865 TestCell.java FAIL
 UnitTestSessionAction 1444299454865 TestCell FAIL
 RefactoringAction 1444299467457 TestCell.java REMOVE test() METHOD
 EditAction 1444299472338 TestCell.java 1191 8 15 7
+UnitTestCaseAction 1444299473926 TestCell.java OK
+UnitTestSessionAction 1444299473927 TestCell OK
+RefactoringAction 1444299571299 Grid.java RENAME grid=>int FIELD
+RefactoringAction 1444299573805 Grid.java RENAME Cell=>Cell FIELD
+EditAction 1444299773019 TestGrid.java 457 3 4 0

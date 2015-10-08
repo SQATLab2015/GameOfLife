@@ -11,7 +11,7 @@ public class TestGrid {
 	
 	@Before
 	public void setup() {
-		testGrid = new Grid(10);
+		testGrid = new Grid(0);
 		
 	}
 
@@ -22,7 +22,8 @@ public class TestGrid {
 	
 	@Test
 	public void TestGridIsCreated() {
-		
+		testGrid = new Grid(20);
+		return testGrid;
 		
 	}
 
