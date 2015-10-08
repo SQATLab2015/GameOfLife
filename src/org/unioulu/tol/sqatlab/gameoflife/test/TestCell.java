@@ -18,7 +18,7 @@ public class TestCell {
 	
 	@Test
 	public void testSetCellStateToDead() {
-		Cell cell = new cell();
+		Cell cell = new Cell();
 	}
 
 }

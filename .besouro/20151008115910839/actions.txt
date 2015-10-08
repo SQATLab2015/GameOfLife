@@ -21,3 +21,5 @@ RefactoringAction 1444294914833 TestCell.java ADD void test FIELD
 RefactoringAction 1444294918848 TestCell.java RENAME test=>void testSetCellStateToDead FIELD
 RefactoringAction 1444294921865 TestCell.java RENAME testSetCellStateToDead=>void testSetCellStateToDead() METHOD
 EditAction 1444294932100 TestCell.java 396 2 4 1
+CompilationAction 1444294932365 TestCell.java
+EditAction 1444294934379 TestCell.java 396 2 4 1
