@@ -101,3 +101,10 @@ EditAction 1444295424822 Grid.java 224 3 3 0
 UnitTestCaseAction 1444295430127 TestGrid.java OK
 UnitTestSessionAction 1444295430128 TestGrid OK
 EditAction 1444295504679 Cell.java 355 3 4 0
+RefactoringAction 1444295566710 TestGrid.java ADD void testGetCell FIELD
+RefactoringAction 1444295706234 TestGrid.java RENAME testGetCell=>void testCheckNeigh FIELD
+RefactoringAction 1444295708749 TestGrid.java RENAME testCheckNeigh=>void testCheckNeighbors FIELD
+RefactoringAction 1444295724266 TestGrid.java RENAME testCheckNeighbors=>void testCheckNeighborsExpect FIELD
+RefactoringAction 1444295726779 TestGrid.java RENAME testCheckNeighborsExpect=>void testCheckNeighborsExpectLessThan FIELD
+RefactoringAction 1444295731294 TestGrid.java RENAME testCheckNeighborsExpectLessThan=>void testCheckNeighborsExpectLessThanTwoAlive() METHOD
+EditAction 1444295737721 TestGrid.java 569 3 7 2

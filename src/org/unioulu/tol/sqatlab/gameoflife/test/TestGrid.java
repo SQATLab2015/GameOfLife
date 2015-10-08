@@ -24,4 +24,9 @@ public class TestGrid {
 		assertEquals(20, size);
 	}
 
+	@Test
+	public void testCheckNeighborsExpectLessThanTwoAlive() {
+		Grid grid = new Grid();
+	}
+	
 }
