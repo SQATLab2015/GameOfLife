@@ -4,15 +4,18 @@ public class Cell {
 
 	public String status;
 	
-	public Cell(String status) {
+	public Cell(String status) 
+	{
 		this.setStatus(status);
 	}
 	
-	public String getStatus() {
+	public String getStatus() 
+	{
 		return status;
 	}
 	
-	public void setStatus(String status) {
+	public void setStatus(String status) 
+	{
 		this.status = status;
 	}
 	
