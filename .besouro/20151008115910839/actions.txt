@@ -4,3 +4,4 @@ UnitTestSessionAction 1444294761368 TestCell FAIL
 RefactoringAction 1444294779544 TestCell.java RENAME test()=>void testGetCellState() METHOD
 RefactoringAction 1444294801425 TestCell.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
 EditAction 1444294807631 TestCell.java 255 1 1 0
+EditAction 1444294817688 TestCell.java 277 1 2 0

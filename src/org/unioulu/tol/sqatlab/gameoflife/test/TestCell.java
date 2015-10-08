@@ -10,6 +10,8 @@ public class TestCell {
 	@Test
 	public void testGetCellState() {
 		Cell cell = new Cell();
+		
+		cell.getState();
 	}
 
 }
