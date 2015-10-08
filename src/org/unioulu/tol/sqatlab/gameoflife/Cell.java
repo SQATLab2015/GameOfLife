@@ -2,22 +2,22 @@ package org.unioulu.tol.sqatlab.gameoflife;
 
 public class Cell {
 
-	public String status;
+	public String state;
 	
 	
-	public Cell(String status) 
+	public Cell(String state) 
 	{
-		this.setStatus(status);
+		this.setStatus(state);
 	}
 	
-	public String getStatus() 
+	public String getState() 
 	{
-		return status;
+		return state;
 	}
 	
-	public void setStatus(String status) 
+	public void setState(String state) 
 	{
-		this.status = status;
+		this.state = state;
 	}
 	
 	
@@ -26,7 +26,7 @@ public class Cell {
 	{
 		if(aliveSurroundingCells==0)
 		{
-			status = "Dead";
+			state = "Dead";
 		}
 	}
 }
