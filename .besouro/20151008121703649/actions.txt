@@ -11,3 +11,8 @@ RefactoringAction 1444296111182 TestCell.java RENAME testLiveCellWithNo=>void te
 RefactoringAction 1444296114193 TestCell.java RENAME testLiveCellWithNoNeighbo=>void testLiveCellWithNoNeighborDies() METHOD
 RefactoringAction 1444296163306 TestCell.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
 EditAction 1444296172067 TestCell.java 334 1 3 1
+CompilationAction 1444296172305 TestCell.java
+CompilationAction 1444296172305 TestCell.java
+CompilationAction 1444296172306 TestCell.java
+RefactoringAction 1444296179694 Cell.java ADD String status FIELD
+EditAction 1444296180163 Cell.java 92 0 0 0
