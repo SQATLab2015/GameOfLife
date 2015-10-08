@@ -54,6 +54,10 @@ public class Grid {
 			//CELL AT RIGHT EDGE OF GRID
 		}
 		
+		if(y == 0) {
+			
+		}
+		
 		return 0;
 	}
 
