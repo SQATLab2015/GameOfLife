@@ -8,6 +8,15 @@ public class Cell {
 		this.status = string;
 	}
 	
+	public String getStatus() {
+		return status;
+	}
+	
+	public void setName(String status) {
+		this.status = status;
+	}
+	
+	
 	
 	public void update(int aliveSurroundingCells)
 	{

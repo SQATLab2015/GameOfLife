@@ -31,3 +31,10 @@ CompilationAction 1444296258558 TestCell.java
 RefactoringAction 1444296280952 Cell.java ADD void update() METHOD
 RefactoringAction 1444296288977 Cell.java RENAME update()=>void update(int) METHOD
 EditAction 1444296337968 Cell.java 266 2 2 0
+CompilationAction 1444296338525 TestCell.java
+FileOpenedAction 1444296373449 TestSudokuVerifier.java 3861 12 43 12
+FileOpenedAction 1444296384235 Item.java 674 7 9 0
+RefactoringAction 1444296401641 Cell.java ADD String getName() METHOD
+RefactoringAction 1444296401643 Cell.java ADD void setName(String) METHOD
+RefactoringAction 1444296419721 Cell.java RENAME getName()=>String getStatus() METHOD
+EditAction 1444296480236 Cell.java 386 4 4 0
