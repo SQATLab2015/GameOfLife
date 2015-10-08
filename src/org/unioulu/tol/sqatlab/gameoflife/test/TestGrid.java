@@ -16,7 +16,7 @@ public class TestGrid {
 		
 		int actual = grid.createGrid(5);
 	
-		assertEquals(6, actual);
+		assertEquals(5, actual);
 		
 		
 	}
