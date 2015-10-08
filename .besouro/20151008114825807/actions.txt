@@ -45,3 +45,10 @@ UnitTestCaseAction 1444294561627 TestCell.java OK
 UnitTestSessionAction 1444294561630 TestCell OK
 EditAction 1444294577013 TestCell.java 908 4 13 3
 EditAction 1444294596357 TestCell.java 907 4 13 3
+RefactoringAction 1444294618160 TestCell.java ADD void test_ra FIELD
+RefactoringAction 1444294622171 TestCell.java RENAME test_ra=>void test_randomInitiliaz FIELD
+RefactoringAction 1444294623683 TestCell.java RENAME test_randomInitiliaz=>void test_randomInitil FIELD
+RefactoringAction 1444294633201 TestCell.java RENAME test_randomInitil=>void test_randomCellStatus FIELD
+RefactoringAction 1444294635214 TestCell.java RENAME test_randomCellStatus=>void test_randomCellStatusInitia FIELD
+RefactoringAction 1444294639725 TestCell.java RENAME test_randomCellStatusInitia=>void test_randomCellStatusInitialization() METHOD
+EditAction 1444295033600 TestCell.java 1171 5 15 3

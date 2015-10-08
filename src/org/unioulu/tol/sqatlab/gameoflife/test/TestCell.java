@@ -37,5 +37,18 @@ public class TestCell {
 		boolean r = testCell.getStatus();
 		assertEquals ( r, false );
 	}
+	
+	@Test
+	public void test_randomCellStatusInitialization () {
+		boolean dead, alive = false;
+		while ( dead == false && alive == false ) {
+			initializeCell();
+			if (testCell.getStatus()) {
+				alive = true;
+			} else {
+				dead = true;
+			}
+		}
+	}
 
 }
