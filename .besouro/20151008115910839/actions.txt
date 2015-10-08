@@ -17,3 +17,7 @@ UnitTestSessionAction 1444294868422 TestCell OK
 EditAction 1444294897443 Cell.java 203 1 1 0
 CompilationAction 1444294897667 Cell.java
 EditAction 1444294899997 Cell.java 207 1 1 0
+RefactoringAction 1444294914833 TestCell.java ADD void test FIELD
+RefactoringAction 1444294918848 TestCell.java RENAME test=>void testSetCellStateToDead FIELD
+RefactoringAction 1444294921865 TestCell.java RENAME testSetCellStateToDead=>void testSetCellStateToDead() METHOD
+EditAction 1444294932100 TestCell.java 396 2 4 1

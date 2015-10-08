@@ -15,5 +15,10 @@ public class TestCell {
 		
 		assertEquals(1, state);
 	}
+	
+	@Test
+	public void testSetCellStateToDead() {
+		Cell cell = new cell();
+	}
 
 }
