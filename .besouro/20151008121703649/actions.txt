@@ -182,3 +182,17 @@ EditAction 1444299002264 Grid.java 417 1 2 0
 UnitTestCaseAction 1444299009698 TestGrid.java FAIL
 UnitTestSessionAction 1444299009698 TestGrid FAIL
 EditAction 1444299078363 Grid.java 448 1 0 0
+CompilationAction 1444299078633 Grid.java
+CompilationAction 1444299078633 Grid.java
+CompilationAction 1444299078634 Grid.java
+CompilationAction 1444299079896 Grid.java
+CompilationAction 1444299079896 Grid.java
+CompilationAction 1444299079897 Grid.java
+UnitTestCaseAction 1444299081967 TestGrid.java FAIL
+UnitTestSessionAction 1444299081967 TestGrid FAIL
+RefactoringAction 1444299142955 Grid.java ADD void Cell(String) METHOD
+RefactoringAction 1444299146967 Grid.java RENAME Cell(String)=>void C(String) METHOD
+RefactoringAction 1444299148981 Grid.java RENAME C(String)=>Grid(String) METHOD
+RefactoringAction 1444299152495 Grid.java RENAME Grid(String)=>Grid(int) METHOD
+RefactoringAction 1444299161509 Grid.java RENAME Grid(int)=>Grid(int, int) METHOD
+EditAction 1444299191210 Grid.java 568 2 4 0

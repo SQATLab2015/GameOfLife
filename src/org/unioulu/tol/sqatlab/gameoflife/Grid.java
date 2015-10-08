@@ -14,12 +14,18 @@ public class Grid {
 	public Cell[] cellArray = new Cell[columnAmount];
 	public List<Cell[]> allCells = null;
 	
+	public Grid(int rowAmount, int columnAmount) 
+	{
+		this.rowAmount = rowAmount;
+		this.columnAmount = columnAmount;
+	}
+	
 	
 	public int createGrid(int rowAmount)
 	{
 		for(int i = 0; i<rowAmount; i++) 
 		{
-			System.out.println("moi");s
+			System.out.println("moi");
 			allCells.add(cellArray);
 		}
 		
