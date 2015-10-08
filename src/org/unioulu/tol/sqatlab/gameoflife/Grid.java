@@ -62,8 +62,8 @@ public class Grid {
 				aliveNeighborCount++;
 			}
 			
-			if(y < size) {
-				
+			if(y < size-1) {
+				id = (y-1) * size + (x+1); 
 			}
 		}
 
