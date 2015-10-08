@@ -10,7 +10,7 @@ public class Grid {
 	public int columnAmount;
 	
 	public Cell[] cellArray;
-	public ArrayList allCells = new ArrayList();
+	public ArrayList<Cell[]> allCells = new ArrayList<Cell[]>();
 	//public List<Cell[]> allCells = null;
 	
 	
@@ -23,7 +23,7 @@ public class Grid {
 //	}
 	
 	
-	public void createGrid(int rowAmount, int columnAmount)
+	public int createGrid(int rowAmount, int columnAmount)
 	{
 		for(int i = 0; i<rowAmount; i++) 
 		{
@@ -32,7 +32,7 @@ public class Grid {
 			allCells.add(cellArray);
 		}
 		
-		System.out.println(allCells.size());
+		return allCells.size();
 	}
 	
 }
