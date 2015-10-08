@@ -1,0 +1,190 @@
+UnitTestCaseAction 1444295189305 TestCell.java FAIL
+UnitTestCaseAction 1444295189305 TestGrid.java FAIL
+UnitTestSessionAction 1444295189308 GameOfLife FAIL
+UnitTestCaseAction 1444295195402 TestCell.java FAIL
+UnitTestCaseAction 1444295195402 TestGrid.java FAIL
+UnitTestSessionAction 1444295195402 GameOfLife FAIL
+UnitTestCaseAction 1444295224147 TestCell.java FAIL
+UnitTestCaseAction 1444295224147 TestGrid.java FAIL
+UnitTestSessionAction 1444295224148 org.unioulu.tol.sqatlab.gameoflife.test FAIL
+FileOpenedAction 1444295768107 Grid.java 68 0 0 0
+FileOpenedAction 1444295771211 Cell.java 68 0 0 0
+FileOpenedAction 1444295774336 GameOfLife.java 74 0 0 0
+FileOpenedAction 1444295777170 TestCell.java 200 1 1 0
+FileOpenedAction 1444295778427 TestGrid.java 199 1 1 0
+RefactoringAction 1444296038944 TestCell.java RENAME test()=>void testLiveCell() METHOD
+RefactoringAction 1444296042962 TestCell.java RENAME testLiveCell()=>void testLiveCellWithNoNeigh() METHOD
+RefactoringAction 1444296046976 TestCell.java RENAME testLiveCellWithNoNeigh()=>void testLiveCellWithNoNeighborDies() METHOD
+EditAction 1444296136707 TestCell.java 287 1 0 0
+CompilationAction 1444296136877 TestCell.java
+CompilationAction 1444296136878 TestCell.java
+CompilationAction 1444296136878 TestCell.java
+CompilationAction 1444296136878 TestCell.java
+RefactoringAction 1444296797227 Grid.java ADD String life FIELD
+EditAction 1444296798419 Grid.java 80 0 0 0
+EditAction 1444297041105 Grid.java 185 0 0 0
+RefactoringAction 1444297086138 Grid.java ADD void println() METHOD
+EditAction 1444297090918 Grid.java 200 1 0 0
+CompilationAction 1444297091156 Grid.java
+CompilationAction 1444297091157 Grid.java
+CompilationAction 1444297091157 Grid.java
+CompilationAction 1444297091158 Grid.java
+RefactoringAction 1444297111179 Grid.java REMOVE println() METHOD
+CompilationAction 1444297114024 Grid.java
+CompilationAction 1444297114024 Grid.java
+CompilationAction 1444297114025 Grid.java
+CompilationAction 1444297114180 Grid.java
+CompilationAction 1444297114181 Grid.java
+CompilationAction 1444297179824 Grid.java
+CompilationAction 1444297179825 Grid.java
+CompilationAction 1444297179986 Grid.java
+CompilationAction 1444297179987 Grid.java
+RefactoringAction 1444297224767 Grid.java ADD void println() METHOD
+RefactoringAction 1444297227276 Grid.java RENAME println()=>void print() METHOD
+RefactoringAction 1444297228784 Grid.java REMOVE print() METHOD
+CompilationAction 1444297324754 Grid.java
+CompilationAction 1444297324754 Grid.java
+CompilationAction 1444297324915 Grid.java
+CompilationAction 1444297324916 Grid.java
+EditAction 1444297405253 TestCell.java 316 1 0 0
+CompilationAction 1444297405499 TestCell.java
+CompilationAction 1444297405499 TestCell.java
+CompilationAction 1444297405500 TestCell.java
+CompilationAction 1444297405500 TestCell.java
+CompilationAction 1444297419728 TestCell.java
+CompilationAction 1444297419728 TestCell.java
+CompilationAction 1444297419728 TestCell.java
+CompilationAction 1444297419729 TestCell.java
+EditAction 1444297552081 TestCell.java 445 1 2 0
+UnitTestCaseAction 1444297558425 TestCell.java OK
+UnitTestSessionAction 1444297558427 TestCell OK
+EditAction 1444297575133 TestCell.java 443 1 2 0
+UnitTestCaseAction 1444297578260 TestCell.java OK
+UnitTestSessionAction 1444297578261 TestCell OK
+EditAction 1444297659807 TestCell.java 460 1 3 0
+EditAction 1444297699931 TestCell.java 474 1 3 0
+EditAction 1444297705890 TestCell.java 478 1 3 0
+UnitTestCaseAction 1444297708416 TestCell.java OK
+UnitTestSessionAction 1444297708416 TestCell OK
+RefactoringAction 1444297761792 TestCell.java ADD import java.util.Set IMPORT
+CompilationAction 1444297763986 TestCell.java
+CompilationAction 1444297763987 TestCell.java
+RefactoringAction 1444297775837 TestCell.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1444297775838 TestCell.java ADD import java.util.HashSet IMPORT
+CompilationAction 1444297776033 TestCell.java
+CompilationAction 1444297776034 TestCell.java
+EditAction 1444297797008 TestCell.java 603 1 4 0
+UnitTestCaseAction 1444297798599 TestCell.java OK
+UnitTestSessionAction 1444297798599 TestCell OK
+EditAction 1444297939263 TestCell.java 603 1 4 0
+EditAction 1444298067458 TestGrid.java 198 1 1 0
+UnitTestCaseAction 1444298067789 TestCell.java OK
+UnitTestSessionAction 1444298067790 TestCell OK
+EditAction 1444298164709 TestCell.java 603 1 4 0
+CompilationAction 1444298295530 TestCell.java
+CompilationAction 1444298295530 TestCell.java
+CompilationAction 1444298317658 TestCell.java
+CompilationAction 1444298317658 TestCell.java
+UnitTestCaseAction 1444298320151 TestCell.java FAIL
+UnitTestSessionAction 1444298320151 TestCell FAIL
+UnitTestCaseAction 1444298329684 TestCell.java FAIL
+UnitTestSessionAction 1444298329685 TestCell FAIL
+EditAction 1444298337921 TestCell.java 647 1 5 0
+UnitTestCaseAction 1444298338202 TestCell.java FAIL
+UnitTestSessionAction 1444298338203 TestCell FAIL
+EditAction 1444298344114 TestCell.java 647 1 5 0
+UnitTestCaseAction 1444298344401 TestCell.java OK
+UnitTestSessionAction 1444298344401 TestCell OK
+EditAction 1444298358887 TestCell.java 647 1 5 0
+UnitTestCaseAction 1444298359184 TestCell.java OK
+UnitTestSessionAction 1444298359185 TestCell OK
+UnitTestCaseAction 1444298431102 TestCell.java OK
+UnitTestSessionAction 1444298431103 TestCell OK
+UnitTestCaseAction 1444298434645 TestCell.java OK
+UnitTestSessionAction 1444298434646 TestCell OK
+UnitTestCaseAction 1444298436398 TestCell.java OK
+UnitTestSessionAction 1444298436398 TestCell OK
+EditAction 1444298447539 TestCell.java 687 1 5 0
+UnitTestCaseAction 1444298447839 TestCell.java OK
+UnitTestSessionAction 1444298447840 TestCell OK
+UnitTestCaseAction 1444298478020 TestCell.java OK
+UnitTestSessionAction 1444298478020 TestCell OK
+UnitTestCaseAction 1444298486409 TestCell.java OK
+UnitTestSessionAction 1444298486409 TestCell OK
+EditAction 1444298511571 TestCell.java 657 1 0 0
+CompilationAction 1444298511818 TestCell.java
+CompilationAction 1444298511818 TestCell.java
+CompilationAction 1444298522407 TestCell.java
+UnitTestCaseAction 1444298523608 TestCell.java OK
+UnitTestSessionAction 1444298523608 TestCell OK
+RefactoringAction 1444298544367 TestCell.java REMOVE import java.util.HashSet IMPORT
+RefactoringAction 1444298547879 TestCell.java REMOVE import java.util.Arrays IMPORT
+RefactoringAction 1444298547880 TestCell.java REMOVE import java.util.Set IMPORT
+EditAction 1444298665508 TestCell.java 477 1 3 0
+UnitTestCaseAction 1444298667136 TestCell.java OK
+UnitTestSessionAction 1444298667136 TestCell OK
+EditAction 1444298701712 TestCell.java 500 1 3 0
+CompilationAction 1444298701952 TestCell.java
+CompilationAction 1444298701952 TestCell.java
+CompilationAction 1444298711527 TestCell.java
+CompilationAction 1444298711683 TestCell.java
+RefactoringAction 1444298726558 TestCell.java ADD import java.util.Arrays IMPORT
+CompilationAction 1444298734029 TestCell.java
+UnitTestCaseAction 1444298735272 TestCell.java OK
+UnitTestSessionAction 1444298735272 TestCell OK
+EditAction 1444298869697 TestCell.java 573 1 4 0
+CompilationAction 1444298869945 TestCell.java
+EditAction 1444298913447 TestCell.java 615 1 6 0
+UnitTestCaseAction 1444298914566 TestCell.java OK
+UnitTestSessionAction 1444298914567 TestCell OK
+UnitTestCaseAction 1444298926194 TestCell.java OK
+UnitTestSessionAction 1444298926194 TestCell OK
+UnitTestCaseAction 1444299079803 TestCell.java OK
+UnitTestSessionAction 1444299079804 TestCell OK
+EditAction 1444299183053 TestCell.java 505 1 4 0
+UnitTestCaseAction 1444299185402 TestCell.java OK
+UnitTestSessionAction 1444299185402 TestCell OK
+EditAction 1444299192541 TestCell.java 504 1 4 0
+EditAction 1444299226815 TestCell.java 525 1 5 0
+EditAction 1444299290935 TestCell.java 531 1 0 0
+CompilationAction 1444299291187 TestCell.java
+CompilationAction 1444299291188 TestCell.java
+CompilationAction 1444299291188 TestCell.java
+CompilationAction 1444299392436 TestCell.java
+CompilationAction 1444299392436 TestCell.java
+EditAction 1444299411314 TestCell.java 527 1 5 0
+UnitTestCaseAction 1444299412887 TestCell.java OK
+UnitTestSessionAction 1444299412888 TestCell.testLiveCellWithNoNeighborDies OK
+EditAction 1444299417534 TestCell.java 525 1 5 0
+CompilationAction 1444299516759 TestCell.java
+CompilationAction 1444299603990 TestCell.java
+UnitTestCaseAction 1444299605218 TestCell.java OK
+UnitTestSessionAction 1444299605218 TestCell OK
+EditAction 1444299644618 TestCell.java 939 1 12 0
+UnitTestCaseAction 1444299646357 TestCell.java OK
+UnitTestSessionAction 1444299646357 TestCell OK
+EditAction 1444299660430 TestCell.java 909 1 12 0
+UnitTestCaseAction 1444299662490 TestCell.java OK
+UnitTestSessionAction 1444299662491 TestCell OK
+EditAction 1444299711638 TestCell.java 906 1 12 0
+RefactoringAction 1444299802748 TestGrid.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1444299815453 TestCell.java REMOVE import java.util.Arrays IMPORT
+RefactoringAction 1444299819782 TestGrid.java ADD import java.util.Arrays/2 IMPORT
+RefactoringAction 1444299822794 TestGrid.java REMOVE import java.util.Arrays/2 IMPORT
+EditAction 1444299823552 TestGrid.java 754 0 0 0
+CompilationAction 1444299823768 TestGrid.java
+CompilationAction 1444299823769 TestGrid.java
+RefactoringAction 1444299886485 TestCell.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1444299895996 TestCell.java REMOVE testLiveCellWithNoNeighborDies() METHOD
+RefactoringAction 1444299899852 TestGrid.java ADD import java.util.Arrays IMPORT
+CompilationAction 1444299902020 TestGrid.java
+RefactoringAction 1444299911417 TestGrid.java RENAME testLiveCellWithNoNeighborDies()=>void test() METHOD
+RefactoringAction 1444299912431 TestGrid.java RENAME test()=>void testGrid() METHOD
+RefactoringAction 1444299924009 TestCell.java REMOVE import java.util.Arrays IMPORT
+RefactoringAction 1444299928520 TestCell.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1444299940047 TestCell.java REMOVE import java.util.Arrays IMPORT
+EditAction 1444299940672 TestCell.java 293 1 0 0
+UnitTestCaseAction 1444299945744 TestGrid.java OK
+UnitTestSessionAction 1444299945744 TestGrid OK
+RefactoringAction 1444299949982 TestGrid.java RENAME testGrid()=>void testFakeGrid() METHOD
+EditAction 1444299950218 TestGrid.java 790 1 12 0
