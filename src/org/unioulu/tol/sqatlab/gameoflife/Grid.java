@@ -50,7 +50,7 @@ public class Grid {
 			//CELL AT LEFT EDGE OF GRID
 		}
 		
-		if(x == size) {
+		if(x == size-1) {
 			
 		}
 		
