@@ -6,6 +6,10 @@ public class Grid {
 		this.size = 10;
 	}
 	
+	public Grid(int size) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public int getSize() {
 		
 		return 10;
