@@ -51,3 +51,8 @@ RefactoringAction 1444300624112 Grid.java RENAME neighboursetting=>void neighbou
 RefactoringAction 1444300654146 Grid.java RENAME neighboursetting()=>void neighboursetting(int) METHOD
 RefactoringAction 1444300655654 Grid.java RENAME neighboursetting(int)=>void neighboursetting(int, int) METHOD
 EditAction 1444301270142 Cell.java 656 5 10 0
+CompilationAction 1444301270403 TestCell.java
+CompilationAction 1444301270403 TestCell.java
+RefactoringAction 1444301655026 Grid.java RENAME zelle=>Cell cel FIELD
+RefactoringAction 1444301656034 Grid.java RENAME cel=>Cell cell FIELD
+EditAction 1444301666836 Grid.java 857 3 11 0
