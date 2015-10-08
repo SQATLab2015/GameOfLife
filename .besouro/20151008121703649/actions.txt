@@ -69,3 +69,6 @@ RefactoringAction 1444297146093 TestCell.java RENAME testLiveCellWithTwoNeighbor
 EditAction 1444297185623 TestCell.java 491 2 6 2
 EditAction 1444297319491 Cell.java 386 4 4 0
 EditAction 1444297335621 Cell.java 448 4 5 0
+UnitTestCaseAction 1444297337392 TestCell.java OK
+UnitTestSessionAction 1444297337393 TestCell OK
+EditAction 1444297349745 TestCell.java 490 2 6 2
