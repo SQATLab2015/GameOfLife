@@ -20,3 +20,10 @@ RefactoringAction 1444296976097 Grid.java ADD int gridSize FIELD
 RefactoringAction 1444296987128 Grid.java REMOVE array FIELD
 RefactoringAction 1444297139798 Grid.java ADD int FIELD
 EditAction 1444297469680 Grid.java 156 0 0 0
+RefactoringAction 1444297564276 Grid.java ADD void get FIELD
+RefactoringAction 1444297572498 Grid.java REMOVE get FIELD
+RefactoringAction 1444297607071 Grid.java RENAME getArray=>int getArray() METHOD
+RefactoringAction 1444297724789 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+RefactoringAction 1444297728989 TestGrid.java REMOVE import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+RefactoringAction 1444297835897 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+EditAction 1444297845996 TestGrid.java 360 1 1 1
