@@ -81,3 +81,12 @@ EditAction 1444298067458 TestGrid.java 198 1 1 0
 UnitTestCaseAction 1444298067789 TestCell.java OK
 UnitTestSessionAction 1444298067790 TestCell OK
 EditAction 1444298164709 TestCell.java 603 1 4 0
+CompilationAction 1444298295530 TestCell.java
+CompilationAction 1444298295530 TestCell.java
+CompilationAction 1444298317658 TestCell.java
+CompilationAction 1444298317658 TestCell.java
+UnitTestCaseAction 1444298320151 TestCell.java FAIL
+UnitTestSessionAction 1444298320151 TestCell FAIL
+UnitTestCaseAction 1444298329684 TestCell.java FAIL
+UnitTestSessionAction 1444298329685 TestCell FAIL
+EditAction 1444298337921 TestCell.java 647 1 5 0
