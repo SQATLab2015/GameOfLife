@@ -207,3 +207,20 @@ RefactoringAction 1444300189589 Cell.java ADD void setCol(int) METHOD
 RefactoringAction 1444300189589 Cell.java ADD int getRow() METHOD
 RefactoringAction 1444300189590 Cell.java ADD void setRow(int) METHOD
 EditAction 1444300652014 Cell.java 831 9 8 0
+CompilationAction 1444300652119 TestCell.java
+CompilationAction 1444300676343 TestCell.java
+UnitTestCaseAction 1444300676571 TestCell.java OK
+UnitTestSessionAction 1444300676571 TestCell OK
+UnitTestCaseAction 1444300683635 TestGrid.java FAIL
+UnitTestSessionAction 1444300683637 TestGrid FAIL
+RefactoringAction 1444300850544 Grid.java ADD int getSize() METHOD
+RefactoringAction 1444300850546 Grid.java ADD void setSize(int) METHOD
+RefactoringAction 1444300850546 Grid.java ADD Cell METHOD
+RefactoringAction 1444300850547 Grid.java ADD void setGrid(Cell METHOD
+RefactoringAction 1444300898109 Grid.java ADD void create FIELD
+RefactoringAction 1444300902122 Grid.java RENAME create=>void createRandomGrid FIELD
+RefactoringAction 1444300904644 Grid.java RENAME createRandomGrid=>void createRandomGrid() METHOD
+RefactoringAction 1444300932176 Grid.java REMOVE createRandomGrid() METHOD
+RefactoringAction 1444301155442 Grid.java ADD int columns FIELD
+RefactoringAction 1444301159964 Grid.java ADD int rows FIELD
+EditAction 1444301681246 Grid.java 401 5 6 0
