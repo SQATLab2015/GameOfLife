@@ -44,8 +44,11 @@ public class Grid {
 	}
 
 	public Cell getCell(int x, int y) {
+		int id = y * size + x;
 		
-		return NULL;
+		grid.get(id);
+		
+		return null;
 	}
 	
 }
