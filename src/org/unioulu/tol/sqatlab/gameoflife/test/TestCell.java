@@ -16,11 +16,6 @@ public class TestCell {
 		
 	}
 	
-
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
 	
 	@Test
 	public void TestCellIsDead() {
