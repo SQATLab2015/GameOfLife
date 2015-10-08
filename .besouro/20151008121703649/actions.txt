@@ -211,3 +211,7 @@ EditAction 1444299319463 Grid.java 567 2 5 0
 UnitTestCaseAction 1444299323597 TestGrid.java FAIL
 UnitTestSessionAction 1444299323597 TestGrid FAIL
 EditAction 1444299501735 Grid.java 606 2 5 0
+UnitTestCaseAction 1444299504855 TestGrid.java FAIL
+UnitTestSessionAction 1444299504855 TestGrid FAIL
+RefactoringAction 1444299519208 Grid.java RENAME createGrid()=>int createGrid(int, int) METHOD
+EditAction 1444299520924 Grid.java 637 2 5 0
