@@ -143,3 +143,4 @@ UnitTestSessionAction 1444298437408 TestCell OK
 RefactoringAction 1444298604285 Grid.java ADD List<Cell> cells/2 FIELD
 RefactoringAction 1444298623859 Grid.java REMOVE cells/2 FIELD
 EditAction 1444298625397 Grid.java 367 1 2 0
+EditAction 1444298642398 TestGrid.java 339 1 3 1

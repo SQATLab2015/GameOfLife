@@ -15,10 +15,10 @@ public class TestGrid {
 		grid = new Grid();
 		
 		int actual = grid.createGrid(5);
+	
+		assertEquals(4, actual);
 		
 		
-		
-		assertEquals(5, actual);
 	}
 
 }
