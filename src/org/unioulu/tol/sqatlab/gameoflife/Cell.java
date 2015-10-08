@@ -5,7 +5,7 @@ public class Cell {
 	public boolean status;
 	public int neighbours;
 		
-	public Cell(int neighbours) {
+	public void update(int neighbours) {
 		if (neighbours == 0) {
 			setStatus(false);
 		}

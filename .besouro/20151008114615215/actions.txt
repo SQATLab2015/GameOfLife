@@ -122,3 +122,4 @@ RefactoringAction 1444297780455 Cell.java REMOVE update(int) METHOD
 RefactoringAction 1444297839479 Cell.java RENAME Cell(int)=>void updae(int) METHOD
 RefactoringAction 1444297840992 Cell.java RENAME updae(int)=>void update(int) METHOD
 EditAction 1444297864858 TestGrid.java 415 3 2 0
+EditAction 1444297864923 Cell.java 593 6 8 0
