@@ -20,7 +20,7 @@ public class TestGrid {
 	public void testDoesArrayOnlyIncludeAliveorDeadMarks(){
 	//does array only include * and - 
 		
-		assertEquals(false,getMarks());
+		assertEquals(true,getMarks());
 		
 		
 	}
