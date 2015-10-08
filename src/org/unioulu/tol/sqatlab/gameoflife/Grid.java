@@ -1,7 +1,5 @@
 package org.unioulu.tol.sqatlab.gameoflife;
 
-import java.util.ArrayList;
-
 public class Grid {
 
 	private static int[][] gridArray = new int[0][0];

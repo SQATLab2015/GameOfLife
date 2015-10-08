@@ -21,4 +21,11 @@ public class TestGrid {
 		assertEquals(size, "10x10");
 	}
 	
+	@Test
+	public void test_createA50By43Grid () {
+		initializeGrid ( 10, 10 );
+		String size = testGrid.getSize();
+		assertEquals(size, "10x10");
+	}
+	
 }
