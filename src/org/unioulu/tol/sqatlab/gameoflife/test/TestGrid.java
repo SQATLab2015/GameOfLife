@@ -11,7 +11,7 @@ public class TestGrid {
 	
 	//Initialization function
 	public void initializeGrid() {
-		testGrid = new Grid();
+		testGrid = new Grid(10,10);
 	}
 	
 	@Test

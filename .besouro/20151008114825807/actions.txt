@@ -83,3 +83,6 @@ RefactoringAction 1444295412067 TestGrid.java RENAME test_createA10()=>void test
 EditAction 1444295425773 TestGrid.java 437 2 1 0
 RefactoringAction 1444295523022 Cell.java RENAME main()=>Cell() METHOD
 EditAction 1444295523334 Cell.java 441 4 4 0
+UnitTestCaseAction 1444295530536 TestCell.java OK
+UnitTestSessionAction 1444295530537 TestCell OK
+EditAction 1444295562499 TestGrid.java 442 2 1 0
