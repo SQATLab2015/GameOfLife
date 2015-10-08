@@ -53,3 +53,6 @@ CompilationAction 1444295351195 Cell.java
 CompilationAction 1444295351195 Cell.java
 CompilationAction 1444295351196 Cell.java
 EditAction 1444295365827 Grid.java 134 1 0 0
+UnitTestCaseAction 1444295366573 TestCell.java FAIL
+UnitTestSessionAction 1444295366576 TestCell FAIL
+EditAction 1444295532161 TestCell.java 601 4 6 2

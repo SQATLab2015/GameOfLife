@@ -31,7 +31,8 @@ public class TestCell {
 	
 	@Test
 	public void TestCellIsAlive() {
-		fail("Not yet implemented");		
+		testCell.cellIsAlive();
+		assertEquals(true, testCell.cellIsAlive());			
 	}
 
 }
