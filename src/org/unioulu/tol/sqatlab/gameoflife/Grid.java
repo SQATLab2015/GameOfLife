@@ -40,10 +40,16 @@ public class Grid {
 
 	public int checkCellNeighbors(int x, int y) {
 
-		//CHECK GRID BORDERS
 		int id = y * size + x;
+		
+		//CHECK GRID BORDERS
+		
 		if(id % size == 0) {
 			//CELL AT LEFT EDGE OF GRID
+		}
+		
+		if() {
+			
 		}
 		
 		return 0;
