@@ -90,3 +90,6 @@ UnitTestSessionAction 1444298320151 TestCell FAIL
 UnitTestCaseAction 1444298329684 TestCell.java FAIL
 UnitTestSessionAction 1444298329685 TestCell FAIL
 EditAction 1444298337921 TestCell.java 647 1 5 0
+UnitTestCaseAction 1444298338202 TestCell.java FAIL
+UnitTestSessionAction 1444298338203 TestCell FAIL
+EditAction 1444298344114 TestCell.java 647 1 5 0
