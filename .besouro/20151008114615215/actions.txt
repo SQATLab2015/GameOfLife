@@ -139,3 +139,14 @@ CompilationAction 1444298525905 TestCell.java
 RefactoringAction 1444298546906 Cell.java ADD Object isStatus()/2 METHOD
 RefactoringAction 1444298559365 Cell.java REMOVE isStatus()/2 METHOD
 EditAction 1444298642459 Cell.java 574 6 8 0
+UnitTestCaseAction 1444298648104 TestCell.java FAIL
+UnitTestSessionAction 1444298648105 TestCell FAIL
+RefactoringAction 1444298999112 TestCell.java ADD void TestCell FIELD
+RefactoringAction 1444299001129 TestCell.java RENAME TestCell=>void TestCellWith FIELD
+RefactoringAction 1444299042176 TestCell.java RENAME TestCellWith=>void TestCellWithOne FIELD
+RefactoringAction 1444299045191 TestCell.java RENAME TestCellWithOne=>void TestCellWithOneNeighbours FIELD
+RefactoringAction 1444299048209 TestCell.java RENAME TestCellWithOneNeighbours=>void TestCellWithOneNeighbourLives FIELD
+RefactoringAction 1444299050725 TestCell.java RENAME TestCellWithOneNeighbourLives=>void TestCellWithOneNeighbourLives() METHOD
+RefactoringAction 1444299098043 TestCell.java RENAME TestCellWithOneNeighbourLives()=>void TestCellWithTwoNeighbourLives() METHOD
+RefactoringAction 1444299101559 TestCell.java RENAME TestCellWithTwoNeighbourLives()=>void TestCellWithTwoNeighboursLives() METHOD
+EditAction 1444299108200 TestCell.java 858 6 10 4

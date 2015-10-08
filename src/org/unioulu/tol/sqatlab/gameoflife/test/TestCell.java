@@ -41,6 +41,13 @@ public class TestCell {
 		
 	}
 	
+	@Test 
+	public void TestCellWithTwoNeighboursLives() {
+		testCell.update(2);
+		assertEquals(true, testCell.isStatus());
+		
+	}
+	
 
 
 }
