@@ -28,5 +28,14 @@ public class TestCell {
 		boolean r = testCell.getStatus();
 		assertEquals ( r, true );
 	}
+	
+	@Test
+	public void test_setToAliveAndThenToDeadAndReturnStatus() {
+		initializeCell();
+		testCell.setToAlive();
+		testCell.setToDead();
+		boolean r = testCell.getStatus();
+		assertEquals ( r, false );
+	}
 
 }
