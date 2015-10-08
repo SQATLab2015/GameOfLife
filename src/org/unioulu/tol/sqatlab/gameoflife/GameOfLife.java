@@ -30,6 +30,7 @@ public class GameOfLife {
 				num = scan.nextInt();
 			} else {
 				println("Your input was not a positive integer. Try again.");
+				scan.nextLine();
 			}
 		} while (num <= 0);
 		scan.close();
