@@ -42,13 +42,15 @@ public class Grid {
 
 		int id = y * size + x;
 		
+		int column = 
+		
 		//CHECK GRID BORDERS
 		
-		if(id % size == 0) {
+		if(x == 0) {
 			//CELL AT LEFT EDGE OF GRID
 		}
 		
-		if() {
+		if(x == size) {
 			
 		}
 		
