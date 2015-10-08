@@ -5,7 +5,7 @@ public class Cell {
 	//Initially start with dead status
 	private static boolean isAlive = false;
 	
-	public static void main () {
+	public Cell () {
 		if ( Math.random() < 0.5 ) {
 			isAlive = false;
 		} else {

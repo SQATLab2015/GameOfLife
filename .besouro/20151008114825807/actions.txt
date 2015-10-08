@@ -81,3 +81,5 @@ RefactoringAction 1444295405552 TestGrid.java RENAME test_create()=>void test_cr
 RefactoringAction 1444295408059 TestGrid.java RENAME test_createA()=>void test_createA10() METHOD
 RefactoringAction 1444295412067 TestGrid.java RENAME test_createA10()=>void test_createA10By10Grid() METHOD
 EditAction 1444295425773 TestGrid.java 437 2 1 0
+RefactoringAction 1444295523022 Cell.java RENAME main()=>Cell() METHOD
+EditAction 1444295523334 Cell.java 441 4 4 0
