@@ -7,4 +7,13 @@ public class Cell {
 	public Cell(String string) {
 		this.status = string;
 	}
+	
+	
+	public void update(int aliveSurroundingCells)
+	{
+		if(aliveSurroundingCells==0)
+		{
+			status = "Dead";
+		}
+	}
 }

@@ -11,7 +11,7 @@ public class TestCell {
 	public void testLiveCellWithNoNeighborDies()
 	{
 		Cell cell = new Cell("Alive");
-		cell.update();
+		cell.update(0);
 		assertEquals("Dead", cell.getState());
 	}
 }

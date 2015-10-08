@@ -23,3 +23,11 @@ RefactoringAction 1444296222203 Cell.java ADD Cell(String) METHOD
 RefactoringAction 1444296232404 Cell.java REMOVE Cell(String) METHOD
 RefactoringAction 1444296235411 Cell.java ADD Cell(String) METHOD
 EditAction 1444296247989 Cell.java 150 1 1 0
+CompilationAction 1444296248105 TestCell.java
+CompilationAction 1444296248106 TestCell.java
+CompilationAction 1444296258397 TestCell.java
+CompilationAction 1444296258557 TestCell.java
+CompilationAction 1444296258558 TestCell.java
+RefactoringAction 1444296280952 Cell.java ADD void update() METHOD
+RefactoringAction 1444296288977 Cell.java RENAME update()=>void update(int) METHOD
+EditAction 1444296337968 Cell.java 266 2 2 0
