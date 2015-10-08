@@ -136,3 +136,10 @@ RefactoringAction 1444298348691 Grid.java RENAME createGrid()=>int createGrid(in
 EditAction 1444298352679 Grid.java 367 1 2 0
 EditAction 1444298386831 TestGrid.java 297 1 2 0
 EditAction 1444298418006 TestGrid.java 340 1 3 1
+UnitTestCaseAction 1444298421812 TestCell.java OK
+UnitTestSessionAction 1444298421813 TestCell OK
+UnitTestCaseAction 1444298437408 TestCell.java OK
+UnitTestSessionAction 1444298437408 TestCell OK
+RefactoringAction 1444298604285 Grid.java ADD List<Cell> cells/2 FIELD
+RefactoringAction 1444298623859 Grid.java REMOVE cells/2 FIELD
+EditAction 1444298625397 Grid.java 367 1 2 0
