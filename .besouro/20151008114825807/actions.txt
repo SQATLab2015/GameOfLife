@@ -116,3 +116,37 @@ CompilationAction 1444296250327 TestGrid.java
 RefactoringAction 1444296291618 Grid.java ADD int Integer FIELD
 RefactoringAction 1444296295128 Grid.java REMOVE Integer FIELD
 EditAction 1444296297424 Grid.java 366 1 3 0
+RefactoringAction 1444296403214 Grid.java REMOVE gridArray FIELD
+RefactoringAction 1444296405222 Grid.java ADD ArrayList<List<Integer>> gridArray FIELD
+RefactoringAction 1444296490234 Grid.java REMOVE gridArray FIELD
+RefactoringAction 1444296514749 Grid.java RENAME Grid(int, int)=>List<List<Integer>> gridArray FIELD
+RefactoringAction 1444296572164 Grid.java ADD import java.awt.List IMPORT
+RefactoringAction 1444296680321 Grid.java RENAME gridArray=>List<List<String>> ls2d FIELD
+RefactoringAction 1444296683827 Grid.java REMOVE import java.awt.List IMPORT
+RefactoringAction 1444296688333 Grid.java REMOVE ls2d FIELD
+RefactoringAction 1444296695847 Grid.java RENAME Grid(int, int)=>ArrayList FIELD
+CompilationAction 1444296705910 Grid.java
+CompilationAction 1444296705911 Grid.java
+CompilationAction 1444296705912 Grid.java
+CompilationAction 1444296705913 Grid.java
+RefactoringAction 1444296803417 Grid.java REMOVE gridArray FIELD
+RefactoringAction 1444296806922 Grid.java ADD List<Integer> FIELD
+RefactoringAction 1444296812599 Grid.java ADD import java.awt.List IMPORT
+CompilationAction 1444296827431 Grid.java
+CompilationAction 1444296827432 Grid.java
+CompilationAction 1444296827433 Grid.java
+CompilationAction 1444296827434 Grid.java
+CompilationAction 1444296827673 Grid.java
+CompilationAction 1444296827674 Grid.java
+CompilationAction 1444296827674 TestGrid.java
+CompilationAction 1444296827675 TestGrid.java
+RefactoringAction 1444296847465 Grid.java RENAME gridArray=>List<Integer> list FIELD
+RefactoringAction 1444296858477 Grid.java RENAME list=>List<Integer> FIELD
+RefactoringAction 1444296861989 Grid.java REMOVE import java.awt.List IMPORT
+CompilationAction 1444296863414 Grid.java
+CompilationAction 1444296863415 Grid.java
+CompilationAction 1444296863612 Grid.java
+CompilationAction 1444296863613 Grid.java
+CompilationAction 1444296863613 TestGrid.java
+CompilationAction 1444296863614 TestGrid.java
+EditAction 1444296883641 Grid.java 370 1 3 0

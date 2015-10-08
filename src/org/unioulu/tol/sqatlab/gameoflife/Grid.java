@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Grid {
 
-	private static ArrayList[][] gridArray = new ArrayList[0][0];
+	private static List<Integer>[][] gridArray = new ArrayList[0][0];
 	
 	public Grid(int width, int height) {
 		int i = 0;
