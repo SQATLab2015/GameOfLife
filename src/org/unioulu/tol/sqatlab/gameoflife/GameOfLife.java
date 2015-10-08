@@ -19,7 +19,7 @@ public class GameOfLife {
 			running = false;
 		}
 	}
-	/*
+	
 	public static int askPositiveInteger (String message) {
 		int num = -1;
 		Scanner scan = new Scanner(System.in);
@@ -36,7 +36,7 @@ public class GameOfLife {
 		} while (num <= 0);
 		scan.close();
 		return num;
-	}*/
+	}
 	
 	public static void println(String str) {
 		System.out.println(str);
