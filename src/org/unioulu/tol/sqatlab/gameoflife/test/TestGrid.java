@@ -41,7 +41,7 @@ public class TestGrid {
 		if (str == "*" || str == "-") {
 			assert(true);
 		} else {
-			fail("Life of a cell was not * or -.")
+			fail("Life of a cell was not * or -.");
 		}
 	}
 	

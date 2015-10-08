@@ -261,3 +261,6 @@ RefactoringAction 1444298292906 GameOfLife.java ADD Boolean running FIELD
 RefactoringAction 1444298319924 GameOfLife.java ADD void main FIELD
 RefactoringAction 1444298321928 GameOfLife.java RENAME main=>void main() METHOD
 EditAction 1444298334053 GameOfLife.java 201 1 1 0
+UnitTestCaseAction 1444298342975 TestGrid.java FAIL
+UnitTestSessionAction 1444298342977 TestGrid FAIL
+EditAction 1444298365718 TestGrid.java 1077 5 12 2
