@@ -5,7 +5,7 @@ public class Cell {
 	public String state;
 	
 	
-	public Cell(String state) 
+	public Cell() 
 	{
 		this.setState("Alive");
 	}
