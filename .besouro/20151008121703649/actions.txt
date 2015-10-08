@@ -82,3 +82,17 @@ EditAction 1444297375456 TestCell.java 491 2 6 2
 RefactoringAction 1444297400538 TestCell.java ADD void init() METHOD
 RefactoringAction 1444297419110 TestCell.java ADD Cell cell FIELD
 EditAction 1444297419987 TestCell.java 516 3 5 2
+CompilationAction 1444297420231 TestCell.java
+RefactoringAction 1444297423801 TestCell.java ADD import org.junit.Before IMPORT
+CompilationAction 1444297424771 TestCell.java
+UnitTestCaseAction 1444297442690 TestCell.java FAIL
+UnitTestSessionAction 1444297442690 TestCell FAIL
+UnitTestCaseAction 1444297462013 TestCell.java FAIL
+UnitTestSessionAction 1444297462014 TestCell FAIL
+UnitTestCaseAction 1444297513476 TestCell.java OK
+UnitTestSessionAction 1444297513477 TestCell OK
+FileOpenedAction 1444297568492 SudokuVerifier.java 4647 8 38 0
+RefactoringAction 1444297607761 Grid.java ADD int x FIELD
+RefactoringAction 1444297609267 Grid.java RENAME x=>int xValue FIELD
+RefactoringAction 1444297615780 Grid.java ADD int yValue FIELD
+EditAction 1444297616204 Grid.java 107 0 0 0
