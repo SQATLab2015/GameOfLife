@@ -59,3 +59,6 @@ CompilationAction 1444300155475 TestCell.java
 UnitTestCaseAction 1444300166687 TestCell.java FAIL
 UnitTestSessionAction 1444300166688 TestCell FAIL
 EditAction 1444300295263 TestCell.java 341 1 2 1
+UnitTestCaseAction 1444300296442 TestCell.java OK
+UnitTestSessionAction 1444300296443 TestCell OK
+EditAction 1444300314281 TestCell.java 340 1 2 1
