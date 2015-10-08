@@ -60,3 +60,14 @@ RefactoringAction 1444299313782 TestGrid.java ADD void testDoesArra FIELD
 RefactoringAction 1444299317296 TestGrid.java RENAME testDoesArra=>void testDoesArrayOnlyInclude FIELD
 RefactoringAction 1444299324861 TestGrid.java ADD void Marks() METHOD
 EditAction 1444299373837 TestGrid.java 446 2 1 1
+CompilationAction 1444299374321 TestGrid.java
+CompilationAction 1444299374321 TestGrid.java
+CompilationAction 1444299374322 TestGrid.java
+CompilationAction 1444299374322 TestGrid.java
+CompilationAction 1444299374322 TestGrid.java
+RefactoringAction 1444299386453 TestGrid.java RENAME testDoesArrayOnlyIncludeorMarks()=>void testDoesArrayOnlyIncludeAliveorMarks() METHOD
+RefactoringAction 1444299387966 TestGrid.java RENAME testDoesArrayOnlyIncludeAliveorMarks()=>void testDoesArrayOnlyIncludeAliveorDeadMarks() METHOD
+CompilationAction 1444299462935 TestGrid.java
+CompilationAction 1444299462936 TestGrid.java
+CompilationAction 1444299462936 TestGrid.java
+EditAction 1444299462946 Cell.java 108 0 0 0

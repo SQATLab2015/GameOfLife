@@ -17,7 +17,10 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void testDoesArrayOnlyInclude*or-Marks(){
+	public void testDoesArrayOnlyIncludeAliveorDeadMarks(){
+		//The state of the grid is called “Life” and shall be represented as a
+		//string, where dead cells are represented with a “-” (dash) and alive
+		//cells are represented with a “*” (star) character.
 		
 		
 	}
