@@ -99,3 +99,8 @@ EditAction 1444300273661 Grid.java 380 2 4 0
 UnitTestCaseAction 1444300273992 TestGrid.java FAIL
 UnitTestSessionAction 1444300273992 TestGrid FAIL
 EditAction 1444300320661 TestGrid.java 718 3 3 2
+UnitTestCaseAction 1444300321783 TestGrid.java FAIL
+UnitTestSessionAction 1444300321784 TestGrid FAIL
+RefactoringAction 1444300383431 Grid.java ADD String setCharacters FIELD
+RefactoringAction 1444300384442 Grid.java RENAME setCharacters=>static String setCharacters() METHOD
+EditAction 1444300988824 Grid.java 534 3 5 0
