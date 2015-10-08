@@ -61,3 +61,4 @@ RefactoringAction 1444295170783 TestGrid.java RENAME test()=>void testGetGritSiz
 RefactoringAction 1444295174294 TestGrid.java RENAME testGetGritSize()=>void testGetGritSizeShouldBe() METHOD
 RefactoringAction 1444295176802 TestGrid.java RENAME testGetGritSizeShouldBe()=>void testGetGritSizeShouldBe50by50() METHOD
 EditAction 1444295179156 TestGrid.java 224 1 1 0
+EditAction 1444295185632 TestGrid.java 219 1 1 0

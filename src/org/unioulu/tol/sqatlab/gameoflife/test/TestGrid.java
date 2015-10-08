@@ -7,7 +7,7 @@ public class TestGrid {
 
 	@Test
 	public void testGetGritSizeShouldBe10by10() {
-		fail("Not yet implemented");
+		Grid grid = new Grid();
 	}
 
 }
