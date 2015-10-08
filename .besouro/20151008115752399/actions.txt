@@ -153,3 +153,6 @@ CompilationAction 1444299291188 TestCell.java
 CompilationAction 1444299392436 TestCell.java
 CompilationAction 1444299392436 TestCell.java
 EditAction 1444299411314 TestCell.java 527 1 5 0
+UnitTestCaseAction 1444299412887 TestCell.java OK
+UnitTestSessionAction 1444299412888 TestCell.testLiveCellWithNoNeighborDies OK
+EditAction 1444299417534 TestCell.java 525 1 5 0
