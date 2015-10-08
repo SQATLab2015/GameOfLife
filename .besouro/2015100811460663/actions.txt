@@ -72,3 +72,6 @@ EditAction 1444300390825 TestCell.java 340 1 2 1
 UnitTestCaseAction 1444300392734 TestCell.java FAIL
 UnitTestSessionAction 1444300392735 TestCell FAIL
 EditAction 1444300402333 TestCell.java 341 1 2 1
+UnitTestCaseAction 1444300403553 TestCell.java OK
+UnitTestSessionAction 1444300403554 TestCell OK
+EditAction 1444300411513 TestCell.java 340 1 2 1

@@ -25,3 +25,9 @@
 1444300296446 test-first 2 1267 true
 1444300296447 test-first 2 1267 true
 1444300296448 test-first 2 1267 true
+1444300403554 refactoring 3 89 true
+1444300403555 refactoring 3 89 true
+1444300403556 refactoring 3 89 true
+1444300403557 refactoring 3 89 true
+1444300403558 refactoring 3 89 true
+1444300403559 refactoring 3 89 true
