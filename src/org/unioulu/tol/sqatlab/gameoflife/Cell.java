@@ -12,5 +12,9 @@ public class Cell {
 	public void setToAlive () {
 		isAlive = true;
 	}
+	
+	public void setToDead () {
+		isAlive = false;
+	}
 
 }

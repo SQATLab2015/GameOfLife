@@ -36,3 +36,8 @@ UnitTestSessionAction 1444294453653 TestCell OK
 RefactoringAction 1444294465295 TestCell.java ADD void test_setToAliveAndReturnStatus()/2 METHOD
 RefactoringAction 1444294481314 TestCell.java RENAME test_setToAliveAndReturnStatus()/2=>void test_setToAliveAnd FIELD
 EditAction 1444294527296 TestCell.java 908 4 13 3
+CompilationAction 1444294531037 TestCell.java
+UnitTestCaseAction 1444294535632 TestCell.java FAIL
+UnitTestSessionAction 1444294535634 TestCell FAIL
+RefactoringAction 1444294549130 Cell.java ADD void setToDead() METHOD
+EditAction 1444294552883 Cell.java 318 3 3 0
