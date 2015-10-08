@@ -9,7 +9,7 @@ public class Grid {
 public static void setCharacters(){
 	for(int i =0; i< array.length; i++){//cols
 		for(int k =0; k< array.length; k++){//rows
-		 array[i][k]="-";
+		 array[i][k]="x";
 		 System.out.println(array[i][k]);
 		}	
 	}
