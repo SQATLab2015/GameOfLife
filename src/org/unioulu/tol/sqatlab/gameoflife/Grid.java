@@ -13,6 +13,8 @@ public class Grid {
 	
 	public Grid() {
 		this.size = 10;
+		
+		life[][] = 
 	}
 	
 	public Grid(int size) {
