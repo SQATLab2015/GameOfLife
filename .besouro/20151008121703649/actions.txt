@@ -97,3 +97,6 @@ RefactoringAction 1444297609267 Grid.java RENAME x=>int xValue FIELD
 RefactoringAction 1444297615780 Grid.java ADD int yValue FIELD
 EditAction 1444297616204 Grid.java 107 0 0 0
 EditAction 1444297625481 GameOfLife.java 75 0 0 0
+RefactoringAction 1444297719805 Grid.java RENAME xValue=>int rowAmount FIELD
+RefactoringAction 1444297725810 Grid.java RENAME yValue=>int column FIELD
+EditAction 1444297727052 Grid.java 120 0 0 0
