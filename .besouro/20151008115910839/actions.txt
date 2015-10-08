@@ -113,3 +113,6 @@ CompilationAction 1444295759413 TestGrid.java
 EditAction 1444295782777 TestGrid.java 651 3 9 3
 CompilationAction 1444295782987 TestGrid.java
 EditAction 1444295785662 TestGrid.java 654 3 9 3
+CompilationAction 1444295785922 TestGrid.java
+RefactoringAction 1444295788735 Grid.java ADD int checkCell(int, int) METHOD
+EditAction 1444295796852 Grid.java 281 4 4 0

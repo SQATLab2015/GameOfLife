@@ -17,4 +17,9 @@ public class Grid {
 		return size;
 	}
 
+	public int checkCell(int x, int y) {
+		
+		return 0;
+	}
+
 }
