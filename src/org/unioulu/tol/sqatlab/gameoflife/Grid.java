@@ -3,8 +3,9 @@ package org.unioulu.tol.sqatlab.gameoflife;
 public class Grid {
 
 	public static final int NEIGHBOR_STATE_LESS_THAN_TWO = 0;
-	public static final int NEIGHBOR_STATE_TWO_OR_THREE = 1;
-	public static final int NEIGHBOR_STATE_MORE_THAN THREE = 3;
+	public static final int NEIGHBOR_STATE_TWO = 1;
+	public static final int NEIGHBOR_SATTE_THREE = 2;
+	public static final int NEIGHBOR_STATE_MORE_THAN_THREE = 3;
 	
 	private int size;
 	

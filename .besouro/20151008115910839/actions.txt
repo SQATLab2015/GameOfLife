@@ -128,3 +128,10 @@ EditAction 1444295854459 Grid.java 400 4 4 0
 RefactoringAction 1444295860170 Grid.java ADD int NEIGHBOR_STATE_ FIELD
 RefactoringAction 1444295869695 Grid.java RENAME NEIGHBOR_STATE_=>int NEIGHBOR_STATE_MORE_THAN FIELD
 EditAction 1444295872492 Grid.java 461 4 4 0
+CompilationAction 1444295872755 Grid.java
+RefactoringAction 1444295879218 Grid.java ADD int NEIGHBOR_SATTE_THREE FIELD
+CompilationAction 1444295880430 Grid.java
+CompilationAction 1444295880967 Grid.java
+CompilationAction 1444295883457 Grid.java
+CompilationAction 1444295883624 Grid.java
+EditAction 1444295887011 Grid.java 503 4 4 0
