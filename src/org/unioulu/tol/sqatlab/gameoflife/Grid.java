@@ -1,5 +1,7 @@
 package org.unioulu.tol.sqatlab.gameoflife;
 
+import java.util.Arrays;
+
 public class Grid {
 
 	private static Cell[][] gridArray = new Cell[1][1];
@@ -14,10 +16,7 @@ public class Grid {
 		int b = 0;
 		
 		while ( i < width) {
-			while ( b < height ) {
-				gridArray[i][b] = new Cell();
-				b++;
-			}
+			Arrays.fill(gridArray[i], new Cell());
 			i++;
 		}
 		
