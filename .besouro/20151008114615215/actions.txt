@@ -35,3 +35,7 @@ EditAction 1444295201242 TestCell.java 559 4 5 1
 CompilationAction 1444295201623 TestCell.java
 RefactoringAction 1444295228424 Cell.java ADD Cell() METHOD
 EditAction 1444295230054 Cell.java 271 3 4 0
+CompilationAction 1444295230273 Cell.java
+CompilationAction 1444295230273 Cell.java
+CompilationAction 1444295230273 Cell.java
+EditAction 1444295238256 Cell.java 278 3 4 0

@@ -4,7 +4,7 @@ public class Cell {
 	
 	public boolean status;
 	
-	public Cell (status)
+	public Cell (status) {
 	
 	public boolean cellIsDead() {
 		status = false;
@@ -14,6 +14,8 @@ public class Cell {
 	public boolean cellIsAlive() {
 		status = true;
 		return status;
+	}
+	
 	}
 		
 		
