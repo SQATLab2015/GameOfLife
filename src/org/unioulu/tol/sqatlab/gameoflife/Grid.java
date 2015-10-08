@@ -47,12 +47,14 @@ public class Grid {
 		//CHECK GRID BORDERS
 		
 		//CHECK TOP NEIGHBORS
-		if(x > 0 && y > 0) {
+		if(y > 0) {
+			if(x > 0) {
 			//NE neighbor
 			id = (y-1) * size + (x-1);
 			
 			if(grid.get(id).getState() == Cell.CELL_STATE_ALIVE) {
 				aliveNeighborCount++;
+			}
 			}
 		}
 		
