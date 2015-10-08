@@ -10,7 +10,7 @@ public class TestCell {
 	@Test
 	public void testLiveCellWithNoNeighborDies() {
 		Cell cell = new Cell("Alive");
-		cell.update(2);
+		cell.update(1);
 		assertEquals("Dead", cell.getState());
 		
 	}
