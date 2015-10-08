@@ -130,3 +130,8 @@ CompilationAction 1444297884999 TestCell.java
 UnitTestCaseAction 1444297887036 TestCell.java FAIL
 UnitTestSessionAction 1444297887036 TestCell FAIL
 EditAction 1444297911751 TestCell.java 728 5 8 3
+CompilationAction 1444297912003 TestCell.java
+CompilationAction 1444297956655 TestCell.java
+RefactoringAction 1444298501619 Cell.java ADD boolean isStatus() METHOD
+RefactoringAction 1444298512632 Cell.java REMOVE getStatus(boolean) METHOD
+EditAction 1444298525650 TestCell.java 729 5 8 3

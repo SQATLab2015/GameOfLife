@@ -37,7 +37,7 @@ public class TestCell {
 	@Test
 	public void TestCellWithNoNeighboursDies() {
 		testCell.update(0);
-		assertEquals(false, testCell.getStatus);
+		assertEquals(false, testCell.isStatus());
 		
 	}
 	
