@@ -209,3 +209,25 @@ RefactoringAction 1444297341013 Grid.java RENAME getCell()=>int getCell(int, int
 EditAction 1444297353472 Grid.java 575 4 7 0
 CompilationAction 1444297356857 Grid.java
 EditAction 1444297363429 Grid.java 576 4 7 0
+UnitTestCaseAction 1444297372038 TestGrid.java OK
+UnitTestSessionAction 1444297372038 TestGrid OK
+UnitTestCaseAction 1444297372312 TestGrid.java OK
+UnitTestSessionAction 1444297372313 TestGrid OK
+FileOpenedAction 1444297448902 Cell.java 441 4 4 0
+FileOpenedAction 1444297450339 GameOfLife.java 79 0 0 0
+FileOpenedAction 1444297456968 Cell.java 441 4 4 0
+FileOpenedAction 1444297457770 Grid.java 576 4 7 0
+FileOpenedAction 1444297458365 TestCell.java 1365 5 16 3
+FileOpenedAction 1444297459308 TestGrid.java 819 4 9 2
+RefactoringAction 1444297594890 TestCell.java REMOVE test_randomCellStatusInitialization() METHOD
+RefactoringAction 1444297594891 TestCell.java REMOVE test_getCellStatus() METHOD
+RefactoringAction 1444297594892 TestCell.java REMOVE test_setToAliveAndThenToDeadAndReturnStatus() METHOD
+RefactoringAction 1444297594893 TestCell.java REMOVE test_setToAliveAndReturnStatus() METHOD
+RefactoringAction 1444297596909 TestCell.java ADD void test_getCellStatus() METHOD
+RefactoringAction 1444297596910 TestCell.java ADD void test_setToAliveAndReturnStatus() METHOD
+RefactoringAction 1444297596911 TestCell.java ADD void test_setToAliveAndThenToDeadAndReturnStatus() METHOD
+RefactoringAction 1444297596912 TestCell.java ADD void test_randomCellStatusInitialization() METHOD
+RefactoringAction 1444297660485 Cell.java REMOVE isAlive FIELD
+RefactoringAction 1444297662991 Cell.java ADD String life FIELD
+RefactoringAction 1444297666496 Cell.java RENAME life=>String Life FIELD
+EditAction 1444297704989 Cell.java 414 4 4 0

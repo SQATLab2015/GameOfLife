@@ -3,26 +3,26 @@ package org.unioulu.tol.sqatlab.gameoflife;
 public class Cell {
 	
 	//Initially start with dead status
-	private static boolean isAlive = false;
+	private static String Life = "-";
 	
 	public Cell () {
 		if ( Math.random() < 0.5 ) {
-			isAlive = false;
+			Life = "-";
 		} else {
-			isAlive = true;
+			Life = "*";
 		}
 	}
 	
 	public boolean getStatus () {
-		return isAlive;
+		return Life;
 	}
 	
 	public void setToAlive () {
-		isAlive = true;
+		Life = "*";
 	}
 	
 	public void setToDead () {
-		isAlive = false;
+		Life = "-";
 	}
 
 }
