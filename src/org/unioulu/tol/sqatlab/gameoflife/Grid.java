@@ -17,6 +17,7 @@ public class Grid {
 		while ( i < width) {
 			while ( b < height) {
 				gridArray[i][b] = new Cell();
+				b++;
 			}
 			i++;
 		}
