@@ -94,3 +94,16 @@ CompilationAction 1444295596274 TestGrid.java
 EditAction 1444295617779 TestGrid.java 511 2 3 0
 CompilationAction 1444295621874 TestGrid.java
 EditAction 1444295661593 TestGrid.java 550 2 4 1
+CompilationAction 1444295667443 TestGrid.java
+CompilationAction 1444295667444 TestGrid.java
+RefactoringAction 1444295738101 Grid.java ADD static void ArrayList() METHOD
+RefactoringAction 1444295744608 Grid.java REMOVE ArrayList() METHOD
+RefactoringAction 1444295755613 Grid.java ADD ArrayList gridArray FIELD
+RefactoringAction 1444295763074 Grid.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1444295832140 Grid.java REMOVE gridArray FIELD
+RefactoringAction 1444295862156 Grid.java ADD ArrayList gridArray FIELD
+RefactoringAction 1444295867164 Grid.java REMOVE gridArray FIELD
+RefactoringAction 1444295878176 Grid.java ADD static Grid() METHOD
+RefactoringAction 1444295890181 Grid.java ADD ArrayList<> gridArray FIELD
+RefactoringAction 1444295990227 Grid.java RENAME Grid()=>Grid(int, int) METHOD
+EditAction 1444295990257 Grid.java 228 1 0 0
