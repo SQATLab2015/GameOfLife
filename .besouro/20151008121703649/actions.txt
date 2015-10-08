@@ -265,3 +265,5 @@ EditAction 1444300021833 GameOfLife.java 166 1 1 0
 CompilationAction 1444300022054 GameOfLife.java
 CompilationAction 1444300054401 GameOfLife.java
 EditAction 1444300057745 TestGrid.java 333 1 3 1
+RefactoringAction 1444300105958 Grid.java RENAME createGrid(int, int)=>int createGrid(int) METHOD
+EditAction 1444300135571 Grid.java 391 1 2 0

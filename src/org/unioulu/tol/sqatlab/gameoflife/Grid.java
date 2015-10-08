@@ -9,11 +9,11 @@ public class Grid {
 	public ArrayList<Cell[]> allCells = new ArrayList<Cell[]>();
 	
 
-	public int createGrid(int rowAmount, int columnAmount)
+	public int createGrid(int rowColumnAmount)
 	{
-		for(int i = 0; i<rowAmount; i++) 
+		for(int i = 0; i<rowColumnAmount; i++) 
 		{
-			cellArray = new Cell[columnAmount];
+			cellArray = new Cell[rowColumnAmount];
 			allCells.add(cellArray);
 		}
 		
