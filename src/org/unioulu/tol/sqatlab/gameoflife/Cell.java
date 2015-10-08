@@ -10,9 +10,9 @@ public class Cell {
 		return state;
 	}
 
-	public void update(int i) {
+	/*public void update(int i) {
 		// TODO Auto-generated method stub
 		
-	}
+	}*/
 }
 
