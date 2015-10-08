@@ -23,6 +23,7 @@ public class TestCell {
 	public void test_isCellAlive () {
 		initializeCell();
 		boolean result = testCell.isAlive();
+		assertEquals(testCell, true );
 	}
 
 }
