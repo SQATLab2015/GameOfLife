@@ -9,10 +9,18 @@ public class Cell {
 	public String getState() {
 		return state;
 	}
+	
+	public void setState(String state) {
+		this.state = state;
+	}
 
-	/*public void update(int i) {
-		// TODO Auto-generated method stub
+	public void update(int i) {
+		if(i<=1){
+			this.state = "Dead";
+		}else{
+			this.state = "Alive";
+		}
 		
-	}*/
+	}
 }
 

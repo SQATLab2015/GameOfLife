@@ -75,3 +75,11 @@ EditAction 1444300402333 TestCell.java 341 1 2 1
 UnitTestCaseAction 1444300403553 TestCell.java OK
 UnitTestSessionAction 1444300403554 TestCell OK
 EditAction 1444300411513 TestCell.java 340 1 2 1
+RefactoringAction 1444300423232 Cell.java ADD void update(int) METHOD
+RefactoringAction 1444300536978 Cell.java ADD void setQuantity(int) METHOD
+RefactoringAction 1444300542026 Cell.java RENAME setQuantity(int)=>void setState(int) METHOD
+RefactoringAction 1444300545056 Cell.java RENAME setState(int)=>void setState(s) METHOD
+RefactoringAction 1444300547085 Cell.java RENAME setState(s)=>void setState(String) METHOD
+RefactoringAction 1444300566746 Cell.java REMOVE setState(String) METHOD
+RefactoringAction 1444300589671 Cell.java ADD void setState(String) METHOD
+EditAction 1444300640081 TestCell.java 338 1 3 1
