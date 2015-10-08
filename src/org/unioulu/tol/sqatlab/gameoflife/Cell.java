@@ -28,5 +28,10 @@ public class Cell {
 		{
 			state = "Dead";
 		}
+		
+		if(aliveSurroundingCells>=2)
+		{
+			state = "Alive";
+		}
 	}
 }
