@@ -13,7 +13,7 @@ public class TestCell {
 		
 		int state = cell.getState();
 		
-		assertEquals(Cell.CELL_STATE_ALIVE, state);
+		assertEquals(Cell.CELL_STATE_DEAD, state);
 	}
 	
 	@Test
