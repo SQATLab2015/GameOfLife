@@ -14,7 +14,7 @@ public class TestCell {
 		//Cell cell = new Cell("Alive");
 	//	cell.update();
 	//	assertEquals.("Dead", cell.getState());
-		String life = "----------------------------------------------------------------------------------------------------";
+		String life = "-*--------*---------------------------*-------------------------------------------------------------";
 		String realLife[] = {"-", "*"};
 		Set lifeSet = new HashSet(Arrays.asList(realLife));
 		System.out.print(lifeSet);
