@@ -9,9 +9,7 @@ public class Grid {
 	public int rowAmount;
 	public int columnAmount;
 	
-	
-	
-	public Cell[] cellArray = new Cell[columnAmount];
+	public Cell[] cellArray;
 	public List<Cell[]> allCells = null;
 	
 	
@@ -19,6 +17,8 @@ public class Grid {
 	{
 		this.rowAmount = rowAmount;
 		this.columnAmount = columnAmount;
+		cellArray = new Cell[columnAmount];
+
 	}
 	
 	
