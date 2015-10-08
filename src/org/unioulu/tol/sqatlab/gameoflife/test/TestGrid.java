@@ -33,4 +33,8 @@ public class TestGrid {
 		assertEquals(Grid.NEIGHBOR_STATE_LESS_THAN_TWO, aliveNeighbors);
 	}
 	
+	@Test
+	public void testCheckNeighborsExceptThreeAlive() {
+		
+	}
 }

@@ -180,3 +180,6 @@ EditAction 1444297155408 Grid.java 685 4 7 0
 EditAction 1444297168754 Grid.java 720 5 7 0
 EditAction 1444297181311 Grid.java 755 5 8 0
 EditAction 1444297182882 Grid.java 757 5 8 0
+RefactoringAction 1444297200185 TestGrid.java ADD void testCheckNeighbors FIELD
+RefactoringAction 1444297205202 TestGrid.java RENAME testCheckNeighbors=>void testCheckNeighborsExcept FIELD
+EditAction 1444297212317 TestGrid.java 760 4 9 3
