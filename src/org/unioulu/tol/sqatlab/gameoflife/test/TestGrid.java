@@ -30,11 +30,11 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void testGetStatusOfCell(int i)
+	public void testGetStatusOfCell()
 	{
 		grid.createGrid(5);
 		
-		grid.allCells.get(i)[i].getState();
+		grid.allCells.get(0)[0].getState();
 	}
 
 }

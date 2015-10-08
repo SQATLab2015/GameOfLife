@@ -287,3 +287,7 @@ EditAction 1444300350737 TestGrid.java 559 3 5 1
 CompilationAction 1444300350987 TestGrid.java
 CompilationAction 1444300437007 TestGrid.java
 EditAction 1444300472209 Cell.java 450 4 5 0
+UnitTestCaseAction 1444300474824 TestGrid.java FAIL
+UnitTestSessionAction 1444300474825 TestGrid FAIL
+RefactoringAction 1444300510538 TestGrid.java RENAME testGetStatusOfCell(int)=>void testGetStatusOfCell() METHOD
+EditAction 1444300517361 TestGrid.java 558 3 5 1
