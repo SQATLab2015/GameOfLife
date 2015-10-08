@@ -42,8 +42,9 @@ public class Grid {
 
 		int id = y * size + x;
 			
-		//CHECK GRID BORDERS
+		int aliveNeighborCount = 0;
 		
+		//CHECK GRID BORDERS
 		//CHECK TOP NEIGHBORS
 		if(x == 0) {
 			//CELL AT LEFT EDGE OF GRID
