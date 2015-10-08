@@ -53,3 +53,10 @@ EditAction 1444298373172 TestGrid.java 362 1 1 1
 UnitTestCaseAction 1444298376919 TestGrid.java FAIL
 UnitTestSessionAction 1444298376919 TestGrid FAIL
 EditAction 1444298384228 TestGrid.java 362 1 1 1
+UnitTestCaseAction 1444298384516 TestGrid.java OK
+UnitTestSessionAction 1444298384517 TestGrid OK
+RefactoringAction 1444298783395 Cell.java ADD string CellStatus FIELD
+RefactoringAction 1444299313782 TestGrid.java ADD void testDoesArra FIELD
+RefactoringAction 1444299317296 TestGrid.java RENAME testDoesArra=>void testDoesArrayOnlyInclude FIELD
+RefactoringAction 1444299324861 TestGrid.java ADD void Marks() METHOD
+EditAction 1444299373837 TestGrid.java 446 2 1 1

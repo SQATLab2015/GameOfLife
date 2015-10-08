@@ -10,8 +10,14 @@ public class TestGrid {
 	@Test
 	public void testIsGridSameAmountColumsAndRows() {
 		//getRows x GetColumns == getRows x GetRows
-		//int a= array.length();	
+		//compares 8 to set gridSize in Grid.java
 		 assertEquals(8,Grid.getArray());
+		
+		
+	}
+	
+	@Test
+	public void testDoesArrayOnlyInclude*or-Marks(){
 		
 		
 	}
