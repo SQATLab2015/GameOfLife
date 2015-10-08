@@ -8,7 +8,8 @@ public class Grid {
 	public int rowAmount;
 	public int columnAmount;
 	
-	public List<Cell> cells = null;
+	public Cell[] cells = new Cell[columnAmount];
+	//public List<Cell> cells = null;
 	public List<List<Cell>> allCells = null;
 	
 	
