@@ -26,6 +26,7 @@ public class GameOfLife {
 		do {
 			println("Please enter " + message + " (positive integer).");
 			print("> ");
+			
 			if (scan.hasNextInt()) {
 				num = scan.nextInt();
 			} else {
