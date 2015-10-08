@@ -29,6 +29,8 @@ public class TestGrid {
 		Grid grid = new Grid();
 		
 		int aliveNeighbors = grid.checkCell();
+		
+		assertEquals(0, aliveNeighbors);
 	}
 	
 }
