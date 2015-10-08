@@ -20,5 +20,13 @@ public class TestCell {
 		boolean r = testCell.getStatus();
 		assertEquals( ((Object)r).getClass().getName(),  "java.lang.Boolean" );
 	}
+	
+	@Test
+	public void test_setToAliveAndReturnStatus() {
+		initializeCell();
+		testCell.setToAlive();
+		boolean r = testCell.getStatus();
+		assertEquals ( r, true );
+	}
 
 }

@@ -16,3 +16,13 @@ UnitTestCaseAction 1444294299243 TestCell.java FAIL
 UnitTestSessionAction 1444294299245 TestCell FAIL
 RefactoringAction 1444294306960 TestCell.java REMOVE test() METHOD
 EditAction 1444294310544 TestCell.java 515 2 4 1
+RefactoringAction 1444294326994 TestCell.java ADD void testGet FIELD
+RefactoringAction 1444294329504 TestCell.java RENAME testGet=>void test_ FIELD
+RefactoringAction 1444294335513 TestCell.java RENAME test_=>void test_get FIELD
+RefactoringAction 1444294339021 TestCell.java RENAME test_get=>void test_setTo FIELD
+RefactoringAction 1444294341029 TestCell.java RENAME test_setTo=>void test FIELD
+RefactoringAction 1444294343038 TestCell.java RENAME test=>void test_setT FIELD
+RefactoringAction 1444294347046 TestCell.java RENAME test_setT=>void test_setToAliveAndReturn FIELD
+RefactoringAction 1444294349061 TestCell.java RENAME test_setToAliveAndReturn=>void test_setToAliveAndReturnStatus FIELD
+RefactoringAction 1444294351572 TestCell.java RENAME test_setToAliveAndReturnStatus=>void test_setToAliveAndReturnStatus() METHOD
+EditAction 1444294412414 TestCell.java 692 3 8 2
