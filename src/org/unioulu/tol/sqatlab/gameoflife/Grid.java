@@ -51,7 +51,7 @@ public class Grid {
 		}
 		
 		if(x == size-1) {
-			
+			//CELL AT RIGHT EDGE OF GRID
 		}
 		
 		return 0;
