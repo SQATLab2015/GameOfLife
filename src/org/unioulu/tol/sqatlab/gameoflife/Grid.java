@@ -50,6 +50,8 @@ public class Grid {
 		if(x > 0 && y > 0) {
 			//NE neighbor
 			id = (y-1) * size + (x-1);
+			
+			grid.get(id);
 		}
 		
 		if(x == size-1) {
