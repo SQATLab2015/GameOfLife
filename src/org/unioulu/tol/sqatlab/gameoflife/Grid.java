@@ -28,5 +28,8 @@ public class Grid {
 		return str;
 	}
 	
+	public int getCell (int x, int y) {
+		return gridArray(x,y);
+	}
 	
 }

@@ -29,9 +29,9 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void test_getCell () {
+	public void test_getCellFromGrid () {
 		initializeGrid ( 50, 50 );
-		testGrid.GetCell(10,10);
+		testGrid.getCell(10,10);
 	}
 	
 }

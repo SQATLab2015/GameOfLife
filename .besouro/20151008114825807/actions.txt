@@ -198,3 +198,12 @@ UnitTestSessionAction 1444297221561 TestGrid OK
 RefactoringAction 1444297266077 TestGrid.java ADD void test_ FIELD
 RefactoringAction 1444297273587 TestGrid.java RENAME test_=>void test_getCell() METHOD
 EditAction 1444297300237 TestGrid.java 811 4 9 2
+CompilationAction 1444297303681 TestGrid.java
+CompilationAction 1444297306064 TestGrid.java
+CompilationAction 1444297306171 TestGrid.java
+CompilationAction 1444297309969 TestGrid.java
+CompilationAction 1444297310095 TestGrid.java
+RefactoringAction 1444297324980 Grid.java ADD int get FIELD
+RefactoringAction 1444297328993 Grid.java RENAME get=>int getCell() METHOD
+RefactoringAction 1444297341013 Grid.java RENAME getCell()=>int getCell(int, int) METHOD
+EditAction 1444297353472 Grid.java 575 4 7 0
