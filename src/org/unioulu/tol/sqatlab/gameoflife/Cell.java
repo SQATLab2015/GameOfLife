@@ -9,7 +9,7 @@ public class Cell {
 	
 	public Cell() {
 		super();
-		this.state = CELL_STATE_ALIVE;
+		this.state = CELL_STATE_DEAD;
 	}
 
 	public int getState() {

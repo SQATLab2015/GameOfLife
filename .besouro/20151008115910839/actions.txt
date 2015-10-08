@@ -44,3 +44,4 @@ EditAction 1444295043518 Cell.java 353 3 4 0
 CompilationAction 1444295043772 TestCell.java
 RefactoringAction 1444295053555 Cell.java RENAME Cell(int)=>Cell() METHOD
 EditAction 1444295056488 Cell.java 355 3 4 0
+EditAction 1444295059849 Cell.java 354 3 4 0
