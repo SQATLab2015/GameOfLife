@@ -49,15 +49,17 @@ public class Grid {
 		//CHECK TOP NEIGHBORS
 		if(y > 0) {
 			if(x > 0) {
-			//NE neighbor
-			id = (y-1) * size + (x-1);
+				//NE neighbor
+				id = (y-1) * size + (x-1);
+
+				if(grid.get(id).getState() == Cell.CELL_STATE_ALIVE) {
+					aliveNeighborCount++;
+				}
+			}
 			
-			if(grid.get(id).getState() == Cell.CELL_STATE_ALIVE) {
-				aliveNeighborCount++;
-			}
-			}
+			id = (y-1) * size + x;
 		}
-		
+
 		if(x == size-1) {
 			//CELL AT RIGHT EDGE OF GRID
 		}
