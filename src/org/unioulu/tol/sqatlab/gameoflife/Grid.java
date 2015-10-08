@@ -2,26 +2,25 @@ package org.unioulu.tol.sqatlab.gameoflife;
 
 public class Grid {
 
-	private static Cell[][] gridArray = new Cell[0][0];
+	private static Cell[][] gridArray = new Cell[1][1];
 	
 	public Grid() {
 		// ...
 	}
 	
 	public Grid(int width, int height) {
-		Cell[][] gridArray = new Cell[width][height];
+		gridArray = new Cell[width][height];
 		int i = 0;
 		int b = 0;
 		
 		while ( i < width) {
 			while ( b < height ) {
-				temp[i][b] = new Cell();
+				gridArray[i][b] = new Cell();
 				b++;
 			}
 			i++;
 		}
 		
-		gridArray = temp;
 	}
 	
 	public String getSize () {
@@ -34,8 +33,8 @@ public class Grid {
 	}
 	
 	public String getCellStatus ( int x, int y ) {
-		System.out.println(getCell(x,y));
 		return getCell(x,y).getStatus();
+
 	}
 	
 }
