@@ -15,6 +15,14 @@ public class GameOfLife {
 			int w = gameGrid.getWidth();
 			int h = gameGrid.getHeight();
 			
+			
+			for (int i = 0; i < w; i++) {
+				for (int b = 0; b < h; b++) {
+					print(gameGrid.getCellStatus(i,b));
+				}
+				println("");
+			}
+			
 			running = false;
 		}
 	}
