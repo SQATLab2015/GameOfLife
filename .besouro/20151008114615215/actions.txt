@@ -39,3 +39,17 @@ CompilationAction 1444295230273 Cell.java
 CompilationAction 1444295230273 Cell.java
 CompilationAction 1444295230273 Cell.java
 EditAction 1444295238256 Cell.java 278 3 4 0
+CompilationAction 1444295238496 Cell.java
+CompilationAction 1444295238496 Cell.java
+CompilationAction 1444295238496 Cell.java
+CompilationAction 1444295238496 Cell.java
+RefactoringAction 1444295260532 Cell.java RENAME Cell(boolean)=>boolean cellIsDead() METHOD
+RefactoringAction 1444295297563 Cell.java ADD Cell() METHOD
+RefactoringAction 1444295303575 Cell.java RENAME Cell()=>Cell(boolean) METHOD
+RefactoringAction 1444295316645 Cell.java REMOVE cellIsAlive() METHOD
+RefactoringAction 1444295316647 Cell.java REMOVE cellIsDead() METHOD
+RefactoringAction 1444295334665 Cell.java RENAME Cell(boolean)=>boolean cellIsDead() METHOD
+CompilationAction 1444295351195 Cell.java
+CompilationAction 1444295351195 Cell.java
+CompilationAction 1444295351196 Cell.java
+EditAction 1444295365827 Grid.java 134 1 0 0
