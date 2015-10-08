@@ -43,4 +43,8 @@ public class Grid {
 		return 0;
 	}
 
+	public int getCell(int x, int y) {
+		
+	}
+	
 }

@@ -192,3 +192,5 @@ UnitTestSessionAction 1444297242752 TestGrid FAIL
 EditAction 1444297295319 Grid.java 736 5 6 0
 CompilationAction 1444297295579 Grid.java
 EditAction 1444297299011 Grid.java 737 5 8 0
+RefactoringAction 1444297504175 Grid.java ADD int getCell() METHOD
+EditAction 1444297509593 Grid.java 781 6 8 0
