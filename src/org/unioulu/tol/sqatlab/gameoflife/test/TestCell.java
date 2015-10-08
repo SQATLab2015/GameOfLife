@@ -12,7 +12,7 @@ public class TestCell {
 	//	cell.update();
 	//	assertEquals.("Dead", cell.getState());
 		String life = "----------------------------------------------------------------------------------------------------";
-		String numbers[];
+		String realLife[] = {"-", "*"};
 		System.out.print(life);
 
 	}
