@@ -35,3 +35,13 @@ CompilationAction 1444299292383 Cell.java
 CompilationAction 1444299292384 TestCell.java
 CompilationAction 1444299331799 TestCell.java
 EditAction 1444299375338 TestCell.java 471 1 3 1
+CompilationAction 1444299375633 TestCell.java
+RefactoringAction 1444299405396 Cell.java REMOVE getState() METHOD
+RefactoringAction 1444299407423 Cell.java ADD String getState() METHOD
+CompilationAction 1444299423869 Cell.java
+CompilationAction 1444299423870 Cell.java
+CompilationAction 1444299424094 TestCell.java
+RefactoringAction 1444299487704 Cell.java ADD void Stock(String, int) METHOD
+RefactoringAction 1444299493227 Cell.java RENAME Stock(String, int)=>Cell(String, int) METHOD
+RefactoringAction 1444299501868 Cell.java RENAME Cell(String, int)=>Cell(String) METHOD
+EditAction 1444299517005 TestCell.java 473 1 2 1
