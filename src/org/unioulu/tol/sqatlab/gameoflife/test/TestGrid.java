@@ -17,7 +17,7 @@ public class TestGrid {
 	
 	@Test
 	public void testCreateGridAtSize20by20() {
-		
+		Grid grid = new Grid(20);
 	}
 
 }
