@@ -60,3 +60,16 @@
 1444297558486 refactoring 3 2369 true
 1444297578261 regression 1 3 true
 1444297708416 refactoring 1A 48 true
+1444297798599 refactoring 1A 36 true
+1444297798600 refactoring 3 36 true
+1444297798601 refactoring 3 36 true
+1444297798602 refactoring 3 36 true
+1444297798603 refactoring 3 36 true
+1444297798604 refactoring 3 36 true
+1444297798605 refactoring 3 36 true
+1444297798606 refactoring 3 36 true
+1444297798607 refactoring 3 36 true
+1444297798608 refactoring 3 36 true
+1444297798609 refactoring 3 36 true
+1444297798610 refactoring 3 36 true
+1444297798611 refactoring 3 36 true

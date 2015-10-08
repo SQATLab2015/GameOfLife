@@ -74,3 +74,6 @@ RefactoringAction 1444297775838 TestCell.java ADD import java.util.HashSet IMPOR
 CompilationAction 1444297776033 TestCell.java
 CompilationAction 1444297776034 TestCell.java
 EditAction 1444297797008 TestCell.java 603 1 4 0
+UnitTestCaseAction 1444297798599 TestCell.java OK
+UnitTestSessionAction 1444297798599 TestCell OK
+EditAction 1444297939263 TestCell.java 603 1 4 0
