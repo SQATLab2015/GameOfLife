@@ -114,3 +114,5 @@ RefactoringAction 1444297559668 Cell.java RENAME getStatus()=>void getStatus(boo
 RefactoringAction 1444297597395 Cell.java RENAME setNeighbours(int)=>void setNeighbours(int, int) METHOD
 RefactoringAction 1444297604765 Cell.java RENAME setNeighbours(int, int)=>void setNeighbours(int) METHOD
 EditAction 1444297765850 Cell.java 586 6 8 0
+CompilationAction 1444297766420 TestCell.java
+EditAction 1444297772031 TestCell.java 732 5 8 3

@@ -12,8 +12,7 @@ public class TestCell {
 
 	@Before
 	public void setup() {
-		testCell = new Cell();
-		
+		testCell = new Cell(0);	
 		
 	}
 	
@@ -34,5 +33,14 @@ public class TestCell {
 		testCell.cellIsAlive();
 		assertEquals(true, testCell.cellIsAlive());			
 	}
+	
+	@Test
+	public void TestCellWithNoNeighboursDies() {
+		testCell.update(0);
+		assertEquals(false, testCell.cellIsDead());
+		
+	}
+	
+
 
 }
