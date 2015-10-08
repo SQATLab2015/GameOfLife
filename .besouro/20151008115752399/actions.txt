@@ -147,3 +147,9 @@ UnitTestSessionAction 1444299185402 TestCell OK
 EditAction 1444299192541 TestCell.java 504 1 4 0
 EditAction 1444299226815 TestCell.java 525 1 5 0
 EditAction 1444299290935 TestCell.java 531 1 0 0
+CompilationAction 1444299291187 TestCell.java
+CompilationAction 1444299291188 TestCell.java
+CompilationAction 1444299291188 TestCell.java
+CompilationAction 1444299392436 TestCell.java
+CompilationAction 1444299392436 TestCell.java
+EditAction 1444299411314 TestCell.java 527 1 5 0
