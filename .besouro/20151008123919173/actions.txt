@@ -28,3 +28,26 @@ RefactoringAction 1444299428245 Grid.java RENAME start=>void start() METHOD
 RefactoringAction 1444299581297 Cell.java ADD String state FIELD
 EditAction 1444299642106 TestGrid.java 172 1 1 0
 EditAction 1444299642184 Grid.java 296 1 1 0
+CompilationAction 1444299642387 TestCell.java
+CompilationAction 1444299642403 TestCell.java
+CompilationAction 1444299642403 TestCell.java
+CompilationAction 1444299642403 TestCell.java
+CompilationAction 1444299642403 TestCell.java
+CompilationAction 1444299642403 TestCell.java
+CompilationAction 1444299642403 TestCell.java
+CompilationAction 1444299642403 TestCell.java
+RefactoringAction 1444299781586 Grid.java ADD import org.univoulu.tol.sqatlab.sudoku.SudokuVerifier IMPORT
+RefactoringAction 1444299800634 Grid.java RENAME sudoku=>Cell su FIELD
+RefactoringAction 1444299801663 Grid.java RENAME su=>Cell s FIELD
+RefactoringAction 1444299803208 Grid.java REMOVE s FIELD
+RefactoringAction 1444299804237 Grid.java ADD Cell cell FIELD
+RefactoringAction 1444299836810 Cell.java RENAME Cell(int, int)=>void ell(int, int) METHOD
+RefactoringAction 1444299837840 Cell.java RENAME ell(int, int)=>void cell(int, int) METHOD
+RefactoringAction 1444299893953 Grid.java ADD import org.tol.sqatlab.sudoku.SudokuVerifier IMPORT
+RefactoringAction 1444299897557 Grid.java RENAME import org.tol.sqatlab.sudoku.SudokuVerifier=>import org.univoulu.tol.sqatlab.sudoku.SudokuVerifier IMPORT
+RefactoringAction 1444300155472 Grid.java RENAME cell=>Cell zelle FIELD
+RefactoringAction 1444300269758 Cell.java ADD int getNeighbour() METHOD
+RefactoringAction 1444300269758 Cell.java ADD void setNeighbour(int) METHOD
+RefactoringAction 1444300269758 Cell.java ADD String getState() METHOD
+RefactoringAction 1444300269758 Cell.java ADD void setState(String) METHOD
+EditAction 1444300380159 Grid.java 403 1 1 0
