@@ -21,6 +21,8 @@ public class TestCell {
 		Cell cell = new Cell();
 		
 		cell.setState(Cell.CELL_STATE_DEAD);
+		
+		int state = cell.getState();
 	}
 
 }
