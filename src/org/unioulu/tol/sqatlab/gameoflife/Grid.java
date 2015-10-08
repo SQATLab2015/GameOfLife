@@ -27,7 +27,6 @@ public class Grid {
 	{
 		for(int i = 0; i<rowAmount; i++) 
 		{
-			System.out.println("moi");
 			cellArray = new Cell[columnAmount];
 			allCells.add(cellArray);
 		}
