@@ -11,15 +11,12 @@ public class TestGrid {
 	@Test
 	public void testCreateGrid() 
 	{
-		
 		grid = new Grid();
 		
 		int actual = grid.createGrid(5, 5);
-	
 
 		assertEquals(5, actual);
-		
-		
+
 	}
 
 }
