@@ -10,9 +10,9 @@ public class Cell {
 			setStatus(false);
 		}
 		else if (neighbours == 2 || neighbours == 3) {
-			setStatus(true);
-			
+			setStatus(true);	
 		}
+		else setStatus(false);
 			
 		
 	}

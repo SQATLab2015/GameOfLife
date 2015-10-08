@@ -164,3 +164,7 @@ RefactoringAction 1444299259975 TestCell.java ADD void TestCellWithNoNeighboursD
 RefactoringAction 1444299268492 TestCell.java RENAME TestCellWithNoNeighboursDies()/2=>void TestCellWithThreeNeighboursDies() METHOD
 RefactoringAction 1444299272004 TestCell.java RENAME TestCellWithThreeNeighboursDies()=>void TestCellWithThreeNeighboursLives() METHOD
 EditAction 1444299278100 TestCell.java 1115 8 14 6
+UnitTestCaseAction 1444299279928 TestCell.java FAIL
+UnitTestSessionAction 1444299279928 TestCell FAIL
+RefactoringAction 1444299400292 TestCell.java ADD void TestCellWithThreeNeighboursLives()/2 METHOD
+EditAction 1444299421780 Cell.java 672 6 8 0
