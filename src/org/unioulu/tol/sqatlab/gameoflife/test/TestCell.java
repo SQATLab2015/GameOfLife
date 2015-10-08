@@ -13,7 +13,7 @@ public class TestCell {
 	//	cell.update();
 	//	assertEquals.("Dead", cell.getState());
 
-		String[] life = new String[] {"-", "-", "-", "/n", "-", "-", "-", "-", "-"};
+		String[] life = new String[] {"-", "-", "-", "-", "-", "-", "-", "-", "-"};
 		String str = Arrays.toString(life);
 		str = str.replace(",", "");
 		
