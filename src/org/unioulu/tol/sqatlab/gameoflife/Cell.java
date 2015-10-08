@@ -3,7 +3,7 @@ package org.unioulu.tol.sqatlab.gameoflife;
 public class Cell {
 	
 	//Initially start with dead status
-	private boolean isAlive = false;
+	private static boolean isAlive = false;
 	
 	public static void main () {
 		if ( Math.random() < 0.5 ) {

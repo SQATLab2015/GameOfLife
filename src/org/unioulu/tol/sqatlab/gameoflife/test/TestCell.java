@@ -40,7 +40,8 @@ public class TestCell {
 	
 	@Test
 	//Test to make sure that the cell can get both dead and alive
-	//status when it is created
+	//status when it is created. Essentially, perform a while-
+	//loop up until both statuses are recognized.
 	public void test_randomCellStatusInitialization () {
 		boolean dead  = false; 
 		boolean alive = false;

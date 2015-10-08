@@ -59,3 +59,8 @@ CompilationAction 1444295067703 TestCell.java
 EditAction 1444295097049 TestCell.java 1286 5 16 3
 RefactoringAction 1444295125362 Cell.java ADD static void main() METHOD
 EditAction 1444295231075 Cell.java 446 4 4 0
+CompilationAction 1444295234721 Cell.java
+CompilationAction 1444295248983 Cell.java
+UnitTestCaseAction 1444295254362 TestCell.java OK
+UnitTestSessionAction 1444295254363 TestCell OK
+EditAction 1444295288248 TestCell.java 1365 5 16 3
