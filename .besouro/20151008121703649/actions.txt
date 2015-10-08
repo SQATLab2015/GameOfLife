@@ -132,3 +132,5 @@ RefactoringAction 1444298266653 TestGrid.java RENAME <initializer /1>=>void test
 RefactoringAction 1444298289848 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
 RefactoringAction 1444298311239 TestGrid.java ADD Grid grid FIELD
 EditAction 1444298316119 TestGrid.java 272 1 1 0
+RefactoringAction 1444298348691 Grid.java RENAME createGrid()=>int createGrid(int) METHOD
+EditAction 1444298352679 Grid.java 367 1 2 0
