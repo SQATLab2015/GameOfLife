@@ -58,6 +58,14 @@ public class TestCell {
 		assertEquals(true, testCell.isStatus());	
 	}
 	
+	@Test
+	public void TestCellWithMoreThanThreeNeighboursDies() {
+		testCell.update(5);
+		assertEquals(false, testCell.isStatus());	
+	}
+	
+	
+	
 
 
 }
