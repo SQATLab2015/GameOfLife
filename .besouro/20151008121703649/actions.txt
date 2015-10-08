@@ -50,3 +50,20 @@ RefactoringAction 1444296572433 Cell.java RENAME getStat()=>String getState() ME
 RefactoringAction 1444296575942 Cell.java RENAME status=>String state FIELD
 RefactoringAction 1444296590483 Cell.java RENAME setStatus(String)=>void setState(String) METHOD
 EditAction 1444296601546 Cell.java 388 4 4 0
+CompilationAction 1444296601762 Cell.java
+CompilationAction 1444296607779 Cell.java
+UnitTestCaseAction 1444296619487 TestPortfolio.java OK
+UnitTestSessionAction 1444296619489 TestPortfolio OK
+UnitTestCaseAction 1444296653909 TestCell.java OK
+UnitTestSessionAction 1444296653910 TestCell OK
+RefactoringAction 1444297108979 TestCell.java ADD void test FIELD
+RefactoringAction 1444297113492 TestCell.java RENAME test=>void testLiveCellWith FIELD
+RefactoringAction 1444297118005 TestCell.java RENAME testLiveCellWith=>void testLiveCellWithOneNeighbour FIELD
+RefactoringAction 1444297125016 TestCell.java RENAME testLiveCellWithOneNeighbour=>void testLiveCellWithTwo FIELD
+RefactoringAction 1444297129030 TestCell.java RENAME testLiveCellWithTwo=>void testLiveCellWithTwoS FIELD
+RefactoringAction 1444297130042 TestCell.java RENAME testLiveCellWithTwoS=>void testLiveCellWithTwo FIELD
+RefactoringAction 1444297137553 TestCell.java RENAME testLiveCellWithTwo=>void testLiveCellWithTwoNeighb FIELD
+RefactoringAction 1444297139065 TestCell.java RENAME testLiveCellWithTwoNeighb=>void testLiveCellWithTwoNeighbour FIELD
+RefactoringAction 1444297141077 TestCell.java RENAME testLiveCellWithTwoNeighbour=>void testLiveCellWithTwoNeighbor FIELD
+RefactoringAction 1444297146093 TestCell.java RENAME testLiveCellWithTwoNeighbor=>void testLiveCellWithTwoNeighborLives() METHOD
+EditAction 1444297185623 TestCell.java 491 2 6 2

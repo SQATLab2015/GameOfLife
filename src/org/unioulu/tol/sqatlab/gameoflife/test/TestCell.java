@@ -14,4 +14,12 @@ public class TestCell {
 		cell.update(0);
 		assertEquals("Dead", cell.getState());
 	}
+	
+	@Test
+	public void testLiveCellWithTwoNeighborLives()
+	{
+		Cell cell = new Cell("Alive");
+		cell.update(2);
+		assertEquals("Alive", cell.getState());
+	}
 }
