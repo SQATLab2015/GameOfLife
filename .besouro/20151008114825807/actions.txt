@@ -207,3 +207,5 @@ RefactoringAction 1444297324980 Grid.java ADD int get FIELD
 RefactoringAction 1444297328993 Grid.java RENAME get=>int getCell() METHOD
 RefactoringAction 1444297341013 Grid.java RENAME getCell()=>int getCell(int, int) METHOD
 EditAction 1444297353472 Grid.java 575 4 7 0
+CompilationAction 1444297356857 Grid.java
+EditAction 1444297363429 Grid.java 576 4 7 0

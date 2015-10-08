@@ -29,7 +29,7 @@ public class Grid {
 	}
 	
 	public int getCell (int x, int y) {
-		return gridArray(x,y);
+		return gridArray[x][y];
 	}
 	
 }
