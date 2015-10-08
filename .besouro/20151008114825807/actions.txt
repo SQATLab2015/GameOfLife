@@ -339,3 +339,41 @@ EditAction 1444299503340 Grid.java 676 5 8 0
 UnitTestCaseAction 1444299509635 TestGrid.java OK
 UnitTestSessionAction 1444299509637 TestGrid OK
 EditAction 1444299603289 GameOfLife.java 261 1 1 0
+CompilationAction 1444299607499 GameOfLife.java
+CompilationAction 1444299607500 GameOfLife.java
+RefactoringAction 1444299616809 GameOfLife.java ADD Grid gameGrid FIELD
+RefactoringAction 1444299663333 GameOfLife.java ADD int askInteger() METHOD
+RefactoringAction 1444299691908 GameOfLife.java ADD void print() METHOD
+RefactoringAction 1444299696420 GameOfLife.java RENAME print()=>void print(String) METHOD
+RefactoringAction 1444299724971 GameOfLife.java RENAME print(String)=>void println(String) METHOD
+RefactoringAction 1444299731487 GameOfLife.java ADD void println(String)/2 METHOD
+CompilationAction 1444299733356 GameOfLife.java
+CompilationAction 1444299733357 GameOfLife.java
+CompilationAction 1444299733574 GameOfLife.java
+CompilationAction 1444299733575 GameOfLife.java
+CompilationAction 1444299733576 GameOfLife.java
+CompilationAction 1444299733577 GameOfLife.java
+RefactoringAction 1444299810598 GameOfLife.java RENAME askInteger()=>int askInteger(String) METHOD
+RefactoringAction 1444299855657 GameOfLife.java RENAME askInteger(String)=>int askPositiveInteger(String) METHOD
+CompilationAction 1444299871497 GameOfLife.java
+CompilationAction 1444299871498 GameOfLife.java
+CompilationAction 1444299871499 GameOfLife.java
+CompilationAction 1444299871499 GameOfLife.java
+CompilationAction 1444299871627 GameOfLife.java
+CompilationAction 1444299871638 GameOfLife.java
+CompilationAction 1444299871639 GameOfLife.java
+CompilationAction 1444299871640 GameOfLife.java
+RefactoringAction 1444299901728 GameOfLife.java RENAME println(String)/2=>void print(String) METHOD
+CompilationAction 1444299954466 GameOfLife.java
+CompilationAction 1444299954467 GameOfLife.java
+CompilationAction 1444299954467 GameOfLife.java
+CompilationAction 1444299954468 GameOfLife.java
+CompilationAction 1444299954673 GameOfLife.java
+CompilationAction 1444299954674 GameOfLife.java
+CompilationAction 1444299954675 GameOfLife.java
+RefactoringAction 1444300002428 GameOfLife.java ADD import java.util.Scanner IMPORT
+CompilationAction 1444300069937 GameOfLife.java
+CompilationAction 1444300069938 GameOfLife.java
+CompilationAction 1444300069939 GameOfLife.java
+CompilationAction 1444300070074 GameOfLife.java
+EditAction 1444300075528 GameOfLife.java 923 4 7 0
