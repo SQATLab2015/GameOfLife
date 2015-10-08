@@ -4,19 +4,20 @@ import java.util.ArrayList;
 
 public class Grid {
 
-	private static ArrayList<Integer>[][] gridArray = new ArrayList[0][0];
+	private static int[][] gridArray = new int[0][0];
 	
 	public Grid() {
 		// ...
 	}
 	
 	public Grid(int width, int height) {
+		gridArray = new int[width][height];
 		int i = 0;
 		int b = 0;
 		
 		while ( i < width) {
 			while ( b < height ) {
-				gridArray[i][b].add(0);
+				gridArray[i][b] = 0;
 				b++;
 			}
 			i++;
@@ -25,8 +26,8 @@ public class Grid {
 	}
 	
 	public String getSize () {
-		String str = gridArray.size() + "x" + gridArray[0].size()
-		return 
+		String str = gridArray.length + "x" + gridArray[0].length;
+		return str;
 	}
 	
 	

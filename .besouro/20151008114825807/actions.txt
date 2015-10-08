@@ -166,3 +166,21 @@ CompilationAction 1444296954056 Grid.java
 CompilationAction 1444296967137 Grid.java
 CompilationAction 1444296967349 Grid.java
 EditAction 1444297057716 Grid.java 518 3 3 0
+CompilationAction 1444297061329 Grid.java
+CompilationAction 1444297061329 Grid.java
+CompilationAction 1444297061330 Grid.java
+RefactoringAction 1444297087292 Grid.java REMOVE gridArray FIELD
+RefactoringAction 1444297089800 Grid.java ADD int FIELD
+RefactoringAction 1444297094807 Grid.java RENAME grid=>int FIELD
+CompilationAction 1444297135319 Grid.java
+CompilationAction 1444297135320 Grid.java
+CompilationAction 1444297135320 Grid.java
+CompilationAction 1444297135519 Grid.java
+CompilationAction 1444297135520 Grid.java
+CompilationAction 1444297135520 Grid.java
+CompilationAction 1444297161261 Grid.java
+CompilationAction 1444297161262 Grid.java
+CompilationAction 1444297161262 Grid.java
+CompilationAction 1444297161477 Grid.java
+CompilationAction 1444297161478 Grid.java
+EditAction 1444297163211 Grid.java 538 3 6 0
