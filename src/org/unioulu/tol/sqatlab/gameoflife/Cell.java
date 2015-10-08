@@ -7,9 +7,9 @@ public class Cell {
 	
 	private int state;
 	
-	public Cell(int state) {
+	public Cell() {
 		super();
-		this.state = state;
+		this.state = CELL_STATE_ALIVE;
 	}
 
 	public int getState() {
