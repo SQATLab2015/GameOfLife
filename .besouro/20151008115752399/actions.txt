@@ -167,3 +167,8 @@ EditAction 1444299660430 TestCell.java 909 1 12 0
 UnitTestCaseAction 1444299662490 TestCell.java OK
 UnitTestSessionAction 1444299662491 TestCell OK
 EditAction 1444299711638 TestCell.java 906 1 12 0
+RefactoringAction 1444299802748 TestGrid.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1444299815453 TestCell.java REMOVE import java.util.Arrays IMPORT
+RefactoringAction 1444299819782 TestGrid.java ADD import java.util.Arrays/2 IMPORT
+RefactoringAction 1444299822794 TestGrid.java REMOVE import java.util.Arrays/2 IMPORT
+EditAction 1444299823552 TestGrid.java 754 0 0 0
