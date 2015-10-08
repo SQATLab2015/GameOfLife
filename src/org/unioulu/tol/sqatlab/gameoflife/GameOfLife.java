@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class GameOfLife {
 	
 	private static Boolean running = true;
-	private static Grid gameGrid = new Grid(10,10);
+	private static Grid gameGrid;
 	
 	public void main () {
 		while (running) {
