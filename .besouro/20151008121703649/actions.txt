@@ -271,3 +271,11 @@ CompilationAction 1444300135820 GameOfLife.java
 CompilationAction 1444300135820 TestGrid.java
 EditAction 1444300139778 TestGrid.java 330 1 3 1
 EditAction 1444300148576 GameOfLife.java 195 1 2 0
+UnitTestCaseAction 1444300156411 TestGrid.java OK
+UnitTestSessionAction 1444300156411 TestGrid OK
+RefactoringAction 1444300186310 TestGrid.java ADD void test FIELD
+RefactoringAction 1444300191822 TestGrid.java RENAME test=>void testGetStatusOfCell FIELD
+RefactoringAction 1444300192834 TestGrid.java RENAME testGetStatusOfCell=>void testGetStatusOfCell() METHOD
+RefactoringAction 1444300208022 TestGrid.java ADD import org.junit.Before IMPORT
+RefactoringAction 1444300224890 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+EditAction 1444300238559 TestGrid.java 519 3 4 1
