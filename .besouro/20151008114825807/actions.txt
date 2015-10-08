@@ -388,3 +388,7 @@ UnitTestSessionAction 1444300200688 TestGrid OK
 UnitTestCaseAction 1444300222344 TestGrid.java OK
 UnitTestSessionAction 1444300222345 TestGrid OK
 EditAction 1444300297338 GameOfLife.java 971 4 8 0
+UnitTestCaseAction 1444300302615 TestGrid.java OK
+UnitTestSessionAction 1444300302616 TestGrid OK
+RefactoringAction 1444300396199 GameOfLife.java RENAME main()=>static void main(String METHOD
+EditAction 1444300398726 GameOfLife.java 982 4 8 0
