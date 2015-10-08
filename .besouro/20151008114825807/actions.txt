@@ -64,3 +64,5 @@ CompilationAction 1444295248983 Cell.java
 UnitTestCaseAction 1444295254362 TestCell.java OK
 UnitTestSessionAction 1444295254363 TestCell OK
 EditAction 1444295288248 TestCell.java 1365 5 16 3
+RefactoringAction 1444295313916 TestGrid.java REMOVE test() METHOD
+EditAction 1444295322028 TestGrid.java 154 0 0 0
