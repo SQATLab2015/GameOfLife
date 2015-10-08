@@ -44,6 +44,7 @@ public class Grid {
 			
 		//CHECK GRID BORDERS
 		
+		//CHECK TOP NEIGHBORS
 		if(x == 0) {
 			//CELL AT LEFT EDGE OF GRID
 		}
