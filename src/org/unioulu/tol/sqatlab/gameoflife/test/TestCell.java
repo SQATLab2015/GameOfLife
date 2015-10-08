@@ -14,7 +14,8 @@ public class TestCell {
 	//	assertEquals.("Dead", cell.getState());
 		String realLife[] = {"-", "-", "-", "-", "-", "-", "-", "-", "-", "-"};
 		String[] life = new String[] {"-", "-", "-", "-", "-", "-", "-", "-", "-", "-"};
-		System.out.print(life);
+		
+		System.out.println(Arrays.toString(array));
 	}
 
 }

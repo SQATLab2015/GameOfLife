@@ -121,3 +121,6 @@ RefactoringAction 1444298544367 TestCell.java REMOVE import java.util.HashSet IM
 RefactoringAction 1444298547879 TestCell.java REMOVE import java.util.Arrays IMPORT
 RefactoringAction 1444298547880 TestCell.java REMOVE import java.util.Set IMPORT
 EditAction 1444298665508 TestCell.java 477 1 3 0
+UnitTestCaseAction 1444298667136 TestCell.java OK
+UnitTestSessionAction 1444298667136 TestCell OK
+EditAction 1444298701712 TestCell.java 500 1 3 0
