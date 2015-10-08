@@ -9,5 +9,10 @@ public class Cell {
 	public String getState() {
 		return state;
 	}
+
+	public void update(int i) {
+		// TODO Auto-generated method stub
+		
+	}
 }
 
