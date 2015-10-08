@@ -14,6 +14,8 @@ public class TestGrid {
 		
 		grid = new Grid();
 		
+		grid.createGrid(5);
+		
 		
 	}
 
