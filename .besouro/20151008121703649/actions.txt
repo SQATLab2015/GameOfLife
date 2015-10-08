@@ -198,3 +198,7 @@ RefactoringAction 1444299161509 Grid.java RENAME Grid(int)=>Grid(int, int) METHO
 EditAction 1444299191210 Grid.java 568 2 4 0
 CompilationAction 1444299191469 TestGrid.java
 EditAction 1444299192418 Grid.java 570 2 4 0
+CompilationAction 1444299197818 TestGrid.java
+UnitTestCaseAction 1444299200742 TestGrid.java FAIL
+UnitTestSessionAction 1444299200742 TestGrid FAIL
+EditAction 1444299237934 Grid.java 570 2 4 0

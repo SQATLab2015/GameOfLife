@@ -12,7 +12,7 @@ public class TestGrid {
 	public void testCreateGrid() 
 	{
 		
-		grid = new Grid();
+		grid = new Grid(5, 5);
 		
 		int actual = grid.createGrid(5);
 	
