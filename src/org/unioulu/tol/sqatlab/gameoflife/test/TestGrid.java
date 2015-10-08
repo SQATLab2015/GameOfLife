@@ -32,7 +32,6 @@ public class TestGrid {
 		return true;
 	} else return false;
 		
-		
 	}
 
 }

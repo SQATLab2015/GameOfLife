@@ -104,3 +104,4 @@ UnitTestSessionAction 1444300321784 TestGrid FAIL
 RefactoringAction 1444300383431 Grid.java ADD String setCharacters FIELD
 RefactoringAction 1444300384442 Grid.java RENAME setCharacters=>static String setCharacters() METHOD
 EditAction 1444300988824 Grid.java 534 3 5 0
+EditAction 1444300991514 TestGrid.java 715 3 3 2
