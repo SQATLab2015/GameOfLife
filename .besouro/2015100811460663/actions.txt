@@ -45,3 +45,5 @@ RefactoringAction 1444299487704 Cell.java ADD void Stock(String, int) METHOD
 RefactoringAction 1444299493227 Cell.java RENAME Stock(String, int)=>Cell(String, int) METHOD
 RefactoringAction 1444299501868 Cell.java RENAME Cell(String, int)=>Cell(String) METHOD
 EditAction 1444299517005 TestCell.java 473 1 2 1
+CompilationAction 1444299517307 TestCell.java
+EditAction 1444299517328 Cell.java 204 2 2 0
