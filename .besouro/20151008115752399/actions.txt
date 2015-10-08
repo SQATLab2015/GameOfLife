@@ -105,3 +105,10 @@ UnitTestSessionAction 1444298434646 TestCell OK
 UnitTestCaseAction 1444298436398 TestCell.java OK
 UnitTestSessionAction 1444298436398 TestCell OK
 EditAction 1444298447539 TestCell.java 687 1 5 0
+UnitTestCaseAction 1444298447839 TestCell.java OK
+UnitTestSessionAction 1444298447840 TestCell OK
+UnitTestCaseAction 1444298478020 TestCell.java OK
+UnitTestSessionAction 1444298478020 TestCell OK
+UnitTestCaseAction 1444298486409 TestCell.java OK
+UnitTestSessionAction 1444298486409 TestCell OK
+EditAction 1444298511571 TestCell.java 657 1 0 0
