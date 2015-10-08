@@ -34,7 +34,7 @@ public class Grid {
 	}
 	
 	public String getCellStatus ( int x, int y ) {
-		System.out.println(getCell(x,y))
+		System.out.println(getCell(x,y));
 		return getCell(x,y).getStatus();
 	}
 	
