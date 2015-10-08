@@ -16,3 +16,9 @@ RefactoringAction 1444296038944 TestCell.java RENAME test()=>void testLiveCell()
 RefactoringAction 1444296042962 TestCell.java RENAME testLiveCell()=>void testLiveCellWithNoNeigh() METHOD
 RefactoringAction 1444296046976 TestCell.java RENAME testLiveCellWithNoNeigh()=>void testLiveCellWithNoNeighborDies() METHOD
 EditAction 1444296136707 TestCell.java 287 1 0 0
+CompilationAction 1444296136877 TestCell.java
+CompilationAction 1444296136878 TestCell.java
+CompilationAction 1444296136878 TestCell.java
+CompilationAction 1444296136878 TestCell.java
+RefactoringAction 1444296797227 Grid.java ADD String life FIELD
+EditAction 1444296798419 Grid.java 80 0 0 0
