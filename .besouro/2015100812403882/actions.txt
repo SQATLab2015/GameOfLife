@@ -29,3 +29,25 @@ RefactoringAction 1444299270017 Grid.java REMOVE grid FIELD
 RefactoringAction 1444299317246 Grid.java ADD int FIELD
 EditAction 1444299667104 Cell.java 454 2 7 0
 EditAction 1444299667181 Grid.java 271 2 1 0
+CompilationAction 1444299667767 Grid.java
+CompilationAction 1444299667768 TestCell.java
+CompilationAction 1444299667768 TestCell.java
+CompilationAction 1444299667768 TestCell.java
+CompilationAction 1444299667768 TestCell.java
+RefactoringAction 1444299835261 Grid.java ADD Cell Cell FIELD
+RefactoringAction 1444299860907 Cell.java RENAME Cell(int, int)=>void cell(int, int) METHOD
+RefactoringAction 1444299864407 Grid.java RENAME Cell=>Cell cell FIELD
+RefactoringAction 1444300133760 Grid.java ADD void cell(int, int) METHOD
+RefactoringAction 1444300140146 Grid.java REMOVE cell(int, int) METHOD
+RefactoringAction 1444300213684 Grid.java RENAME cell=>Cell zelle FIELD
+RefactoringAction 1444300341260 Cell.java ADD int getNeighbour() METHOD
+RefactoringAction 1444300341260 Cell.java ADD void setNeighbour(int) METHOD
+RefactoringAction 1444300341260 Cell.java ADD String getState() METHOD
+RefactoringAction 1444300341260 Cell.java ADD void setState(String) METHOD
+RefactoringAction 1444300548184 Cell.java REMOVE getNeighbours() METHOD
+RefactoringAction 1444300619598 Grid.java ADD void neighboursett FIELD
+RefactoringAction 1444300620605 Grid.java RENAME neighboursett=>void neighboursetting FIELD
+RefactoringAction 1444300624112 Grid.java RENAME neighboursetting=>void neighboursetting() METHOD
+RefactoringAction 1444300654146 Grid.java RENAME neighboursetting()=>void neighboursetting(int) METHOD
+RefactoringAction 1444300655654 Grid.java RENAME neighboursetting(int)=>void neighboursetting(int, int) METHOD
+EditAction 1444301270142 Cell.java 656 5 10 0

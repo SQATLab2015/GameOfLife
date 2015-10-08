@@ -8,7 +8,23 @@ public class Cell {
 	public int neighbour;
 	public String state;
 
-	public Cell(int x, int y) {
+	public int getNeighbour() {
+		return neighbour;
+	}
+
+	public void setNeighbour(int neighbour) {
+		this.neighbour = neighbour;
+	}
+
+	public String getState() {
+		return state;
+	}
+
+	public void setState(String state) {
+		this.state = state;
+	}
+
+	public void cell(int x, int y) {
 		this.x = x;
 		this.y = y;
 		neighbour = 0;
@@ -23,7 +39,4 @@ public class Cell {
 		
 	}
 	
-	public int getNeighbours() {
-		return 0;
-	}
 }
