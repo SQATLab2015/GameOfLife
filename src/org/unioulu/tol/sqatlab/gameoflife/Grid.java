@@ -1,7 +1,5 @@
 package org.unioulu.tol.sqatlab.gameoflife;
 
-import java.util.Arrays;
-
 public class Grid {
 
 	private static Cell[][] gridArray = new Cell[0][0];
@@ -12,9 +10,18 @@ public class Grid {
 	
 	public Grid(int width, int height) {
 		Cell[][] gridArray = new Cell[width][height];
-
-		Arrays.fill(gridArray,new Cell());
+		int i = 0;
+		int b = 0;
 		
+		while ( i < width) {
+			while ( b < height ) {
+				temp[i][b] = new Cell();
+				b++;
+			}
+			i++;
+		}
+		
+		gridArray = temp;
 	}
 	
 	public String getSize () {
