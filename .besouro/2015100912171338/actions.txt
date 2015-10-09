@@ -24,3 +24,21 @@ UnitTestSessionAction 1444382698195 TestSudokuVerifier FAIL
 RefactoringAction 1444382833794 Cell.java RENAME nextIteration()=>void nextIteration(int) METHOD
 CompilationAction 1444383018701 TestCell.java
 EditAction 1444383018830 TestCell.java 556 2 6 2
+UnitTestCaseAction 1444383022775 TestCell.java OK
+UnitTestSessionAction 1444383022776 TestSudokuVerifier OK
+RefactoringAction 1444383044962 TestCell.java ADD void testLiveCellWithTwoNeighborsShouldLive()/2 METHOD
+RefactoringAction 1444383051475 TestCell.java RENAME testLiveCellWithTwoNeighborsShouldLive()/2=>void testDeadCellWithTwoNeighborsShouldLive() METHOD
+RefactoringAction 1444383055986 TestCell.java RENAME testDeadCellWithTwoNeighborsShouldLive()=>void testDeadCellWithNeighborsShouldLive() METHOD
+RefactoringAction 1444383057495 TestCell.java RENAME testDeadCellWithNeighborsShouldLive()=>void testDeadCellWithNoNeighborsShouldLive() METHOD
+RefactoringAction 1444383061508 TestCell.java RENAME testDeadCellWithNoNeighborsShouldLive()=>void testDeadCellWithNoLiveNeighborsShouldLive() METHOD
+RefactoringAction 1444383115925 TestGrid.java RENAME test()=>void single() METHOD
+RefactoringAction 1444383118433 TestGrid.java RENAME single()=>void singleCell() METHOD
+RefactoringAction 1444383215745 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+RefactoringAction 1444383218728 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+RefactoringAction 1444383423489 Cell.java ADD Cell(int, int) METHOD
+RefactoringAction 1444383433108 Cell.java RENAME Cell(int, int)=>Cell(int) METHOD
+RefactoringAction 1444383434118 Cell.java RENAME Cell(int)=>Cell(int, int) METHOD
+RefactoringAction 1444383447647 Cell.java ADD int x FIELD
+RefactoringAction 1444383450670 Cell.java ADD int y FIELD
+RefactoringAction 1444383487607 Grid.java ADD int getNeighbors(Cell) METHOD
+EditAction 1444383495726 TestGrid.java 430 1 4 1
