@@ -56,9 +56,11 @@ public class TestGrid {
 		//act
 		grid.addCell(cell1);
 		grid.addCell(cell2);
-		int numNeighbors = grid.getNumNeighbors(cell1);
+		int numNeighbors1 = grid.getNumNeighbors(cell1);
+		int numNeighbors2 = grid.getNumNeighbors(cell2);
 		//assert
-		assertEquals(0, numNeighbors);
+		assertEquals(0, numNeighbors1);
+		assertEquals(0, numNeighbors2);
 	}
 	
 }
