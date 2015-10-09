@@ -17,7 +17,7 @@ public class Grid {
 	
 	public static void main(String[] args) {
 		Grid g = new Grid(5);
-		(g.getGrid())[1][1].setState("*");
+		(g.getGrid())[0][0].setState("*");
 		//System.out.println(g.getGrid()[1][1].getState());
 	}
 }
