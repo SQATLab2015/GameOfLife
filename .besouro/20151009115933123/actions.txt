@@ -169,3 +169,9 @@ CompilationAction 1444385449311 Grid.java
 RefactoringAction 1444385458853 Grid.java RENAME getNeighbors(Cell)=>int getNumNeighbors(Cell) METHOD
 CompilationAction 1444385460798 TestGrid.java
 EditAction 1444385490077 Grid.java 508 2 5 0
+CompilationAction 1444385506138 TestGrid.java
+CompilationAction 1444385506296 TestGrid.java
+CompilationAction 1444385511696 TestGrid.java
+UnitTestCaseAction 1444385514863 TestGrid.java FAIL
+UnitTestSessionAction 1444385514863 TestGrid (1) FAIL
+EditAction 1444385540812 Grid.java 519 2 5 0
