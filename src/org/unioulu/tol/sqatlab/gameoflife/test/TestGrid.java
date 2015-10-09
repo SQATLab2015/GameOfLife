@@ -8,7 +8,7 @@ import org.unioulu.tol.sqatlab.gameoflife.Grid;
 public class TestGrid {
 
 	@Test
-	public void test() {
+	public void testSingleCellOnGridHasNoNeighbors() {
 		Grid grid = new Grid();
 		Cell cell = new Cell(0,0);
 		
