@@ -69,14 +69,16 @@ public class TestGrid {
 		Cell cell1 = new Cell(0,0);
 		Cell cell2 = new Cell(0,2);
 		Cell cell3 = new Cell(1,0);
+		Cell cell4 = new Cell(-1,0);
 		//act
 		grid.addCell(cell1);
 		grid.addCell(cell2);
 		grid.addCell(cell3);
+		grid.addCell(cell4);
 		
-		int numNeighbors = grid.getNumNeighbors(cell1);
+		int numNeighbors = grid.getNumNeighbors(cell2);
 		
-		assertEquals(0, numNeighbors1);
+		assertEquals(0, numNeighbors);
 	}
 	
 	
