@@ -1,7 +1,49 @@
 package org.unioulu.tol.sqatlab.gameoflife;
 
 public class Cell {
+	String state;
+	int x;
+	int y;
+	
+	public Cell(String initialState) {
+		this.state = initialState;
+	}
 
+	public Cell(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+
+	
+	
+	public int getX() {
+		return x;
+	}
+
+	public void setX(int x) {
+		this.x = x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
+	public void setY(int y) {
+		this.y = y;
+	}
+
+	public void nextIteration(int numberOfLiveCells) {
+		if (state.equals("Alive") && numberOfLiveCells < 2){
+			state = "Dead";
+		}else{
+			state = "Alive";
+		}
+	}
+
+	public String getState() {
+		return this.state;
+	}
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -32,30 +74,4 @@ public class Cell {
 			return false;
 		return true;
 	}
-
-	String state;
-	int x;
-	int y;
-	
-	public Cell(String initialState) {
-		this.state = initialState;
-	}
-
-	public Cell(int x, int y) {
-		this.x = x;
-		this.y = y;
-	}
-
-	public void nextIteration(int numberOfLiveCells) {
-		if (state.equals("Alive") && numberOfLiveCells < 2){
-			state = "Dead";
-		}else{
-			state = "Alive";
-		}
-	}
-
-	public String getState() {
-		return this.state;
-	}
-
 }
