@@ -48,3 +48,8 @@ CompilationAction 1444382794418 TestCell.java
 CompilationAction 1444382794578 TestCell.java
 EditAction 1444382806295 TestCell.java 574 2 6 2
 EditAction 1444382841768 Cell.java 282 3 2 0
+CompilationAction 1444382842009 Cell.java
+CompilationAction 1444382894863 Cell.java
+UnitTestCaseAction 1444382896602 TestCell.java FAIL
+UnitTestSessionAction 1444382896602 TestCell (1) FAIL
+EditAction 1444382905489 Cell.java 350 3 3 0
