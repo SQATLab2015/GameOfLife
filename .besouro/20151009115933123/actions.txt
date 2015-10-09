@@ -67,3 +67,14 @@ EditAction 1444383281860 TestGrid.java 281 1 3 0
 CompilationAction 1444383282098 TestGrid.java
 CompilationAction 1444383282098 TestGrid.java
 EditAction 1444383309125 TestGrid.java 311 1 4 1
+CompilationAction 1444383309334 TestGrid.java
+CompilationAction 1444383309334 TestGrid.java
+RefactoringAction 1444383324795 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+CompilationAction 1444383326309 TestGrid.java
+CompilationAction 1444383326310 TestGrid.java
+CompilationAction 1444383326469 TestGrid.java
+RefactoringAction 1444383362769 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+RefactoringAction 1444383370080 Cell.java ADD Cell(int, int) METHOD
+RefactoringAction 1444383384398 Cell.java ADD int x FIELD
+RefactoringAction 1444383387931 Cell.java ADD int y FIELD
+EditAction 1444383389798 Cell.java 443 4 3 0
