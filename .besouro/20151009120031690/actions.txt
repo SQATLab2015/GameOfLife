@@ -13,3 +13,6 @@ CompilationAction 1444382433066 TestCell.java
 CompilationAction 1444382433066 TestCell.java
 CompilationAction 1444382433066 TestCell.java
 EditAction 1444382433160 Cell.java 303 3 1 0
+UnitTestCaseAction 1444382436997 TestCell.java FAIL
+UnitTestSessionAction 1444382436997 TestCell FAIL
+EditAction 1444382461583 Cell.java 305 3 1 0
