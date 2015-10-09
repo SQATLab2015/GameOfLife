@@ -88,3 +88,19 @@ RefactoringAction 1444384647069 Grid.java ADD import java.util.Set IMPORT
 RefactoringAction 1444384705120 Cell.java ADD int hashCode() METHOD
 RefactoringAction 1444384705122 Cell.java ADD boolean equals(Object) METHOD
 EditAction 1444384729803 Cell.java 1158 6 19 0
+UnitTestCaseAction 1444384734043 TestGrid.java FAIL
+UnitTestSessionAction 1444384734044 TestGrid.testTwoNeightborCellsShouldHaveOneNeighbor FAIL
+UnitTestCaseAction 1444384741808 TestGrid.java FAIL
+UnitTestSessionAction 1444384741809 TestGrid FAIL
+RefactoringAction 1444384962243 Cell.java REMOVE hashCode() METHOD
+RefactoringAction 1444384962244 Cell.java REMOVE equals(Object) METHOD
+RefactoringAction 1444384968269 Cell.java ADD int hashCode() METHOD
+RefactoringAction 1444384968270 Cell.java ADD boolean equals(Object) METHOD
+RefactoringAction 1444384987843 Cell.java ADD int get() METHOD
+RefactoringAction 1444384993854 Cell.java RENAME get()=>int getX() METHOD
+RefactoringAction 1444385009373 Cell.java REMOVE getX() METHOD
+RefactoringAction 1444385029386 Cell.java ADD int getX() METHOD
+RefactoringAction 1444385029387 Cell.java ADD void setX(int) METHOD
+RefactoringAction 1444385029388 Cell.java ADD int getY() METHOD
+RefactoringAction 1444385029389 Cell.java ADD void setY(int) METHOD
+EditAction 1444385072192 Grid.java 345 2 3 0
