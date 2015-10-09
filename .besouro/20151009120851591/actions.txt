@@ -68,3 +68,15 @@ EditAction 1444385041968 Grid.java 353 3 3 0
 EditAction 1444385134911 Grid.java 362 3 3 0
 RefactoringAction 1444385505863 Grid.java RENAME getNeighbors(Cell)=>int getNumOfNeighbors(Cell) METHOD
 EditAction 1444385647505 TestGrid.java 770 2 12 2
+UnitTestCaseAction 1444385654688 TestGrid.java FAIL
+UnitTestSessionAction 1444385654692 TestGrid FAIL
+RefactoringAction 1444385844489 Grid.java ADD int dx FIELD
+RefactoringAction 1444386253884 Grid.java REMOVE dx FIELD
+CompilationAction 1444386305467 Grid.java
+CompilationAction 1444386317135 Grid.java
+UnitTestCaseAction 1444386318135 TestGrid.java OK
+UnitTestSessionAction 1444386318136 TestGrid OK
+FileOpenedAction 1444386759799 Cell.java 1232 9 21 0
+RefactoringAction 1444386904582 TestCell.java ADD void testLiveCellTwoNeighborsShouldLive()/2 METHOD
+RefactoringAction 1444386909599 TestCell.java RENAME testLiveCellTwoNeighborsShouldLive()/2=>void testLiveCellThreeNeighborsShouldLive() METHOD
+EditAction 1444386923183 TestCell.java 869 3 9 3
