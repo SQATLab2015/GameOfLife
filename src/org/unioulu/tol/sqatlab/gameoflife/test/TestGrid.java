@@ -96,10 +96,10 @@ public class TestGrid {
 		grid.addCell(cell4);
 		grid.addCell(cell5);
 		
-		int numNeighbors = grid.getNumNeighbors(cell2);
+		int numNeighbors = grid.getNumNeighbors(cell1);
 		
 		assertEquals(4, numNeighbors);
-		assertEquals();
+		assertEquals("Dead", cell1.getState());
 	}
 	
 	
