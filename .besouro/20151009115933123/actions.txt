@@ -7,3 +7,12 @@ RefactoringAction 1444382133827 TestCell.java RENAME testLiveCe()=>void testLive
 RefactoringAction 1444382136837 TestCell.java RENAME testLiveCellWith()=>void testLiveCellWithNoNeighbors() METHOD
 RefactoringAction 1444382141847 TestCell.java RENAME testLiveCellWithNoNeighbors()=>void testLiveCellWithNoNeighborsShouldDie() METHOD
 EditAction 1444382280218 TestCell.java 330 1 3 1
+CompilationAction 1444382280523 TestCell.java
+RefactoringAction 1444382318286 TestCell.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+RefactoringAction 1444382339043 Cell.java ADD Cell(String) METHOD
+CompilationAction 1444382346283 TestCell.java
+CompilationAction 1444382346446 TestCell.java
+CompilationAction 1444382346446 TestCell.java
+CompilationAction 1444382346447 TestCell.java
+RefactoringAction 1444382353854 Cell.java ADD void nextIteration() METHOD
+EditAction 1444382359867 Cell.java 219 2 0 0
