@@ -48,3 +48,5 @@ UnitTestSessionAction 1444404913543 TestGrid FAIL
 RefactoringAction 1444404933643 Grid.java ADD static void main(String METHOD
 RefactoringAction 1444404944698 Grid.java ADD import org.junit.Assert.assertEquals IMPORT
 EditAction 1444404980291 Grid.java 462 4 6 0
+FileOpenedAction 1444404995026 Cell.java 250 3 3 0
+EditAction 1444405035009 Grid.java 418 4 5 0
