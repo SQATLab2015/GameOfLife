@@ -19,9 +19,7 @@ public class Grid {
 		}
 		
 		return numNeighbors-1;
-		
 	}
-
 	public void addCell(Cell cell) {
 		cells.add(cell);		
 	}
