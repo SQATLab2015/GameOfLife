@@ -9,8 +9,8 @@ public class TestGrid {
 	@Test
 	public void testGrid() {
 		Grid g = new Grid(5);
-		
-		
+		g.getGrid()[1][1].setState("-");
+		assertEquals("-", g.getGrid()[1][1].getState());
 	}
 
 }
