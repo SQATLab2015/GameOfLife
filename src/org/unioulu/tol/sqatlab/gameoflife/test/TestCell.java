@@ -28,7 +28,7 @@ public class TestCell {
 		
 		//assert
 		assertEquals("Alive", cell.getState());
-		//fail("Not yet implemented");
+
 	}
 	
 	@Test
@@ -40,7 +40,7 @@ public class TestCell {
 		
 		//assert
 		assertEquals("Alive", cell.getState());
-		//fail("Not yet implemented");
+
 	}
 	
 	@Test
@@ -52,7 +52,19 @@ public class TestCell {
 		
 		//assert
 		assertEquals("Dead", cell.getState());
-		//fail("Not yet implemented");
+
+	}
+	
+	@Test
+	public void testDeadCellThreeNeighborsShouldLive() {
+		//arrange
+		Cell cell= new Cell("Dead");
+		//
+		cell.nextIteration(3);
+		
+		//assert
+		assertEquals("Alive", cell.getState());
+
 	}
 	
 

@@ -91,3 +91,10 @@ EditAction 1444387164688 TestCell.java 1105 4 12 4
 UnitTestCaseAction 1444387167780 TestCell.java FAIL
 UnitTestSessionAction 1444387167781 TestCell FAIL
 EditAction 1444387174643 TestCell.java 1104 4 12 4
+UnitTestCaseAction 1444387177940 TestCell.java OK
+UnitTestSessionAction 1444387177940 TestCell OK
+RefactoringAction 1444387218351 TestCell.java ADD void testLiveCellMoreThanThreeNeighborsShouldDie()/2 METHOD
+RefactoringAction 1444387223370 TestCell.java RENAME testLiveCellMoreThanThreeNeighborsShouldDie()/2=>void testDeadCellMoreThanThreeNeighborsShouldDie() METHOD
+RefactoringAction 1444387229388 TestCell.java RENAME testDeadCellMoreThanThreeNeighborsShouldDie()=>void testDeadCellThreeNeighborsShouldDie() METHOD
+RefactoringAction 1444387233907 TestCell.java RENAME testDeadCellThreeNeighborsShouldDie()=>void testDeadCellThreeNeighborsShouldLive() METHOD
+EditAction 1444387262177 TestCell.java 1204 5 15 5
