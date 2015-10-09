@@ -1,19 +1,17 @@
 package org.unioulu.tol.sqatlab.gameoflife;
 
 public class Cell {
-
-	public Cell(String string) {
-		// TODO Auto-generated constructor stub
+	String state;
+	public Cell(String initialState) {
+		this.state = initialState;
 	}
 
 	public void nextIteration() {
-		// TODO Auto-generated method stub
 		
 	}
 
 	public Object getState() {
-		// TODO Auto-generated method stub
-		return "Dead";
+		return this.state;
 	}
 
 }
