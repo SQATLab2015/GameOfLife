@@ -147,3 +147,10 @@ EditAction 1444387588836 TestGrid.java 1418 4 26 4
 UnitTestCaseAction 1444387592143 TestGrid.java OK
 UnitTestSessionAction 1444387592143 TestGrid OK
 EditAction 1444387663953 TestGrid.java 1505 4 28 5
+UnitTestCaseAction 1444387685826 TestGrid.java OK
+UnitTestSessionAction 1444387685826 TestGrid OK
+RefactoringAction 1444387802675 TestGrid.java ADD void test FIELD
+RefactoringAction 1444387805265 TestGrid.java RENAME test=>void testSingleCell FIELD
+RefactoringAction 1444387813517 TestGrid.java RENAME testSingleCell=>void testSingleCellWithThreeNeighborsShouldDie FIELD
+RefactoringAction 1444387816091 TestGrid.java RENAME testSingleCellWithThreeNeighborsShouldDie=>void testSingleCellWithThreeNeighborsShouldDie() METHOD
+EditAction 1444387869805 TestGrid.java 1863 5 37 6
