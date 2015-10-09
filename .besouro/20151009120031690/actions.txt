@@ -32,3 +32,10 @@ UnitTestCaseAction 1444382674262 TestCell.java OK
 UnitTestSessionAction 1444382674263 TestCell.testLiveCellWithTwoNeighborsShouldLive OK
 EditAction 1444382708197 Cell.java 285 3 2 0
 EditAction 1444382714954 TestCell.java 570 2 6 2
+UnitTestCaseAction 1444382718230 TestCell.java FAIL
+UnitTestSessionAction 1444382718230 TestCell FAIL
+RefactoringAction 1444382842710 Cell.java RENAME nextIteration()=>void nextIteration(int) METHOD
+RefactoringAction 1444382846875 Cell.java RENAME nextIteration(int)=>void nextIteration FIELD
+RefactoringAction 1444382865408 Cell.java RENAME nextIteration()=>void nextIteration(int) METHOD
+CompilationAction 1444382954287 TestCell.java
+EditAction 1444382967594 TestCell.java 572 2 6 2
