@@ -27,7 +27,10 @@ public class Cell {
 		if(state == "Alive" && numOfLiveCells < 2){
 			state = "Dead";
 		}else 
-			state = "Alive";
+			if (state == "Alive" && numOfLiveCells > 3){
+			state = "Dead";
+			}else
+			state ="Alive";
 	}
 
 	public Object getState() {
