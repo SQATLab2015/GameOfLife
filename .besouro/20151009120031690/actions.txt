@@ -39,3 +39,19 @@ RefactoringAction 1444382846875 Cell.java RENAME nextIteration(int)=>void nextIt
 RefactoringAction 1444382865408 Cell.java RENAME nextIteration()=>void nextIteration(int) METHOD
 CompilationAction 1444382954287 TestCell.java
 EditAction 1444382967594 TestCell.java 572 2 6 2
+UnitTestCaseAction 1444382980138 TestCell.java OK
+UnitTestSessionAction 1444382980138 TestCell OK
+FileOpenedAction 1444383091965 TestGrid.java 199 1 1 0
+RefactoringAction 1444383105851 TestGrid.java RENAME test()=><initializer /1> null
+RefactoringAction 1444383110484 TestGrid.java RENAME <initializer /1>=>void singleCell() METHOD
+RefactoringAction 1444383117177 TestGrid.java RENAME singleCell()=>void singleCellGrid() METHOD
+RefactoringAction 1444383120266 TestGrid.java RENAME singleCellGrid()=>void singleCell() METHOD
+RefactoringAction 1444383126958 TestGrid.java RENAME singleCell()=>void test() METHOD
+RefactoringAction 1444383380910 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+RefactoringAction 1444383415076 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+RefactoringAction 1444383422050 Cell.java ADD Cell(int, int) METHOD
+RefactoringAction 1444383447401 Cell.java ADD int x FIELD
+RefactoringAction 1444383447401 Cell.java ADD int y FIELD
+FileOpenedAction 1444383480865 Grid.java 68 0 0 0
+RefactoringAction 1444383480943 Grid.java ADD int getNeighbors(Cell) METHOD
+EditAction 1444383495747 Grid.java 159 1 1 0
