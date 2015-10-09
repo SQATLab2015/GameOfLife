@@ -105,3 +105,9 @@ RefactoringAction 1444385029388 Cell.java ADD int getY() METHOD
 RefactoringAction 1444385029389 Cell.java ADD void setY(int) METHOD
 EditAction 1444385072192 Grid.java 345 2 3 0
 EditAction 1444385076545 Cell.java 1341 10 23 0
+RefactoringAction 1444385519937 Grid.java RENAME getNeighbors(Cell)=>int getNumNeighbors(Cell) METHOD
+RefactoringAction 1444385521950 Grid.java RENAME getNumNeighbors(Cell)=>int geNeighbors(Cell) METHOD
+RefactoringAction 1444385522960 Grid.java RENAME geNeighbors(Cell)=>int getNeighbors(Cell) METHOD
+RefactoringAction 1444385563567 Grid.java RENAME getNeighbors(Cell)=>int getNumNeighbors(Cell) METHOD
+RefactoringAction 1444385567488 Grid.java RENAME getNumNeighbors(Cell)=>int getNeighbors(Cell) METHOD
+EditAction 1444385569490 TestGrid.java 817 2 12 2
