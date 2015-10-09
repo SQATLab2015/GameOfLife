@@ -106,3 +106,12 @@ UnitTestCaseAction 1444383579081 TestGrid.java OK
 UnitTestSessionAction 1444383579081 TestGrid (1) OK
 RefactoringAction 1444383588322 TestGrid.java ADD void testSingleCellOnGridHasNoNeighbors()/2 METHOD
 EditAction 1444383613682 TestGrid.java 749 2 11 2
+CompilationAction 1444383613932 TestGrid.java
+CompilationAction 1444383613932 TestGrid.java
+CompilationAction 1444383628018 TestGrid.java
+CompilationAction 1444383628150 TestGrid.java
+CompilationAction 1444383628151 TestGrid.java
+CompilationAction 1444383637466 TestGrid.java
+CompilationAction 1444383637623 TestGrid.java
+CompilationAction 1444383637623 TestGrid.java
+EditAction 1444383649579 TestGrid.java 776 2 12 2

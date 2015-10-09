@@ -24,14 +24,15 @@ public class TestGrid {
 	public void testSingleCellOnGridHasNoNeighbors() {
 		//arrange
 		Grid grid = new Grid();
-		Cell cell = new Cell(0,0);
-		Cell cell = new Cell(0,1);
+		Cell cell1 = new Cell(0,0);
+		Cell cell2 = new Cell(0,1);
 		
-		grid.addCell(cell);
+		grid.addCell(cell1);
+		grid.addCell(cell2);
 		
-		int numNeighbors = grid.getNeighbors(cell);
+		int numNeighbors = grid.getNeighbors(cell1);
 		
-		assertEquals(0, numNeighbors);	
+		assertEquals(1, numNeighbors);	
 	}
 	
 	
