@@ -126,3 +126,21 @@ UnitTestSessionAction 1444386431319 TestGrid FAIL
 RefactoringAction 1444386513254 TestGrid.java RENAME testTwoNeighborCellsOnGridHasOneNeighbor()=>void testSingleCellOnGridHasOneNeighbor() METHOD
 RefactoringAction 1444386518418 TestGrid.java ADD void testTwoCellsOnGridHasOneNeighbor() METHOD
 EditAction 1444386527809 TestGrid.java 1102 3 19 3
+UnitTestCaseAction 1444386533645 TestGrid.java FAIL
+UnitTestSessionAction 1444386533645 TestGrid FAIL
+UnitTestCaseAction 1444386947752 TestGrid.java FAIL
+UnitTestSessionAction 1444386947752 TestGrid FAIL
+UnitTestCaseAction 1444387045834 TestGrid.java FAIL
+UnitTestSessionAction 1444387045834 TestGrid FAIL
+UnitTestCaseAction 1444387161733 TestGrid.java FAIL
+UnitTestSessionAction 1444387161733 TestGrid FAIL
+UnitTestCaseAction 1444387221406 TestCell.java OK
+UnitTestSessionAction 1444387221406 TestCell OK
+UnitTestCaseAction 1444387224354 TestGrid.java FAIL
+UnitTestSessionAction 1444387224354 TestGrid FAIL
+UnitTestCaseAction 1444387418926 TestGrid.java OK
+UnitTestSessionAction 1444387418926 TestGrid OK
+RefactoringAction 1444387505902 TestGrid.java ADD void testTwoCellsOnGridHasOneNeighbor()/2 METHOD
+RefactoringAction 1444387509521 TestGrid.java RENAME testTwoCellsOnGridHasOneNeighbor()/2=>void testTwoSeparateCellsOnGridHasOneNeighbor() METHOD
+RefactoringAction 1444387515714 TestGrid.java RENAME testTwoSeparateCellsOnGridHasOneNeighbor()=>void testTwoSeparateCellsOnGridHasNoNeighbors() METHOD
+EditAction 1444387588836 TestGrid.java 1418 4 26 4
