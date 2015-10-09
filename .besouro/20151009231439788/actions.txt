@@ -5,3 +5,12 @@ RefactoringAction 1444403915134 Cell.java RENAME Cell()=>Cell(String) METHOD
 RefactoringAction 1444403943297 Cell.java ADD String state FIELD
 EditAction 1444403951537 Cell.java 138 1 1 0
 EditAction 1444403951925 TestCell.java 234 1 2 1
+CompilationAction 1444403952476 TestCell.java
+RefactoringAction 1444403974675 TestCell.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+UnitTestCaseAction 1444403991175 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444403991181 TestSudokuVerifier OK
+UnitTestCaseAction 1444404011298 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444404011301 TestSudokuVerifier OK
+RefactoringAction 1444404048265 Cell.java ADD String getState() METHOD
+RefactoringAction 1444404048267 Cell.java ADD void setState(String) METHOD
+EditAction 1444404061817 Cell.java 250 3 3 0
