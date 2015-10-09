@@ -133,3 +133,9 @@ UnitTestSessionAction 1444385780902 TestGrid.testTwoNeightborCellsOnDifferentRow
 UnitTestCaseAction 1444385871729 TestGrid.java OK
 UnitTestSessionAction 1444385871731 TestGrid OK
 EditAction 1444386761596 TestGrid.java 1198 3 19 3
+UnitTestCaseAction 1444386766376 TestCell.java OK
+UnitTestSessionAction 1444386766377 TestCell.testDeadCellWithNoLiveNeighborsShouldLive OK
+UnitTestCaseAction 1444386774177 TestCell.java OK
+UnitTestSessionAction 1444386774179 TestCell.testDeadCellWithNoLiveNeighborsShouldLive OK
+UnitTestCaseAction 1444386784599 TestCell.java OK
+UnitTestSessionAction 1444386784600 TestSudokuVerifier OK

@@ -103,3 +103,6 @@
 1444385871732 test-addition 1 130 true
 1444385871733 test-addition 2 130 true
 1444385871734 test-addition 1 130 true
+1444386766377 regression 1 4 true
+1444386774179 regression 1 0 true
+1444386784600 regression 1 0 true
