@@ -52,3 +52,16 @@ RefactoringAction 1444383812279 TestGrid.java RENAME testTwoNeighborsCellsShould
 EditAction 1444383843268 TestGrid.java 760 2 12 2
 EditAction 1444383846261 Grid.java 197 3 1 0
 EditAction 1444384408011 Grid.java 197 3 1 0
+UnitTestCaseAction 1444384476954 TestGrid.java FAIL
+UnitTestSessionAction 1444384476956 TestGrid FAIL
+RefactoringAction 1444384563939 Grid.java ADD Set<> cells FIELD
+RefactoringAction 1444384594660 Grid.java ADD import java.util.HashSet IMPORT
+RefactoringAction 1444384598129 Grid.java ADD import java.util.Set IMPORT
+RefactoringAction 1444384717061 Cell.java ADD int hashCode() METHOD
+RefactoringAction 1444384717062 Cell.java ADD boolean equals(Object) METHOD
+RefactoringAction 1444384960243 Cell.java ADD int get FIELD
+RefactoringAction 1444384964267 Cell.java RENAME get=>int getX FIELD
+RefactoringAction 1444384965791 Cell.java RENAME getX=>int getX() METHOD
+RefactoringAction 1444384993491 Cell.java ADD int getX()/2 METHOD
+RefactoringAction 1444384996016 Cell.java RENAME getX()/2=>int getY() METHOD
+EditAction 1444385041968 Grid.java 353 3 3 0
