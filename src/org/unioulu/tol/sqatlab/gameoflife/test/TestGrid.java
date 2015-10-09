@@ -32,4 +32,18 @@ public class TestGrid {
 		//assert
 		assertEquals(1, numNeighbors);
 	}
+	
+	@Test
+	public void testTwoCellsOnGridHasOneNeighbor() {
+		//arrange
+		Grid grid = new Grid();
+		Cell cell1 = new Cell(0,0);
+		Cell cell2 = new Cell(0,1);
+		//act
+		grid.addCell(cell1);
+		grid.addCell(cell2);
+		int numNeighbors = grid.getNumNeighbors(cell1);
+		//assert
+		assertEquals(1, numNeighbors);
+	}
 }
