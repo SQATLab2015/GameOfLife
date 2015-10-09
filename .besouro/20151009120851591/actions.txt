@@ -98,3 +98,8 @@ RefactoringAction 1444387223370 TestCell.java RENAME testLiveCellMoreThanThreeNe
 RefactoringAction 1444387229388 TestCell.java RENAME testDeadCellMoreThanThreeNeighborsShouldDie()=>void testDeadCellThreeNeighborsShouldDie() METHOD
 RefactoringAction 1444387233907 TestCell.java RENAME testDeadCellThreeNeighborsShouldDie()=>void testDeadCellThreeNeighborsShouldLive() METHOD
 EditAction 1444387262177 TestCell.java 1204 5 15 5
+UnitTestCaseAction 1444387265352 TestCell.java OK
+UnitTestSessionAction 1444387265353 TestCell OK
+UnitTestCaseAction 1444387373886 TestCell.java OK
+UnitTestSessionAction 1444387373887 TestCell OK
+EditAction 1444387382070 TestCell.java 1203 5 15 5

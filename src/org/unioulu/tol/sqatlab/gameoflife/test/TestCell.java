@@ -63,7 +63,7 @@ public class TestCell {
 		cell.nextIteration(3);
 		
 		//assert
-		assertEquals("Alive", cell.getState());
+		assertEquals("Dead", cell.getState());
 
 	}
 	

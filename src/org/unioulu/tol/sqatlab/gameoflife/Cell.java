@@ -30,7 +30,10 @@ public class Cell {
 	
 	
 	public void nextIteration(int numOfLiveCells) {
-		if (state == "Alive" && numOfLiveCells < 2){
+		if (state == "Dead" && numOfLiveCells == 3){
+			state = "Alive";
+		}
+		else if (state == "Alive" && numOfLiveCells < 2){
 			state = "Dead";
 		}
 		else if (state == "Alive" && numOfLiveCells > 3){
