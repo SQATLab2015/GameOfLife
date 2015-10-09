@@ -93,3 +93,6 @@ RefactoringAction 1444383491341 TestGrid.java RENAME testSingleCellOnGrid()=>voi
 EditAction 1444383492346 TestGrid.java 437 1 4 1
 EditAction 1444383513469 TestGrid.java 454 1 4 1
 EditAction 1444383549414 TestGrid.java 475 1 0 0
+CompilationAction 1444383549662 TestGrid.java
+CompilationAction 1444383549662 TestGrid.java
+EditAction 1444383553611 TestGrid.java 476 1 5 1

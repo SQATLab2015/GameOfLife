@@ -13,7 +13,7 @@ public class TestGrid {
 		Grid grid = new Grid();
 		Cell cell = new Cell(0,0);
 		
-		grid.addCell(Cell)
+		grid.addCell(Cell);
 		
 		int numNeighbors = grid.getNeighbors(cell);
 		
