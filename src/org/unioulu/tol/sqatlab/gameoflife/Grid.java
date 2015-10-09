@@ -1,5 +1,7 @@
 package org.unioulu.tol.sqatlab.gameoflife;
 
+import static org.junit.Assert.assertEquals;
+
 public class Grid {
 	private Cell[][] grid;
 	
@@ -15,4 +17,9 @@ public class Grid {
 		this.grid = new Cell[i][i];
 	}
 	
+	public static void main(String[] args) {
+		Grid g = new Grid(5);
+		g.getGrid()[1][1].setState("*");
+		System.out.println(g.getGrid()[1][1].getState());
+	}
 }
