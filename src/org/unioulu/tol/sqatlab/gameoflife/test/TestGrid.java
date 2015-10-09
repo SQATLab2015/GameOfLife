@@ -12,7 +12,7 @@ public class TestGrid {
 		
 		int numNeighbors = grid.getNeighbors(cell);
 		
-		
+		assertEquals(0, numNeighbors);
 		
 	}
 

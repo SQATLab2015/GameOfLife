@@ -64,3 +64,6 @@ RefactoringAction 1444383064866 TestGrid.java RENAME singleCe()=>void singleCell
 RefactoringAction 1444383072876 TestGrid.java RENAME singleCell()=><initializer /1> null
 RefactoringAction 1444383077386 TestGrid.java RENAME <initializer /1>=>void test() METHOD
 EditAction 1444383281860 TestGrid.java 281 1 3 0
+CompilationAction 1444383282098 TestGrid.java
+CompilationAction 1444383282098 TestGrid.java
+EditAction 1444383309125 TestGrid.java 311 1 4 1
