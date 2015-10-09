@@ -1,0 +1,6 @@
+FileOpenedAction 1444403680299 TestCell.java 200 1 1 0
+RefactoringAction 1444403694906 TestCell.java RENAME test()=>void testCellState() METHOD
+RefactoringAction 1444403910054 Cell.java ADD Cell() METHOD
+RefactoringAction 1444403915134 Cell.java RENAME Cell()=>Cell(String) METHOD
+RefactoringAction 1444403943297 Cell.java ADD String state FIELD
+EditAction 1444403951537 Cell.java 138 1 1 0
