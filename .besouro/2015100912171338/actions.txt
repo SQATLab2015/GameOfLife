@@ -63,3 +63,19 @@ RefactoringAction 1444383622259 Grid.java ADD void addCell(Cell) METHOD
 EditAction 1444383636118 TestGrid.java 495 1 5 1
 CompilationAction 1444383639351 TestGrid.java
 EditAction 1444383639487 Grid.java 252 2 1 0
+UnitTestCaseAction 1444383645588 TestGrid.java OK
+UnitTestSessionAction 1444383645589 TestGrid OK
+RefactoringAction 1444383652871 TestGrid.java ADD void testSingleCellOnGridHasNoNeighbors()/2 METHOD
+RefactoringAction 1444383721604 TestGrid.java RENAME testSingleCellOnGridHasNoNeighbors()/2=>void testCellOnGridHasNoNeighbors() METHOD
+RefactoringAction 1444383723615 TestGrid.java RENAME testCellOnGridHasNoNeighbors()=>void testTwoCellOnGridHasNoNeighbors() METHOD
+RefactoringAction 1444383727627 TestGrid.java RENAME testTwoCellOnGridHasNoNeighbors()=>void testTwoNeightCellOnGridHasNoNeighbors() METHOD
+RefactoringAction 1444383729642 TestGrid.java RENAME testTwoNeightCellOnGridHasNoNeighbors()=>void testTwoNeightborCellOnGridHasNoNeighbors() METHOD
+RefactoringAction 1444383731654 TestGrid.java RENAME testTwoNeightborCellOnGridHasNoNeighbors()=>void testTwoNeightborCellCellOnGridHasNoNeighbors() METHOD
+RefactoringAction 1444383735664 TestGrid.java RENAME testTwoNeightborCellCellOnGridHasNoNeighbors()=>void testTwoNeightborCells() METHOD
+RefactoringAction 1444383740175 TestGrid.java RENAME testTwoNeightborCells()=>void testTwoNeightborCellsShouldHave() METHOD
+RefactoringAction 1444383742186 TestGrid.java RENAME testTwoNeightborCellsShouldHave()=>void testTwoNeightborCellsShouldHaveOne() METHOD
+RefactoringAction 1444383747202 TestGrid.java RENAME testTwoNeightborCellsShouldHaveOne()=>void testTwoNeightborCellsShouldHaveOneNe() METHOD
+RefactoringAction 1444383749716 TestGrid.java RENAME testTwoNeightborCellsShouldHaveOneNe()=>void testTwoNeightborCellsShouldHaveOneNeight() METHOD
+RefactoringAction 1444383751727 TestGrid.java RENAME testTwoNeightborCellsShouldHaveOneNeight()=>void testTwoNeightborCellsShouldHaveOneNeighbi() METHOD
+RefactoringAction 1444383755246 TestGrid.java RENAME testTwoNeightborCellsShouldHaveOneNeighbi()=>void testTwoNeightborCellsShouldHaveOneNeighbor() METHOD
+EditAction 1444383761912 TestGrid.java 811 2 12 2
