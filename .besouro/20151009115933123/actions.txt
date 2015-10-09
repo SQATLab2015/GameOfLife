@@ -115,3 +115,26 @@ CompilationAction 1444383637466 TestGrid.java
 CompilationAction 1444383637623 TestGrid.java
 CompilationAction 1444383637623 TestGrid.java
 EditAction 1444383649579 TestGrid.java 776 2 12 2
+CompilationAction 1444383649788 TestGrid.java
+RefactoringAction 1444383666233 TestGrid.java RENAME testSingleCellOnGridHasNoNeighbors()/2=>void testTwoCellOnGridHasNoNeighbors() METHOD
+RefactoringAction 1444383669250 TestGrid.java RENAME testTwoCellOnGridHasNoNeighbors()=>void testTwoNeighborCellOnGridHasNoNeighbors() METHOD
+RefactoringAction 1444383671265 TestGrid.java RENAME testTwoNeighborCellOnGridHasNoNeighbors()=>void testTwoNeighborCellsOnGridHasNoNeighbors() METHOD
+RefactoringAction 1444383675279 TestGrid.java RENAME testTwoNeighborCellsOnGridHasNoNeighbors()=>void testTwoNeighborCells() METHOD
+RefactoringAction 1444383680794 TestGrid.java RENAME testTwoNeighborCells()=>void testTwoNeighborCellsShould() METHOD
+RefactoringAction 1444383682309 TestGrid.java RENAME testTwoNeighborCellsShould()=>void testTwoNeighborCellsShouldHave() METHOD
+RefactoringAction 1444383687326 TestGrid.java RENAME testTwoNeighborCellsShouldHave()=>void testTwoNeighborCellsShouldHaveOneHeig() METHOD
+RefactoringAction 1444383688841 TestGrid.java RENAME testTwoNeighborCellsShouldHaveOneHeig()=>void testTwoNeighborCellsShouldHaveOne() METHOD
+RefactoringAction 1444383690356 TestGrid.java RENAME testTwoNeighborCellsShouldHaveOne()=>void testTwoNeighborCellsShouldHaveOneNeig() METHOD
+CompilationAction 1444383691660 TestGrid.java
+UnitTestCaseAction 1444383699202 TestGrid.java FAIL
+UnitTestSessionAction 1444383699202 TestGrid (1) FAIL
+RefactoringAction 1444384535048 Grid.java ADD Set cells FIELD
+RefactoringAction 1444384536558 Grid.java REMOVE cells FIELD
+RefactoringAction 1444384541078 Grid.java ADD Set<> cells FIELD
+CompilationAction 1444384566815 Grid.java
+CompilationAction 1444384566815 Grid.java
+RefactoringAction 1444384571184 Grid.java ADD import java.util.Set IMPORT
+RefactoringAction 1444384574941 Grid.java ADD import java.util.HashSet IMPORT
+CompilationAction 1444384576859 Grid.java
+CompilationAction 1444384576860 Grid.java
+EditAction 1444384607257 Grid.java 353 2 2 0

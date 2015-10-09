@@ -1,7 +1,10 @@
 package org.unioulu.tol.sqatlab.gameoflife;
 
-public class Grid {
+import java.util.HashSet;
+import java.util.Set;
 
+public class Grid {
+	private Set<Cell> cells = new HashSet<>();   
 	
 	public int getNeighbors(Cell cell) {
 		// TODO Auto-generated method stub
@@ -10,6 +13,7 @@ public class Grid {
 
 	public void addCell(Cell cell) {
 		// TODO Auto-generated method stub
+		cells.add(cell);
 		
 	}
 
