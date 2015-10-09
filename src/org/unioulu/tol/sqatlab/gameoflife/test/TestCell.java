@@ -10,7 +10,7 @@ public class TestCell {
 	@Test
 	public void testCellState() {
 		Cell c = new Cell("*");
-		assertEquals("-", c.getState());
+		assertEquals("*", c.getState());
 	}
 
 }
