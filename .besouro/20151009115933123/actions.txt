@@ -102,3 +102,7 @@ CompilationAction 1444383561386 TestGrid.java
 RefactoringAction 1444383564542 Grid.java ADD void addCell(Cell) METHOD
 EditAction 1444383566780 Grid.java 237 2 1 0
 EditAction 1444383568898 TestCell.java 576 2 6 2
+UnitTestCaseAction 1444383579081 TestGrid.java OK
+UnitTestSessionAction 1444383579081 TestGrid (1) OK
+RefactoringAction 1444383588322 TestGrid.java ADD void testSingleCellOnGridHasNoNeighbors()/2 METHOD
+EditAction 1444383613682 TestGrid.java 749 2 11 2

@@ -20,6 +20,21 @@ public class TestGrid {
 		assertEquals(0, numNeighbors);	
 	}
 	
+	@Test
+	public void testSingleCellOnGridHasNoNeighbors() {
+		//arrange
+		Grid grid = new Grid();
+		Cell cell = new Cell(0,0);
+		Cell cell = new Cell(0,1);
+		
+		grid.addCell(cell);
+		
+		int numNeighbors = grid.getNeighbors(cell);
+		
+		assertEquals(0, numNeighbors);	
+	}
+	
+	
 	
 
 }
