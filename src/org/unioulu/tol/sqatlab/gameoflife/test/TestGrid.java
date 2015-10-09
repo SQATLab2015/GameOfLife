@@ -20,7 +20,7 @@ public class TestGrid {
 	}
 
 	@Test
-	public void testTwoNeighborCellsOnGridHasOneNeighbor() {
+	public void testSingleCellOnGridHasOneNeighbor() {
 		//arrange
 		Grid grid = new Grid();
 		Cell cell1 = new Cell(0,0);
@@ -32,7 +32,7 @@ public class TestGrid {
 		//assert
 		assertEquals(1, numNeighbors);
 	}
-	/*
+	
 	@Test
 	public void testTwoCellsOnGridHasOneNeighbor() {
 		//arrange
@@ -46,5 +46,5 @@ public class TestGrid {
 		//assert
 		assertEquals(1, numNeighbors);
 	}
-	*/
+	
 }
