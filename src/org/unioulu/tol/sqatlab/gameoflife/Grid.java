@@ -9,7 +9,9 @@ public class Grid {
 	public int getNeighbors(Cell cell) {
 		Set<Cell> neighbors = new HashSet <Cell>();
 		Set<Cell> neighborhood = new HashSet <Cell>();
-		for
+		for (int i=-1; i<=1; i ++) {
+			
+		}
 		
 		
 		return 0;
