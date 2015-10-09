@@ -16,3 +16,6 @@ CompilationAction 1444382346446 TestCell.java
 CompilationAction 1444382346447 TestCell.java
 RefactoringAction 1444382353854 Cell.java ADD void nextIteration() METHOD
 EditAction 1444382359867 Cell.java 219 2 0 0
+CompilationAction 1444382360087 TestCell.java
+RefactoringAction 1444382366318 Cell.java ADD Object getState() METHOD
+EditAction 1444382367548 Cell.java 303 3 1 0
