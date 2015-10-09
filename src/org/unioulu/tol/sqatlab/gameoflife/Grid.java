@@ -7,4 +7,9 @@ public class Grid {
 		return 0;
 	}
 
+	public void addCell(Cell cell) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

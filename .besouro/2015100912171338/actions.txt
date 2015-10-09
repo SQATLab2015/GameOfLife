@@ -61,3 +61,5 @@ RefactoringAction 1444383579702 TestGrid.java RENAME testSingleCellOnGridHasNoNe
 RefactoringAction 1444383599234 TestGrid.java REMOVE singleCell() METHOD
 RefactoringAction 1444383622259 Grid.java ADD void addCell(Cell) METHOD
 EditAction 1444383636118 TestGrid.java 495 1 5 1
+CompilationAction 1444383639351 TestGrid.java
+EditAction 1444383639487 Grid.java 252 2 1 0
