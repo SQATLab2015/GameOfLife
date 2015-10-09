@@ -14,3 +14,9 @@ UnitTestSessionAction 1444404011301 TestSudokuVerifier OK
 RefactoringAction 1444404048265 Cell.java ADD String getState() METHOD
 RefactoringAction 1444404048267 Cell.java ADD void setState(String) METHOD
 EditAction 1444404061817 Cell.java 250 3 3 0
+CompilationAction 1444404062049 TestCell.java
+CompilationAction 1444404062286 TestCell.java
+CompilationAction 1444404081652 TestCell.java
+UnitTestCaseAction 1444404084996 TestCell.java OK
+UnitTestSessionAction 1444404085001 TestCell OK
+EditAction 1444404266513 TestCell.java 287 1 2 1
