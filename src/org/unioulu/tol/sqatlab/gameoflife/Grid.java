@@ -11,10 +11,10 @@ public class Grid {
 		Set<Cell> neighborhood = new HashSet <Cell>();
 		for (int dx=-1; dx<=1; dx ++) {
 			for (int dy=-1; dy<=1; dy ++) {
-			Cell neighbor = new Cell(cell.x + dx, cell.y + dy);
-			if (cells.contains(neighbor)) {
-				numNeighbors++;
-			} 
+				Cell neighbor = new Cell(cell.x + dx, cell.y + dy);
+				if (cells.contains(neighbor)) {
+					numNeighbors++;
+				} 
 			}
 		}
 		
