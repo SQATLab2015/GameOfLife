@@ -7,3 +7,12 @@ UnitTestCaseAction 1444382465610 TestSudokuVerifier.java OK
 UnitTestSessionAction 1444382465617 TestSudokuVerifier OK
 EditAction 1444382508374 Cell.java 286 3 1 0
 EditAction 1444382511620 TestCell.java 372 1 3 1
+UnitTestCaseAction 1444382515566 TestCell.java OK
+UnitTestSessionAction 1444382515567 TestSudokuVerifier OK
+RefactoringAction 1444382548606 TestCell.java ADD void testLiveCellWithNoNeighborsShouldDie()/2 METHOD
+RefactoringAction 1444382556119 TestCell.java RENAME testLiveCellWithNoNeighborsShouldDie()/2=>void testLiveCellWithTNoNeighborsShouldDie() METHOD
+RefactoringAction 1444382557134 TestCell.java RENAME testLiveCellWithTNoNeighborsShouldDie()=>void testLiveCellWithTwoNoNeighborsShouldDie() METHOD
+RefactoringAction 1444382561150 TestCell.java RENAME testLiveCellWithTwoNoNeighborsShouldDie()=>void testLiveCellWithTwoNeighborsShouldDie() METHOD
+RefactoringAction 1444382567164 TestCell.java RENAME testLiveCellWithTwoNeighborsShouldDie()=>void testLiveCellWithTwoNeighborsShould() METHOD
+RefactoringAction 1444382568679 TestCell.java RENAME testLiveCellWithTwoNeighborsShould()=>void testLiveCellWithTwoNeighborsShouldLive() METHOD
+EditAction 1444382586081 TestCell.java 554 2 6 2
