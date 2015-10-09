@@ -128,3 +128,8 @@ RefactoringAction 1444385770888 TestGrid.java RENAME testTwoNeightborCellsOnDiSh
 RefactoringAction 1444385772397 TestGrid.java RENAME testTwoNeightborCellsOnDifferentShouldHaveOneNeighbor()=>void testTwoNeightborCellsOnDifferentRowShouldHaveOneNeighbor() METHOD
 RefactoringAction 1444385773407 TestGrid.java RENAME testTwoNeightborCellsOnDifferentRowShouldHaveOneNeighbor()=>void testTwoNeightborCellsOnDifferentRowsShouldHaveOneNeighbor() METHOD
 EditAction 1444385776507 TestGrid.java 1154 3 19 3
+UnitTestCaseAction 1444385780901 TestGrid.java FAIL
+UnitTestSessionAction 1444385780902 TestGrid.testTwoNeightborCellsOnDifferentRowsShouldHaveOneNeighbor FAIL
+UnitTestCaseAction 1444385871729 TestGrid.java OK
+UnitTestSessionAction 1444385871731 TestGrid OK
+EditAction 1444386761596 TestGrid.java 1198 3 19 3

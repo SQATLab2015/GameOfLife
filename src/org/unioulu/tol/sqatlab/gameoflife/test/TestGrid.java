@@ -49,4 +49,8 @@ public class TestGrid {
 		
 		assertEquals(1, numNeighbors);
 	}
+	
+	//adding State and live neighbor
+	
+	
 }
