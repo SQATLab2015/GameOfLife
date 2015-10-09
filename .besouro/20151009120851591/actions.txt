@@ -66,3 +66,5 @@ RefactoringAction 1444384993491 Cell.java ADD int getX()/2 METHOD
 RefactoringAction 1444384996016 Cell.java RENAME getX()/2=>int getY() METHOD
 EditAction 1444385041968 Grid.java 353 3 3 0
 EditAction 1444385134911 Grid.java 362 3 3 0
+RefactoringAction 1444385505863 Grid.java RENAME getNeighbors(Cell)=>int getNumOfNeighbors(Cell) METHOD
+EditAction 1444385647505 TestGrid.java 770 2 12 2
