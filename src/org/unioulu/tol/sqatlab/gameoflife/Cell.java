@@ -2,7 +2,7 @@ package org.unioulu.tol.sqatlab.gameoflife;
 
 public class Cell {
 
-	private String state;
+	String state;
 	
 	public Cell(){
 		
@@ -12,9 +12,13 @@ public class Cell {
 		this.state = initialState;
 	}
 
-	public void nextIteration() {
-		
-		
+	public void nextIteration(int numOfLiveCells) {
+		if (state == "Alive" && numOfLiveCells < 2){
+			state = "Dead";
+		}
+		else{
+			state = "Alive";
+		}
 	}
 
 	public String getState() {

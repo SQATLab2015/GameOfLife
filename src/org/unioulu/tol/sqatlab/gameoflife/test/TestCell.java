@@ -12,11 +12,11 @@ public class TestCell {
 		//arrange
 		Cell cell= new Cell("Alive");
 		//
-		cell.nextIteration();
+		cell.nextIteration(0);
 		
 		//assert
 		assertEquals("Dead", cell.getState());
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
 	}
 	
 	@Test
@@ -24,7 +24,7 @@ public class TestCell {
 		//arrange
 		Cell cell= new Cell("Alive");
 		//
-		cell.nextIteration();
+		cell.nextIteration(2);
 		
 		//assert
 		assertEquals("Dead", cell.getState());
