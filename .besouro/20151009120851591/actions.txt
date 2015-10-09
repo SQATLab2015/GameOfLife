@@ -23,3 +23,30 @@ RefactoringAction 1444382802057 Cell.java RENAME nextIteration(int)=>void nextIt
 RefactoringAction 1444382804068 Cell.java RENAME nextIteration()=>void nextIteration(int) METHOD
 EditAction 1444382964926 TestCell.java 637 2 7 2
 EditAction 1444383059188 TestCell.java 640 2 6 2
+UnitTestCaseAction 1444383064879 TestCell.java OK
+UnitTestSessionAction 1444383064882 TestCell OK
+UnitTestCaseAction 1444383083295 TestCell.java OK
+UnitTestSessionAction 1444383083296 TestCell OK
+RefactoringAction 1444383214260 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+RefactoringAction 1444383223076 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+RefactoringAction 1444383396542 Cell.java ADD Cell(int, int) METHOD
+RefactoringAction 1444383415717 Cell.java ADD int x FIELD
+RefactoringAction 1444383415718 Cell.java ADD int y FIELD
+FileOpenedAction 1444383466155 Grid.java 68 0 0 0
+RefactoringAction 1444383500167 Grid.java ADD Grid() METHOD
+RefactoringAction 1444383512726 TestGrid.java RENAME test()=>void testSi() METHOD
+RefactoringAction 1444383517240 TestGrid.java RENAME testSi()=>void testSingleCellOn() METHOD
+RefactoringAction 1444383522755 TestGrid.java RENAME testSingleCellOn()=>void testSingleCellOnGridHasNoNeighbors() METHOD
+RefactoringAction 1444383531536 Grid.java ADD int getNeighbors(Cell) METHOD
+RefactoringAction 1444383585118 Grid.java ADD void addCell(Cell) METHOD
+RefactoringAction 1444383716046 TestGrid.java ADD void testSingleCellOnGridHasNoNeighbors()/2 METHOD
+RefactoringAction 1444383724063 TestGrid.java RENAME testSingleCellOnGridHasNoNeighbors()/2=>void testTwo() METHOD
+RefactoringAction 1444383726080 TestGrid.java RENAME testTwo()=>void testTwoNeigh() METHOD
+RefactoringAction 1444383727596 TestGrid.java RENAME testTwoNeigh()=>void testTwoNeighbors() METHOD
+RefactoringAction 1444383796196 TestGrid.java RENAME testTwoNeighbors()=>void testTwoNeighborsC() METHOD
+RefactoringAction 1444383797713 TestGrid.java RENAME testTwoNeighborsC()=>void testTwoNeighborsCells() METHOD
+RefactoringAction 1444383800230 TestGrid.java RENAME testTwoNeighborsCells()=>void testTwoNeighborsCellsS() METHOD
+RefactoringAction 1444383802245 TestGrid.java RENAME testTwoNeighborsCellsS()=>void testTwoNeighborsCellsShould() METHOD
+RefactoringAction 1444383807763 TestGrid.java RENAME testTwoNeighborsCellsShould()=>void testTwoNeighborsCellsShouldHaveOne() METHOD
+RefactoringAction 1444383812279 TestGrid.java RENAME testTwoNeighborsCellsShouldHaveOne()=>void testTwoNeighborsCellsShouldHaveOneNeighbor() METHOD
+EditAction 1444383843268 TestGrid.java 760 2 12 2
