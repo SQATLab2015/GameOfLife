@@ -6,3 +6,4 @@
 1444387177940 test-addition 2 76 true
 1444387265353 test-addition 1 47 true
 1444387373887 regression 1 0 false
+1444387395306 regression 2 13 true

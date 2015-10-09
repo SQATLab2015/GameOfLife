@@ -106,3 +106,10 @@ EditAction 1444387382070 TestCell.java 1203 5 15 5
 UnitTestCaseAction 1444387385187 TestCell.java FAIL
 UnitTestSessionAction 1444387385188 TestCell FAIL
 EditAction 1444387390465 TestCell.java 1204 5 15 5
+UnitTestCaseAction 1444387395305 TestCell.java OK
+UnitTestSessionAction 1444387395306 TestCell OK
+RefactoringAction 1444387434615 TestCell.java ADD void testLiveCellMoreThanThreeNeighborsShouldDie()/2 METHOD
+RefactoringAction 1444387442136 TestCell.java RENAME testLiveCellMoreThanThreeNeighborsShouldDie()/2=>void testLiveCellLessThanThreeNeighborsShouldDie() METHOD
+RefactoringAction 1444387447156 TestCell.java RENAME testLiveCellLessThanThreeNeighborsShouldDie()=>void testLiveCellLessThanTNeighborsShouldDie() METHOD
+RefactoringAction 1444387449675 TestCell.java RENAME testLiveCellLessThanTNeighborsShouldDie()=>void testLiveCellLessThanTwoNeighborsShouldDie() METHOD
+EditAction 1444387476092 TestCell.java 1405 6 18 6

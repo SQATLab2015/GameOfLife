@@ -67,5 +67,17 @@ public class TestCell {
 
 	}
 	
+	@Test
+	public void testLiveCellLessThanTwoNeighborsShouldDie() {
+		//arrange
+		Cell cell= new Cell("Alive");
+		//
+		cell.nextIteration(1);
+		
+		//assert
+		assertEquals("Dead", cell.getState());
+
+	}
+	
 
 }
