@@ -56,3 +56,10 @@ FileOpenedAction 1444383480865 Grid.java 68 0 0 0
 RefactoringAction 1444383480943 Grid.java ADD int getNeighbors(Cell) METHOD
 EditAction 1444383495747 Grid.java 159 1 1 0
 EditAction 1444383498711 TestGrid.java 403 1 4 1
+UnitTestCaseAction 1444383502114 TestGrid.java OK
+UnitTestSessionAction 1444383502114 TestGrid OK
+RefactoringAction 1444383534985 TestGrid.java RENAME test()=>void testSingleCellOnGrid() METHOD
+RefactoringAction 1444383538074 TestGrid.java RENAME testSingleCellOnGrid()=>void testSingleCellOnGridHasNoNeighbors() METHOD
+RefactoringAction 1444383613550 Grid.java ADD void addCell(Cell) METHOD
+RefactoringAction 1444383637389 TestGrid.java ADD void testSingleCellOnGridHasNoNeighbors()/2 METHOD
+EditAction 1444383702773 TestGrid.java 786 2 12 2
