@@ -10,7 +10,7 @@ public class Grid {
 		Set<Cell> neighbors = new HashSet <Cell>();
 		Set<Cell> neighborhood = new HashSet <Cell>();
 		for (int i=-1; i<=1; i ++) {
-			
+			Cell neighbor = new Cell(cell.x, cell.y + i);
 		}
 		
 		
