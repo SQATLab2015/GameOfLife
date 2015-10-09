@@ -13,7 +13,6 @@ public class TestCell {
 		Cell cell = new Cell("Alive");
 		//
 		cell.nextIteration();
-		//
 		//assert
 		assertEquals("Dead", cell.getState());
 	}
@@ -24,7 +23,6 @@ public class TestCell {
 		Cell cell = new Cell("Alive");
 		//
 		cell.nextIteration();
-		//
 		//assert
 		assertEquals("Alive", cell.getState());
 	}

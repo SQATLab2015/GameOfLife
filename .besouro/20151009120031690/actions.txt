@@ -31,3 +31,4 @@ RefactoringAction 1444382631160 Cell.java ADD String state FIELD
 UnitTestCaseAction 1444382674262 TestCell.java OK
 UnitTestSessionAction 1444382674263 TestCell.testLiveCellWithTwoNeighborsShouldLive OK
 EditAction 1444382708197 Cell.java 285 3 2 0
+EditAction 1444382714954 TestCell.java 570 2 6 2
