@@ -1,0 +1,8 @@
+FileOpenedAction 1444382233633 TestCell.java 214 1 2 0
+RefactoringAction 1444382415295 TestCell.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+RefactoringAction 1444382419786 Cell.java ADD Cell(String) METHOD
+RefactoringAction 1444382430462 Cell.java ADD void nextIteration() METHOD
+RefactoringAction 1444382436071 Cell.java ADD Object getState() METHOD
+UnitTestCaseAction 1444382465610 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444382465617 TestSudokuVerifier OK
+EditAction 1444382508374 Cell.java 286 3 1 0
