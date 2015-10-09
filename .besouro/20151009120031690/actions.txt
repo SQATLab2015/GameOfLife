@@ -172,3 +172,6 @@ RefactoringAction 1444388037621 TestGrid.java RENAME testSingleCellsOnGridHasNoN
 EditAction 1444388071865 TestGrid.java 2417 6 53 8
 CompilationAction 1444388074626 TestGrid.java
 EditAction 1444388147076 TestGrid.java 2441 6 53 8
+UnitTestCaseAction 1444388151741 TestGrid.java FAIL
+UnitTestSessionAction 1444388151741 TestGrid FAIL
+EditAction 1444388165596 TestGrid.java 2439 6 53 8
