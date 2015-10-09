@@ -7,7 +7,7 @@ public class Cell {
 	}
 
 	public void nextIteration(int numOfLiveCells) {
-		
+		if (state == "Alive") 
 	}
 
 	public Object getState() {
