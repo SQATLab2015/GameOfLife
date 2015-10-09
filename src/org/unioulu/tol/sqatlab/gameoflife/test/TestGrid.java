@@ -9,13 +9,16 @@ public class TestGrid {
 
 	@Test
 	public void testSingleCellOnGridHasNoNeighbors() {
+		//arrange
 		Grid grid = new Grid();
 		Cell cell = new Cell(0,0);
 		
+		
 		int numNeighbors = grid.getNeighbors(cell);
 		
-		assertEquals(0, numNeighbors);
-		
+		assertEquals(0, numNeighbors);	
 	}
+	
+	
 
 }
