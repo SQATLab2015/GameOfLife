@@ -72,3 +72,6 @@ CompilationAction 1444383741307 TestGrid.java
 RefactoringAction 1444383749294 Grid.java ADD void addCell(Cell)/2 METHOD
 RefactoringAction 1444383757562 Grid.java REMOVE addCell(Cell)/2 METHOD
 EditAction 1444383982589 TestCell.java 576 2 6 2
+RefactoringAction 1444384044650 Grid.java ADD void addCell(Cell)/2 METHOD
+RefactoringAction 1444384050078 Grid.java REMOVE addCell(Cell)/2 METHOD
+EditAction 1444384052216 Grid.java 239 2 1 0
