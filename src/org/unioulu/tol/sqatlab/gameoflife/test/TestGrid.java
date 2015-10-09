@@ -80,7 +80,7 @@ public class TestGrid {
 		
 		int numNeighbors = grid.getNumNeighbors(cell2);
 		
-		assertEquals(0, numNeighbors);
+		assertEquals(4, numNeighbors);
 	}
 	
 	
