@@ -182,3 +182,5 @@ UnitTestCaseAction 1444385630230 TestGrid.java OK
 UnitTestSessionAction 1444385630231 TestGrid (1) OK
 RefactoringAction 1444385686509 TestGrid.java ADD void testTwoNeighborCellsShouldHaveOneNeigbor()/2 METHOD
 EditAction 1444385696508 TestGrid.java 1089 3 19 3
+CompilationAction 1444385696743 TestGrid.java
+EditAction 1444385700737 Grid.java 519 2 5 0
