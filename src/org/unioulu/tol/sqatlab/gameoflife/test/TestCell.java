@@ -24,7 +24,7 @@ public class TestCell {
 		//
 		cell.nextIteration(2);
 		//assert
-		assertEquals("Alive", cell.getState());
-		
+		assertEquals("Alive", cell.getState());	
 	}
+	
 }
