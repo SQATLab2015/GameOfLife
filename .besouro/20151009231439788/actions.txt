@@ -4,3 +4,4 @@ RefactoringAction 1444403910054 Cell.java ADD Cell() METHOD
 RefactoringAction 1444403915134 Cell.java RENAME Cell()=>Cell(String) METHOD
 RefactoringAction 1444403943297 Cell.java ADD String state FIELD
 EditAction 1444403951537 Cell.java 138 1 1 0
+EditAction 1444403951925 TestCell.java 234 1 2 1

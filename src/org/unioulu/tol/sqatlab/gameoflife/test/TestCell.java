@@ -7,8 +7,9 @@ import org.junit.Test;
 public class TestCell {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testCellState() {
+		Cell c = new Cell("*");
+		assertEquals("*", c.state);
 	}
 
 }
