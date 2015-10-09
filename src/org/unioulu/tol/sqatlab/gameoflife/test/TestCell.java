@@ -18,4 +18,14 @@ public class TestCell {
 		
 	}
 
+	@Test
+	public void testLiveCellWithTwoNeighborsShouldLive() {
+		//arrange
+		Cell cell = new Cell("Alive");
+		//
+		cell.nextIteration();
+		//assert
+		assertEquals("Alive", cell.getState());
+		
+	}
 }
