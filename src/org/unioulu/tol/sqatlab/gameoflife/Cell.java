@@ -10,7 +10,8 @@ public class Cell {
 	}
 
 	public Cell(int x, int y) {
-		// TODO Auto-generated constructor stub
+		this.x = x;
+		this.y = y;
 	}
 
 	public void nextIteration(int numOfLiveCells) {
