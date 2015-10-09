@@ -6,11 +6,14 @@ import java.util.Set;
 public class Grid {
 	private Set<Cell> cells = new HashSet<>();   
 	
-	public int getNeighbors(Cell cell) {
-		Set<Cell> neighbors = new HashSet <Cell>();
+	public int getNumNeighbors(Cell cell) {
+		int numNeighbors = 0;
 		Set<Cell> neighborhood = new HashSet <Cell>();
 		for (int i=-1; i<=1; i ++) {
 			Cell neighbor = new Cell(cell.x, cell.y + i);
+			if (cells.contains(neighbor)) {
+				numNeighbors++;
+			} 
 		}
 		
 		
