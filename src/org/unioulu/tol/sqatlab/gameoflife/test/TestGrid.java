@@ -64,17 +64,19 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void testSingleCellWithThreeNeighborsShouldDie() {
+	public void testSingleCellWithMoreThanThreeNeighborsShouldDie() {
 		Grid grid = new Grid();
 		Cell cell1 = new Cell(0,0);
-		Cell cell2 = new Cell(0,2);
+		Cell cell2 = new Cell(0,1);
 		Cell cell3 = new Cell(1,0);
-		Cell cell4 = new Cell(-1,0);
+		Cell cell4 = new Cell(1,1);
+		Cell cell5 = new Cell(-1,0);
 		//act
 		grid.addCell(cell1);
 		grid.addCell(cell2);
 		grid.addCell(cell3);
 		grid.addCell(cell4);
+		grid.addCell(cell5);
 		
 		int numNeighbors = grid.getNumNeighbors(cell2);
 		

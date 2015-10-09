@@ -159,3 +159,7 @@ CompilationAction 1444387892987 TestGrid.java
 UnitTestCaseAction 1444387895904 TestGrid.java OK
 UnitTestSessionAction 1444387895904 TestGrid OK
 EditAction 1444387906700 TestGrid.java 1916 5 39 6
+UnitTestCaseAction 1444387910959 TestGrid.java OK
+UnitTestSessionAction 1444387910975 TestGrid OK
+RefactoringAction 1444387939057 TestGrid.java RENAME testSingleCellWithThreeNeighborsShouldDie()=>void testSingleCellWithMoreThanThreeNeighborsShouldDie() METHOD
+EditAction 1444387966466 TestGrid.java 1977 5 41 6
