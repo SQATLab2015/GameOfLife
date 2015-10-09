@@ -19,3 +19,6 @@ EditAction 1444382359867 Cell.java 219 2 0 0
 CompilationAction 1444382360087 TestCell.java
 RefactoringAction 1444382366318 Cell.java ADD Object getState() METHOD
 EditAction 1444382367548 Cell.java 303 3 1 0
+UnitTestCaseAction 1444382373433 TestCell.java FAIL
+UnitTestSessionAction 1444382373435 TestCell (1) FAIL
+EditAction 1444382400468 Cell.java 305 3 1 0
