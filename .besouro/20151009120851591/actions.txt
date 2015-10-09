@@ -22,3 +22,4 @@ RefactoringAction 1444382796684 Cell.java RENAME nextIteration()=>void nextItera
 RefactoringAction 1444382802057 Cell.java RENAME nextIteration(int)=>void nextIteration() METHOD
 RefactoringAction 1444382804068 Cell.java RENAME nextIteration()=>void nextIteration(int) METHOD
 EditAction 1444382964926 TestCell.java 637 2 7 2
+EditAction 1444383059188 TestCell.java 640 2 6 2
