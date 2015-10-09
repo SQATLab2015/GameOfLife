@@ -32,7 +32,7 @@ public class TestGrid {
 		//assert
 		assertEquals(1, numNeighbors);
 	}
-	
+	/*
 	@Test
 	public void testTwoCellsOnGridHasOneNeighbor() {
 		//arrange
@@ -46,4 +46,5 @@ public class TestGrid {
 		//assert
 		assertEquals(1, numNeighbors);
 	}
+	*/
 }

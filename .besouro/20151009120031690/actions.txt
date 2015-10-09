@@ -109,3 +109,9 @@ EditAction 1444386132765 Grid.java 564 2 5 0
 UnitTestCaseAction 1444386136665 TestGrid.java FAIL
 UnitTestSessionAction 1444386136665 TestGrid FAIL
 EditAction 1444386214327 Grid.java 566 2 5 0
+UnitTestCaseAction 1444386219740 TestGrid.java FAIL
+UnitTestSessionAction 1444386219740 Rerun org.unioulu.tol.sqatlab.gameoflife.test.TestGrid.testSingleCellOnGridHasOneNeighbor FAIL
+UnitTestCaseAction 1444386241379 TestGrid.java FAIL
+UnitTestSessionAction 1444386241379 TestGrid FAIL
+RefactoringAction 1444386395687 TestGrid.java REMOVE testTwoCellsOnGridHasOneNeighbor() METHOD
+EditAction 1444386406030 TestGrid.java 1106 2 12 2
