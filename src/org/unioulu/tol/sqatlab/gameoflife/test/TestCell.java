@@ -43,5 +43,17 @@ public class TestCell {
 		//fail("Not yet implemented");
 	}
 	
+	@Test
+	public void testLiveCellMoreThanThreeNeighborsShouldDie() {
+		//arrange
+		Cell cell= new Cell("Alive");
+		//
+		cell.nextIteration(4);
+		
+		//assert
+		assertEquals("Alive", cell.getState());
+		//fail("Not yet implemented");
+	}
+	
 
 }

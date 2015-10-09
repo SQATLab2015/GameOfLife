@@ -80,3 +80,11 @@ FileOpenedAction 1444386759799 Cell.java 1232 9 21 0
 RefactoringAction 1444386904582 TestCell.java ADD void testLiveCellTwoNeighborsShouldLive()/2 METHOD
 RefactoringAction 1444386909599 TestCell.java RENAME testLiveCellTwoNeighborsShouldLive()/2=>void testLiveCellThreeNeighborsShouldLive() METHOD
 EditAction 1444386923183 TestCell.java 869 3 9 3
+UnitTestCaseAction 1444386932080 TestCell.java OK
+UnitTestSessionAction 1444386932081 TestCell OK
+UnitTestCaseAction 1444387083826 TestCell.java OK
+UnitTestSessionAction 1444387083827 TestCell OK
+RefactoringAction 1444387101669 TestCell.java ADD void testLiveCellThreeNeighborsShouldLive()/2 METHOD
+RefactoringAction 1444387116687 TestCell.java RENAME testLiveCellThreeNeighborsShouldLive()/2=>void testLiveCellMoreThanThreeNeighborsShouldLive() METHOD
+RefactoringAction 1444387121204 TestCell.java RENAME testLiveCellMoreThanThreeNeighborsShouldLive()=>void testLiveCellMoreThanThreeNeighborsShouldDie() METHOD
+EditAction 1444387164688 TestCell.java 1105 4 12 4
