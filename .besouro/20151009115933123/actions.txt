@@ -80,3 +80,7 @@ RefactoringAction 1444383387931 Cell.java ADD int y FIELD
 EditAction 1444383389798 Cell.java 443 4 3 0
 CompilationAction 1444383390020 TestGrid.java
 EditAction 1444383422539 TestGrid.java 407 1 4 1
+CompilationAction 1444383422789 TestGrid.java
+FileOpenedAction 1444383429266 Grid.java 68 0 0 0
+RefactoringAction 1444383429335 Grid.java ADD int getNeighbors(Cell) METHOD
+EditAction 1444383436525 Grid.java 159 1 1 0
