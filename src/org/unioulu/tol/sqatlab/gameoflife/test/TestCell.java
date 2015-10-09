@@ -51,7 +51,7 @@ public class TestCell {
 		cell.nextIteration(4);
 		
 		//assert
-		assertEquals("Alive", cell.getState());
+		assertEquals("Dead", cell.getState());
 		//fail("Not yet implemented");
 	}
 	

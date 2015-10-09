@@ -88,3 +88,6 @@ RefactoringAction 1444387101669 TestCell.java ADD void testLiveCellThreeNeighbor
 RefactoringAction 1444387116687 TestCell.java RENAME testLiveCellThreeNeighborsShouldLive()/2=>void testLiveCellMoreThanThreeNeighborsShouldLive() METHOD
 RefactoringAction 1444387121204 TestCell.java RENAME testLiveCellMoreThanThreeNeighborsShouldLive()=>void testLiveCellMoreThanThreeNeighborsShouldDie() METHOD
 EditAction 1444387164688 TestCell.java 1105 4 12 4
+UnitTestCaseAction 1444387167780 TestCell.java FAIL
+UnitTestSessionAction 1444387167781 TestCell FAIL
+EditAction 1444387174643 TestCell.java 1104 4 12 4
