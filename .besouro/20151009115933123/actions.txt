@@ -101,3 +101,4 @@ CompilationAction 1444383561023 TestGrid.java
 CompilationAction 1444383561386 TestGrid.java
 RefactoringAction 1444383564542 Grid.java ADD void addCell(Cell) METHOD
 EditAction 1444383566780 Grid.java 237 2 1 0
+EditAction 1444383568898 TestCell.java 576 2 6 2

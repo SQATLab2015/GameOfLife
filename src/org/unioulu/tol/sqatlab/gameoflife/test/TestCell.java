@@ -27,4 +27,5 @@ public class TestCell {
 		assertEquals("Alive", cell.getState());	
 	}
 	
+	
 }
