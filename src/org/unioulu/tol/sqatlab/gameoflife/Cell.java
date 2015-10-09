@@ -2,17 +2,22 @@ package org.unioulu.tol.sqatlab.gameoflife;
 
 public class Cell {
 
-	public Cell(String string) {
-		// TODO Auto-generated constructor stub
+	String state;
+	
+	public Cell(String initialState) {
+		this.state = initialState;
 	}
 
-	public void nextIteration() {
-		// TODO Auto-generated method stub
-		
+	public void nextIteration(int numberOfLiveCells) {
+		if (state.equals("Alive") && numberOfLiveCells < 2){
+			state = "Dead";
+		}else{
+			state = "Alive";
+		}
 	}
 
 	public String getState() {
-		return "Dead";
+		return this.state;
 	}
 
 }

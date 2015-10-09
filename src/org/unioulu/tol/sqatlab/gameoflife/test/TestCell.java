@@ -11,7 +11,7 @@ public class TestCell {
 	public void testLiveCellWithNoNeighborsShouldDie() {
 		Cell cell = new Cell("Alive");
 		
-		cell.nextIteration();
+		cell.nextIteration(0);
 		
 		assertEquals("Dead", cell.getState());
 	}
@@ -20,7 +20,7 @@ public class TestCell {
 	public void testLiveCellWithTwoNeighborsShouldLive() {
 		Cell cell = new Cell("Alive");
 		
-		cell.nextIteration();
+		cell.nextIteration(2);
 		
 		assertEquals("Alive", cell.getState());
 	}

@@ -16,3 +16,11 @@ RefactoringAction 1444382561150 TestCell.java RENAME testLiveCellWithTwoNoNeighb
 RefactoringAction 1444382567164 TestCell.java RENAME testLiveCellWithTwoNeighborsShouldDie()=>void testLiveCellWithTwoNeighborsShould() METHOD
 RefactoringAction 1444382568679 TestCell.java RENAME testLiveCellWithTwoNeighborsShould()=>void testLiveCellWithTwoNeighborsShouldLive() METHOD
 EditAction 1444382586081 TestCell.java 554 2 6 2
+UnitTestCaseAction 1444382590154 TestCell.java FAIL
+UnitTestSessionAction 1444382590155 TestSudokuVerifier FAIL
+RefactoringAction 1444382637204 Cell.java ADD String state FIELD
+UnitTestCaseAction 1444382698193 TestCell.java FAIL
+UnitTestSessionAction 1444382698195 TestSudokuVerifier FAIL
+RefactoringAction 1444382833794 Cell.java RENAME nextIteration()=>void nextIteration(int) METHOD
+CompilationAction 1444383018701 TestCell.java
+EditAction 1444383018830 TestCell.java 556 2 6 2
