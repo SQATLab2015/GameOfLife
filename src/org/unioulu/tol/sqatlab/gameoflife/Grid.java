@@ -7,8 +7,10 @@ public class Grid {
 	private Set<Cell> cells = new HashSet<>();   
 	
 	public int getNeighbors(Cell cell) {
-		// TODO Auto-generated method stub
+		Set<Cell> neighbors = new HashSet <Cell>();
+		
 		return 0;
+		
 	}
 
 	public void addCell(Cell cell) {

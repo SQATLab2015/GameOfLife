@@ -142,3 +142,14 @@ RefactoringAction 1444384635047 Cell.java ADD int hashCode() METHOD
 RefactoringAction 1444384635048 Cell.java ADD boolean equals(Object) METHOD
 EditAction 1444384651473 Cell.java 886 6 17 0
 EditAction 1444384680968 Grid.java 315 2 2 0
+UnitTestCaseAction 1444384681258 TestGrid.java FAIL
+UnitTestSessionAction 1444384681259 TestGrid (1) FAIL
+CompilationAction 1444384834848 Grid.java
+CompilationAction 1444384878218 Grid.java
+RefactoringAction 1444384932403 Cell.java ADD int get() METHOD
+RefactoringAction 1444384933418 Cell.java RENAME get()=>int getX() METHOD
+RefactoringAction 1444384936434 Cell.java RENAME getX()=>int get FIELD
+RefactoringAction 1444384938450 Cell.java RENAME get=>int getX FIELD
+RefactoringAction 1444384942982 Cell.java RENAME getX=>int getX() METHOD
+RefactoringAction 1444384966126 Cell.java ADD int getX()/2 METHOD
+EditAction 1444384968229 Cell.java 962 8 19 0

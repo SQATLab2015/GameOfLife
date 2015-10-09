@@ -9,11 +9,19 @@ public class Cell {
 		this.state = initialState;
 	}
 
+	
 	public Cell(int x, int y) {
 		this.x = x;
 		this.y = y;
 	}
+	public int getX() {
+		return x;
+	}
 
+	public int getX() {
+		return y;
+	}
+	
 	public void nextIteration(int numOfLiveCells) {
 		if (state == "Alive" && numOfLiveCells < 2)
 			state = "Dead";
