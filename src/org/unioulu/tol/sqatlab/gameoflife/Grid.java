@@ -7,11 +7,18 @@ public class Grid {
 
 	private Set<Cell> cells = new HashSet<>();
 	
-	public int getNeighbors(Cell cell) {
-		Set<Cell> neigbors = new HashSet<Cell>();
+	public int getNumNeighbors(Cell cell) {
+		int numNeighbors =0;
+		Set<Cell> neigborhood = new HashSet<Cell>();
+
+		for(int i=-1;i<=1;i++){
+			Cell neighbor = new Cell(cell.x, cell.y + i);
+			if(cells.contains(neighbor)){
+				numNeighbors++;
+			}
+		}
 		
-		
-		return 0;
+		return numNeighbors;
 	}
 
 	public void addCell(Cell cell) {
