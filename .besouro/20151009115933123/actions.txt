@@ -138,3 +138,6 @@ RefactoringAction 1444384574941 Grid.java ADD import java.util.HashSet IMPORT
 CompilationAction 1444384576859 Grid.java
 CompilationAction 1444384576860 Grid.java
 EditAction 1444384607257 Grid.java 353 2 2 0
+RefactoringAction 1444384635047 Cell.java ADD int hashCode() METHOD
+RefactoringAction 1444384635048 Cell.java ADD boolean equals(Object) METHOD
+EditAction 1444384651473 Cell.java 886 6 17 0

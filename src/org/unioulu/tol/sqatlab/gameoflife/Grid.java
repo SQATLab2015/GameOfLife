@@ -12,7 +12,7 @@ public class Grid {
 	}
 
 	public void addCell(Cell cell) {
-		// TODO Auto-generated method stub
+
 		cells.add(cell);
 		
 	}
