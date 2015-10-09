@@ -64,6 +64,24 @@ public class TestGrid {
 	}
 	
 	@Test
+	public void testSingleCellsOnGridHasThreeNeighbors() {
+		//arrange
+		Grid grid = new Grid();
+		Cell cell1 = new Cell(0,0);
+		Cell cell2 = new Cell(0,1);
+		Cell cell3 = new Cell(1,0);
+		Cell cell4 = new Cell(1,1);
+		//act
+		grid.addCell(cell1);
+		grid.addCell(cell2);
+		grid.addCell(cell3);
+		grid.addCell(cell4);
+		int numNeighbors1 = grid.getNumNeighbors(cell2);
+		//assert
+		assertEquals(0, numNeighbors1);
+	}
+	
+	@Test
 	public void testSingleCellWithMoreThanThreeNeighborsShouldDie() {
 		Grid grid = new Grid();
 		Cell cell1 = new Cell(0,0);
@@ -81,6 +99,7 @@ public class TestGrid {
 		int numNeighbors = grid.getNumNeighbors(cell2);
 		
 		assertEquals(4, numNeighbors);
+		assertEquals();
 	}
 	
 	

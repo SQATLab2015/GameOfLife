@@ -164,3 +164,9 @@ UnitTestSessionAction 1444387910975 TestGrid OK
 RefactoringAction 1444387939057 TestGrid.java RENAME testSingleCellWithThreeNeighborsShouldDie()=>void testSingleCellWithMoreThanThreeNeighborsShouldDie() METHOD
 EditAction 1444387966466 TestGrid.java 1977 5 41 6
 EditAction 1444387976171 TestGrid.java 1977 5 41 6
+UnitTestCaseAction 1444387982161 TestGrid.java OK
+UnitTestSessionAction 1444387982161 TestGrid OK
+RefactoringAction 1444388025733 TestGrid.java ADD void testTwoSeparateCellsOnGridHasNoNeighbors()/2 METHOD
+RefactoringAction 1444388034001 TestGrid.java RENAME testTwoSeparateCellsOnGridHasNoNeighbors()/2=>void testSingleCellsOnGridHasNoNeighbors() METHOD
+RefactoringAction 1444388037621 TestGrid.java RENAME testSingleCellsOnGridHasNoNeighbors()=>void testSingleCellsOnGridHasThreeNeighbors() METHOD
+EditAction 1444388071865 TestGrid.java 2417 6 53 8
