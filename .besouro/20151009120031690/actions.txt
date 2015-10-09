@@ -25,3 +25,9 @@ RefactoringAction 1444382539868 TestCell.java RENAME testLiveCellWithNeighborsSh
 RefactoringAction 1444382545032 TestCell.java RENAME testLiveCellWithTwoNeighborsShouldDie()=>void testLiveCellWithTwoNeighborsShould() METHOD
 RefactoringAction 1444382546592 TestCell.java RENAME testLiveCellWithTwoNeighborsShould()=>void testLiveCellWithTwoNeighborsShouldLive() METHOD
 EditAction 1444382551726 TestCell.java 580 2 6 2
+UnitTestCaseAction 1444382555314 TestCell.java FAIL
+UnitTestSessionAction 1444382555314 TestCell.testLiveCellWithTwoNeighborsShouldLive FAIL
+RefactoringAction 1444382631160 Cell.java ADD String state FIELD
+UnitTestCaseAction 1444382674262 TestCell.java OK
+UnitTestSessionAction 1444382674263 TestCell.testLiveCellWithTwoNeighborsShouldLive OK
+EditAction 1444382708197 Cell.java 285 3 2 0
