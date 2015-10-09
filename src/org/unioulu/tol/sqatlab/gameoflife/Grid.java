@@ -17,7 +17,7 @@ public class Grid {
 		}
 		
 		
-		return numNeighbors;
+		return numNeighbors-1;
 		
 	}
 
