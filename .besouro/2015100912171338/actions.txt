@@ -79,3 +79,12 @@ RefactoringAction 1444383749716 TestGrid.java RENAME testTwoNeightborCellsShould
 RefactoringAction 1444383751727 TestGrid.java RENAME testTwoNeightborCellsShouldHaveOneNeight()=>void testTwoNeightborCellsShouldHaveOneNeighbi() METHOD
 RefactoringAction 1444383755246 TestGrid.java RENAME testTwoNeightborCellsShouldHaveOneNeighbi()=>void testTwoNeightborCellsShouldHaveOneNeighbor() METHOD
 EditAction 1444383761912 TestGrid.java 811 2 12 2
+UnitTestCaseAction 1444383766613 TestGrid.java FAIL
+UnitTestSessionAction 1444383766614 TestGrid.testTwoNeightborCellsShouldHaveOneNeighbor FAIL
+RefactoringAction 1444384611457 Grid.java ADD Set<Cell> cell FIELD
+RefactoringAction 1444384612467 Grid.java RENAME cell=>Set<Cell> cells FIELD
+RefactoringAction 1444384635501 Grid.java ADD import java.util.HashSet IMPORT
+RefactoringAction 1444384647069 Grid.java ADD import java.util.Set IMPORT
+RefactoringAction 1444384705120 Cell.java ADD int hashCode() METHOD
+RefactoringAction 1444384705122 Cell.java ADD boolean equals(Object) METHOD
+EditAction 1444384729803 Cell.java 1158 6 19 0
