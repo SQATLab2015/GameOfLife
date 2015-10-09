@@ -117,3 +117,14 @@ UnitTestSessionAction 1444385616864 TestGrid FAIL
 UnitTestCaseAction 1444385630397 TestGrid.java FAIL
 UnitTestSessionAction 1444385630398 TestGrid FAIL
 EditAction 1444385644616 Grid.java 527 2 5 0
+UnitTestCaseAction 1444385650807 TestGrid.java FAIL
+UnitTestSessionAction 1444385650808 TestGrid FAIL
+UnitTestCaseAction 1444385694951 TestGrid.java OK
+UnitTestSessionAction 1444385694952 TestGrid OK
+RefactoringAction 1444385741316 TestGrid.java ADD void testTwoNeightborCellsShouldHaveOneNeighbor()/2 METHOD
+RefactoringAction 1444385766354 TestGrid.java RENAME testTwoNeightborCellsShouldHaveOneNeighbor()/2=>void testTwoNeightborCellsOnShouldHaveOneNeighbor() METHOD
+RefactoringAction 1444385768366 TestGrid.java RENAME testTwoNeightborCellsOnShouldHaveOneNeighbor()=>void testTwoNeightborCellsOnDiShouldHaveOneNeighbor() METHOD
+RefactoringAction 1444385770888 TestGrid.java RENAME testTwoNeightborCellsOnDiShouldHaveOneNeighbor()=>void testTwoNeightborCellsOnDifferentShouldHaveOneNeighbor() METHOD
+RefactoringAction 1444385772397 TestGrid.java RENAME testTwoNeightborCellsOnDifferentShouldHaveOneNeighbor()=>void testTwoNeightborCellsOnDifferentRowShouldHaveOneNeighbor() METHOD
+RefactoringAction 1444385773407 TestGrid.java RENAME testTwoNeightborCellsOnDifferentRowShouldHaveOneNeighbor()=>void testTwoNeightborCellsOnDifferentRowsShouldHaveOneNeighbor() METHOD
+EditAction 1444385776507 TestGrid.java 1154 3 19 3
