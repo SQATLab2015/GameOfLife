@@ -75,3 +75,18 @@ EditAction 1444383982589 TestCell.java 576 2 6 2
 RefactoringAction 1444384044650 Grid.java ADD void addCell(Cell)/2 METHOD
 RefactoringAction 1444384050078 Grid.java REMOVE addCell(Cell)/2 METHOD
 EditAction 1444384052216 Grid.java 239 2 1 0
+UnitTestCaseAction 1444384063588 TestGrid.java FAIL
+UnitTestSessionAction 1444384063588 TestGrid FAIL
+RefactoringAction 1444384256432 Grid.java ADD Array<Cell> arrayOfCells FIELD
+RefactoringAction 1444384318290 Grid.java REMOVE arrayOfCells FIELD
+RefactoringAction 1444384601211 Grid.java ADD Set<Cell> cells FIELD
+RefactoringAction 1444384621148 Grid.java ADD import java.util.Set IMPORT
+RefactoringAction 1444384625189 Grid.java ADD import java.util.HashSet IMPORT
+RefactoringAction 1444384691446 Cell.java ADD int hashCode() METHOD
+RefactoringAction 1444384691446 Cell.java ADD boolean equals(Object) METHOD
+RefactoringAction 1444384979421 Cell.java ADD int getX FIELD
+RefactoringAction 1444384981496 Cell.java RENAME getX=>int getX() METHOD
+RefactoringAction 1444385015037 Cell.java ADD int getX()/2 METHOD
+RefactoringAction 1444385017112 Cell.java RENAME getX()/2=>int getY() METHOD
+RefactoringAction 1444385509365 Grid.java RENAME getNeighbors(Cell)=>int getNumNeighbors(Cell) METHOD
+EditAction 1444385568913 TestGrid.java 792 2 12 2

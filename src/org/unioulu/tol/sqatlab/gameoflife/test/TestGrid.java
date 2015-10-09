@@ -14,7 +14,7 @@ public class TestGrid {
 		Cell cell = new Cell(0,0);
 		//act
 		grid.addCell(cell);
-		int numNeighbors = grid.getNeighbors(cell);
+		int numNeighbors = grid.getNumNeighbors(cell);
 		//assert
 		assertEquals(0, numNeighbors);
 	}
@@ -28,7 +28,7 @@ public class TestGrid {
 		//act
 		grid.addCell(cell1);
 		grid.addCell(cell2);
-		int numNeighbors = grid.getNeighbors(cell1);
+		int numNeighbors = grid.getNumNeighbors(cell1);
 		//assert
 		assertEquals(1, numNeighbors);
 	}
