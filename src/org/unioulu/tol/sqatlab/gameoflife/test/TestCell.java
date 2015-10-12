@@ -2,29 +2,39 @@ package org.unioulu.tol.sqatlab.gameoflife.test;
 
 import static org.junit.Assert.*;
 
+import org.junit.Before;
 import org.junit.Test;
 import org.unioulu.tol.sqatlab.gameoflife.Cell;
 
 public class TestCell {
+	
+	private Cell aliveCell;
+	private Cell deadCell;
+	
+	@Before
+	public void setup(){
+		aliveCell = new Cell("Alive", 0, 0);
+		deadCell = new Cell("Dead", 0, 0);
+	}
 
 	@Test
 	public void testLiveCellWithNoNeighborsShouldDie() {
 		//arrange
-		Cell cell = new Cell("Alive", 0, 0);
+		
 		//
-		cell.nextIteration(0);
+		aliveCell.nextIteration(0);
 		//assert
-		assertEquals("Dead", cell.getState());	
+		assertEquals("Dead", aliveCell.getState());	
 	}
 
 	@Test
 	public void testLiveCellWithTwoNeighborsShouldLive() {
 		//arrange
-		Cell cell = new Cell("Alive", 0 ,0);
+		
 		//
-		cell.nextIteration(2);
+		aliveCell.nextIteration(2);
 		//assert
-		assertEquals("Alive", cell.getState());	
+		assertEquals("Alive", aliveCell.getState());	
 	}
 	
 	

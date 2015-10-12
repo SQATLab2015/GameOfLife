@@ -25,3 +25,4 @@ RefactoringAction 1444659396621 TestCell.java ADD import org.junit.Before IMPORT
 RefactoringAction 1444659441280 TestCell.java ADD Cell aliveCell FIELD
 RefactoringAction 1444659441280 TestCell.java ADD Cell deadCell FIELD
 EditAction 1444659506041 Cell.java 1142 7 21 0
+EditAction 1444659509408 TestCell.java 724 3 6 2
