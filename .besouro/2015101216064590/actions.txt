@@ -1,0 +1,13 @@
+FileOpenedAction 1444655205548 GameOfLife.java 74 0 0 0
+RefactoringAction 1444655298343 TestGameOfLife.java ADD void test() METHOD
+RefactoringAction 1444655298366 TestGameOfLife.java ADD import org.junit.Assert.* IMPORT
+FileOpenedAction 1444655298637 TestGameOfLife.java 219 1 1 0
+RefactoringAction 1444655308098 TestGameOfLife.java REMOVE TestGameOfLife.java CLASS
+UnitTestCaseAction 1444655317242 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444655317251 TestGameOfLife FAIL
+FileOpenedAction 1444655355974 Grid.java 567 2 5 0
+RefactoringAction 1444655645064 TestGrid.java ADD void testTwoNeighborCellsOnDifferentRowsShouldHaveOneNeigbor()/2 METHOD
+RefactoringAction 1444655670121 TestGrid.java REMOVE testTwoNeighborCellsOnDifferentRowsShouldHaveOneNeigbor()/2 METHOD
+RefactoringAction 1444655676232 TestGrid.java ADD void testTwoNeighborCellsOnDifferentRowsShouldHaveOneNeigbor()/2 METHOD
+RefactoringAction 1444655684356 TestGrid.java REMOVE testTwoNeighborCellsOnDifferentRowsShouldHaveOneNeigbor()/2 METHOD
+EditAction 1444655687030 TestGrid.java 1429 3 19 3
