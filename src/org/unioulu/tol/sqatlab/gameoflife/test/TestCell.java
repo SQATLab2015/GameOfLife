@@ -44,5 +44,13 @@ public class TestCell {
 		//
 		assertEquals("Dead", aliveCell.getState());
 	}
+	@Test
+	public void testCellUpdateDeadCellWithThreeNeighborsShouldLive() {
+		
+		//act
+		deadCell.nextIteration(3);
+		//
+		assertEquals("Alive", deadCell.getState());
+	}
 	
 }
