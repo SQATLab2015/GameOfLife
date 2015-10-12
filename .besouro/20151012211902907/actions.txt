@@ -33,3 +33,37 @@ RefactoringAction 1444675121197 TestGrid.java RENAME import java.util.HashSe=>im
 RefactoringAction 1444675124739 TestGrid.java RENAME import java.util.HashSeT=>import java.util.HashSet IMPORT
 RefactoringAction 1444675138927 TestGrid.java REMOVE import java.util.HashSet IMPORT
 EditAction 1444675140938 TestGrid.java 1337 4 23 4
+CompilationAction 1444675141570 TestGrid.java
+CompilationAction 1444675141570 TestGrid.java
+FileOpenedAction 1444675185588 SudokuVerifier.java 5508 13 48 0
+RefactoringAction 1444675329063 TestGrid.java ADD import java IMPORT
+RefactoringAction 1444675330580 TestGrid.java RENAME import java=>import java.u IMPORT
+RefactoringAction 1444675337091 TestGrid.java RENAME import java.u=>import java.util IMPORT
+RefactoringAction 1444675338600 TestGrid.java REMOVE import java.util IMPORT
+RefactoringAction 1444675340609 TestGrid.java ADD import java.util.h IMPORT
+RefactoringAction 1444675342117 TestGrid.java REMOVE import java.util.h IMPORT
+RefactoringAction 1444675353151 TestGrid.java ADD import java.util.h IMPORT
+RefactoringAction 1444675356670 TestGrid.java RENAME import java.util.h=>import java.util.HashSet IMPORT
+CompilationAction 1444675381343 TestGrid.java
+CompilationAction 1444675381343 TestGrid.java
+RefactoringAction 1444675613145 TestGrid.java ADD import java.util.HashSet/2 IMPORT
+RefactoringAction 1444675614655 TestGrid.java RENAME import java.util.HashSet/2=>import java.util.HashSet.is IMPORT
+RefactoringAction 1444675616164 TestGrid.java RENAME import java.util.HashSet.is=>import java.util.HashSet.isEmp IMPORT
+RefactoringAction 1444675617179 TestGrid.java RENAME import java.util.HashSet.isEmp=>import java.util.HashSet.isEmpty IMPORT
+RefactoringAction 1444675687751 TestGrid.java REMOVE import java.util.HashSet.isEmpty IMPORT
+RefactoringAction 1444675689770 TestGrid.java ADD import java.util.HashSet.isEmpty IMPORT
+RefactoringAction 1444675698298 TestGrid.java REMOVE import java.util.HashSet.isEmpty IMPORT
+RefactoringAction 1444675711826 TestGrid.java ADD import java.util.Set IMPORT
+RefactoringAction 1444675720846 TestGrid.java RENAME import java.util.Set=>import java.util.HashSet.isEmpty IMPORT
+RefactoringAction 1444675722356 TestGrid.java REMOVE import java.util.HashSet.isEmpty IMPORT
+RefactoringAction 1444675783832 TestGrid.java ADD import java.util.Set IMPORT
+RefactoringAction 1444675892501 TestGrid.java ADD import java.util.Arrays IMPORT
+CompilationAction 1444675894513 TestGrid.java
+CompilationAction 1444675894514 TestGrid.java
+RefactoringAction 1444675901548 TestGrid.java REMOVE import java.util.Arrays IMPORT
+CompilationAction 1444675902101 TestGrid.java
+CompilationAction 1444675902101 TestGrid.java
+CompilationAction 1444675902266 TestGrid.java
+CompilationAction 1444675902267 TestGrid.java
+RefactoringAction 1444675962525 GameOfLifeTest.java ADD GameOfLifeTest.java CLASS
+EditAction 1444676002571 TestGrid.java 1385 4 23 4

@@ -5,6 +5,9 @@ import org.junit.Test;
 import org.unioulu.tol.sqatlab.gameoflife.Cell;
 import org.unioulu.tol.sqatlab.gameoflife.Grid;
 
+import java.util.HashSet;
+import java.util.Set;
+
 
 public class TestGrid {
 
@@ -60,7 +63,7 @@ public class TestGrid {
 		
 		grid.fillGrid(gridSize);
 		
-		assertEquals(false, grid.isEmpty);
+		assertEquals(false, grid.size());
 	}
 
 }
