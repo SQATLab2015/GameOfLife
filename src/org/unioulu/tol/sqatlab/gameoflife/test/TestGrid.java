@@ -65,9 +65,6 @@ public class TestGrid {
 		grid.addCell(cell4);
 		
 		int numNeighbors = grid.getNumNeighbors(cell1);
-		assertEquals(3, numNeighbors);
-		
+		assertEquals(3, numNeighbors);	
 	}
-	*/
-
 }
