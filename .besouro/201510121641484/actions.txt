@@ -49,3 +49,4 @@ UnitTestSessionAction 1444660476755 TestCell (1) OK
 UnitTestCaseAction 1444660516873 TestGrid.java OK
 UnitTestSessionAction 1444660516874 TestGrid (1) OK
 EditAction 1444660534114 Grid.java 642 2 6 0
+FileOpenedAction 1444661271189 GameOfLife.java 74 0 0 0
