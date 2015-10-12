@@ -36,3 +36,22 @@ CompilationAction 1444656301986 TestGrid.java
 CompilationAction 1444656310456 TestGrid.java
 CompilationAction 1444656333143 Grid.java
 EditAction 1444656402868 Grid.java 639 2 6 0
+RefactoringAction 1444656418928 TestGrid.java ADD void testTwoNeighborCellsOnDifferentRowsShouldHaveOneNeigbor()/2 METHOD
+RefactoringAction 1444656442375 TestGrid.java RENAME testTwoNeighborCellsOnDifferentRowsShouldHaveOneNeigbor()/2=>void testCell() METHOD
+RefactoringAction 1444656443899 TestGrid.java RENAME testCell()=>void testCellZero() METHOD
+RefactoringAction 1444656445422 TestGrid.java RENAME testCellZero()=>void testCellZeroZero() METHOD
+RefactoringAction 1444656449977 TestGrid.java RENAME testCellZeroZero()=>void testCellZeroZeroShould() METHOD
+RefactoringAction 1444656451505 TestGrid.java RENAME testCellZeroZeroShould()=>void testCellZeroZeroShouldHave() METHOD
+RefactoringAction 1444656459559 TestGrid.java RENAME testCellZeroZeroShouldHave()=>void testCellZeroZeroShouldHaveThree() METHOD
+RefactoringAction 1444656462593 TestGrid.java RENAME testCellZeroZeroShouldHaveThree()=>void testCellZeroZeroShouldHaveThreeAlave() METHOD
+RefactoringAction 1444656470640 TestGrid.java RENAME testCellZeroZeroShouldHaveThreeAlave()=>void testCellZeroZeroShouldHaveThreeAliveNeighbours_() METHOD
+RefactoringAction 1444656472172 TestGrid.java RENAME testCellZeroZeroShouldHaveThreeAliveNeighbours_()=>void testCellZeroZeroShouldHaveThreeAliveNeighbours_All() METHOD
+RefactoringAction 1444656476701 TestGrid.java RENAME testCellZeroZeroShouldHaveThreeAliveNeighbours_All()=>void testCellZeroZero() METHOD
+RefactoringAction 1444656478230 TestGrid.java RENAME testCellZeroZero()=>void testCellZeroZero_() METHOD
+RefactoringAction 1444656482773 TestGrid.java RENAME testCellZeroZero_()=>void testCellZeroZero() METHOD
+RefactoringAction 1444656486312 TestGrid.java RENAME testCellZeroZero()=>void testCellZeroZero_F() METHOD
+RefactoringAction 1444656488862 TestGrid.java RENAME testCellZeroZero_F()=>void testCellZeroZero_Four() METHOD
+RefactoringAction 1444656502985 TestGrid.java RENAME testCellZeroZero_Four()=>void testgetNumNeighborsCellZeroZero_Four() METHOD
+RefactoringAction 1444656505010 TestGrid.java RENAME testgetNumNeighborsCellZeroZero_Four()=>void testGetNumNeighborsCellZeroZero_Four() METHOD
+RefactoringAction 1444656535019 TestGameOfLife.java REMOVE test() METHOD
+EditAction 1444656538445 TestGameOfLife.java 228 0 0 0

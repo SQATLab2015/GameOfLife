@@ -6,9 +6,10 @@ import org.junit.Test;
 
 public class TestGameOfLife {
 
+	/*
 	@Test
 	public void test() {
 		fail("Not yet implemented");
 	}
-
+	*/
 }
