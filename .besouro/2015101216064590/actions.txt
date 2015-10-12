@@ -20,3 +20,6 @@ CompilationAction 1444655741780 TestGrid.java
 RefactoringAction 1444656024914 Cell.java ADD Cell(int, int) METHOD
 RefactoringAction 1444656026494 Cell.java RENAME Cell(String, int, int)=>Cell(String) METHOD
 EditAction 1444656031505 Cell.java 964 8 19 0
+RefactoringAction 1444656211403 Cell.java RENAME Cell(int, int)=>Cell(int, int, String) METHOD
+RefactoringAction 1444656220979 Cell.java REMOVE Cell(String) METHOD
+EditAction 1444656221467 Cell.java 943 7 19 0

@@ -5,14 +5,10 @@ public class Cell {
 	int x;
 	int y;
 	
-	public Cell(String initialState) {
-		this.state = initialState;
-	}
-
-	
-	public Cell(int x, int y) {
+	public Cell(int x, int y, String initialState) {
 		this.x = x;
 		this.y = y;
+		this.state = initialState;
 	}
 	
 	public int getX() {
