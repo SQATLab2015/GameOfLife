@@ -11,7 +11,7 @@ public class TestGrid {
 	public void testSingleCellOnGridHasNoNeighbors() {
 		//arrange
 		Grid grid = new Grid();
-		Cell cell = new Cell(0,0);
+		Cell cell = new Cell(0, 0, "Alive");
 		
 		grid.addCell(cell);
 		
@@ -24,8 +24,8 @@ public class TestGrid {
 	public void testTwoNeighborCellsShouldHaveOneNeigbor() {
 		//arrange
 		Grid grid = new Grid();
-		Cell cell1 = new Cell(0,0);
-		Cell cell2 = new Cell(0,1);
+		Cell cell1 = new Cell(0,0, "Alive");
+		Cell cell2 = new Cell(0,1, "Alive");
 		
 		grid.addCell(cell1);
 		grid.addCell(cell2);
