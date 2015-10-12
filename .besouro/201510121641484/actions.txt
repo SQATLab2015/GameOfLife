@@ -14,3 +14,14 @@ CompilationAction 1444657775271 TestGrid.java
 CompilationAction 1444657778407 TestCell.java
 CompilationAction 1444657848514 Grid.java
 EditAction 1444658048231 Grid.java 642 2 6 0
+UnitTestCaseAction 1444658050641 TestGrid.java OK
+UnitTestSessionAction 1444658050642 TestGrid (1) OK
+RefactoringAction 1444659193694 Cell.java REMOVE hashCode() METHOD
+RefactoringAction 1444659193694 Cell.java REMOVE equals(Object) METHOD
+RefactoringAction 1444659211232 Cell.java ADD int hashCode() METHOD
+RefactoringAction 1444659211236 Cell.java ADD boolean equals(Object) METHOD
+FileOpenedAction 1444659368777 TestCell.java 1051 5 10 4
+RefactoringAction 1444659396621 TestCell.java ADD import org.junit.Before IMPORT
+RefactoringAction 1444659441280 TestCell.java ADD Cell aliveCell FIELD
+RefactoringAction 1444659441280 TestCell.java ADD Cell deadCell FIELD
+EditAction 1444659506041 Cell.java 1142 7 21 0
