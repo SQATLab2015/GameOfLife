@@ -11,14 +11,17 @@ public class Grid {
 		Set<Cell> neighborhood = new HashSet <Cell>();
 		for (int dx=-1; dx<=1; dx ++) {
 			for (int dy=-1; dy<=1; dy ++) {
-				Cell neighbor = new Cell(cell.x + dx, cell.y + dy);
+				Cell neighbor = new Cell("Alive",cell.x + dx, cell.y + dy);
 				if (cells.contains(neighbor)) {
 					numNeighbors++;
 				} 
 			}
 		}
 		
-		return numNeighbors-1;
+		if(cell.getState().equals("Alive")){
+			return numNeighbors-1;
+		}
+		return numNeighbors;
 	}
 	public void addCell(Cell cell) {
 		cells.add(cell);		
