@@ -1,0 +1,35 @@
+FileOpenedAction 1444673943419 GameOfLife.java 76 0 0 0
+FileOpenedAction 1444673947507 TestGrid.java 1146 3 19 3
+FileOpenedAction 1444673949305 TestCell.java 1060 5 10 4
+RefactoringAction 1444673986379 GameOfLifeTest.java ADD void test() METHOD
+RefactoringAction 1444673986391 GameOfLifeTest.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1444673986410 GameOfLifeTest.java ADD GameOfLifeTest.java CLASS
+FileOpenedAction 1444673986664 GameOfLifeTest.java 215 1 1 0
+RefactoringAction 1444674001990 GameOfLifeTest.java REMOVE GameOfLifeTest.java CLASS
+RefactoringAction 1444674234411 GameOfLifeTest.java RENAME test()=>void testG() METHOD
+RefactoringAction 1444674238427 GameOfLifeTest.java RENAME testG()=>void test() METHOD
+RefactoringAction 1444674243460 GameOfLifeTest.java RENAME test()=>void testFill() METHOD
+RefactoringAction 1444674248003 GameOfLifeTest.java RENAME testFill()=>void testFillHashMap() METHOD
+RefactoringAction 1444674268529 GameOfLifeTest.java RENAME testFillHashMap()=>void testFillHashSet() METHOD
+RefactoringAction 1444674301038 GameOfLifeTest.java RENAME testFillHashSet()=>void testFillHashSetR() METHOD
+RefactoringAction 1444674302545 GameOfLifeTest.java RENAME testFillHashSetR()=>void testFillHashSetRe() METHOD
+RefactoringAction 1444674304055 GameOfLifeTest.java RENAME testFillHashSetRe()=>void testFillHashSet() METHOD
+RefactoringAction 1444674306068 GameOfLifeTest.java RENAME testFillHashSet()=>void testFillHashS() METHOD
+RefactoringAction 1444674308076 GameOfLifeTest.java RENAME testFillHashS()=>void testFillHash() METHOD
+RefactoringAction 1444674312586 GameOfLifeTest.java RENAME testFillHash()=>void testFillHashRe() METHOD
+RefactoringAction 1444674314098 GameOfLifeTest.java RENAME testFillHashRe()=>void testFillHashReturn() METHOD
+RefactoringAction 1444674316105 GameOfLifeTest.java RENAME testFillHashReturn()=>void testFillHashReturnFalse() METHOD
+RefactoringAction 1444674339130 GameOfLifeTest.java RENAME testFillHashReturnFalse()=>void testFillHashR() METHOD
+RefactoringAction 1444674349515 GameOfLifeTest.java REMOVE GameOfLifeTest.java CLASS
+RefactoringAction 1444674368704 TestGrid.java ADD void test FIELD
+RefactoringAction 1444674371216 TestGrid.java RENAME test=>void testFillHash FIELD
+RefactoringAction 1444674372739 TestGrid.java RENAME testFillHash=>void testFillHashSet FIELD
+RefactoringAction 1444674400482 TestGrid.java RENAME testFillHashSet=>void testFillHashSetWith FIELD
+RefactoringAction 1444674406533 TestGrid.java RENAME testFillHashSetWith=>void testFillHashSetWithIsEmpty FIELD
+RefactoringAction 1444674413549 TestGrid.java RENAME testFillHashSetWithIsEmpty=>void testFillHashSetWithIsEmpty_ReturnFalse() METHOD
+RefactoringAction 1444674636562 TestGrid.java RENAME testFillHashSetWithIsEmpty_ReturnFalse()=>void testFillGridWithIsEmpty_ReturnFalse() METHOD
+RefactoringAction 1444675117181 TestGrid.java ADD import java.util.HashSe IMPORT
+RefactoringAction 1444675121197 TestGrid.java RENAME import java.util.HashSe=>import java.util.HashSeT IMPORT
+RefactoringAction 1444675124739 TestGrid.java RENAME import java.util.HashSeT=>import java.util.HashSet IMPORT
+RefactoringAction 1444675138927 TestGrid.java REMOVE import java.util.HashSet IMPORT
+EditAction 1444675140938 TestGrid.java 1337 4 23 4

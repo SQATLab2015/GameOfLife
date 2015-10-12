@@ -5,6 +5,7 @@ import org.junit.Test;
 import org.unioulu.tol.sqatlab.gameoflife.Cell;
 import org.unioulu.tol.sqatlab.gameoflife.Grid;
 
+
 public class TestGrid {
 
 	@Test
@@ -51,5 +52,15 @@ public class TestGrid {
 		
 	}
 	
+	@Test
+	public void testFillGridWithIsEmpty_ReturnFalse(){
+		//arrange
+		Grid grid = new Grid();
+		int gridSize = 2;
+		
+		grid.fillGrid(gridSize);
+		
+		assertEquals(false, grid.isEmpty);
+	}
 
 }
