@@ -63,7 +63,7 @@ public class TestGrid {
 		
 		grid.fillGrid(gridSize);
 		
-		assertEquals(false, grid.size());
+		assertEquals(false, grid.isEmpty());
 	}
 
 }
