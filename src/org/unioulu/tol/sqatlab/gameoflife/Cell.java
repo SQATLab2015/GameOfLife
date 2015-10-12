@@ -5,12 +5,8 @@ public class Cell {
 	int x;
 	int y;
 	
-	public Cell(String initialState) {
+	public Cell(String initialState, int x, int y) {
 		this.state = initialState;
-	}
-
-	
-	public Cell(int x, int y) {
 		this.x = x;
 		this.y = y;
 	}

@@ -1,0 +1,9 @@
+FileOpenedAction 1444657308681 Cell.java 964 8 19 0
+UnitTestCaseAction 1444657320274 TestCell.java OK
+UnitTestSessionAction 1444657320283 TestCell (1) OK
+UnitTestCaseAction 1444657330308 TestGrid.java OK
+UnitTestSessionAction 1444657330318 TestGrid (1) OK
+RefactoringAction 1444657564253 Cell.java RENAME Cell(int, int)=>Cell() METHOD
+RefactoringAction 1444657569789 Cell.java RENAME Cell(String)=>Cell(String, int, int) METHOD
+RefactoringAction 1444657573311 Cell.java REMOVE Cell() METHOD
+EditAction 1444657578747 Cell.java 943 7 19 0
