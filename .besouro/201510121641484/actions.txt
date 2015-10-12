@@ -30,3 +30,7 @@ UnitTestCaseAction 1444659515594 TestGrid.java OK
 UnitTestSessionAction 1444659515595 TestGrid (1) OK
 RefactoringAction 1444659541184 TestCell.java ADD void testCellUpdateAliveCellWithFourNeighborsShouldDie() METHOD
 EditAction 1444659553737 TestCell.java 891 4 8 3
+UnitTestCaseAction 1444659554774 TestCell.java FAIL
+UnitTestSessionAction 1444659554774 TestCell (1) FAIL
+FileOpenedAction 1444659564419 Cell.java 555 4 4 0
+EditAction 1444659767369 Cell.java 1210 7 21 0

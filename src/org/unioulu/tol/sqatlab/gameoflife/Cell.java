@@ -22,7 +22,9 @@ public class Cell {
 	public void nextIteration(int numOfLiveCells) {
 		if (state == "Alive" && numOfLiveCells < 2)
 			state = "Dead";
-		else 
+		else if(state == "Alive" && numOfLiveCells > 3)
+			state = "Dead";
+		else
 			state = "Alive";
 	}
 
