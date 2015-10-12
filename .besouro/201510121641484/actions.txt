@@ -38,3 +38,8 @@ UnitTestCaseAction 1444659768509 TestCell.java OK
 UnitTestSessionAction 1444659768510 TestCell (1) OK
 RefactoringAction 1444659796168 TestCell.java ADD void testCellUpdateDeadCellWithThreeNeighborsShouldLive() METHOD
 EditAction 1444659806895 TestCell.java 1060 5 10 4
+UnitTestCaseAction 1444659808094 TestCell.java OK
+UnitTestSessionAction 1444659808094 TestCell (1) OK
+RefactoringAction 1444660379096 TestGrid.java ADD void testTwoNeighborCellsShouldHaveOneNeigbor()/2 METHOD
+RefactoringAction 1444660394614 TestGrid.java REMOVE testTwoNeighborCellsShouldHaveOneNeigbor()/2 METHOD
+EditAction 1444660426503 TestGrid.java 1146 3 19 3

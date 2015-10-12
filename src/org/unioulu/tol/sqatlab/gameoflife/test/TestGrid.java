@@ -35,6 +35,7 @@ public class TestGrid {
 		
 	}
 	
+	
 	@Test
 	public void testTwoNeighborCellsOnDifferentRowsShouldHaveOneNeigbor() {
 		//arrange
