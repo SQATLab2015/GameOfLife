@@ -49,9 +49,9 @@ public class TestGrid {
 		assertEquals(1, numNeighbors);
 		
 	}
-	/*
+	
 	@Test
-	public void testTwoNeighborCellsOnDifferentRowsShouldHaveOneNeigbor() {
+	public void testGetNumNeighborsCellZeroZero_Four() {
 		//arrange
 		Grid grid = new Grid();
 		Cell cell1 = new Cell(0,0);
