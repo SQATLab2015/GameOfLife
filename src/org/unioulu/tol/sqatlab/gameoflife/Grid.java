@@ -39,7 +39,7 @@ public class Grid {
 		Cell[] cellArray = new Cell[gridSize*gridSize];
 		for(int i = 0; i < gridSize; i++){
 			for(int j = 0; j < gridSize; j++){
-				cellArray[counter] = new Cell("Alive", i, j);
+				cellArray[counter] = new Cell(randomState(), i, j);
 				addCell(cellArray[counter]);
 				counter++;
 			}
@@ -68,6 +68,16 @@ public class Grid {
 		//System.out.println(getNumAliveCells() + " " + cells.size() + " = " + percentageOfAliveCells);
 		if(percentageOfAliveCells>60 || percentageOfAliveCells<40)return false;
 		else return true;
+	}
+	public String randomState(){
+		String randomState = "";
+		double randomNumber = Math.floor((Math.random() * 100) + 1);
+		if(randomNumber<50){
+		randomState = "Alive";
+		}else{
+			randomState ="Dead";
+		}
+		return randomState;
 	}
 
 }
