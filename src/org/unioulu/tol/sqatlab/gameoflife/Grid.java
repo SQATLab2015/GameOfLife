@@ -66,7 +66,7 @@ public class Grid {
 		double percentageOfAliveCells = 0;
 		percentageOfAliveCells = getNumAliveCells()*100/cells.size();
 		//System.out.println(getNumAliveCells() + " " + cells.size() + " = " + percentageOfAliveCells);
-		if(percentageOfAliveCells>60 || percentageOfAliveCells<40)return false;
+		if(percentageOfAliveCells>70 || percentageOfAliveCells<30)return false;
 		else return true;
 	}
 	public String randomState(){
