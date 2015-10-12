@@ -10,7 +10,7 @@ public class TestCell {
 	@Test
 	public void testLiveCellWithNoNeighborsShouldDie() {
 		//arrange
-		Cell cell = new Cell("Alive");
+		Cell cell = new Cell(0, 0, "Alive");
 		//
 		cell.nextIteration(0);
 		//assert
@@ -20,7 +20,7 @@ public class TestCell {
 	@Test
 	public void testLiveCellWithTwoNeighborsShouldLive() {
 		//arrange
-		Cell cell = new Cell("Alive");
+		Cell cell = new Cell(0, 0, "Alive");
 		//
 		cell.nextIteration(2);
 		//assert

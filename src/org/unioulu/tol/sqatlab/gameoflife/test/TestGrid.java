@@ -39,8 +39,8 @@ public class TestGrid {
 	public void testTwoNeighborCellsOnDifferentRowsShouldHaveOneNeigbor() {
 		//arrange
 		Grid grid = new Grid();
-		Cell cell1 = new Cell(0,0);
-		Cell cell2 = new Cell(1,0);
+		Cell cell1 = new Cell(0, 0, "Alive");
+		Cell cell2 = new Cell(1, 0, "Alive");
 		
 		grid.addCell(cell1);
 		grid.addCell(cell2);

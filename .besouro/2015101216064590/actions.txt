@@ -23,3 +23,10 @@ EditAction 1444656031505 Cell.java 964 8 19 0
 RefactoringAction 1444656211403 Cell.java RENAME Cell(int, int)=>Cell(int, int, String) METHOD
 RefactoringAction 1444656220979 Cell.java REMOVE Cell(String) METHOD
 EditAction 1444656221467 Cell.java 943 7 19 0
+CompilationAction 1444656221759 Grid.java
+CompilationAction 1444656221759 TestCell.java
+CompilationAction 1444656221760 TestGrid.java
+CompilationAction 1444656248804 TestCell.java
+CompilationAction 1444656285764 TestGrid.java
+CompilationAction 1444656285948 TestGrid.java
+EditAction 1444656289815 TestGrid.java 1449 3 19 3
