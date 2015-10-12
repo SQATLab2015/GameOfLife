@@ -17,7 +17,7 @@ public class Grid {
 				} 
 			}
 		}
-		System.out.println(numNeighbors);
+		
 		if(cell.getState().equals("Alive")){
 			return numNeighbors-1;
 		}

@@ -44,3 +44,8 @@ RefactoringAction 1444660379096 TestGrid.java ADD void testTwoNeighborCellsShoul
 RefactoringAction 1444660394614 TestGrid.java REMOVE testTwoNeighborCellsShouldHaveOneNeigbor()/2 METHOD
 EditAction 1444660426503 TestGrid.java 1146 3 19 3
 EditAction 1444660474136 Grid.java 675 2 7 0
+UnitTestCaseAction 1444660476755 TestCell.java OK
+UnitTestSessionAction 1444660476755 TestCell (1) OK
+UnitTestCaseAction 1444660516873 TestGrid.java OK
+UnitTestSessionAction 1444660516874 TestGrid (1) OK
+EditAction 1444660534114 Grid.java 642 2 6 0
