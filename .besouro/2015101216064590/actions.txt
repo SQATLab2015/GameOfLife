@@ -11,3 +11,6 @@ RefactoringAction 1444655670121 TestGrid.java REMOVE testTwoNeighborCellsOnDiffe
 RefactoringAction 1444655676232 TestGrid.java ADD void testTwoNeighborCellsOnDifferentRowsShouldHaveOneNeigbor()/2 METHOD
 RefactoringAction 1444655684356 TestGrid.java REMOVE testTwoNeighborCellsOnDifferentRowsShouldHaveOneNeigbor()/2 METHOD
 EditAction 1444655687030 TestGrid.java 1429 3 19 3
+RefactoringAction 1444655737587 Cell.java RENAME Cell(String)=>Cell(String, int, int) METHOD
+RefactoringAction 1444655740624 Cell.java REMOVE Cell(int, int) METHOD
+EditAction 1444655741350 Cell.java 943 7 19 0
