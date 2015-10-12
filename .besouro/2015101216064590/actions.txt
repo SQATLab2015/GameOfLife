@@ -73,3 +73,10 @@ EditAction 1444656655709 TestGrid.java 1620 4 30 4
 CompilationAction 1444656656049 TestGrid.java
 CompilationAction 1444656656049 TestGrid.java
 EditAction 1444656681153 TestGrid.java 1613 4 30 4
+UnitTestCaseAction 1444656683229 TestGrid.java OK
+UnitTestSessionAction 1444656683237 TestGrid (1) OK
+RefactoringAction 1444656714724 GameOfLife.java ADD GameOfLife() METHOD
+RefactoringAction 1444656873147 GameOfLife.java ADD int numberOf FIELD
+RefactoringAction 1444656876659 GameOfLife.java RENAME numberOf=>int numberOfCells FIELD
+RefactoringAction 1444656884180 GameOfLife.java RENAME GameOfLife()=>GameOfLife(int) METHOD
+EditAction 1444656886101 GameOfLife.java 140 1 0 0
