@@ -46,6 +46,7 @@ public class Grid {
 		}
 		
 		if(triesToGetBalancedInitialGrid>=10)System.out.println("Initial grid might be unbalanced");
+		System.out.println(gridSize);
 		else if(checkPercentageOfAliveCells() && triesToGetBalancedInitialGrid<10){
 			triesToGetBalancedInitialGrid++;
 			fillGrid(gridSize);
