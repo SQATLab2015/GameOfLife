@@ -107,3 +107,6 @@ UnitTestSessionAction 1444758817410 TestGameOfLife FAIL
 UnitTestCaseAction 1444758867371 TestGameOfLife.java FAIL
 UnitTestSessionAction 1444758867371 TestGameOfLife FAIL
 EditAction 1444758919053 GameOfLife.java 1240 9 13 0
+UnitTestCaseAction 1444758921661 TestGameOfLife.java OK
+UnitTestSessionAction 1444758921662 TestGameOfLife OK
+EditAction 1444758972104 GameOfLife.java 1283 9 15 0
