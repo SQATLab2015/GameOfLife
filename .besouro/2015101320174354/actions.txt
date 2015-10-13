@@ -1,0 +1,359 @@
+FileOpenedAction 1444756663443 TestGameOfLife.java 224 1 1 0
+EditAction 1444756810243 Grid.java 773 3 7 0
+EditAction 1444756883382 Grid.java 693 3 7 0
+EditAction 1444756962524 Grid.java 769 3 7 0
+EditAction 1444757154518 Grid.java 850 3 7 0
+CompilationAction 1444757154931 Grid.java
+RefactoringAction 1444757190043 CustomLifeException.java ADD CustomLifeException.java CLASS
+CompilationAction 1444757190211 Grid.java
+FileOpenedAction 1444757190410 CustomLifeException.java 106 0 0 0
+RefactoringAction 1444757210434 CustomLifeException.java ADD void MyOwnException(String) METHOD
+RefactoringAction 1444757231730 CustomLifeException.java RENAME MyOwnException(String)=>CustomLifeException(String) METHOD
+EditAction 1444757239674 CustomLifeException.java 172 1 1 0
+CompilationAction 1444757239943 Grid.java
+RefactoringAction 1444757240035 CustomLifeException.java ADD long serialVersionUID FIELD
+RefactoringAction 1444757245031 CustomLifeException.java ADD long serialVersionUID/2 FIELD
+RefactoringAction 1444757252828 CustomLifeException.java REMOVE serialVersionUID/2 FIELD
+EditAction 1444757255055 CustomLifeException.java 245 1 1 0
+CompilationAction 1444757255330 Grid.java
+RefactoringAction 1444757258376 CustomLifeException.java REMOVE serialVersionUID FIELD
+EditAction 1444757259855 CustomLifeException.java 172 1 1 0
+CompilationAction 1444757260266 Grid.java
+CompilationAction 1444757282165 Grid.java
+CompilationAction 1444757282334 TestGrid.java
+RefactoringAction 1444757294218 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.CustomLifeException IMPORT
+RefactoringAction 1444757300045 TestGrid.java REMOVE import org.unioulu.tol.sqatlab.gameoflife.CustomLifeException IMPORT
+RefactoringAction 1444757302792 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.CustomLifeException IMPORT
+CompilationAction 1444757342960 TestGrid.java
+RefactoringAction 1444757365314 TestGameOfLife.java RENAME test()=>void testGenerate() METHOD
+RefactoringAction 1444757367822 TestGameOfLife.java RENAME testGenerate()=>void testGenerateNewGame() METHOD
+RefactoringAction 1444757374836 TestGameOfLife.java RENAME testGenerateNewGame()=>void testSetupNewGame() METHOD
+RefactoringAction 1444757377347 TestGameOfLife.java RENAME testSetupNewGame()=>void testSetupGame() METHOD
+EditAction 1444757394718 TestGameOfLife.java 233 1 1 0
+UnitTestCaseAction 1444757396700 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444757396709 TestGameOfLife FAIL
+RefactoringAction 1444757429443 TestGameOfLife.java ADD GameOfLife gol FIELD
+RefactoringAction 1444757431702 TestGameOfLife.java ADD import org.unioulu.tol.sqatlab.gameoflife.GameOfLife IMPORT
+RefactoringAction 1444757464199 TestGameOfLife.java RENAME gol=>GameOfLife gameOfLife FIELD
+EditAction 1444757549354 TestGameOfLife.java 390 1 3 1
+CompilationAction 1444757549736 TestGameOfLife.java
+CompilationAction 1444757549737 TestGameOfLife.java
+RefactoringAction 1444757579596 GameOfLife.java ADD Grid grid FIELD
+RefactoringAction 1444757612562 GameOfLife.java ADD void setupGame() METHOD
+CompilationAction 1444757615582 TestGameOfLife.java
+CompilationAction 1444757615584 TestGameOfLife.java
+CompilationAction 1444757615731 TestGameOfLife.java
+CompilationAction 1444757615731 TestGameOfLife.java
+EditAction 1444757749620 GameOfLife.java 344 2 2 0
+CompilationAction 1444757750012 GameOfLife.java
+CompilationAction 1444757750012 GameOfLife.java
+CompilationAction 1444757750012 TestGameOfLife.java
+RefactoringAction 1444757757564 GameOfLife.java ADD int getNumberOfCells() METHOD
+RefactoringAction 1444757757566 GameOfLife.java ADD void setNumberOfCells(int) METHOD
+RefactoringAction 1444757757567 GameOfLife.java ADD int getSquareLength() METHOD
+RefactoringAction 1444757757568 GameOfLife.java ADD void setSquareLength(int) METHOD
+RefactoringAction 1444757757569 GameOfLife.java ADD Grid getGrid() METHOD
+RefactoringAction 1444757757570 GameOfLife.java ADD void setGrid(Grid) METHOD
+RefactoringAction 1444757768120 GameOfLife.java REMOVE getGrid() METHOD
+RefactoringAction 1444757768123 GameOfLife.java REMOVE getSquareLength() METHOD
+RefactoringAction 1444757768124 GameOfLife.java REMOVE setSquareLength(int) METHOD
+RefactoringAction 1444757768126 GameOfLife.java REMOVE setNumberOfCells(int) METHOD
+RefactoringAction 1444757768126 GameOfLife.java REMOVE getNumberOfCells() METHOD
+RefactoringAction 1444757768127 GameOfLife.java REMOVE setGrid(Grid) METHOD
+RefactoringAction 1444757780161 GameOfLife.java ADD int getNumberOfCells() METHOD
+RefactoringAction 1444757780163 GameOfLife.java ADD void setNumberOfCells(int) METHOD
+RefactoringAction 1444757780165 GameOfLife.java ADD int getSquareLength() METHOD
+RefactoringAction 1444757780166 GameOfLife.java ADD void setSquareLength(int) METHOD
+RefactoringAction 1444757780167 GameOfLife.java ADD Grid getGrid() METHOD
+RefactoringAction 1444757780169 GameOfLife.java ADD void setGrid(Grid) METHOD
+EditAction 1444757929730 TestGameOfLife.java 471 1 4 1
+CompilationAction 1444757929953 TestGameOfLife.java
+EditAction 1444757954711 Grid.java 876 3 7 0
+CompilationAction 1444757955125 GameOfLife.java
+CompilationAction 1444757955126 GameOfLife.java
+EditAction 1444757962864 GameOfLife.java 897 8 8 0
+CompilationAction 1444757963257 GameOfLife.java
+CompilationAction 1444757963258 GameOfLife.java
+CompilationAction 1444757963259 GameOfLife.java
+CompilationAction 1444757963259 GameOfLife.java
+CompilationAction 1444757963260 GameOfLife.java
+CompilationAction 1444757963260 GameOfLife.java
+RefactoringAction 1444757991767 TestGameOfLife.java ADD void testCreate FIELD
+RefactoringAction 1444757995785 TestGameOfLife.java RENAME testCreate=>void testCreateRandomStates FIELD
+RefactoringAction 1444757998804 TestGameOfLife.java RENAME testCreateRandomStates=>void testCreateRandomStates() METHOD
+RefactoringAction 1444758088775 TestGameOfLife.java REMOVE testSetupGame() METHOD
+EditAction 1444758350678 TestGameOfLife.java 927 1 7 5
+CompilationAction 1444758350898 TestGameOfLife.java
+RefactoringAction 1444758354758 GameOfLife.java ADD String METHOD
+RefactoringAction 1444758611924 GameOfLife.java ADD import java.util.Random IMPORT
+CompilationAction 1444758623502 GameOfLife.java
+CompilationAction 1444758623503 GameOfLife.java
+CompilationAction 1444758623504 GameOfLife.java
+CompilationAction 1444758623505 GameOfLife.java
+CompilationAction 1444758623506 GameOfLife.java
+CompilationAction 1444758623506 GameOfLife.java
+CompilationAction 1444758623778 GameOfLife.java
+CompilationAction 1444758623779 GameOfLife.java
+CompilationAction 1444758623780 GameOfLife.java
+RefactoringAction 1444758735350 GameOfLife.java ADD import java.util.Random IMPORT
+CompilationAction 1444758783449 GameOfLife.java
+CompilationAction 1444758783449 GameOfLife.java
+CompilationAction 1444758783450 GameOfLife.java
+CompilationAction 1444758814394 GameOfLife.java
+CompilationAction 1444758814395 GameOfLife.java
+CompilationAction 1444758814396 GameOfLife.java
+UnitTestCaseAction 1444758817409 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444758817410 TestGameOfLife FAIL
+UnitTestCaseAction 1444758867371 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444758867371 TestGameOfLife FAIL
+EditAction 1444758919053 GameOfLife.java 1240 9 13 0
+UnitTestCaseAction 1444758921661 TestGameOfLife.java OK
+UnitTestSessionAction 1444758921662 TestGameOfLife OK
+EditAction 1444758972104 GameOfLife.java 1283 9 15 0
+EditAction 1444759003877 GameOfLife.java 1311 9 15 0
+EditAction 1444759039045 GameOfLife.java 1337 9 15 0
+EditAction 1444759042711 GameOfLife.java 1336 9 15 0
+RefactoringAction 1444759048341 TestGameOfLife.java ADD void testSetupGame() METHOD
+EditAction 1444759051618 TestGameOfLife.java 911 2 11 6
+UnitTestCaseAction 1444759053851 TestGameOfLife.java OK
+UnitTestSessionAction 1444759053851 TestGameOfLife OK
+RefactoringAction 1444759061876 TestGameOfLife.java ADD void testSetupGame()/2 METHOD
+RefactoringAction 1444759069399 TestGameOfLife.java RENAME testSetupGame()/2=>void testSetupGameNine() METHOD
+RefactoringAction 1444759071415 TestGameOfLife.java RENAME testSetupGameNine()=>void testSetupGameNineCells() METHOD
+RefactoringAction 1444759073931 TestGameOfLife.java RENAME testSetupGameNineCells()=>void testSetupGameNineCells_Ret() METHOD
+RefactoringAction 1444759074947 TestGameOfLife.java RENAME testSetupGameNineCells_Ret()=>void testSetupGameNineCells_Return() METHOD
+RefactoringAction 1444759077466 TestGameOfLife.java RENAME testSetupGameNineCells_Return()=>void testSetupGameNineCells_ReturnNine() METHOD
+EditAction 1444759103989 TestGameOfLife.java 1152 3 15 7
+EditAction 1444759119373 TestGameOfLife.java 1148 3 15 7
+RefactoringAction 1444759131840 TestGameOfLife.java RENAME testSetupGame()=>void testSetupGameOneCell() METHOD
+RefactoringAction 1444759132856 TestGameOfLife.java RENAME testSetupGameOneCell()=>void testSetupGameOneCell_() METHOD
+RefactoringAction 1444759134875 TestGameOfLife.java RENAME testSetupGameOneCell_()=>void testSetupGameOneCell_Return() METHOD
+EditAction 1444759136205 TestGameOfLife.java 1165 3 15 7
+EditAction 1444759140103 TestGameOfLife.java 1165 3 15 7
+UnitTestCaseAction 1444759141873 TestGameOfLife.java OK
+UnitTestSessionAction 1444759141874 TestGameOfLife OK
+EditAction 1444759156920 Grid.java 878 3 7 0
+EditAction 1444759176600 GameOfLife.java 1334 9 15 0
+UnitTestCaseAction 1444759179045 TestGameOfLife.java OK
+UnitTestSessionAction 1444759179045 TestGameOfLife OK
+EditAction 1444759196108 GameOfLife.java 1332 9 15 0
+EditAction 1444759249577 TestGameOfLife.java 1160 3 15 7
+RefactoringAction 1444759286695 TestGameOfLife.java ADD void test FIELD
+RefactoringAction 1444759313731 TestGameOfLife.java RENAME test=>void testPrintGame() METHOD
+RefactoringAction 1444759382277 GameOfLife.java RENAME setupGame()=>void setupGame(String METHOD
+EditAction 1444759392006 GameOfLife.java 1292 9 14 0
+CompilationAction 1444759392284 TestGameOfLife.java
+RefactoringAction 1444759404894 TestGameOfLife.java REMOVE testPrintGame() METHOD
+EditAction 1444759475251 TestGameOfLife.java 1259 3 15 7
+CompilationAction 1444759475654 TestGameOfLife.java
+CompilationAction 1444759475654 TestGameOfLife.java
+CompilationAction 1444759493950 TestGameOfLife.java
+CompilationAction 1444759494113 TestGameOfLife.java
+EditAction 1444759506665 TestGameOfLife.java 1335 3 15 7
+EditAction 1444759509577 GameOfLife.java 1299 9 14 0
+UnitTestCaseAction 1444759510268 TestGameOfLife.java OK
+UnitTestSessionAction 1444759510269 TestGameOfLife OK
+RefactoringAction 1444759520888 TestGameOfLife.java ADD void testPrintGame() METHOD
+RefactoringAction 1444759586768 TestGameOfLife.java ADD void setup() METHOD
+RefactoringAction 1444759589162 TestGameOfLife.java ADD import org.junit.Before IMPORT
+RefactoringAction 1444759596828 TestGameOfLife.java REMOVE gameOfLife FIELD
+RefactoringAction 1444759605885 TestGameOfLife.java ADD GameOfLife gameOfLife FIELD
+RefactoringAction 1444759640357 TestGameOfLife.java ADD String FIELD
+RefactoringAction 1444759644874 TestGameOfLife.java RENAME fourRandomStates=>String FIELD
+RefactoringAction 1444759666419 TestGameOfLife.java REMOVE fourStates FIELD
+RefactoringAction 1444759672436 TestGameOfLife.java ADD String FIELD
+EditAction 1444759676344 TestGameOfLife.java 1447 5 16 7
+CompilationAction 1444759676734 TestGameOfLife.java
+CompilationAction 1444759753118 TestGameOfLife.java
+CompilationAction 1444759753264 TestGameOfLife.java
+CompilationAction 1444759778578 TestGameOfLife.java
+CompilationAction 1444759778743 TestGameOfLife.java
+RefactoringAction 1444759782670 TestGameOfLife.java RENAME fourStates=>String FIELD
+EditAction 1444759782881 TestGameOfLife.java 1525 5 16 7
+CompilationAction 1444759783228 TestGameOfLife.java
+RefactoringAction 1444759848319 TestGameOfLife.java RENAME testPrintGame()=>void testPrintCurrentGame() METHOD
+RefactoringAction 1444759851337 TestGameOfLife.java RENAME testPrintCurrentGame()=>void testPrintCurrentGameStates() METHOD
+RefactoringAction 1444759854855 TestGameOfLife.java RENAME testPrintCurrentGameStates()=>void testPrintCurrentGameState() METHOD
+RefactoringAction 1444759943810 GameOfLife.java ADD Object printCurrentGameState() METHOD
+EditAction 1444760336700 GameOfLife.java 2020 10 17 0
+CompilationAction 1444760337068 TestGameOfLife.java
+EditAction 1444760365753 GameOfLife.java 2069 10 17 0
+CompilationAction 1444760366142 GameOfLife.java
+CompilationAction 1444760375800 GameOfLife.java
+EditAction 1444760378710 TestGameOfLife.java 1651 5 18 8
+CompilationAction 1444760379087 TestGameOfLife.java
+RefactoringAction 1444760383135 TestGameOfLife.java ADD import org.unioulu.tol.sqatlab.gameoflife.CustomLifeException IMPORT
+CompilationAction 1444760385911 TestGameOfLife.java
+UnitTestCaseAction 1444760388168 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444760388168 TestGameOfLife FAIL
+EditAction 1444760442769 GameOfLife.java 2104 10 17 0
+UnitTestCaseAction 1444760445398 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444760445399 TestGameOfLife FAIL
+EditAction 1444760461836 GameOfLife.java 2103 10 17 0
+CompilationAction 1444760462197 GameOfLife.java
+CompilationAction 1444760474575 GameOfLife.java
+CompilationAction 1444760474712 GameOfLife.java
+CompilationAction 1444760494256 GameOfLife.java
+CompilationAction 1444760494508 GameOfLife.java
+CompilationAction 1444760497393 GameOfLife.java
+UnitTestCaseAction 1444760500068 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444760500069 TestGameOfLife FAIL
+EditAction 1444760511153 GameOfLife.java 2104 10 17 0
+EditAction 1444760564784 GameOfLife.java 2110 10 17 0
+UnitTestCaseAction 1444760566395 TestGameOfLife.java OK
+UnitTestSessionAction 1444760566395 TestGameOfLife OK
+EditAction 1444760590019 TestGameOfLife.java 1743 5 18 8
+UnitTestCaseAction 1444760591928 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444760591928 TestGameOfLife FAIL
+EditAction 1444760654329 GameOfLife.java 2120 10 17 0
+EditAction 1444760659488 GameOfLife.java 2114 10 17 0
+UnitTestCaseAction 1444760661552 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444760661553 TestGameOfLife FAIL
+EditAction 1444760672807 TestGameOfLife.java 1742 5 18 8
+UnitTestCaseAction 1444760674672 TestGameOfLife.java OK
+UnitTestSessionAction 1444760674672 TestGameOfLife OK
+EditAction 1444760699851 GameOfLife.java 2077 10 17 0
+EditAction 1444760709185 GameOfLife.java 2071 10 17 0
+UnitTestCaseAction 1444760873384 TestGameOfLife.java OK
+UnitTestSessionAction 1444760873385 TestGameOfLife OK
+RefactoringAction 1444760927105 TestGameOfLife.java ADD void testDoOneRound() METHOD
+RefactoringAction 1444760977021 GameOfLife.java ADD void doOneRound() METHOD
+RefactoringAction 1444761065315 GameOfLife.java ADD import java.util.Set IMPORT
+EditAction 1444761108557 TestGameOfLife.java 1979 6 22 9
+CompilationAction 1444761108922 TestGameOfLife.java
+RefactoringAction 1444761525157 GameOfLife.java ADD import java.util.Iterator IMPORT
+EditAction 1444761638877 GameOfLife.java 2394 11 20 0
+CompilationAction 1444761639315 GameOfLife.java
+RefactoringAction 1444761750917 GameOfLife.java ADD import java.util.HashSet IMPORT
+CompilationAction 1444761796521 GameOfLife.java
+EditAction 1444761896543 TestGameOfLife.java 1979 6 22 9
+UnitTestCaseAction 1444761898880 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444761898881 TestGameOfLife FAIL
+RefactoringAction 1444761931437 TestGameOfLife.java REMOVE testPrintCurrentGameState() METHOD
+RefactoringAction 1444761942461 TestGameOfLife.java REMOVE testCreateRandomStates() METHOD
+RefactoringAction 1444761942463 TestGameOfLife.java REMOVE testSetupGameOneCell_ReturnOne() METHOD
+RefactoringAction 1444761942465 TestGameOfLife.java REMOVE testSetupGameNineCells_ReturnNine() METHOD
+EditAction 1444761943866 TestGameOfLife.java 2051 2 4 1
+UnitTestCaseAction 1444761945623 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444761945624 TestGameOfLife FAIL
+EditAction 1444761986957 Grid.java 919 3 7 0
+UnitTestCaseAction 1444761989887 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444761989888 TestGameOfLife FAIL
+EditAction 1444762048238 Grid.java 934 3 7 0
+UnitTestCaseAction 1444762053289 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444762053290 TestGameOfLife FAIL
+EditAction 1444762107126 Grid.java 886 3 7 0
+UnitTestCaseAction 1444762110100 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444762110100 TestGameOfLife FAIL
+EditAction 1444762135093 Grid.java 885 3 7 0
+UnitTestCaseAction 1444762137458 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444762137458 TestGameOfLife FAIL
+EditAction 1444762203367 Grid.java 919 3 7 0
+EditAction 1444762210463 Grid.java 917 3 7 0
+EditAction 1444762238794 Grid.java 953 3 7 0
+UnitTestCaseAction 1444762241691 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444762241692 TestGameOfLife FAIL
+EditAction 1444762474255 GameOfLife.java 2752 11 22 0
+UnitTestCaseAction 1444762476419 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444762476420 TestGameOfLife FAIL
+EditAction 1444762565938 Cell.java 1239 7 21 0
+EditAction 1444762610759 Cell.java 1153 7 20 0
+RefactoringAction 1444762654022 TestGameOfLife.java ADD void testSetupGameNineCells_ReturnNine() METHOD
+RefactoringAction 1444762658540 TestGameOfLife.java REMOVE testSetupGameNineCells_ReturnNine() METHOD
+RefactoringAction 1444762674594 TestGameOfLife.java ADD void testPrintCurrentGameState() METHOD
+RefactoringAction 1444762679609 TestGameOfLife.java REMOVE testPrintCurrentGameState() METHOD
+RefactoringAction 1444762686145 TestGameOfLife.java ADD void testPrintCurrentGameState() METHOD
+RefactoringAction 1444762691663 TestGameOfLife.java ADD void testSetupGameNineCells_ReturnNine() METHOD
+RefactoringAction 1444762691665 TestGameOfLife.java ADD void testSetupGameOneCell_ReturnOne() METHOD
+RefactoringAction 1444762691666 TestGameOfLife.java ADD void testCreateRandomStates() METHOD
+RefactoringAction 1444762697186 TestGameOfLife.java REMOVE testDoOneRound() METHOD
+EditAction 1444762697383 TestGameOfLife.java 2018 5 18 8
+UnitTestCaseAction 1444762699276 TestGameOfLife.java OK
+UnitTestSessionAction 1444762699277 TestGameOfLife OK
+RefactoringAction 1444762715728 TestGameOfLife.java REMOVE setup() METHOD
+RefactoringAction 1444762730252 TestGameOfLife.java ADD void setup() METHOD
+RefactoringAction 1444762732767 TestGameOfLife.java REMOVE setup() METHOD
+EditAction 1444762732911 TestGameOfLife.java 1970 4 18 8
+UnitTestCaseAction 1444762734906 TestGameOfLife.java OK
+UnitTestSessionAction 1444762734906 TestGameOfLife OK
+UnitTestCaseAction 1444762758173 TestCell.java OK
+UnitTestSessionAction 1444762758174 TestCell (1) OK
+EditAction 1444762779766 TestGameOfLife.java 1952 5 22 9
+UnitTestCaseAction 1444762781664 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444762781665 TestGameOfLife FAIL
+EditAction 1444762878392 GameOfLife.java 2794 11 22 0
+UnitTestCaseAction 1444762880284 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444762880284 TestGameOfLife FAIL
+EditAction 1444763012023 Grid.java 959 3 7 0
+EditAction 1444763104565 TestGameOfLife.java 2066 5 24 9
+EditAction 1444763113005 GameOfLife.java 2798 11 22 0
+UnitTestCaseAction 1444763114903 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444763114903 TestGameOfLife FAIL
+EditAction 1444763174465 GameOfLife.java 2794 11 22 0
+UnitTestCaseAction 1444763176542 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444763176542 TestGameOfLife FAIL
+UnitTestCaseAction 1444763285184 TestGrid.java OK
+UnitTestSessionAction 1444763285185 TestGrid (1) OK
+EditAction 1444763353223 GameOfLife.java 2798 11 22 0
+RefactoringAction 1444763363762 TestGameOfLife.java REMOVE testPrintCurrentGameState() METHOD
+RefactoringAction 1444763363764 TestGameOfLife.java REMOVE testCreateRandomStates() METHOD
+RefactoringAction 1444763363765 TestGameOfLife.java REMOVE testSetupGameOneCell_ReturnOne() METHOD
+RefactoringAction 1444763363765 TestGameOfLife.java REMOVE testSetupGameNineCells_ReturnNine() METHOD
+EditAction 1444763364017 TestGameOfLife.java 2142 1 6 1
+RefactoringAction 1444763399306 TestGrid.java ADD void testGetNumNeighborsCellZeroZero_FourAliveCells_ReturnThree()/2 METHOD
+RefactoringAction 1444763405820 TestGrid.java RENAME testGetNumNeighborsCellZeroZero_FourAliveCells_ReturnThree()/2=>void testGetNumNeighbors_ReturnThree() METHOD
+RefactoringAction 1444763409332 TestGrid.java RENAME testGetNumNeighbors_ReturnThree()=>void testGetNumNeighborsDifferentCells_ReturnThree() METHOD
+RefactoringAction 1444763412344 TestGrid.java RENAME testGetNumNeighborsDifferentCells_ReturnThree()=>void testGetNumNeighborsDifferentCells_Return() METHOD
+RefactoringAction 1444763418362 TestGrid.java RENAME testGetNumNeighborsDifferentCells_Return()=>void testGetNumNeighborsDifferentCells_ReturnDifferentAMounts() METHOD
+RefactoringAction 1444763420377 TestGrid.java RENAME testGetNumNeighborsDifferentCells_ReturnDifferentAMounts()=>void testGetNumNeighborsDifferentCells_ReturnDifferentAmounts() METHOD
+EditAction 1444763420796 TestGrid.java 2278 5 41 5
+EditAction 1444763597719 TestGrid.java 2939 5 58 13
+EditAction 1444763628587 TestGrid.java 2939 5 58 13
+UnitTestCaseAction 1444763631008 TestGrid.java FAIL
+UnitTestSessionAction 1444763631008 TestGrid (1) FAIL
+EditAction 1444763683390 TestGrid.java 2933 5 58 13
+UnitTestCaseAction 1444763685476 TestGrid.java OK
+UnitTestSessionAction 1444763685476 TestGrid (1) OK
+UnitTestCaseAction 1444763800350 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444763800350 TestGameOfLife FAIL
+EditAction 1444763837628 TestGameOfLife.java 2146 1 4 1
+EditAction 1444763844156 GameOfLife.java 2794 11 22 0
+UnitTestCaseAction 1444763846572 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444763846573 TestGameOfLife FAIL
+EditAction 1444763904377 TestGameOfLife.java 2114 1 4 1
+EditAction 1444764036891 GameOfLife.java 2886 11 24 0
+UnitTestCaseAction 1444764135700 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444764135700 TestGameOfLife FAIL
+EditAction 1444764169963 GameOfLife.java 2794 11 22 0
+EditAction 1444764183994 GameOfLife.java 2804 11 21 0
+RefactoringAction 1444764310822 Cell.java ADD void setState(String) METHOD
+RefactoringAction 1444764315138 Cell.java REMOVE setState(String) METHOD
+RefactoringAction 1444764342410 Cell.java ADD void setState(String) METHOD
+EditAction 1444764343299 Cell.java 1221 8 21 0
+EditAction 1444764380562 GameOfLife.java 3149 11 22 0
+EditAction 1444764415684 GameOfLife.java 3405 11 22 0
+UnitTestCaseAction 1444764417854 TestGameOfLife.java OK
+UnitTestSessionAction 1444764417855 TestGameOfLife OK
+RefactoringAction 1444764463654 GameOfLife.java REMOVE import java.util.Iterator IMPORT
+EditAction 1444764480598 GameOfLife.java 2868 11 21 0
+EditAction 1444764490447 GameOfLife.java 2862 11 21 0
+RefactoringAction 1444764501067 TestGameOfLife.java ADD void testSetupGameNineCells_ReturnNine() METHOD
+RefactoringAction 1444764501068 TestGameOfLife.java ADD void testSetupGameOneCell_ReturnOne() METHOD
+RefactoringAction 1444764501069 TestGameOfLife.java ADD void testCreateRandomStates() METHOD
+RefactoringAction 1444764501069 TestGameOfLife.java ADD void testPrintCurrentGameState() METHOD
+EditAction 1444764503241 TestGameOfLife.java 2038 5 22 9
+RefactoringAction 1444764505679 TestGameOfLife.java REMOVE import org.junit.Before IMPORT
+UnitTestCaseAction 1444764513285 TestGameOfLife.java OK
+UnitTestSessionAction 1444764513286 TestGameOfLife OK
+UnitTestCaseAction 1444764516263 TestGameOfLife.java OK
+UnitTestSessionAction 1444764516264 TestGameOfLife OK
+UnitTestCaseAction 1444764519543 TestCell.java OK
+UnitTestSessionAction 1444764519543 TestCell (1) OK
+UnitTestCaseAction 1444764523415 TestGrid.java OK
+UnitTestSessionAction 1444764523416 TestGrid (1) OK
+RefactoringAction 1444764707299 TestGameOfLife.java ADD void testDoOneRound()/2 METHOD
+RefactoringAction 1444764713316 TestGameOfLife.java RENAME testDoOneRound()/2=>void testDoOneRound_W() METHOD
+RefactoringAction 1444764716833 TestGameOfLife.java RENAME testDoOneRound_W()=>void testDoOneRound_TwoTimes() METHOD
+EditAction 1444764727489 TestGameOfLife.java 2185 6 27 10
+UnitTestCaseAction 1444764729608 TestGameOfLife.java OK
+UnitTestSessionAction 1444764729609 TestGameOfLife OK

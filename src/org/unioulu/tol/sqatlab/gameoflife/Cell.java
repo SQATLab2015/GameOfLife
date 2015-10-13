@@ -5,14 +5,10 @@ public class Cell {
 	int x;
 	int y;
 	
-	public Cell(String initialState) {
-		this.state = initialState;
-	}
-
-	
-	public Cell(int x, int y) {
+	public Cell(int x, int y, String initialState) {
 		this.x = x;
 		this.y = y;
+		this.state = initialState;
 	}
 	
 	public int getX() {
@@ -23,11 +19,25 @@ public class Cell {
 		return y;
 	}
 	
+	
+	
+	public void setState(String state) {
+		this.state = state;
+	}
+
 	public void nextIteration(int numOfLiveCells) {
-		if (state == "Alive" && numOfLiveCells < 2)
+		// Rule 1.
+		if (state == "Alive" && numOfLiveCells < 2){
 			state = "Dead";
-		else 
+		}
+		// Rule 3.
+		else if(state == "Alive" && numOfLiveCells > 3){
+			state = "Dead";
+		}
+		// Rule 4.
+		else if(state == "Dead" && numOfLiveCells == 3){
 			state = "Alive";
+		}
 	}
 
 	public Object getState() {
@@ -56,9 +66,8 @@ public class Cell {
 			return false;
 		if (y != other.y)
 			return false;
+		if(!state.equals(other.state))
+			return false;
 		return true;
 	}
-	
-	
-
 }
