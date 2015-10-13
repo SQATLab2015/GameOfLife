@@ -142,3 +142,6 @@ RefactoringAction 1444759286695 TestGameOfLife.java ADD void test FIELD
 RefactoringAction 1444759313731 TestGameOfLife.java RENAME test=>void testPrintGame() METHOD
 RefactoringAction 1444759382277 GameOfLife.java RENAME setupGame()=>void setupGame(String METHOD
 EditAction 1444759392006 GameOfLife.java 1292 9 14 0
+CompilationAction 1444759392284 TestGameOfLife.java
+RefactoringAction 1444759404894 TestGameOfLife.java REMOVE testPrintGame() METHOD
+EditAction 1444759475251 TestGameOfLife.java 1259 3 15 7

@@ -20,7 +20,7 @@ public class TestGameOfLife {
 	@Test
 	public void testSetupGameOneCell_ReturnOne() {
 		gameOfLife = new GameOfLife(1);
-		gameOfLife.setupGame();
+		gameOfLife.setupGame(createRandomStates(gameOfLife.numberOfCells));
 		int numberOfCells = gameOfLife.grid.cells.size();
 		
 		assertEquals(1, numberOfCells);
@@ -40,10 +40,12 @@ public class TestGameOfLife {
 	
 	//validateGame
 	
+	//nextRound
 	
 	
 	
-	
-	//output string
-	
+//	@Test
+//	public void testPrintGame(){
+//		gameOfLife
+//	}
 }
