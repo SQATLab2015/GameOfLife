@@ -50,6 +50,8 @@ public class TestGrid {
 		assertEquals(2, g.count(0, 0));
 		assertEquals(4, g.count(0, 1));
 		assertEquals(4, g.count(1, 0));
+		assertEquals(4, g.count(2, 1));
+		assertEquals(4, g.count(1, 2));
 	}
 	
 	@Test
