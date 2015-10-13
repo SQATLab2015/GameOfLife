@@ -355,3 +355,5 @@ RefactoringAction 1444764707299 TestGameOfLife.java ADD void testDoOneRound()/2 
 RefactoringAction 1444764713316 TestGameOfLife.java RENAME testDoOneRound()/2=>void testDoOneRound_W() METHOD
 RefactoringAction 1444764716833 TestGameOfLife.java RENAME testDoOneRound_W()=>void testDoOneRound_TwoTimes() METHOD
 EditAction 1444764727489 TestGameOfLife.java 2185 6 27 10
+UnitTestCaseAction 1444764729608 TestGameOfLife.java OK
+UnitTestSessionAction 1444764729609 TestGameOfLife OK
