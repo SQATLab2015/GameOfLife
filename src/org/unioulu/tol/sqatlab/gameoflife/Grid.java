@@ -34,7 +34,7 @@ public class Grid {
 	}
 
 
-	public Cell[] fillGrid(int gridSize) {
+	public void fillGrid(int gridSize) {
 		int counter = 0;
 		Cell[] cellArray = new Cell[gridSize*gridSize];
 		for(int i = 0; i < gridSize; i++){
@@ -56,7 +56,6 @@ public class Grid {
 			System.out.println("zwei");
 		}
 		System.out.println("end method");
-		return cellArray;
 	}
 
 
