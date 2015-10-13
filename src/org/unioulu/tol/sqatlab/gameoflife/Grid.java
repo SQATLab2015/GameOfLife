@@ -199,5 +199,40 @@ public class Grid {
 			}
 			return cnt;
 		}
+		else
+		{
+			if (grid[i - 1][j - 1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[i - 1][j].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[i - 1][j + 1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[i][j - 1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[i][j + 1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[i + 1][j - 1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[i + 1][j].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[i + 1][j + 1].getState().equals("*"))
+			{
+				cnt++;
+			}
+		}
 	}
 }
