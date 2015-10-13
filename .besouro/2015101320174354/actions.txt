@@ -163,3 +163,10 @@ RefactoringAction 1444759644874 TestGameOfLife.java RENAME fourRandomStates=>Str
 RefactoringAction 1444759666419 TestGameOfLife.java REMOVE fourStates FIELD
 RefactoringAction 1444759672436 TestGameOfLife.java ADD String FIELD
 EditAction 1444759676344 TestGameOfLife.java 1447 5 16 7
+CompilationAction 1444759676734 TestGameOfLife.java
+CompilationAction 1444759753118 TestGameOfLife.java
+CompilationAction 1444759753264 TestGameOfLife.java
+CompilationAction 1444759778578 TestGameOfLife.java
+CompilationAction 1444759778743 TestGameOfLife.java
+RefactoringAction 1444759782670 TestGameOfLife.java RENAME fourStates=>String FIELD
+EditAction 1444759782881 TestGameOfLife.java 1525 5 16 7

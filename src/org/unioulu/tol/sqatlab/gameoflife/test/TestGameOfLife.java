@@ -8,7 +8,7 @@ import org.unioulu.tol.sqatlab.gameoflife.GameOfLife;
 
 public class TestGameOfLife {
 	GameOfLife gameOfLife;
-	String[] fourStates;
+	String[] nineStates = {"Alive", "Alive", "Alive", "Dead", "Dead", "Dead", "Dead", "Dead", "Dead"};
 	
 	@Before
 	public void setup(){
