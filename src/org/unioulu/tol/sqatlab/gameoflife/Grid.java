@@ -34,6 +34,7 @@ public class Grid {
 		
 		return numNeighbors;
 	}
+	
 	public void addCell(Cell cell) {
 		cells.add(cell);		
 	}

@@ -130,3 +130,6 @@ RefactoringAction 1444759132856 TestGameOfLife.java RENAME testSetupGameOneCell(
 RefactoringAction 1444759134875 TestGameOfLife.java RENAME testSetupGameOneCell_()=>void testSetupGameOneCell_Return() METHOD
 EditAction 1444759136205 TestGameOfLife.java 1165 3 15 7
 EditAction 1444759140103 TestGameOfLife.java 1165 3 15 7
+UnitTestCaseAction 1444759141873 TestGameOfLife.java OK
+UnitTestSessionAction 1444759141874 TestGameOfLife OK
+EditAction 1444759156920 Grid.java 878 3 7 0
