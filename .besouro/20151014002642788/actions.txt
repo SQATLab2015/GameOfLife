@@ -51,3 +51,9 @@ EditAction 1444766564539 Grid.java 3884 5 10 0
 RefactoringAction 1444766596318 TestGrid.java ADD void testCount()/2 METHOD
 RefactoringAction 1444766605357 TestGrid.java RENAME testCount()/2=>void testCount2() METHOD
 EditAction 1444766757282 TestGrid.java 1324 4 28 5
+UnitTestCaseAction 1444766759757 TestGrid.java OK
+UnitTestSessionAction 1444766759758 TestGrid OK
+RefactoringAction 1444766807582 TestGrid.java ADD void testCount2()/2 METHOD
+RefactoringAction 1444766816107 TestGrid.java RENAME testCount2()/2=>void test() METHOD
+RefactoringAction 1444766818622 TestGrid.java RENAME test()=>void testTick() METHOD
+EditAction 1444766896740 TestGrid.java 1743 5 41 5
