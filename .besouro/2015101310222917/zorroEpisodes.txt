@@ -5,3 +5,7 @@
 1444721179117 regression 1 7 false
 1444721221373 refactoring 2A 42 false
 1444721224010 regression 1 2 false
+1444721361609 refactoring 2A 137 false
+1444721369690 regression 1 8 false
+1444721376569 regression 1 6 false
+1444721411132 regression 2 34 false

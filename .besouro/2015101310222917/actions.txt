@@ -31,3 +31,23 @@ EditAction 1444721290982 Grid.java 1980 7 23 0
 UnitTestCaseAction 1444721293596 TestGrid.java FAIL
 UnitTestSessionAction 1444721293596 TestGrid (1) FAIL
 EditAction 1444721357142 Grid.java 1989 7 22 0
+UnitTestCaseAction 1444721361609 TestGrid.java OK
+UnitTestSessionAction 1444721361609 TestGrid (1) OK
+UnitTestCaseAction 1444721369690 TestGrid.java OK
+UnitTestSessionAction 1444721369690 TestGrid (1) OK
+UnitTestCaseAction 1444721376568 TestGrid.java OK
+UnitTestSessionAction 1444721376569 TestGrid (1) OK
+UnitTestCaseAction 1444721378966 TestGrid.java FAIL
+UnitTestSessionAction 1444721378966 TestGrid (1) FAIL
+UnitTestCaseAction 1444721409093 TestGrid.java FAIL
+UnitTestSessionAction 1444721409094 TestGrid (1) FAIL
+UnitTestCaseAction 1444721411131 TestGrid.java OK
+UnitTestSessionAction 1444721411132 TestGrid (1) OK
+UnitTestCaseAction 1444721412843 TestGrid.java FAIL
+UnitTestSessionAction 1444721412843 TestGrid (1) FAIL
+RefactoringAction 1444721456140 Grid.java RENAME tries=>int triesto FIELD
+RefactoringAction 1444721459162 Grid.java RENAME triesto=>int triesToGet FIELD
+RefactoringAction 1444721462187 Grid.java RENAME triesToGet=>int triesToGetBalanced FIELD
+RefactoringAction 1444721465206 Grid.java RENAME triesToGetBalanced=>int triesToGetBalancedGrid FIELD
+RefactoringAction 1444721470228 Grid.java RENAME triesToGetBalancedGrid=>int triesToGetBalancedInitialGrid FIELD
+EditAction 1444721488582 Grid.java 2109 7 22 0
