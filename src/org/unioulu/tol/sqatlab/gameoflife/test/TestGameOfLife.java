@@ -8,14 +8,14 @@ import org.unioulu.tol.sqatlab.gameoflife.GameOfLife;
 public class TestGameOfLife {
 	GameOfLife gameOfLife;
 	
-//	@Test
-//	public void testSetupGame() {
-//		gameOfLife = new GameOfLife(3);
-//		gameOfLife.setupGame();
-//		int numberOfCells = gameOfLife.grid.cells.size();
-//		
-//		assertEquals(9, numberOfCells);
-//	}
+	@Test
+	public void testSetupGame() {
+		gameOfLife = new GameOfLife(3);
+		gameOfLife.setupGame();
+		int numberOfCells = gameOfLife.grid.cells.size();
+		
+		assertEquals(9, numberOfCells);
+	}
 	
 	@Test
 	public void testCreateRandomStates(){

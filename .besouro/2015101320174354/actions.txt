@@ -113,3 +113,5 @@ EditAction 1444758972104 GameOfLife.java 1283 9 15 0
 EditAction 1444759003877 GameOfLife.java 1311 9 15 0
 EditAction 1444759039045 GameOfLife.java 1337 9 15 0
 EditAction 1444759042711 GameOfLife.java 1336 9 15 0
+RefactoringAction 1444759048341 TestGameOfLife.java ADD void testSetupGame() METHOD
+EditAction 1444759051618 TestGameOfLife.java 911 2 11 6
