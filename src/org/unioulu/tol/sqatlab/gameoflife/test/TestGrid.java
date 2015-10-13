@@ -66,10 +66,10 @@ public class TestGrid {
 	@Test
 	public void testSizeOfTheWholeGrid_gridSize2_returns4(){
 		Grid grid = new Grid();
-		int gridSize = 3;
+		int gridSize = 2;
 		
 		grid.fillGrid(gridSize);
-		
+		System.out.println(gridSize);
 		assertEquals(4, grid.cells.size());
 	}
 	
