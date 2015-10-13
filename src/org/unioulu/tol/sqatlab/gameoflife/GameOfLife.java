@@ -118,11 +118,15 @@ public class GameOfLife {
 		for (int i = 0; i < squareLength; i++){
 			for (int j = 0; j < squareLength; j++){
 				Cell cell = new Cell(i, j, "Alive");
+				System.out.print("x: " + cell.getX() + " y: " + cell.getY() + " state: " + cell.getState());
 				if(!(grid.cells.contains(cell))){
 					cell.setState("Dead");
 				}
 				int amountOfAliveNeighbours = grid.getNumNeighbors(cell);
 				cell.nextIteration(amountOfAliveNeighbours);
+				
+				System.out.println(" neighbours: " + amountOfAliveNeighbours  + "     x: " + cell.getX() + " y: " + cell.getY() + " state: " + cell.getState());
+				
 				newCells.add(cell);
 			}
 		}
