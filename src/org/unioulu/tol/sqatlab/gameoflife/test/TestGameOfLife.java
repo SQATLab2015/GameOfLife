@@ -8,13 +8,26 @@ import org.unioulu.tol.sqatlab.gameoflife.GameOfLife;
 public class TestGameOfLife {
 	GameOfLife gameOfLife;
 	
+//	@Test
+//	public void testSetupGame() {
+//		gameOfLife = new GameOfLife(3);
+//		gameOfLife.setupGame();
+//		int numberOfCells = gameOfLife.grid.cells.size();
+//		
+//		assertEquals(9, numberOfCells);
+//	}
+	
 	@Test
-	public void testSetupGame() {
-		gameOfLife = new GameOfLife(3);
-		gameOfLife.setupGame();
-		int numberOfCells = gameOfLife.grid.cells.size();
+	public void testCreateRandomStates(){
+		gameOfLife = new GameOfLife(2);
+		String[] states = gameOfLife.createRandomStates(gameOfLife.getNumberOfCells());
 		
-		assertEquals(9, numberOfCells);
+		
+		assertEquals(4, states.length);
+		assertEquals(true, states[0].matches("Dead|Alive"));
+		assertEquals(true, states[1].matches("Dead|Alive"));
+		assertEquals(true, states[2].matches("Dead|Alive"));
+		assertEquals(true, states[3].matches("Dead|Alive"));
 	}
 	
 	//nextRound

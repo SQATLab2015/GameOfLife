@@ -72,3 +72,14 @@ EditAction 1444757954711 Grid.java 876 3 7 0
 CompilationAction 1444757955125 GameOfLife.java
 CompilationAction 1444757955126 GameOfLife.java
 EditAction 1444757962864 GameOfLife.java 897 8 8 0
+CompilationAction 1444757963257 GameOfLife.java
+CompilationAction 1444757963258 GameOfLife.java
+CompilationAction 1444757963259 GameOfLife.java
+CompilationAction 1444757963259 GameOfLife.java
+CompilationAction 1444757963260 GameOfLife.java
+CompilationAction 1444757963260 GameOfLife.java
+RefactoringAction 1444757991767 TestGameOfLife.java ADD void testCreate FIELD
+RefactoringAction 1444757995785 TestGameOfLife.java RENAME testCreate=>void testCreateRandomStates FIELD
+RefactoringAction 1444757998804 TestGameOfLife.java RENAME testCreateRandomStates=>void testCreateRandomStates() METHOD
+RefactoringAction 1444758088775 TestGameOfLife.java REMOVE testSetupGame() METHOD
+EditAction 1444758350678 TestGameOfLife.java 927 1 7 5
