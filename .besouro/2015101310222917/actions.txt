@@ -16,3 +16,12 @@ UnitTestCaseAction 1444721180632 TestGrid.java FAIL
 UnitTestSessionAction 1444721180632 TestGrid (1) FAIL
 RefactoringAction 1444721210301 Grid.java ADD int tries FIELD
 EditAction 1444721214559 Grid.java 1949 7 22 0
+UnitTestCaseAction 1444721217076 TestGrid.java FAIL
+UnitTestSessionAction 1444721217077 TestGrid (1) FAIL
+UnitTestCaseAction 1444721221372 TestGrid.java OK
+UnitTestSessionAction 1444721221373 TestGrid (1) OK
+UnitTestCaseAction 1444721224009 TestGrid.java OK
+UnitTestSessionAction 1444721224010 TestGrid (1) OK
+UnitTestCaseAction 1444721225463 TestGrid.java FAIL
+UnitTestSessionAction 1444721225464 TestGrid (1) FAIL
+EditAction 1444721255273 Grid.java 1951 7 22 0
