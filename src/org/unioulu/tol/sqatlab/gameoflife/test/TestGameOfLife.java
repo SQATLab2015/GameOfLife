@@ -9,6 +9,15 @@ public class TestGameOfLife {
 	GameOfLife gameOfLife;
 	
 	@Test
+	public void testSetupGameNineCells_ReturnNine() {
+		gameOfLife = new GameOfLife(3);
+		gameOfLife.setupGame();
+		int numberOfCells = gameOfLife.grid.cells.size();
+		
+		assertEquals(9, numberOfCells);
+	}
+	
+	@Test
 	public void testSetupGame() {
 		gameOfLife = new GameOfLife(3);
 		gameOfLife.setupGame();
@@ -29,6 +38,8 @@ public class TestGameOfLife {
 		assertEquals(true, states[2].matches("Dead|Alive"));
 		assertEquals(true, states[3].matches("Dead|Alive"));
 	}
+	
+	//validateGame
 	
 	//nextRound
 	

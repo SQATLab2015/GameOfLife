@@ -115,3 +115,12 @@ EditAction 1444759039045 GameOfLife.java 1337 9 15 0
 EditAction 1444759042711 GameOfLife.java 1336 9 15 0
 RefactoringAction 1444759048341 TestGameOfLife.java ADD void testSetupGame() METHOD
 EditAction 1444759051618 TestGameOfLife.java 911 2 11 6
+UnitTestCaseAction 1444759053851 TestGameOfLife.java OK
+UnitTestSessionAction 1444759053851 TestGameOfLife OK
+RefactoringAction 1444759061876 TestGameOfLife.java ADD void testSetupGame()/2 METHOD
+RefactoringAction 1444759069399 TestGameOfLife.java RENAME testSetupGame()/2=>void testSetupGameNine() METHOD
+RefactoringAction 1444759071415 TestGameOfLife.java RENAME testSetupGameNine()=>void testSetupGameNineCells() METHOD
+RefactoringAction 1444759073931 TestGameOfLife.java RENAME testSetupGameNineCells()=>void testSetupGameNineCells_Ret() METHOD
+RefactoringAction 1444759074947 TestGameOfLife.java RENAME testSetupGameNineCells_Ret()=>void testSetupGameNineCells_Return() METHOD
+RefactoringAction 1444759077466 TestGameOfLife.java RENAME testSetupGameNineCells_Return()=>void testSetupGameNineCells_ReturnNine() METHOD
+EditAction 1444759103989 TestGameOfLife.java 1152 3 15 7
