@@ -272,7 +272,7 @@ public class Grid {
 		{
 			for (j = 0; j < size; j++)
 			{
-				grid[i][j].setState(help.getGrid()[i][i].getState());
+				grid[i][j].setState(help.getGrid()[i][j].getState());
 			}
 		}
 	}
