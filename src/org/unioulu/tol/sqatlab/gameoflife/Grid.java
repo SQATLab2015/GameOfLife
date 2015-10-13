@@ -19,7 +19,7 @@ public class Grid {
 			for (int dy=-1; dy<=1; dy ++) {
 				Cell neighbor = new Cell(cell.x + dx, cell.y + dy, "Alive");
 				if (cells.contains(neighbor)) {
-					if(dx < 0 || dx >= squareLength || dy < 0 || dy >= squareLength){
+					if(cell.x + dx < 0 || cell.x + dx >= squareLength || cell.y + dy < 0 || cell.y + dy >= squareLength){
 						System.out.println(dx + " " + dy);
 						throw new CustomLifeException("Tried to reach cell out of grid!");
 					}				
