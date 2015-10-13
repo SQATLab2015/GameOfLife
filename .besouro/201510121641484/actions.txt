@@ -1,0 +1,52 @@
+FileOpenedAction 1444657308681 Cell.java 964 8 19 0
+UnitTestCaseAction 1444657320274 TestCell.java OK
+UnitTestSessionAction 1444657320283 TestCell (1) OK
+UnitTestCaseAction 1444657330308 TestGrid.java OK
+UnitTestSessionAction 1444657330318 TestGrid (1) OK
+RefactoringAction 1444657564253 Cell.java RENAME Cell(int, int)=>Cell() METHOD
+RefactoringAction 1444657569789 Cell.java RENAME Cell(String)=>Cell(String, int, int) METHOD
+RefactoringAction 1444657573311 Cell.java REMOVE Cell() METHOD
+EditAction 1444657578747 Cell.java 943 7 19 0
+CompilationAction 1444657579755 Grid.java
+CompilationAction 1444657579755 TestCell.java
+CompilationAction 1444657579756 TestGrid.java
+CompilationAction 1444657775271 TestGrid.java
+CompilationAction 1444657778407 TestCell.java
+CompilationAction 1444657848514 Grid.java
+EditAction 1444658048231 Grid.java 642 2 6 0
+UnitTestCaseAction 1444658050641 TestGrid.java OK
+UnitTestSessionAction 1444658050642 TestGrid (1) OK
+RefactoringAction 1444659193694 Cell.java REMOVE hashCode() METHOD
+RefactoringAction 1444659193694 Cell.java REMOVE equals(Object) METHOD
+RefactoringAction 1444659211232 Cell.java ADD int hashCode() METHOD
+RefactoringAction 1444659211236 Cell.java ADD boolean equals(Object) METHOD
+FileOpenedAction 1444659368777 TestCell.java 1051 5 10 4
+RefactoringAction 1444659396621 TestCell.java ADD import org.junit.Before IMPORT
+RefactoringAction 1444659441280 TestCell.java ADD Cell aliveCell FIELD
+RefactoringAction 1444659441280 TestCell.java ADD Cell deadCell FIELD
+EditAction 1444659506041 Cell.java 1142 7 21 0
+EditAction 1444659509408 TestCell.java 724 3 6 2
+UnitTestCaseAction 1444659515594 TestGrid.java OK
+UnitTestSessionAction 1444659515595 TestGrid (1) OK
+RefactoringAction 1444659541184 TestCell.java ADD void testCellUpdateAliveCellWithFourNeighborsShouldDie() METHOD
+EditAction 1444659553737 TestCell.java 891 4 8 3
+UnitTestCaseAction 1444659554774 TestCell.java FAIL
+UnitTestSessionAction 1444659554774 TestCell (1) FAIL
+FileOpenedAction 1444659564419 Cell.java 555 4 4 0
+EditAction 1444659767369 Cell.java 1210 7 21 0
+UnitTestCaseAction 1444659768509 TestCell.java OK
+UnitTestSessionAction 1444659768510 TestCell (1) OK
+RefactoringAction 1444659796168 TestCell.java ADD void testCellUpdateDeadCellWithThreeNeighborsShouldLive() METHOD
+EditAction 1444659806895 TestCell.java 1060 5 10 4
+UnitTestCaseAction 1444659808094 TestCell.java OK
+UnitTestSessionAction 1444659808094 TestCell (1) OK
+RefactoringAction 1444660379096 TestGrid.java ADD void testTwoNeighborCellsShouldHaveOneNeigbor()/2 METHOD
+RefactoringAction 1444660394614 TestGrid.java REMOVE testTwoNeighborCellsShouldHaveOneNeigbor()/2 METHOD
+EditAction 1444660426503 TestGrid.java 1146 3 19 3
+EditAction 1444660474136 Grid.java 675 2 7 0
+UnitTestCaseAction 1444660476755 TestCell.java OK
+UnitTestSessionAction 1444660476755 TestCell (1) OK
+UnitTestCaseAction 1444660516873 TestGrid.java OK
+UnitTestSessionAction 1444660516874 TestGrid (1) OK
+EditAction 1444660534114 Grid.java 642 2 6 0
+FileOpenedAction 1444661271189 GameOfLife.java 74 0 0 0

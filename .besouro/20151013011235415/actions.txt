@@ -1,0 +1,36 @@
+FileOpenedAction 1444687955903 GameOfLife.java 539 2 3 0
+UnitTestCaseAction 1444687959975 TestGrid.java OK
+UnitTestSessionAction 1444687959977 TestGrid (1) OK
+UnitTestCaseAction 1444687964909 TestGrid.java OK
+UnitTestSessionAction 1444687964909 TestGrid (1) OK
+UnitTestCaseAction 1444687971664 TestGrid.java FAIL
+UnitTestSessionAction 1444687971665 TestGrid (1) FAIL
+UnitTestCaseAction 1444687978271 TestGrid.java OK
+UnitTestSessionAction 1444687978272 TestGrid (1) OK
+UnitTestCaseAction 1444687979687 TestGrid.java OK
+UnitTestSessionAction 1444687979688 TestGrid (1) OK
+UnitTestCaseAction 1444687981433 TestGrid.java FAIL
+UnitTestSessionAction 1444687981433 TestGrid (1) FAIL
+UnitTestCaseAction 1444688003776 GameOfLifeTest.java OK
+UnitTestSessionAction 1444688003777 GameOfLifeTest OK
+UnitTestCaseAction 1444688007854 TestCell.java OK
+UnitTestSessionAction 1444688007854 TestCell (1) OK
+UnitTestCaseAction 1444688010936 TestCell.java OK
+UnitTestSessionAction 1444688010937 TestCell (1) OK
+UnitTestCaseAction 1444688012185 TestCell.java OK
+UnitTestSessionAction 1444688012186 TestCell (1) OK
+UnitTestCaseAction 1444688015477 GameOfLifeTest.java OK
+UnitTestSessionAction 1444688015478 GameOfLifeTest OK
+UnitTestCaseAction 1444688016783 GameOfLifeTest.java OK
+UnitTestSessionAction 1444688016784 GameOfLifeTest OK
+UnitTestCaseAction 1444688048230 TestGrid.java FAIL
+UnitTestSessionAction 1444688048231 TestGrid (1) FAIL
+EditAction 1444688501950 Grid.java 1843 7 20 0
+UnitTestCaseAction 1444688504947 TestGrid.java FAIL
+UnitTestSessionAction 1444688504947 TestGrid (1) FAIL
+UnitTestCaseAction 1444688510065 TestGrid.java OK
+UnitTestSessionAction 1444688510066 TestGrid (1) OK
+UnitTestCaseAction 1444688512601 TestGrid.java FAIL
+UnitTestSessionAction 1444688512602 TestGrid (1) FAIL
+UnitTestCaseAction 1444688514356 TestGrid.java FAIL
+UnitTestSessionAction 1444688514357 TestGrid (1) FAIL

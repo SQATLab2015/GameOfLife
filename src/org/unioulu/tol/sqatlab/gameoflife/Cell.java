@@ -5,12 +5,8 @@ public class Cell {
 	int x;
 	int y;
 	
-	public Cell(String initialState) {
+	public Cell(String initialState, int x, int y) {
 		this.state = initialState;
-	}
-
-	
-	public Cell(int x, int y) {
 		this.x = x;
 		this.y = y;
 	}
@@ -26,7 +22,9 @@ public class Cell {
 	public void nextIteration(int numOfLiveCells) {
 		if (state == "Alive" && numOfLiveCells < 2)
 			state = "Dead";
-		else 
+		else if(state == "Alive" && numOfLiveCells > 3)
+			state = "Dead";
+		else
 			state = "Alive";
 	}
 
@@ -38,6 +36,7 @@ public class Cell {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
+		result = prime * result + ((state == null) ? 0 : state.hashCode());
 		result = prime * result + x;
 		result = prime * result + y;
 		return result;
@@ -52,12 +51,19 @@ public class Cell {
 		if (getClass() != obj.getClass())
 			return false;
 		Cell other = (Cell) obj;
+		if (state == null) {
+			if (other.state != null)
+				return false;
+		} else if (!state.equals(other.state))
+			return false;
 		if (x != other.x)
 			return false;
 		if (y != other.y)
 			return false;
 		return true;
 	}
+
+
 	
 	
 
