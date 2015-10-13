@@ -10,3 +10,8 @@ FileOpenedAction 1444757190410 CustomLifeException.java 106 0 0 0
 RefactoringAction 1444757210434 CustomLifeException.java ADD void MyOwnException(String) METHOD
 RefactoringAction 1444757231730 CustomLifeException.java RENAME MyOwnException(String)=>CustomLifeException(String) METHOD
 EditAction 1444757239674 CustomLifeException.java 172 1 1 0
+CompilationAction 1444757239943 Grid.java
+RefactoringAction 1444757240035 CustomLifeException.java ADD long serialVersionUID FIELD
+RefactoringAction 1444757245031 CustomLifeException.java ADD long serialVersionUID/2 FIELD
+RefactoringAction 1444757252828 CustomLifeException.java REMOVE serialVersionUID/2 FIELD
+EditAction 1444757255055 CustomLifeException.java 245 1 1 0
