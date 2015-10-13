@@ -104,8 +104,12 @@ public class GameOfLife {
 		
 		while(it.hasNext()){
 			Cell cell = (Cell) it.next();
+			System.out.print("x: " + cell.getX() + " y: " + cell.getY() + " state: " + cell.getState());
+			
 			int amountOfAliveNeighbours = grid.getNumNeighbors(cell);
 			cell.nextIteration(amountOfAliveNeighbours);
+			
+			System.out.println("        x: " + cell.getX() + " y: " + cell.getY() + " state: " + cell.getState());
 			
 			newCells.add(cell);
 		}
