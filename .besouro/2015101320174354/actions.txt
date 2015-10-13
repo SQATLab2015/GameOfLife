@@ -15,3 +15,6 @@ RefactoringAction 1444757240035 CustomLifeException.java ADD long serialVersionU
 RefactoringAction 1444757245031 CustomLifeException.java ADD long serialVersionUID/2 FIELD
 RefactoringAction 1444757252828 CustomLifeException.java REMOVE serialVersionUID/2 FIELD
 EditAction 1444757255055 CustomLifeException.java 245 1 1 0
+CompilationAction 1444757255330 Grid.java
+RefactoringAction 1444757258376 CustomLifeException.java REMOVE serialVersionUID FIELD
+EditAction 1444757259855 CustomLifeException.java 172 1 1 0
