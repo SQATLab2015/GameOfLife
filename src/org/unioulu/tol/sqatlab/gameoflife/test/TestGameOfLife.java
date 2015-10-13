@@ -18,7 +18,7 @@ public class TestGameOfLife {
 	}
 	
 	@Test
-	public void testSetupGame() {
+	public void testSetupGameOneCell_ReturnOne() {
 		gameOfLife = new GameOfLife(3);
 		gameOfLife.setupGame();
 		int numberOfCells = gameOfLife.grid.cells.size();
