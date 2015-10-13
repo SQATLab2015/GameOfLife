@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Grid {
-	private Set<Cell> cells;   
+	public Set<Cell> cells;   
 	int squareLength;
 	
 	public Grid(int squareLength){

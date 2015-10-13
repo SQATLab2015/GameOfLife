@@ -67,3 +67,5 @@ RefactoringAction 1444757780166 GameOfLife.java ADD void setSquareLength(int) ME
 RefactoringAction 1444757780167 GameOfLife.java ADD Grid getGrid() METHOD
 RefactoringAction 1444757780169 GameOfLife.java ADD void setGrid(Grid) METHOD
 EditAction 1444757929730 TestGameOfLife.java 471 1 4 1
+CompilationAction 1444757929953 TestGameOfLife.java
+EditAction 1444757954711 Grid.java 876 3 7 0
