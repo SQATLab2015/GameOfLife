@@ -31,7 +31,6 @@ public class TestGameOfLife {
 		gameOfLife = new GameOfLife(2);
 		String[] states = gameOfLife.createRandomStates(gameOfLife.getNumberOfCells());
 		
-		
 		assertEquals(4, states.length);
 		assertEquals(true, states[0].matches("Dead|Alive"));
 		assertEquals(true, states[1].matches("Dead|Alive"));
