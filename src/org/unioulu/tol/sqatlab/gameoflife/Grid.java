@@ -49,7 +49,7 @@ public class Grid {
 			triesToGetBalancedInitialGrid++;
 			fillGrid(gridSize);
 		}
-		System.out.println(triesToGetBalancedInitialGrid);
+		
 	}
 
 

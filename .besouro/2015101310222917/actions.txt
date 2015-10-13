@@ -51,3 +51,6 @@ RefactoringAction 1444721462187 Grid.java RENAME triesToGet=>int triesToGetBalan
 RefactoringAction 1444721465206 Grid.java RENAME triesToGetBalanced=>int triesToGetBalancedGrid FIELD
 RefactoringAction 1444721470228 Grid.java RENAME triesToGetBalancedGrid=>int triesToGetBalancedInitialGrid FIELD
 EditAction 1444721488582 Grid.java 2109 7 22 0
+UnitTestCaseAction 1444721491923 TestGrid.java OK
+UnitTestSessionAction 1444721491923 TestGrid (1) OK
+EditAction 1444721500745 Grid.java 2059 7 21 0
