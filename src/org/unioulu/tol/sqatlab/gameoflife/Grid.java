@@ -37,8 +37,167 @@ public class Grid {
 		}
 	}
 
-	public Object count(int i, int j) {
-		// TODO Auto-generated method stub
-		return null;
+	public int count(int i, int j) {
+		int cnt = 0;
+		if (i == 0 && j == 0)
+		{
+			if (grid[0][1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[1][0].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[1][1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			return cnt;
+		}
+		else if (i == 0 && j == size - 1)
+		{
+			if (grid[0][size - 2].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[1][size - 1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[1][size - 2].getState().equals("*"))
+			{
+				cnt++;
+			}
+			return cnt;
+		}
+		else if (i == size - 1 && j == 0)
+		{
+			if (grid[size - 2][0].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[size - 1][1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[size - 2][1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			return cnt;
+		}
+		else if (i == size - 1 && j == size - 1)
+		{
+			if (grid[size - 2][size - 1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[size - 1][size - 2].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[size - 2][size - 2].getState().equals("*"))
+			{
+				cnt++;
+			}
+			return cnt;
+		}
+		else if (i == 0)
+		{
+			if (grid[0][j - 1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[0][j + 1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[1][j - 1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[1][j + 1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[1][j].getState().equals("*"))
+			{
+				cnt++;
+			}
+			return cnt;
+		}
+		else if (i == size - 1)
+		{
+			if (grid[size - 1][j - 1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[size - 1][j + 1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[size - 2][j - 1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[size - 2][j + 1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[size - 2][j].getState().equals("*"))
+			{
+				cnt++;
+			}
+			return cnt;
+		}
+		else if (j == 0)
+		{
+			if (grid[i - 1][0].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[i - 1][1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[i][1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[i + 1][0].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[i + 1][1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			return cnt;
+		}
+		else if (j == size - 1)
+		{
+			if (grid[i - 1][size - 2].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[i - 1][size - 1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[i][size - 2].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[i + 1][size - 2].getState().equals("*"))
+			{
+				cnt++;
+			}
+			if (grid[i + 1][size - 1].getState().equals("*"))
+			{
+				cnt++;
+			}
+			return cnt;
+		}
 	}
 }

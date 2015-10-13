@@ -1,3 +1,4 @@
-1444753839855 regression 2 236 false
-1444754826311 test-addition 1 986 false
-1444754885112 refactoring 2A 58 false
+1444753839855 regression 2 236 true
+1444754826311 test-addition 1 986 true
+1444754885112 refactoring 2A 58 true
+1444766024571 test-first 2 11139 true
