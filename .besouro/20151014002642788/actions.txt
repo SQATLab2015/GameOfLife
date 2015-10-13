@@ -48,3 +48,6 @@ CompilationAction 1444766437900 Grid.java
 EditAction 1444766535761 Grid.java 3869 5 10 0
 CompilationAction 1444766536010 Grid.java
 EditAction 1444766564539 Grid.java 3884 5 10 0
+RefactoringAction 1444766596318 TestGrid.java ADD void testCount()/2 METHOD
+RefactoringAction 1444766605357 TestGrid.java RENAME testCount()/2=>void testCount2() METHOD
+EditAction 1444766757282 TestGrid.java 1324 4 28 5

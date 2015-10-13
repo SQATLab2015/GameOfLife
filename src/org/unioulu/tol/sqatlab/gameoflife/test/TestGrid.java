@@ -33,5 +33,22 @@ public class TestGrid {
 		g.getGrid()[1][1].setState("-");
 		assertEquals(0, g.count(0, 0));
 	}
-
+	
+	@Test
+	public void testCount2() {
+		Grid g = new Grid(3);
+		g.getGrid()[0][0].setState("*");
+		g.getGrid()[0][1].setState("*");
+		g.getGrid()[0][2].setState("*");
+		g.getGrid()[1][0].setState("*");
+		g.getGrid()[1][1].setState("-");
+		g.getGrid()[1][2].setState("*");
+		g.getGrid()[2][0].setState("*");
+		g.getGrid()[2][1].setState("*");
+		g.getGrid()[2][2].setState("*");
+		assertEquals(8, g.count(1, 1));
+		assertEquals(2, g.count(0, 0));
+		assertEquals(4, g.count(0, 1));
+	}
+	
 }
