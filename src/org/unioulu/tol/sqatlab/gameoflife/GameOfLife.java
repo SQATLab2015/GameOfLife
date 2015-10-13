@@ -24,8 +24,7 @@ public class GameOfLife {
 				grid.addCell(cell);
 				counter++;
 			}
-		}
-		
+		}	
 	}
 
 	public int getNumberOfCells() {
