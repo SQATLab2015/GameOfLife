@@ -234,3 +234,6 @@ RefactoringAction 1444761942461 TestGameOfLife.java REMOVE testCreateRandomState
 RefactoringAction 1444761942463 TestGameOfLife.java REMOVE testSetupGameOneCell_ReturnOne() METHOD
 RefactoringAction 1444761942465 TestGameOfLife.java REMOVE testSetupGameNineCells_ReturnNine() METHOD
 EditAction 1444761943866 TestGameOfLife.java 2051 2 4 1
+UnitTestCaseAction 1444761945623 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444761945624 TestGameOfLife FAIL
+EditAction 1444761986957 Grid.java 919 3 7 0
