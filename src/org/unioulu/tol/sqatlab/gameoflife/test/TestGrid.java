@@ -94,14 +94,14 @@ public class TestGrid {
 		grid.addCell(cell8);
 		grid.addCell(cell9);
 		
-		assertEquals(3, grid.getNumNeighbors(cell1));
-		assertEquals(3, grid.getNumNeighbors(cell2));
-		assertEquals(3, grid.getNumNeighbors(cell3));
-		assertEquals(3, grid.getNumNeighbors(cell4));
+		assertEquals(1, grid.getNumNeighbors(cell1));
+		assertEquals(2, grid.getNumNeighbors(cell2));
+		assertEquals(1, grid.getNumNeighbors(cell3));
+		assertEquals(2, grid.getNumNeighbors(cell4));
 		assertEquals(3, grid.getNumNeighbors(cell5));
-		assertEquals(3, grid.getNumNeighbors(cell6));
-		assertEquals(3, grid.getNumNeighbors(cell7));
-		assertEquals(3, grid.getNumNeighbors(cell8));
-		assertEquals(3, grid.getNumNeighbors(cell9));
+		assertEquals(2, grid.getNumNeighbors(cell6));
+		assertEquals(0, grid.getNumNeighbors(cell7));
+		assertEquals(0, grid.getNumNeighbors(cell8));
+		assertEquals(0, grid.getNumNeighbors(cell9));
 	}
 }
