@@ -55,7 +55,7 @@ public class Grid {
 			fillGrid(gridSize);
 			System.out.println("zwei");
 		}
-		
+		System.out.println("end method");
 	}
 
 
