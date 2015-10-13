@@ -11,7 +11,7 @@ public class TestGameOfLife {
 	@Test
 	public void testSetupGameNineCells_ReturnNine() {
 		gameOfLife = new GameOfLife(3);
-		gameOfLife.setupGame();
+		gameOfLife.setupGame(gameOfLife.createRandomStates(gameOfLife.getNumberOfCells()));
 		int numberOfCells = gameOfLife.grid.cells.size();
 		
 		assertEquals(9, numberOfCells);
@@ -20,7 +20,7 @@ public class TestGameOfLife {
 	@Test
 	public void testSetupGameOneCell_ReturnOne() {
 		gameOfLife = new GameOfLife(1);
-		gameOfLife.setupGame(createRandomStates(gameOfLife.numberOfCells));
+		gameOfLife.setupGame(gameOfLife.createRandomStates(gameOfLife.getNumberOfCells()));
 		int numberOfCells = gameOfLife.grid.cells.size();
 		
 		assertEquals(1, numberOfCells);

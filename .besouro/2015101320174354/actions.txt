@@ -145,3 +145,8 @@ EditAction 1444759392006 GameOfLife.java 1292 9 14 0
 CompilationAction 1444759392284 TestGameOfLife.java
 RefactoringAction 1444759404894 TestGameOfLife.java REMOVE testPrintGame() METHOD
 EditAction 1444759475251 TestGameOfLife.java 1259 3 15 7
+CompilationAction 1444759475654 TestGameOfLife.java
+CompilationAction 1444759475654 TestGameOfLife.java
+CompilationAction 1444759493950 TestGameOfLife.java
+CompilationAction 1444759494113 TestGameOfLife.java
+EditAction 1444759506665 TestGameOfLife.java 1335 3 15 7
