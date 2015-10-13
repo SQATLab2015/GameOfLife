@@ -342,3 +342,16 @@ RefactoringAction 1444764501068 TestGameOfLife.java ADD void testSetupGameOneCel
 RefactoringAction 1444764501069 TestGameOfLife.java ADD void testCreateRandomStates() METHOD
 RefactoringAction 1444764501069 TestGameOfLife.java ADD void testPrintCurrentGameState() METHOD
 EditAction 1444764503241 TestGameOfLife.java 2038 5 22 9
+RefactoringAction 1444764505679 TestGameOfLife.java REMOVE import org.junit.Before IMPORT
+UnitTestCaseAction 1444764513285 TestGameOfLife.java OK
+UnitTestSessionAction 1444764513286 TestGameOfLife OK
+UnitTestCaseAction 1444764516263 TestGameOfLife.java OK
+UnitTestSessionAction 1444764516264 TestGameOfLife OK
+UnitTestCaseAction 1444764519543 TestCell.java OK
+UnitTestSessionAction 1444764519543 TestCell (1) OK
+UnitTestCaseAction 1444764523415 TestGrid.java OK
+UnitTestSessionAction 1444764523416 TestGrid (1) OK
+RefactoringAction 1444764707299 TestGameOfLife.java ADD void testDoOneRound()/2 METHOD
+RefactoringAction 1444764713316 TestGameOfLife.java RENAME testDoOneRound()/2=>void testDoOneRound_W() METHOD
+RefactoringAction 1444764716833 TestGameOfLife.java RENAME testDoOneRound_W()=>void testDoOneRound_TwoTimes() METHOD
+EditAction 1444764727489 TestGameOfLife.java 2185 6 27 10

@@ -2,7 +2,6 @@ package org.unioulu.tol.sqatlab.gameoflife.test;
 
 import static org.junit.Assert.*;
 
-import org.junit.Before;
 import org.junit.Test;
 import org.unioulu.tol.sqatlab.gameoflife.CustomLifeException;
 import org.unioulu.tol.sqatlab.gameoflife.GameOfLife;
@@ -55,11 +54,21 @@ public class TestGameOfLife {
 	public void testDoOneRound() throws CustomLifeException{
 		gameOfLife = new GameOfLife(3);
 		gameOfLife.setupGame(nineStates);
-		//System.out.println(gameOfLife.printCurrentGameState());
+		
 		gameOfLife.doOneRound();
-		//System.out.println(gameOfLife.printCurrentGameState());
 		
 		assertEquals("-*-\n-*-\n---\n", gameOfLife.printCurrentGameState());
+	}
+	
+	@Test
+	public void testDoOneRound_TwoTimes() throws CustomLifeException{
+		gameOfLife = new GameOfLife(3);
+		gameOfLife.setupGame(nineStates);
+		
+		gameOfLife.doOneRound();
+		gameOfLife.doOneRound();
+		
+		assertEquals("---\n---\n---\n", gameOfLife.printCurrentGameState());
 	}
 	
 	
