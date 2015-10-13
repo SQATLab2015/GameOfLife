@@ -24,6 +24,11 @@ public class Cell {
 		if (state == "Alive" && numOfLiveCells < 2){
 			state = "Dead";
 		}
+		// Rule 2
+		if(state == "Alive" && numOfLiveCells == 2)
+		{
+			state = "Alive";
+		}
 		// Rule 3.
 		else if(state == "Alive" && numOfLiveCells > 3){
 			state = "Dead";

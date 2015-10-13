@@ -254,3 +254,6 @@ EditAction 1444762238794 Grid.java 953 3 7 0
 UnitTestCaseAction 1444762241691 TestGameOfLife.java FAIL
 UnitTestSessionAction 1444762241692 TestGameOfLife FAIL
 EditAction 1444762474255 GameOfLife.java 2752 11 22 0
+UnitTestCaseAction 1444762476419 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444762476420 TestGameOfLife FAIL
+EditAction 1444762565938 Cell.java 1239 7 21 0
