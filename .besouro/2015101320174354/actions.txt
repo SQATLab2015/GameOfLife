@@ -214,3 +214,9 @@ UnitTestCaseAction 1444760674672 TestGameOfLife.java OK
 UnitTestSessionAction 1444760674672 TestGameOfLife OK
 EditAction 1444760699851 GameOfLife.java 2077 10 17 0
 EditAction 1444760709185 GameOfLife.java 2071 10 17 0
+UnitTestCaseAction 1444760873384 TestGameOfLife.java OK
+UnitTestSessionAction 1444760873385 TestGameOfLife OK
+RefactoringAction 1444760927105 TestGameOfLife.java ADD void testDoOneRound() METHOD
+RefactoringAction 1444760977021 GameOfLife.java ADD void doOneRound() METHOD
+RefactoringAction 1444761065315 GameOfLife.java ADD import java.util.Set IMPORT
+EditAction 1444761108557 TestGameOfLife.java 1979 6 22 9
