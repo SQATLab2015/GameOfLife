@@ -58,7 +58,7 @@ public class TestGrid {
 		g.getGrid()[0][1].setState("*");
 		g.getGrid()[0][2].setState("*");
 		g.getGrid()[1][0].setState("*");
-		g.getGrid()[1][1].setState("-");
+		g.getGrid()[1][1].setState("*");
 		g.getGrid()[1][2].setState("*");
 		g.getGrid()[2][0].setState("*");
 		g.getGrid()[2][1].setState("*");

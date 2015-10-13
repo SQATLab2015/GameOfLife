@@ -62,3 +62,6 @@ UnitTestCaseAction 1444766902284 TestGrid.java FAIL
 UnitTestSessionAction 1444766902285 TestGrid FAIL
 RefactoringAction 1444766912395 Grid.java ADD void tick() METHOD
 EditAction 1444767603448 Grid.java 4561 6 14 0
+UnitTestCaseAction 1444767610496 TestGrid.java OK
+UnitTestSessionAction 1444767610497 TestGrid OK
+EditAction 1444767684579 TestGrid.java 1743 5 41 5
