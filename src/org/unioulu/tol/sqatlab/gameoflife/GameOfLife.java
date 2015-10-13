@@ -3,7 +3,7 @@ package org.unioulu.tol.sqatlab.gameoflife;
 import java.util.Random;
 
 public class GameOfLife {
-	int numberOfCells;
+	public int numberOfCells;
 	int squareLength;
 	public Grid grid;
 	
