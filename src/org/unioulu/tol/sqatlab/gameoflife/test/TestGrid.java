@@ -31,8 +31,7 @@ public class TestGrid {
 		g.getGrid()[0][1].setState("-");
 		g.getGrid()[1][0].setState("-");
 		g.getGrid()[1][1].setState("-");
-		g.display();
-		//assertEquals("-", g.getGrid()[1][1].getState());
+		assertEquals(0, g.count(0, 0));
 	}
 
 }

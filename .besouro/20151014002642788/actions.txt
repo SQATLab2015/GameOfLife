@@ -35,3 +35,5 @@ RefactoringAction 1444765136705 TestGrid.java RENAME test()=>void testCount() ME
 RefactoringAction 1444765143726 TestGrid.java RENAME testCreateGrid()=>void testCreate() METHOD
 RefactoringAction 1444765147738 TestGrid.java RENAME testDisplayGrid()=>void testDisplay() METHOD
 EditAction 1444765154966 TestGrid.java 876 3 15 1
+RefactoringAction 1444765252676 Grid.java ADD Object count(int, int) METHOD
+EditAction 1444765259600 TestGrid.java 842 3 15 2
