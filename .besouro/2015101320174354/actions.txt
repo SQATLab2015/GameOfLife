@@ -83,3 +83,27 @@ RefactoringAction 1444757995785 TestGameOfLife.java RENAME testCreate=>void test
 RefactoringAction 1444757998804 TestGameOfLife.java RENAME testCreateRandomStates=>void testCreateRandomStates() METHOD
 RefactoringAction 1444758088775 TestGameOfLife.java REMOVE testSetupGame() METHOD
 EditAction 1444758350678 TestGameOfLife.java 927 1 7 5
+CompilationAction 1444758350898 TestGameOfLife.java
+RefactoringAction 1444758354758 GameOfLife.java ADD String METHOD
+RefactoringAction 1444758611924 GameOfLife.java ADD import java.util.Random IMPORT
+CompilationAction 1444758623502 GameOfLife.java
+CompilationAction 1444758623503 GameOfLife.java
+CompilationAction 1444758623504 GameOfLife.java
+CompilationAction 1444758623505 GameOfLife.java
+CompilationAction 1444758623506 GameOfLife.java
+CompilationAction 1444758623506 GameOfLife.java
+CompilationAction 1444758623778 GameOfLife.java
+CompilationAction 1444758623779 GameOfLife.java
+CompilationAction 1444758623780 GameOfLife.java
+RefactoringAction 1444758735350 GameOfLife.java ADD import java.util.Random IMPORT
+CompilationAction 1444758783449 GameOfLife.java
+CompilationAction 1444758783449 GameOfLife.java
+CompilationAction 1444758783450 GameOfLife.java
+CompilationAction 1444758814394 GameOfLife.java
+CompilationAction 1444758814395 GameOfLife.java
+CompilationAction 1444758814396 GameOfLife.java
+UnitTestCaseAction 1444758817409 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444758817410 TestGameOfLife FAIL
+UnitTestCaseAction 1444758867371 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444758867371 TestGameOfLife FAIL
+EditAction 1444758919053 GameOfLife.java 1240 9 13 0

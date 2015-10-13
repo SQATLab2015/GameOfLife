@@ -1,5 +1,7 @@
 package org.unioulu.tol.sqatlab.gameoflife;
 
+import java.util.Random;
+
 public class GameOfLife {
 	int numberOfCells;
 	int squareLength;
@@ -13,11 +15,11 @@ public class GameOfLife {
 
 	public void setupGame() {
 		grid = new Grid(squareLength);
-		String[] states = new String
+		//String[] states = new String;
 		
 		for (int i = 0; i < squareLength; i++){
 			for (int j = 0; j < squareLength; j++){
-				Cell cell = new Cell(x, y, );
+				//Cell cell = new Cell(x, y, );
 			}
 		}
 		
@@ -45,6 +47,23 @@ public class GameOfLife {
 
 	public void setGrid(Grid grid) {
 		this.grid = grid;
+	}
+
+	public String[] createRandomStates(int numberOfCells2) {
+		String[] states = new String[numberOfCells2];
+		
+		for(int i = 0; i < states.length; i++)
+		{
+			Random random = new Random();
+			if(random.nextBoolean()){
+				states[i] = "Alive";
+			}
+			else{
+				states[i] = "Dead";
+			}
+		}
+		
+		return states;
 	}
 	
 	
