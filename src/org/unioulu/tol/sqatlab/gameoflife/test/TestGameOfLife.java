@@ -18,35 +18,35 @@ public class TestGameOfLife {
 	}
 	
 	
-	@Test
-	public void testSetupGameNineCells_ReturnNine() {
-		gameOfLife = new GameOfLife(3);
-		gameOfLife.setupGame(gameOfLife.createRandomStates(gameOfLife.getNumberOfCells()));
-		int numberOfCells = gameOfLife.grid.cells.size();
-		
-		assertEquals(9, numberOfCells);
-	}
-	
-	@Test
-	public void testSetupGameOneCell_ReturnOne() {
-		gameOfLife = new GameOfLife(1);
-		gameOfLife.setupGame(gameOfLife.createRandomStates(gameOfLife.getNumberOfCells()));
-		int numberOfCells = gameOfLife.grid.cells.size();
-		
-		assertEquals(1, numberOfCells);
-	}
-	
-	@Test
-	public void testCreateRandomStates(){
-		gameOfLife = new GameOfLife(2);
-		String[] states = gameOfLife.createRandomStates(gameOfLife.getNumberOfCells());
-		
-		assertEquals(4, states.length);
-		assertEquals(true, states[0].matches("Dead|Alive"));
-		assertEquals(true, states[1].matches("Dead|Alive"));
-		assertEquals(true, states[2].matches("Dead|Alive"));
-		assertEquals(true, states[3].matches("Dead|Alive"));
-	}
+//	@Test
+//	public void testSetupGameNineCells_ReturnNine() {
+//		gameOfLife = new GameOfLife(3);
+//		gameOfLife.setupGame(gameOfLife.createRandomStates(gameOfLife.getNumberOfCells()));
+//		int numberOfCells = gameOfLife.grid.cells.size();
+//		
+//		assertEquals(9, numberOfCells);
+//	}
+//	
+//	@Test
+//	public void testSetupGameOneCell_ReturnOne() {
+//		gameOfLife = new GameOfLife(1);
+//		gameOfLife.setupGame(gameOfLife.createRandomStates(gameOfLife.getNumberOfCells()));
+//		int numberOfCells = gameOfLife.grid.cells.size();
+//		
+//		assertEquals(1, numberOfCells);
+//	}
+//	
+//	@Test
+//	public void testCreateRandomStates(){
+//		gameOfLife = new GameOfLife(2);
+//		String[] states = gameOfLife.createRandomStates(gameOfLife.getNumberOfCells());
+//		
+//		assertEquals(4, states.length);
+//		assertEquals(true, states[0].matches("Dead|Alive"));
+//		assertEquals(true, states[1].matches("Dead|Alive"));
+//		assertEquals(true, states[2].matches("Dead|Alive"));
+//		assertEquals(true, states[3].matches("Dead|Alive"));
+//	}
 	
 	//validateGame
 	
@@ -62,11 +62,11 @@ public class TestGameOfLife {
 	
 	
 	
-	@Test
-	public void testPrintCurrentGameState() throws CustomLifeException{
-		gameOfLife = new GameOfLife(3);
-		gameOfLife.setupGame(nineStates);
-		
-		assertEquals("***\n---\n---\n", gameOfLife.printCurrentGameState());
-	}
+//	@Test
+//	public void testPrintCurrentGameState() throws CustomLifeException{
+//		gameOfLife = new GameOfLife(3);
+//		gameOfLife.setupGame(nineStates);
+//		
+//		assertEquals("***\n---\n---\n", gameOfLife.printCurrentGameState());
+//	}
 }
