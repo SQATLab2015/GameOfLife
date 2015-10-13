@@ -13,9 +13,8 @@ public class GameOfLife {
 		
 	}
 
-	public void setupGame() {
-		grid = new Grid(squareLength);
-		String[] states = createRandomStates(numberOfCells);		
+	public void setupGame(String[] states) {
+		grid = new Grid(squareLength);		
 		
 		int counter = 0;
 		for (int i = 0; i < squareLength; i++){
