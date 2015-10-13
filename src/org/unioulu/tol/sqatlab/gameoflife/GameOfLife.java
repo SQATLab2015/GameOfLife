@@ -21,7 +21,7 @@ public class GameOfLife {
 		for (int i = 0; i < squareLength; i++){
 			for (int j = 0; j < squareLength; j++){
 				Cell cell = new Cell(i, j, states[counter]);
-				grid.cells.add(cell);
+				grid.addCell(cell);
 				counter++;
 			}
 		}
