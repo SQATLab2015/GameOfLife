@@ -66,6 +66,34 @@ public class GameOfLife {
 		
 		return states;
 	}
+
+	public String printCurrentGameState() throws CustomLifeException {
+		String currentGameState = "";
+		
+		for (int i = 0; i < squareLength; i++){
+			for (int j = 0; j < squareLength; j++){
+				Cell cell1 = new Cell(i, j, "Alive");
+				Cell cell2 = new Cell(i, j, "Dead");
+				
+				if(grid.cells.contains(cell1) && grid.cells.contains(cell2)){
+					throw new CustomLifeException("Two cells at the same Coordinate!");
+				}
+				
+				if(grid.cells.contains(cell1)){
+					currentGameState = currentGameState + "*";
+				}
+				if(grid.cells.contains(cell2)){
+					currentGameState = currentGameState + "-";
+				}
+				else{
+					throw new CustomLifeException("Missing Cell!");
+				}
+			}
+		}
+		
+		
+		return currentGameState;
+	}
 	
 	
 }

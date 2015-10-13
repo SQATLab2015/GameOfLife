@@ -170,3 +170,9 @@ CompilationAction 1444759778578 TestGameOfLife.java
 CompilationAction 1444759778743 TestGameOfLife.java
 RefactoringAction 1444759782670 TestGameOfLife.java RENAME fourStates=>String FIELD
 EditAction 1444759782881 TestGameOfLife.java 1525 5 16 7
+CompilationAction 1444759783228 TestGameOfLife.java
+RefactoringAction 1444759848319 TestGameOfLife.java RENAME testPrintGame()=>void testPrintCurrentGame() METHOD
+RefactoringAction 1444759851337 TestGameOfLife.java RENAME testPrintCurrentGame()=>void testPrintCurrentGameStates() METHOD
+RefactoringAction 1444759854855 TestGameOfLife.java RENAME testPrintCurrentGameStates()=>void testPrintCurrentGameState() METHOD
+RefactoringAction 1444759943810 GameOfLife.java ADD Object printCurrentGameState() METHOD
+EditAction 1444760336700 GameOfLife.java 2020 10 17 0
