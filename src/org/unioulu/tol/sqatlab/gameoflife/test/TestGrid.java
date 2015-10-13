@@ -69,6 +69,8 @@ public class TestGrid {
 		g.display();
 		g.tick();
 		g.display();
+		g.tick();
+		g.display();
 	}
 	
 }
