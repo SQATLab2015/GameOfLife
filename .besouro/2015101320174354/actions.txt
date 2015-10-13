@@ -337,3 +337,8 @@ UnitTestSessionAction 1444764417855 TestGameOfLife OK
 RefactoringAction 1444764463654 GameOfLife.java REMOVE import java.util.Iterator IMPORT
 EditAction 1444764480598 GameOfLife.java 2868 11 21 0
 EditAction 1444764490447 GameOfLife.java 2862 11 21 0
+RefactoringAction 1444764501067 TestGameOfLife.java ADD void testSetupGameNineCells_ReturnNine() METHOD
+RefactoringAction 1444764501068 TestGameOfLife.java ADD void testSetupGameOneCell_ReturnOne() METHOD
+RefactoringAction 1444764501069 TestGameOfLife.java ADD void testCreateRandomStates() METHOD
+RefactoringAction 1444764501069 TestGameOfLife.java ADD void testPrintCurrentGameState() METHOD
+EditAction 1444764503241 TestGameOfLife.java 2038 5 22 9
