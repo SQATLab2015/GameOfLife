@@ -2,11 +2,20 @@ package org.unioulu.tol.sqatlab.gameoflife.test;
 
 import static org.junit.Assert.*;
 
+import org.junit.Before;
 import org.junit.Test;
 import org.unioulu.tol.sqatlab.gameoflife.GameOfLife;
 
 public class TestGameOfLife {
 	GameOfLife gameOfLife;
+	String[] fourStates;
+	
+	@Before
+	public void setup(){
+		
+		
+	}
+	
 	
 	@Test
 	public void testSetupGameNineCells_ReturnNine() {
@@ -44,8 +53,8 @@ public class TestGameOfLife {
 	
 	
 	
-//	@Test
-//	public void testPrintGame(){
-//		gameOfLife
-//	}
+	@Test
+	public void testPrintGame(){
+		gameOfLife = new GameOfLife();
+	}
 }

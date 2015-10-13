@@ -151,3 +151,15 @@ CompilationAction 1444759493950 TestGameOfLife.java
 CompilationAction 1444759494113 TestGameOfLife.java
 EditAction 1444759506665 TestGameOfLife.java 1335 3 15 7
 EditAction 1444759509577 GameOfLife.java 1299 9 14 0
+UnitTestCaseAction 1444759510268 TestGameOfLife.java OK
+UnitTestSessionAction 1444759510269 TestGameOfLife OK
+RefactoringAction 1444759520888 TestGameOfLife.java ADD void testPrintGame() METHOD
+RefactoringAction 1444759586768 TestGameOfLife.java ADD void setup() METHOD
+RefactoringAction 1444759589162 TestGameOfLife.java ADD import org.junit.Before IMPORT
+RefactoringAction 1444759596828 TestGameOfLife.java REMOVE gameOfLife FIELD
+RefactoringAction 1444759605885 TestGameOfLife.java ADD GameOfLife gameOfLife FIELD
+RefactoringAction 1444759640357 TestGameOfLife.java ADD String FIELD
+RefactoringAction 1444759644874 TestGameOfLife.java RENAME fourRandomStates=>String FIELD
+RefactoringAction 1444759666419 TestGameOfLife.java REMOVE fourStates FIELD
+RefactoringAction 1444759672436 TestGameOfLife.java ADD String FIELD
+EditAction 1444759676344 TestGameOfLife.java 1447 5 16 7
