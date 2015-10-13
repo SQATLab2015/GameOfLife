@@ -21,7 +21,8 @@ public class GameOfLife {
 		int counter = 0;
 		for (int i = 0; i < squareLength; i++){
 			for (int j = 0; j < squareLength; j++){
-				//Cell cell = new Cell(x, y, );
+				Cell cell = new Cell(i, j, states[counter]);
+				counter++;
 			}
 		}
 		
