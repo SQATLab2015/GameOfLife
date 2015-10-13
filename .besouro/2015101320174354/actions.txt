@@ -300,3 +300,10 @@ RefactoringAction 1444763363764 TestGameOfLife.java REMOVE testCreateRandomState
 RefactoringAction 1444763363765 TestGameOfLife.java REMOVE testSetupGameOneCell_ReturnOne() METHOD
 RefactoringAction 1444763363765 TestGameOfLife.java REMOVE testSetupGameNineCells_ReturnNine() METHOD
 EditAction 1444763364017 TestGameOfLife.java 2142 1 6 1
+RefactoringAction 1444763399306 TestGrid.java ADD void testGetNumNeighborsCellZeroZero_FourAliveCells_ReturnThree()/2 METHOD
+RefactoringAction 1444763405820 TestGrid.java RENAME testGetNumNeighborsCellZeroZero_FourAliveCells_ReturnThree()/2=>void testGetNumNeighbors_ReturnThree() METHOD
+RefactoringAction 1444763409332 TestGrid.java RENAME testGetNumNeighbors_ReturnThree()=>void testGetNumNeighborsDifferentCells_ReturnThree() METHOD
+RefactoringAction 1444763412344 TestGrid.java RENAME testGetNumNeighborsDifferentCells_ReturnThree()=>void testGetNumNeighborsDifferentCells_Return() METHOD
+RefactoringAction 1444763418362 TestGrid.java RENAME testGetNumNeighborsDifferentCells_Return()=>void testGetNumNeighborsDifferentCells_ReturnDifferentAMounts() METHOD
+RefactoringAction 1444763420377 TestGrid.java RENAME testGetNumNeighborsDifferentCells_ReturnDifferentAMounts()=>void testGetNumNeighborsDifferentCells_ReturnDifferentAmounts() METHOD
+EditAction 1444763420796 TestGrid.java 2278 5 41 5
