@@ -51,12 +51,6 @@ public class TestGameOfLife {
 //		assertEquals("***\n---\n---\n", gameOfLife.printCurrentGameState());
 //	}
 	
-	
-	//validateGame
-	
-	
-	
-	
 	@Test
 	public void testDoOneRound() throws CustomLifeException{
 		gameOfLife = new GameOfLife(3);
