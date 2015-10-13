@@ -19,6 +19,12 @@ public class Cell {
 		return y;
 	}
 	
+	
+	
+	public void setState(String state) {
+		this.state = state;
+	}
+
 	public void nextIteration(int numOfLiveCells) {
 		// Rule 1.
 		if (state == "Alive" && numOfLiveCells < 2){
