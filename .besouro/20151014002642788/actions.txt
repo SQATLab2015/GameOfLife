@@ -83,3 +83,4 @@ UnitTestCaseAction 1444768353167 TestGrid.java OK
 UnitTestSessionAction 1444768353167 TestGrid OK
 RefactoringAction 1444768422089 GameOfLife.java ADD static void main(String METHOD
 EditAction 1444768472991 GameOfLife.java 526 1 15 0
+EditAction 1444768565553 GameOfLife.java 351 1 10 0
