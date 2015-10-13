@@ -80,10 +80,10 @@ public class GameOfLife {
 					throw new CustomLifeException("Two cells at the same Coordinate!");
 				}
 				
-				if(grid.cells.contains(cell1)){
+				else if(grid.cells.contains(cell1)){
 					currentGameState = currentGameState + "*";
 				}
-				if(grid.cells.contains(cell2)){
+				else if(grid.cells.contains(cell2)){
 					currentGameState = currentGameState + "-";
 				}
 //				else{
