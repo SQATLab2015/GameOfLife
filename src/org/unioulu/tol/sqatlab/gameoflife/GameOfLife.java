@@ -102,9 +102,6 @@ public class GameOfLife {
 		
 		Iterator<Cell> it = grid.cells.iterator();
 		
-		Cell[] assisstantCells = new Cell[numberOfCells];
-		
-		int counter = 0;
 		while(it.hasNext()){
 			Cell cell = (Cell) it.next();
 			System.out.print("x: " + cell.getX() + " y: " + cell.getY() + " state: " + cell.getState());
@@ -115,8 +112,6 @@ public class GameOfLife {
 			System.out.println(" neighbours: " + amountOfAliveNeighbours  + "     x: " + cell.getX() + " y: " + cell.getY() + " state: " + cell.getState());
 			
 			newCells.add(cell);
-			
-			counter++;
 		}
 		
 		grid.cells.clear();
