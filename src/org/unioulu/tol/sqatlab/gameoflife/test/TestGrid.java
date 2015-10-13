@@ -10,7 +10,7 @@ public class TestGrid {
 	@Test
 	public void testSingleCellOnGridHasNoNeighbors() {
 		//arrange
-		Grid grid = new Grid();
+		Grid grid = new Grid(2);
 		Cell cell = new Cell(0, 0, "Alive");
 		
 		grid.addCell(cell);
@@ -23,7 +23,7 @@ public class TestGrid {
 	@Test
 	public void testTwoNeighborCellsShouldHaveOneNeigbor() {
 		//arrange
-		Grid grid = new Grid();
+		Grid grid = new Grid(2);
 		Cell cell1 = new Cell(0,0, "Alive");
 		Cell cell2 = new Cell(0,1, "Alive");
 		
@@ -38,7 +38,7 @@ public class TestGrid {
 	@Test
 	public void testTwoNeighborCellsOnDifferentRowsShouldHaveOneNeigbor() {
 		//arrange
-		Grid grid = new Grid();
+		Grid grid = new Grid(2);
 		Cell cell1 = new Cell(0, 0, "Alive");
 		Cell cell2 = new Cell(1, 0, "Alive");
 		
@@ -53,7 +53,7 @@ public class TestGrid {
 	@Test
 	public void testGetNumNeighborsCellZeroZero_FourAliveCells_ReturnThree() {
 		//arrange
-		Grid grid = new Grid();
+		Grid grid = new Grid(2);
 		Cell cell1 = new Cell(0,0, "Alive");
 		Cell cell2 = new Cell(0,1, "Alive");
 		Cell cell3 = new Cell(1,0, "Alive");
