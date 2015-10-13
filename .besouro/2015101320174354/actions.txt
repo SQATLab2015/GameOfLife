@@ -258,3 +258,13 @@ UnitTestCaseAction 1444762476419 TestGameOfLife.java FAIL
 UnitTestSessionAction 1444762476420 TestGameOfLife FAIL
 EditAction 1444762565938 Cell.java 1239 7 21 0
 EditAction 1444762610759 Cell.java 1153 7 20 0
+RefactoringAction 1444762654022 TestGameOfLife.java ADD void testSetupGameNineCells_ReturnNine() METHOD
+RefactoringAction 1444762658540 TestGameOfLife.java REMOVE testSetupGameNineCells_ReturnNine() METHOD
+RefactoringAction 1444762674594 TestGameOfLife.java ADD void testPrintCurrentGameState() METHOD
+RefactoringAction 1444762679609 TestGameOfLife.java REMOVE testPrintCurrentGameState() METHOD
+RefactoringAction 1444762686145 TestGameOfLife.java ADD void testPrintCurrentGameState() METHOD
+RefactoringAction 1444762691663 TestGameOfLife.java ADD void testSetupGameNineCells_ReturnNine() METHOD
+RefactoringAction 1444762691665 TestGameOfLife.java ADD void testSetupGameOneCell_ReturnOne() METHOD
+RefactoringAction 1444762691666 TestGameOfLife.java ADD void testCreateRandomStates() METHOD
+RefactoringAction 1444762697186 TestGameOfLife.java REMOVE testDoOneRound() METHOD
+EditAction 1444762697383 TestGameOfLife.java 2018 5 18 8
