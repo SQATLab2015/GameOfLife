@@ -17,4 +17,8 @@ public class TestGameOfLife {
 		assertEquals(9, numberOfCells);
 	}
 	
+	//nextRound
+	
+	//output string
+	
 }

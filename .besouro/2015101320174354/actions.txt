@@ -45,3 +45,25 @@ CompilationAction 1444757615584 TestGameOfLife.java
 CompilationAction 1444757615731 TestGameOfLife.java
 CompilationAction 1444757615731 TestGameOfLife.java
 EditAction 1444757749620 GameOfLife.java 344 2 2 0
+CompilationAction 1444757750012 GameOfLife.java
+CompilationAction 1444757750012 GameOfLife.java
+CompilationAction 1444757750012 TestGameOfLife.java
+RefactoringAction 1444757757564 GameOfLife.java ADD int getNumberOfCells() METHOD
+RefactoringAction 1444757757566 GameOfLife.java ADD void setNumberOfCells(int) METHOD
+RefactoringAction 1444757757567 GameOfLife.java ADD int getSquareLength() METHOD
+RefactoringAction 1444757757568 GameOfLife.java ADD void setSquareLength(int) METHOD
+RefactoringAction 1444757757569 GameOfLife.java ADD Grid getGrid() METHOD
+RefactoringAction 1444757757570 GameOfLife.java ADD void setGrid(Grid) METHOD
+RefactoringAction 1444757768120 GameOfLife.java REMOVE getGrid() METHOD
+RefactoringAction 1444757768123 GameOfLife.java REMOVE getSquareLength() METHOD
+RefactoringAction 1444757768124 GameOfLife.java REMOVE setSquareLength(int) METHOD
+RefactoringAction 1444757768126 GameOfLife.java REMOVE setNumberOfCells(int) METHOD
+RefactoringAction 1444757768126 GameOfLife.java REMOVE getNumberOfCells() METHOD
+RefactoringAction 1444757768127 GameOfLife.java REMOVE setGrid(Grid) METHOD
+RefactoringAction 1444757780161 GameOfLife.java ADD int getNumberOfCells() METHOD
+RefactoringAction 1444757780163 GameOfLife.java ADD void setNumberOfCells(int) METHOD
+RefactoringAction 1444757780165 GameOfLife.java ADD int getSquareLength() METHOD
+RefactoringAction 1444757780166 GameOfLife.java ADD void setSquareLength(int) METHOD
+RefactoringAction 1444757780167 GameOfLife.java ADD Grid getGrid() METHOD
+RefactoringAction 1444757780169 GameOfLife.java ADD void setGrid(Grid) METHOD
+EditAction 1444757929730 TestGameOfLife.java 471 1 4 1
