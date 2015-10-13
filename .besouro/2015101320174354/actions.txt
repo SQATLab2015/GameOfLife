@@ -295,3 +295,8 @@ UnitTestSessionAction 1444763176542 TestGameOfLife FAIL
 UnitTestCaseAction 1444763285184 TestGrid.java OK
 UnitTestSessionAction 1444763285185 TestGrid (1) OK
 EditAction 1444763353223 GameOfLife.java 2798 11 22 0
+RefactoringAction 1444763363762 TestGameOfLife.java REMOVE testPrintCurrentGameState() METHOD
+RefactoringAction 1444763363764 TestGameOfLife.java REMOVE testCreateRandomStates() METHOD
+RefactoringAction 1444763363765 TestGameOfLife.java REMOVE testSetupGameOneCell_ReturnOne() METHOD
+RefactoringAction 1444763363765 TestGameOfLife.java REMOVE testSetupGameNineCells_ReturnNine() METHOD
+EditAction 1444763364017 TestGameOfLife.java 2142 1 6 1
