@@ -19,6 +19,8 @@ public class Grid {
 			for (int dy=-1; dy<=1; dy ++) {
 				Cell neighbor = new Cell(cell.x + dx, cell.y + dy, "Alive");
 				if (cells.contains(neighbor)) {
+					if(dx < 0 || dx >= squareLength || dy < 0 || dy >= squareLength)
+					
 					numNeighbors++;
 				} 
 			}
