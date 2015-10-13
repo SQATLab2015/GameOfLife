@@ -10,7 +10,7 @@ public class Grid {
 		
 		cells = new HashSet<>();
 	}
-
+	int tries =1;
 	
 	public int getNumNeighbors(Cell cell) {
 		int numNeighbors = 0;
@@ -44,7 +44,6 @@ public class Grid {
 				counter++;
 			}
 		}
-		int tries =1;
 		if(checkPercentageOfAliveCells()&&tries<10) fillGrid(gridSize);
 		if(tries>=10)System.out.println("Initial grid might be unbalanced");
 		tries++;

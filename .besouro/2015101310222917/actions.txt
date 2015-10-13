@@ -2,3 +2,17 @@ FileOpenedAction 1444720949477 TestCell.java 1060 5 10 4
 FileOpenedAction 1444720957268 GameOfLife.java 539 2 3 0
 FileOpenedAction 1444720977614 Grid.java 1843 7 20 0
 EditAction 1444721157634 Grid.java 1951 7 23 0
+UnitTestCaseAction 1444721164627 TestGrid.java OK
+UnitTestSessionAction 1444721164635 TestGrid (1) OK
+UnitTestCaseAction 1444721169299 TestGrid.java OK
+UnitTestSessionAction 1444721169300 TestGrid (1) OK
+UnitTestCaseAction 1444721170700 TestGrid.java OK
+UnitTestSessionAction 1444721170701 TestGrid (1) OK
+UnitTestCaseAction 1444721171809 TestGrid.java OK
+UnitTestSessionAction 1444721171810 TestGrid (1) OK
+UnitTestCaseAction 1444721179116 TestGrid.java OK
+UnitTestSessionAction 1444721179117 TestGrid (1) OK
+UnitTestCaseAction 1444721180632 TestGrid.java FAIL
+UnitTestSessionAction 1444721180632 TestGrid (1) FAIL
+RefactoringAction 1444721210301 Grid.java ADD int tries FIELD
+EditAction 1444721214559 Grid.java 1949 7 22 0
