@@ -19,11 +19,11 @@ public class TestGameOfLife {
 	
 	@Test
 	public void testSetupGameOneCell_ReturnOne() {
-		gameOfLife = new GameOfLife(3);
+		gameOfLife = new GameOfLife(1);
 		gameOfLife.setupGame();
 		int numberOfCells = gameOfLife.grid.cells.size();
 		
-		assertEquals(9, numberOfCells);
+		assertEquals(1, numberOfCells);
 	}
 	
 	@Test
