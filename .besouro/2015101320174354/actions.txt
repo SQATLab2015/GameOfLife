@@ -274,3 +274,8 @@ RefactoringAction 1444762715728 TestGameOfLife.java REMOVE setup() METHOD
 RefactoringAction 1444762730252 TestGameOfLife.java ADD void setup() METHOD
 RefactoringAction 1444762732767 TestGameOfLife.java REMOVE setup() METHOD
 EditAction 1444762732911 TestGameOfLife.java 1970 4 18 8
+UnitTestCaseAction 1444762734906 TestGameOfLife.java OK
+UnitTestSessionAction 1444762734906 TestGameOfLife OK
+UnitTestCaseAction 1444762758173 TestCell.java OK
+UnitTestSessionAction 1444762758174 TestCell (1) OK
+EditAction 1444762779766 TestGameOfLife.java 1952 5 22 9

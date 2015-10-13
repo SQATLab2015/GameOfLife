@@ -7,3 +7,5 @@
 1444760674672 refactoring 2A 108 true
 1444760873385 refactoring 2A 198 true
 1444762699277 test-first 1 1825 true
+1444762734906 test-addition 1 35 true
+1444762758174 regression 1 23 true

@@ -57,15 +57,15 @@ public class TestGameOfLife {
 	
 	
 	
-//	@Test
-//	public void testDoOneRound() throws CustomLifeException{
-//		gameOfLife = new GameOfLife(3);
-//		gameOfLife.setupGame(nineStates);
-//		
-//		gameOfLife.doOneRound();
-//		
-//		assertEquals("-*-\n-*-\n---\n", gameOfLife.printCurrentGameState());
-//	}
+	@Test
+	public void testDoOneRound() throws CustomLifeException{
+		gameOfLife = new GameOfLife(3);
+		gameOfLife.setupGame(nineStates);
+		
+		gameOfLife.doOneRound();
+		
+		assertEquals("-*-\n-*-\n---\n", gameOfLife.printCurrentGameState());
+	}
 	
 	
 	
