@@ -66,7 +66,7 @@ public class TestGrid {
 	@Test
 	public void testSizeOfTheWholeGrid_gridSize2_returns4(){
 		Grid grid = new Grid();
-		int gridSize = 2;
+		int gridSize = 3;
 		
 		grid.fillGrid(gridSize);
 		

@@ -61,3 +61,9 @@ UnitTestSessionAction 1444721504512 TestGrid (1) OK
 UnitTestCaseAction 1444721505631 TestGrid.java FAIL
 UnitTestSessionAction 1444721505631 TestGrid (1) FAIL
 EditAction 1444721573792 Grid.java 2091 7 22 0
+UnitTestCaseAction 1444721577207 TestGrid.java OK
+UnitTestSessionAction 1444721577207 TestGrid (1) OK
+UnitTestCaseAction 1444721581617 TestGrid.java FAIL
+UnitTestSessionAction 1444721581618 TestGrid (1) FAIL
+FileOpenedAction 1444721607471 TestGrid.java 4189 9 94 9
+EditAction 1444721618068 TestGrid.java 4189 9 94 9
