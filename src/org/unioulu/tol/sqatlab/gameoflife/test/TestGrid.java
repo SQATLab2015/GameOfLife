@@ -12,5 +12,16 @@ public class TestGrid {
 		g.getGrid()[1][1].setState("-");
 		assertEquals("-", g.getGrid()[1][1].getState());
 	}
+	
+	@Test
+	public void testDisplayGrid() {
+		Grid g = new Grid(2);
+		g.getGrid()[0][0].setState("-");
+		g.getGrid()[0][1].setState("-");
+		g.getGrid()[1][0].setState("-");
+		g.getGrid()[1][1].setState("-");
+		g.display();
+		//assertEquals("-", g.getGrid()[1][1].getState());
+	}
 
 }
