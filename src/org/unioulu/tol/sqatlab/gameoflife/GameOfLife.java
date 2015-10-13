@@ -86,9 +86,9 @@ public class GameOfLife {
 				else if(grid.cells.contains(cell2)){
 					currentGameState = currentGameState + "-";
 				}
-//				else{
-//					throw new CustomLifeException("Missing Cell!");
-//				}
+				else{
+					throw new CustomLifeException("Missing Cell!");
+				}
 			}
 			currentGameState = currentGameState + "\n";
 		}
