@@ -91,8 +91,6 @@ public class GameOfLife {
 			}
 			currentGameState = currentGameState + "\n";
 		}
-		
-		
 		return currentGameState;
 	}
 	
