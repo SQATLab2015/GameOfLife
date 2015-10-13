@@ -36,4 +36,9 @@ public class Grid {
 			System.out.println();
 		}
 	}
+
+	public Object count(int i, int j) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
