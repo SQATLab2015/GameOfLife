@@ -20,12 +20,11 @@ public class Grid {
 				Cell neighbor = new Cell(cell.x + dx, cell.y + dy, "Alive");
 				if (cells.contains(neighbor)) {
 					if(dx < 0 || dx >= squareLength || dy < 0 || dy >= squareLength){
-						//cell out of grid);
+						System.out.println(dx + " " + dy);
+						throw new CustomLifeException("Tried to reach cell out of grid!");
 					}
-					else{
-						numNeighbors++;
-					}
-					System.out.println(dx + " " + dy);
+					
+					numNeighbors++;
 				} 
 			}
 		}
