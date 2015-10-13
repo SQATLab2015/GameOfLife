@@ -77,12 +77,12 @@ public class TestGrid {
 		Cell cell1 = new Cell(0,0, "Alive");
 		Cell cell2 = new Cell(0,1, "Alive");
 		Cell cell3 = new Cell(0,2, "Alive");
-		Cell cell4 = new Cell(1,0, "Alive");
-		Cell cell5 = new Cell(1,1, "Alive");
-		Cell cell6 = new Cell(1,2, "Alive");
-		Cell cell7 = new Cell(2,0, "Alive");
-		Cell cell8 = new Cell(2,1, "Alive");
-		Cell cell9 = new Cell(2,2, "Alive");
+		Cell cell4 = new Cell(1,0, "Dead");
+		Cell cell5 = new Cell(1,1, "Dead");
+		Cell cell6 = new Cell(1,2, "Dead");
+		Cell cell7 = new Cell(2,0, "Dead");
+		Cell cell8 = new Cell(2,1, "Dead");
+		Cell cell9 = new Cell(2,2, "Dead");
 		
 		grid.addCell(cell1);
 		grid.addCell(cell2);
