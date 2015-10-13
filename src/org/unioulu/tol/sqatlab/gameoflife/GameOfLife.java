@@ -72,7 +72,7 @@ public class GameOfLife {
 		
 		for (int i = 0; i < squareLength; i++){
 			for (int j = 0; j < squareLength; j++){
-				Cell cell = new Cell(i, j, "Alive");
+				Cell cell1 = new Cell(i, j, "Alive");
 				Cell cell2 = new Cell(i, j, "Dead");
 				
 				System.out.println(i + " " + j);
