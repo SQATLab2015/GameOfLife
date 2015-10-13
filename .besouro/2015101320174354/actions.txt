@@ -268,3 +268,9 @@ RefactoringAction 1444762691665 TestGameOfLife.java ADD void testSetupGameOneCel
 RefactoringAction 1444762691666 TestGameOfLife.java ADD void testCreateRandomStates() METHOD
 RefactoringAction 1444762697186 TestGameOfLife.java REMOVE testDoOneRound() METHOD
 EditAction 1444762697383 TestGameOfLife.java 2018 5 18 8
+UnitTestCaseAction 1444762699276 TestGameOfLife.java OK
+UnitTestSessionAction 1444762699277 TestGameOfLife OK
+RefactoringAction 1444762715728 TestGameOfLife.java REMOVE setup() METHOD
+RefactoringAction 1444762730252 TestGameOfLife.java ADD void setup() METHOD
+RefactoringAction 1444762732767 TestGameOfLife.java REMOVE setup() METHOD
+EditAction 1444762732911 TestGameOfLife.java 1970 4 18 8

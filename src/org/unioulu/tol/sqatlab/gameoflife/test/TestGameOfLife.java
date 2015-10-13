@@ -11,12 +11,6 @@ public class TestGameOfLife {
 	GameOfLife gameOfLife;
 	String[] nineStates = {"Alive", "Alive", "Alive", "Dead", "Dead", "Dead", "Dead", "Dead", "Dead"};
 	
-	@Before
-	public void setup(){
-		
-		
-	}
-	
 	
 	@Test
 	public void testSetupGameNineCells_ReturnNine() {
