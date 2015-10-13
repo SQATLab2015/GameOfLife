@@ -31,7 +31,7 @@ public class Grid {
 		{
 			for (j = 0; j < size; j++)
 			{
-				System.out.println(grid[i][j].getState());
+				System.out.print(grid[i][j].getState());
 			}
 			System.out.println();
 		}
