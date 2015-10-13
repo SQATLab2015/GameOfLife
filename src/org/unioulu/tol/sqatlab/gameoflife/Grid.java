@@ -15,8 +15,8 @@ public class Grid {
 	
 	public int getNumNeighbors(Cell cell) throws CustomLifeException {
 		int numNeighbors = 0;
-		for (int dx=-1; dx<=1; dx ++) {
-			for (int dy=-1; dy<=1; dy ++) {
+		for (int dx = -1; dx <= 1; dx++) {
+			for (int dy = -1; dy <= 1; dy++) {
 				Cell neighbor = new Cell(cell.x + dx, cell.y + dy, "Alive");
 				if (cells.contains(neighbor)) {
 					if(cell.x + dx < 0 || cell.x + dx >= squareLength || cell.y + dy < 0 || cell.y + dy >= squareLength){
