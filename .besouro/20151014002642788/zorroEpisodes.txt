@@ -1,0 +1,12 @@
+1444753839855 regression 2 236 true
+1444754826311 test-addition 1 986 true
+1444754885112 refactoring 2A 58 true
+1444766024571 test-first 2 11139 true
+1444766759758 test-last 1 735 false
+1444767610497 test-first 1 850 true
+1444767686377 regression 1 75 true
+1444767930145 regression 1 243 true
+1444768015724 test-addition 1 85 true
+1444768104108 regression 1 88 true
+1444768217415 test-addition 1 113 true
+1444768353167 refactoring 1A 135 true
