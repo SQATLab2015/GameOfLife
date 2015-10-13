@@ -330,3 +330,4 @@ RefactoringAction 1444764310822 Cell.java ADD void setState(String) METHOD
 RefactoringAction 1444764315138 Cell.java REMOVE setState(String) METHOD
 RefactoringAction 1444764342410 Cell.java ADD void setState(String) METHOD
 EditAction 1444764343299 Cell.java 1221 8 21 0
+EditAction 1444764380562 GameOfLife.java 3149 11 22 0
