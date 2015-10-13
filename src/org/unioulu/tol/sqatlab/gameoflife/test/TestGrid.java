@@ -69,7 +69,7 @@ public class TestGrid {
 		int gridSize = 2;
 		
 		grid.fillGrid(gridSize);
-		System.out.println(gridSize);
+		//System.out.println(gridSize);
 		assertEquals(4, grid.cells.size());
 	}
 	
