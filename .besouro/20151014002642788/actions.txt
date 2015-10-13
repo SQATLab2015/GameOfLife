@@ -26,3 +26,12 @@ UnitTestSessionAction 1444754826311 TestGrid OK
 RefactoringAction 1444754865125 Grid.java REMOVE main(String METHOD
 EditAction 1444754867366 Grid.java 604 4 8 0
 EditAction 1444754881132 Grid.java 602 4 8 0
+UnitTestCaseAction 1444754885111 TestGrid.java OK
+UnitTestSessionAction 1444754885112 TestGrid OK
+RefactoringAction 1444765123130 TestGrid.java ADD void testDisplayGrid()/2 METHOD
+RefactoringAction 1444765130161 TestGrid.java RENAME testDisplayGrid()/2=>void testGrid() METHOD
+RefactoringAction 1444765132189 TestGrid.java RENAME testGrid()=>void test() METHOD
+RefactoringAction 1444765136705 TestGrid.java RENAME test()=>void testCount() METHOD
+RefactoringAction 1444765143726 TestGrid.java RENAME testCreateGrid()=>void testCreate() METHOD
+RefactoringAction 1444765147738 TestGrid.java RENAME testDisplayGrid()=>void testDisplay() METHOD
+EditAction 1444765154966 TestGrid.java 876 3 15 1
