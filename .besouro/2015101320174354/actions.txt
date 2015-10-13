@@ -220,3 +220,6 @@ RefactoringAction 1444760927105 TestGameOfLife.java ADD void testDoOneRound() ME
 RefactoringAction 1444760977021 GameOfLife.java ADD void doOneRound() METHOD
 RefactoringAction 1444761065315 GameOfLife.java ADD import java.util.Set IMPORT
 EditAction 1444761108557 TestGameOfLife.java 1979 6 22 9
+CompilationAction 1444761108922 TestGameOfLife.java
+RefactoringAction 1444761525157 GameOfLife.java ADD import java.util.Iterator IMPORT
+EditAction 1444761638877 GameOfLife.java 2394 11 20 0

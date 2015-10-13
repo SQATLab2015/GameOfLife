@@ -1,6 +1,8 @@
 package org.unioulu.tol.sqatlab.gameoflife;
 
+import java.util.Iterator;
 import java.util.Random;
+import java.util.Set;
 
 public class GameOfLife {
 	public int numberOfCells;
@@ -92,6 +94,20 @@ public class GameOfLife {
 			currentGameState = currentGameState + "\n";
 		}
 		return currentGameState;
+	}
+
+	public void doOneRound() {
+		Set<Cell> newCells;
+		
+		Iterator it = grid.cells.iterator();
+		
+		while(it.hasNext()){
+			Cell cell = (Cell) it.next();
+			int amountOfAliveNeighbours = grid.getNumNeighbors(cell);
+			cell.nextIteration(amountOfAliveNeighbours);
+		}
+		
+		
 	}
 	
 	
