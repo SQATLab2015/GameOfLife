@@ -36,6 +36,7 @@ public class Grid {
 
 	public void fillGrid(int gridSize) {
 		int counter = 0;
+		cells.clear();
 		Cell[] cellArray = new Cell[gridSize*gridSize];
 		for(int i = 0; i < gridSize; i++){
 			for(int j = 0; j < gridSize; j++){
