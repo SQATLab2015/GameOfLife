@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.unioulu.tol.sqatlab.gameoflife.CustomLifeException;
 import org.unioulu.tol.sqatlab.gameoflife.GameOfLife;
 
 public class TestGameOfLife {
@@ -54,7 +55,7 @@ public class TestGameOfLife {
 	
 	
 	@Test
-	public void testPrintCurrentGameState(){
+	public void testPrintCurrentGameState() throws CustomLifeException{
 		gameOfLife = new GameOfLife(3);
 		gameOfLife.setupGame(nineStates);
 		

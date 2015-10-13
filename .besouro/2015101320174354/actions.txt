@@ -181,3 +181,9 @@ EditAction 1444760365753 GameOfLife.java 2069 10 17 0
 CompilationAction 1444760366142 GameOfLife.java
 CompilationAction 1444760375800 GameOfLife.java
 EditAction 1444760378710 TestGameOfLife.java 1651 5 18 8
+CompilationAction 1444760379087 TestGameOfLife.java
+RefactoringAction 1444760383135 TestGameOfLife.java ADD import org.unioulu.tol.sqatlab.gameoflife.CustomLifeException IMPORT
+CompilationAction 1444760385911 TestGameOfLife.java
+UnitTestCaseAction 1444760388168 TestGameOfLife.java FAIL
+UnitTestSessionAction 1444760388168 TestGameOfLife FAIL
+EditAction 1444760442769 GameOfLife.java 2104 10 17 0

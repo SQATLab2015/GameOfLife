@@ -75,6 +75,7 @@ public class GameOfLife {
 				Cell cell1 = new Cell(i, j, "Alive");
 				Cell cell2 = new Cell(i, j, "Dead");
 				
+				System.out.println(i + " " + j);
 				if(grid.cells.contains(cell1) && grid.cells.contains(cell2)){
 					throw new CustomLifeException("Two cells at the same Coordinate!");
 				}
