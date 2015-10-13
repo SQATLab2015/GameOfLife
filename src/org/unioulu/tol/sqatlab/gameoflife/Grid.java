@@ -236,4 +236,44 @@ public class Grid {
 			return cnt;
 		}
 	}
+
+	public void tick() {
+		Grid help = new Grid(size);
+		int i = 0, j = 0;
+		for (; i < size; i++)
+		{
+			for (j = 0; j < size; j++)
+			{
+				if (grid[i][j].getState().equals("*"))
+				{
+					if (count(i, j) == 2 || count(i, j) == 3)
+					{
+						help.getGrid()[i][j].setState("*");
+					}
+					else
+					{
+						help.getGrid()[i][j].setState("-");
+					}
+				}
+				else
+				{
+					if (count(i, j) == 3)
+					{
+						help.getGrid()[i][j].setState("*");
+					}
+					else
+					{
+						help.getGrid()[i][j].setState("-");
+					}
+				}
+			}
+		}
+		for (i = 0; i < size; i++)
+		{
+			for (j = 0; j < size; j++)
+			{
+				grid[i][j].setState(help.getGrid()[i][i].getState());
+			}
+		}
+	}
 }
