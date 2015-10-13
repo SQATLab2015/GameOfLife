@@ -21,10 +21,11 @@ public class Grid {
 				if (cells.contains(neighbor)) {
 					if(dx < 0 || dx >= squareLength || dy < 0 || dy >= squareLength){
 						System.out.println(dx + " " + dy);
-						throw new CustomLifeException("Tried to reach cell out of grid!");
+						//throw new CustomLifeException("Tried to reach cell out of grid!");
 					}
-					
-					numNeighbors++;
+					else{
+						numNeighbors++;
+					}
 				} 
 			}
 		}
