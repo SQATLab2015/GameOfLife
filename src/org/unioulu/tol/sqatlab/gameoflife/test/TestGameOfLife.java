@@ -61,8 +61,9 @@ public class TestGameOfLife {
 	public void testDoOneRound() throws CustomLifeException{
 		gameOfLife = new GameOfLife(3);
 		gameOfLife.setupGame(nineStates);
-		
+		System.out.println(gameOfLife.printCurrentGameState());
 		gameOfLife.doOneRound();
+		System.out.println(gameOfLife.printCurrentGameState());
 		
 		assertEquals("-*-\n-*-\n---\n", gameOfLife.printCurrentGameState());
 	}
