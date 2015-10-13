@@ -18,3 +18,15 @@ EditAction 1444757255055 CustomLifeException.java 245 1 1 0
 CompilationAction 1444757255330 Grid.java
 RefactoringAction 1444757258376 CustomLifeException.java REMOVE serialVersionUID FIELD
 EditAction 1444757259855 CustomLifeException.java 172 1 1 0
+CompilationAction 1444757260266 Grid.java
+CompilationAction 1444757282165 Grid.java
+CompilationAction 1444757282334 TestGrid.java
+RefactoringAction 1444757294218 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.CustomLifeException IMPORT
+RefactoringAction 1444757300045 TestGrid.java REMOVE import org.unioulu.tol.sqatlab.gameoflife.CustomLifeException IMPORT
+RefactoringAction 1444757302792 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.CustomLifeException IMPORT
+CompilationAction 1444757342960 TestGrid.java
+RefactoringAction 1444757365314 TestGameOfLife.java RENAME test()=>void testGenerate() METHOD
+RefactoringAction 1444757367822 TestGameOfLife.java RENAME testGenerate()=>void testGenerateNewGame() METHOD
+RefactoringAction 1444757374836 TestGameOfLife.java RENAME testGenerateNewGame()=>void testSetupNewGame() METHOD
+RefactoringAction 1444757377347 TestGameOfLife.java RENAME testSetupNewGame()=>void testSetupGame() METHOD
+EditAction 1444757394718 TestGameOfLife.java 233 1 1 0

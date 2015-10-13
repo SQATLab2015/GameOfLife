@@ -8,7 +8,7 @@ public class TestGameOfLife {
 
 	
 	@Test
-	public void test() {
+	public void testSetupGame() {
 		fail("Not yet implemented");
 	}
 	

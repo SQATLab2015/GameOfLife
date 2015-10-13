@@ -3,12 +3,13 @@ package org.unioulu.tol.sqatlab.gameoflife.test;
 import static org.junit.Assert.*;
 import org.junit.Test;
 import org.unioulu.tol.sqatlab.gameoflife.Cell;
+import org.unioulu.tol.sqatlab.gameoflife.CustomLifeException;
 import org.unioulu.tol.sqatlab.gameoflife.Grid;
 
 public class TestGrid {
 
 	@Test
-	public void testSingleCellOnGridHasNoNeighbors() {
+	public void testSingleCellOnGridHasNoNeighbors() throws CustomLifeException {
 		//arrange
 		Grid grid = new Grid(2);
 		Cell cell = new Cell(0, 0, "Alive");
@@ -21,7 +22,7 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void testTwoNeighborCellsShouldHaveOneNeigbor() {
+	public void testTwoNeighborCellsShouldHaveOneNeigbor() throws CustomLifeException {
 		//arrange
 		Grid grid = new Grid(2);
 		Cell cell1 = new Cell(0,0, "Alive");
@@ -36,7 +37,7 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void testTwoNeighborCellsOnDifferentRowsShouldHaveOneNeigbor() {
+	public void testTwoNeighborCellsOnDifferentRowsShouldHaveOneNeigbor() throws CustomLifeException {
 		//arrange
 		Grid grid = new Grid(2);
 		Cell cell1 = new Cell(0, 0, "Alive");
@@ -51,7 +52,7 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void testGetNumNeighborsCellZeroZero_FourAliveCells_ReturnThree() {
+	public void testGetNumNeighborsCellZeroZero_FourAliveCells_ReturnThree() throws CustomLifeException {
 		//arrange
 		Grid grid = new Grid(2);
 		Cell cell1 = new Cell(0,0, "Alive");

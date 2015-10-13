@@ -13,7 +13,7 @@ public class Grid {
 	}
 	
 	
-	public int getNumNeighbors(Cell cell) {
+	public int getNumNeighbors(Cell cell) throws CustomLifeException {
 		int numNeighbors = 0;
 		for (int dx=-1; dx<=1; dx ++) {
 			for (int dy=-1; dy<=1; dy ++) {
