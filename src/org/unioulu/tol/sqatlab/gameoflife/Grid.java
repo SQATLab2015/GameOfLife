@@ -24,12 +24,6 @@ public class Grid {
 			}
 		}
 	}
-	
-	public static void main(String[] args) {
-		Grid g = new Grid(5);
-		g.getGrid()[0][0].setState("*");
-		System.out.println(g.getGrid()[0][0].getState());
-	}
 
 	public void display() {
 		int i = 0, j = 0;

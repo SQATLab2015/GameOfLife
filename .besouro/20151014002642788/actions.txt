@@ -21,3 +21,7 @@ RefactoringAction 1444754553307 Grid.java ADD void display() METHOD
 RefactoringAction 1444754633325 Grid.java ADD int size FIELD
 EditAction 1444754818240 Grid.java 762 5 11 0
 EditAction 1444754821983 TestGrid.java 613 2 9 1
+UnitTestCaseAction 1444754826309 TestGrid.java OK
+UnitTestSessionAction 1444754826311 TestGrid OK
+RefactoringAction 1444754865125 Grid.java REMOVE main(String METHOD
+EditAction 1444754867366 Grid.java 604 4 8 0
