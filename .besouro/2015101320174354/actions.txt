@@ -332,3 +332,7 @@ RefactoringAction 1444764342410 Cell.java ADD void setState(String) METHOD
 EditAction 1444764343299 Cell.java 1221 8 21 0
 EditAction 1444764380562 GameOfLife.java 3149 11 22 0
 EditAction 1444764415684 GameOfLife.java 3405 11 22 0
+UnitTestCaseAction 1444764417854 TestGameOfLife.java OK
+UnitTestSessionAction 1444764417855 TestGameOfLife OK
+RefactoringAction 1444764463654 GameOfLife.java REMOVE import java.util.Iterator IMPORT
+EditAction 1444764480598 GameOfLife.java 2868 11 21 0
