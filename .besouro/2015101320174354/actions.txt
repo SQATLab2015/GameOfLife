@@ -137,3 +137,4 @@ EditAction 1444759176600 GameOfLife.java 1334 9 15 0
 UnitTestCaseAction 1444759179045 TestGameOfLife.java OK
 UnitTestSessionAction 1444759179045 TestGameOfLife OK
 EditAction 1444759196108 GameOfLife.java 1332 9 15 0
+EditAction 1444759249577 TestGameOfLife.java 1160 3 15 7
