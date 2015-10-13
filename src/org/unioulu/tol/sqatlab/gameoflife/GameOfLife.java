@@ -13,18 +13,9 @@ public class GameOfLife {
 		g.getGrid()[2][1].setState("*");
 		g.getGrid()[2][2].setState("*");
 		g.display();
-		int i = 0, j= 0;
-		for(; i< 3;i++)
-		{
-			for(j = 0; j< 3;j++)
-			{
-				System.out.print(g.count(i, j));
-			}
-			System.out.println();
-		}
 		g.tick();
 		g.display();
-		//g.tick();
-		//g.display();
+		g.tick();
+		g.display();
 	}
 }
