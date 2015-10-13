@@ -233,6 +233,7 @@ public class Grid {
 			{
 				cnt++;
 			}
+			return cnt;
 		}
 	}
 }
