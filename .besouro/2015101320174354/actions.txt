@@ -3,3 +3,10 @@ EditAction 1444756810243 Grid.java 773 3 7 0
 EditAction 1444756883382 Grid.java 693 3 7 0
 EditAction 1444756962524 Grid.java 769 3 7 0
 EditAction 1444757154518 Grid.java 850 3 7 0
+CompilationAction 1444757154931 Grid.java
+RefactoringAction 1444757190043 CustomLifeException.java ADD CustomLifeException.java CLASS
+CompilationAction 1444757190211 Grid.java
+FileOpenedAction 1444757190410 CustomLifeException.java 106 0 0 0
+RefactoringAction 1444757210434 CustomLifeException.java ADD void MyOwnException(String) METHOD
+RefactoringAction 1444757231730 CustomLifeException.java RENAME MyOwnException(String)=>CustomLifeException(String) METHOD
+EditAction 1444757239674 CustomLifeException.java 172 1 1 0
