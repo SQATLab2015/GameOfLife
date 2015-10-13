@@ -69,3 +69,6 @@ RefactoringAction 1444757780169 GameOfLife.java ADD void setGrid(Grid) METHOD
 EditAction 1444757929730 TestGameOfLife.java 471 1 4 1
 CompilationAction 1444757929953 TestGameOfLife.java
 EditAction 1444757954711 Grid.java 876 3 7 0
+CompilationAction 1444757955125 GameOfLife.java
+CompilationAction 1444757955126 GameOfLife.java
+EditAction 1444757962864 GameOfLife.java 897 8 8 0
