@@ -54,7 +54,10 @@ public class TestGameOfLife {
 	
 	
 	@Test
-	public void testPrintGame(){
-		gameOfLife = new GameOfLife();
+	public void testPrintCurrentGameState(){
+		gameOfLife = new GameOfLife(3);
+		gameOfLife.setupGame(nineStates);
+		
+		assertEquals("***\n---\n---\n", gameOfLife.printCurrentGameState());
 	}
 }

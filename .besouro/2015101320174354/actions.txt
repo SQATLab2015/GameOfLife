@@ -178,3 +178,6 @@ RefactoringAction 1444759943810 GameOfLife.java ADD Object printCurrentGameState
 EditAction 1444760336700 GameOfLife.java 2020 10 17 0
 CompilationAction 1444760337068 TestGameOfLife.java
 EditAction 1444760365753 GameOfLife.java 2069 10 17 0
+CompilationAction 1444760366142 GameOfLife.java
+CompilationAction 1444760375800 GameOfLife.java
+EditAction 1444760378710 TestGameOfLife.java 1651 5 18 8

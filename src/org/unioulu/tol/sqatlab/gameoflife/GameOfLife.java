@@ -89,7 +89,7 @@ public class GameOfLife {
 					throw new CustomLifeException("Missing Cell!");
 				}
 			}
-			currentGameString = currentGameString + "\n";
+			currentGameState = currentGameState + "\n";
 		}
 		
 		
