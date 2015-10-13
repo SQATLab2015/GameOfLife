@@ -1,5 +1,6 @@
 package org.unioulu.tol.sqatlab.gameoflife;
 
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Random;
 import java.util.Set;
@@ -96,18 +97,21 @@ public class GameOfLife {
 		return currentGameState;
 	}
 
-	public void doOneRound() {
-		Set<Cell> newCells;
+	public void doOneRound() throws CustomLifeException {
+		Set<Cell> newCells = new HashSet<>();
 		
-		Iterator it = grid.cells.iterator();
+		Iterator<Cell> it = grid.cells.iterator();
 		
 		while(it.hasNext()){
 			Cell cell = (Cell) it.next();
 			int amountOfAliveNeighbours = grid.getNumNeighbors(cell);
 			cell.nextIteration(amountOfAliveNeighbours);
+			
+			newCells.add(cell);
 		}
 		
-		
+		grid.cells.clear();
+		grid.cells = newCells;
 	}
 	
 	

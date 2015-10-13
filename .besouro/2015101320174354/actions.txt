@@ -223,3 +223,7 @@ EditAction 1444761108557 TestGameOfLife.java 1979 6 22 9
 CompilationAction 1444761108922 TestGameOfLife.java
 RefactoringAction 1444761525157 GameOfLife.java ADD import java.util.Iterator IMPORT
 EditAction 1444761638877 GameOfLife.java 2394 11 20 0
+CompilationAction 1444761639315 GameOfLife.java
+RefactoringAction 1444761750917 GameOfLife.java ADD import java.util.HashSet IMPORT
+CompilationAction 1444761796521 GameOfLife.java
+EditAction 1444761896543 TestGameOfLife.java 1979 6 22 9

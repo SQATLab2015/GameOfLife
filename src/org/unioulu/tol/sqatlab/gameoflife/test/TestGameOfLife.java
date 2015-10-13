@@ -57,7 +57,7 @@ public class TestGameOfLife {
 		
 		gameOfLife.doOneRound();
 		
-		assertEquals("***\n---\n---\n", gameOfLife.printCurrentGameState());
+		assertEquals("-*-\n-*-\n---\n", gameOfLife.printCurrentGameState());
 	}
 	
 	
