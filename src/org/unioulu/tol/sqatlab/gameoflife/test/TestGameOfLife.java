@@ -59,6 +59,6 @@ public class TestGameOfLife {
 		gameOfLife = new GameOfLife(3);
 		gameOfLife.setupGame(nineStates);
 		
-		assertEquals("***\n---\n---\ns", gameOfLife.printCurrentGameState());
+		assertEquals("***\n---\n---\n", gameOfLife.printCurrentGameState());
 	}
 }
